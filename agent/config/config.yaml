@@ -1,6 +1,6 @@
 path:
-  source_path: ../dataset/task_sheets
-  save_path: ./DIR_to_Save
+  source_path: ../dataset/task_sheets/BoomerangSales.xlsx
+  save_path: ../output_dir
   task_path: ../dataset/dataset.xlsx
   gt_path: ../dataset/task_sheet_answers_v2
 
@@ -32,7 +32,7 @@ Agent:
     max_retries: 20
     sleep_time: 20
     api_base: https://api.openai.com/v1
-    api_keys: [
+    api_keys: [ 
     ]
   ChatGPT_2:
     temperature: 0.4
