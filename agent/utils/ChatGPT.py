@@ -1,6 +1,7 @@
 import openai
 import itertools
 import asyncio
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 default_config = {
     "api_base": "https://api.openai.com/v1",

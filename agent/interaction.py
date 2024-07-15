@@ -1,6 +1,7 @@
 import argparse, yaml, asyncio
 from Agent.agent import Agent
 import os
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 parser = argparse.ArgumentParser(description='Process config.')
 parser.add_argument('--config', '-c', type=str, default="./config/config.yaml", help='path to config file')

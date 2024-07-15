@@ -8,6 +8,7 @@ import multiprocessing
 import win32com.client as win32
 import pythoncom
 import argparse
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 parser = argparse.ArgumentParser(description='Process config.')
 parser.add_argument('--config', '-c', type=str, help='path to config file')

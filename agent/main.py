@@ -5,6 +5,7 @@ import yaml
 import time, os, shutil, datetime
 import pandas as pd
 import argparse
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 # If you use Clash as a proxy, you need to set the proxy environment variables.
 # os.environ["http_proxy"] = "http://127.0.0.1:7890"
