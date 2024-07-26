@@ -16,6 +16,7 @@ args = parser.parse_args()
 
 with open(args.config, 'r') as f:
     config = yaml.load(f, Loader=yaml.Loader)
+    config['Agent']['ChatGPT_1']['api_keys'] = [os.environ['OPENAI_API_KEY']]
 
 if not os.path.exists(config['path']['save_path']):
     os.makedirs(config['path']['save_path'])
