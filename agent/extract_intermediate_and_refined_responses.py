@@ -1,6 +1,7 @@
 # %%
 import yaml
 import pathlib
+import pandas as pd
 
 # %%
 evaluation_config_file = "../output_dir/eval_result.yaml"
@@ -28,9 +29,19 @@ def extract_intermediate_responses(log_file):
     return intermediate_response_dict
 
 # %%
+def get_new_task_name(task_name):
+    row_index = int(task_name.split('_')[0]) - 1
+    tasks = pd.read_excel("../dataset/dataset_50Samples.xlsx")
+    task_no = tasks.iloc[row_index]["No."]
+    new_task_name = "_".join([str(task_no), task_name.split('_')[1]])
+    return new_task_name
+
+
+# %%
 def save_dictionary(save_path, task_name, dictionary):
     pathlib.Path(f"{save_path}").mkdir(parents=True, exist_ok=True)
-    with open(f"{save_path}/{task_name}.yaml", mode="w") as file:
+    new_task_name = get_new_task_name(task_name)
+    with open(f"{save_path}/{new_task_name}.yaml", mode="w") as file:
         yaml.dump(dictionary, file, default_flow_style=False)
 
 # %%
