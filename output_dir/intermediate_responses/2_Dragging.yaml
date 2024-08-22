@@ -1,0 +1,7 @@
+intermediate response:
+- Step 1. Write the formula for acceleration in cell B2.
+- Step 2. Fill other rows in column B using the formula in B2.
+- Step 3. Set conditional formatting for cells with accelerations >= 1 to have green
+  fill.
+- Step 4. Set conditional formatting for cells with accelerations < 1 to have yellow
+  fill.

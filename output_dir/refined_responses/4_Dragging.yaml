@@ -1,0 +1,5 @@
+refined_response:
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B122")
+- Write(range="Sheet1!C1", value="Force (N)")
+- Write(range="Sheet1!C2", value="=0.75*B2")
+- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C122")
