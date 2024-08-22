@@ -1,0 +1,11 @@
+refined_response:
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B122")
+- CreateSheet(sheetName="ScatterChart")
+- CreateChart(source="Sheet1!A1:B122", destSheet="ScatterChart", chartType="XYScatter",
+  chartName="Acceleration vs Hanging Mass", XField=1, YField=[2])
+- SetChartTitle(chartName="Acceleration vs Hanging Mass", title="Acceleration vs Hanging
+  Mass")
+- SetChartAxis(chartName="Acceleration vs Hanging Mass", axis="x", title="Hanging
+  Mass (m2) (kg)")
+- SetChartAxis(chartName="Acceleration vs Hanging Mass", axis="y", title="Acceleration
+  (m/s^2)")
