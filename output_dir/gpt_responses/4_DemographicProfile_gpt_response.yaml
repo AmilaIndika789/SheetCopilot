@@ -1,0 +1,5 @@
+gpt_response:
+- '- Step 1. Sort the data in the range A2 to D41 based on the values in column B
+  (Sex).'
+- '- Step 2. Arrange the sorted data in ascending order.'
+- '- Step 3. The sorting will be done vertically (by column).'

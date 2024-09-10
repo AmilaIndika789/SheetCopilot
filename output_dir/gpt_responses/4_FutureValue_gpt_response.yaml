@@ -1,0 +1,6 @@
+gpt_response:
+- '- Step 1. Write "Future Value" in cell F1 to label the new column.'
+- '- Step 2. Enter a formula in cell F2 to calculate the future value based on present
+  value, interest rate, and compounding periods.'
+- '- Step 3. AutoFill the formula from cell F2 down to F5 to apply the calculation
+  for all relevant rows.'

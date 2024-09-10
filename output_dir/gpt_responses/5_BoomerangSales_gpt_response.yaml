@@ -1,0 +1,6 @@
+gpt_response:
+- '- Step 1. Write the header "Product Price" in cell G1.'
+- '- Step 2. Write a VLOOKUP formula in cell G2 to find the retail price of the product
+  listed in C2 from the "Retail Price" sheet.'
+- '- Step 3. AutoFill the formula from G2 down to G36 to apply it to the corresponding
+  rows.'

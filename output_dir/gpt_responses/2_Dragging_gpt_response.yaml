@@ -1,0 +1,8 @@
+gpt_response:
+- '- Step 1. Write a formula in cell B2 to calculate acceleration based on the hanging
+  mass.'
+- '- Step 2. Fill down the formula from B2 to B122 to apply it to all relevant rows.'
+- '- Step 3. Set a conditional format for cells B2 to B122 to fill with green if the
+  value is greater than or equal to 1.'
+- '- Step 4. Set another conditional format for cells B2 to B122 to fill with yellow
+  if the value is less than 1.'

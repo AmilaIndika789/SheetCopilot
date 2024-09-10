@@ -1,0 +1,8 @@
+gpt_response:
+- '- Step 1. Fill out other rows in column B using the formula from B2.'
+- '- Step 2. Create a new sheet named "ScatterChart".'
+- '- Step 3. Generate a scatter chart in "ScatterChart" using data from "Sheet1" with
+  specified X and Y fields.'
+- '- Step 4. Set the chart title to "Acceleration vs Hanging Mass".'
+- '- Step 5. Set the X-axis title to "Hanging Mass (m2) (kg)".'
+- '- Step 6. Set the Y-axis title to "Acceleration (m/s^2)".'

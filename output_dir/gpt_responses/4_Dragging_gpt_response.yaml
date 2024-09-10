@@ -1,0 +1,5 @@
+gpt_response:
+- '- Step 1. Fill down the formula from cell B2 to all cells in column B up to B122.'
+- '- Step 2. Write the header "Force (N)" in cell C1.'
+- '- Step 3. Write the formula "=0.75*B2" in cell C2 to calculate force based on acceleration.'
+- '- Step 4. Fill down the formula from cell C2 to all cells in column C up to C122.'
