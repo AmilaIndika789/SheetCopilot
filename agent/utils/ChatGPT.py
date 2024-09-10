@@ -67,7 +67,8 @@ class ChatGPT:
                 print("API call timed out after {} seconds. Retring {}/{}...".format(self.timeout, i+1, self.max_retries))
             except openai.RateLimitError  as e:
                 print("API call rate limited. Retring {}/{}...\n{}".format(i+1, self.max_retries, e))
-            except openai.APIError:
+            except openai.APIError as e:
+                print(e)
                 print("API call failed. Retring {}/{}...".format(i+1, self.max_retries))
                 # time.sleep(20)
             except Exception as e:
