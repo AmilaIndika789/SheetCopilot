@@ -1,5 +1,5 @@
 gpt_response:
-- Step 1. Write Product Price as the header in cell G1.
-- Step 2. Enter a VLOOKUP formula in cell G2 to find the retail price of the product
-  listed in C2.
-- Step 3. Fill down the formula from G2 to G36 to apply it to the entire range.
+- Step 1. Write "Product Price" in cell G1.
+- Step 2. Write a VLOOKUP formula in cell G2 to fetch the retail price based on the
+  product in C2.
+- Step 3. AutoFill the formula from G2 down to G36.
