@@ -1,0 +1,116 @@
+check_result_each_repeat:
+  1:
+    action_cnt_list: 3, 1, 1, 5, 4, 4, 3, 3
+    checked_list: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales,
+      5_BoomerangSales, 6_DemographicProfile, 7_DemographicProfile, 8_DemographicProfile,
+      9_DemographicProfile, 10_DemographicProfile, 11_Dragging, 12_Dragging, 13_Dragging,
+      14_Dragging, 15_Dragging, 16_EasyGDPBreakdown, 17_EasyGDPBreakdown, 18_EasyGDPBreakdown,
+      19_EasyGDPBreakdown, 20_EasyGDPBreakdown, 21_EntireShippingCosts, 22_EntireShippingCosts,
+      23_EntireShippingCosts, 24_EntireShippingCosts, 25_EntireShippingCosts, 26_EntireSummerSales,
+      27_EntireSummerSales, 28_EntireSummerSales, 29_EntireSummerSales, 30_EntireSummerSales,
+      31_ExpenseReport, 32_ExpenseReport, 33_ExpenseReport, 34_ExpenseReport, 35_ExpenseReport,
+      36_FutureValue, 37_FutureValue, 38_FutureValue, 39_FutureValue, 40_FutureValue,
+      41_GDPBreakdown, 42_GDPBreakdown, 43_GDPBreakdown, 44_GDPBreakdown, 45_GDPBreakdown,
+      46_IncomeStatement, 47_IncomeStatement, 48_IncomeStatement, 49_IncomeStatement,
+      50_IncomeStatement
+    checked_list_by_cate:
+      Charts: 1_BoomerangSales, 2_BoomerangSales, 11_Dragging, 13_Dragging, 16_EasyGDPBreakdown,
+        26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales, 29_EntireSummerSales,
+        41_GDPBreakdown
+      Entry and manipulation: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales,
+        5_BoomerangSales, 6_DemographicProfile, 7_DemographicProfile, 11_Dragging,
+        13_Dragging, 14_Dragging, 15_Dragging, 16_EasyGDPBreakdown, 17_EasyGDPBreakdown,
+        18_EasyGDPBreakdown, 19_EasyGDPBreakdown, 20_EasyGDPBreakdown, 21_EntireShippingCosts,
+        22_EntireShippingCosts, 23_EntireShippingCosts, 24_EntireShippingCosts, 25_EntireShippingCosts,
+        26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales, 29_EntireSummerSales,
+        30_EntireSummerSales, 31_ExpenseReport, 32_ExpenseReport, 33_ExpenseReport,
+        35_ExpenseReport, 36_FutureValue, 37_FutureValue, 39_FutureValue, 40_FutureValue,
+        41_GDPBreakdown, 42_GDPBreakdown, 43_GDPBreakdown, 45_GDPBreakdown, 46_IncomeStatement,
+        47_IncomeStatement, 48_IncomeStatement, 49_IncomeStatement
+      Formatting: 4_BoomerangSales, 6_DemographicProfile, 8_DemographicProfile, 12_Dragging,
+        20_EasyGDPBreakdown, 26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales,
+        29_EntireSummerSales, 31_ExpenseReport, 34_ExpenseReport, 35_ExpenseReport,
+        36_FutureValue, 38_FutureValue, 46_IncomeStatement, 47_IncomeStatement, 48_IncomeStatement,
+        50_IncomeStatement
+      Formula: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales,
+        5_BoomerangSales, 7_DemographicProfile, 14_Dragging, 15_Dragging, 17_EasyGDPBreakdown,
+        20_EasyGDPBreakdown, 21_EntireShippingCosts, 22_EntireShippingCosts, 23_EntireShippingCosts,
+        24_EntireShippingCosts, 25_EntireShippingCosts, 31_ExpenseReport, 32_ExpenseReport,
+        35_ExpenseReport, 36_FutureValue, 37_FutureValue, 39_FutureValue, 42_GDPBreakdown,
+        43_GDPBreakdown, 45_GDPBreakdown, 46_IncomeStatement, 48_IncomeStatement
+      Management: 9_DemographicProfile, 10_DemographicProfile, 16_EasyGDPBreakdown,
+        41_GDPBreakdown, 44_GDPBreakdown
+      Pivot Table: 1_BoomerangSales, 2_BoomerangSales, 6_DemographicProfile, 18_EasyGDPBreakdown,
+        19_EasyGDPBreakdown, 26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales,
+        29_EntireSummerSales, 30_EntireSummerSales, 33_ExpenseReport, 49_IncomeStatement
+    error_log: []
+    eval_results:
+      A50_norm: 1.5
+      A90_norm: 2.5999999999999996
+      A_mean: 3.0
+      Charts Exec & Pass: 8/10 & 1/10
+      Entry and manipulation Exec & Pass: 35/41 & 5/41
+      Exec@1: 0.88
+      Formatting Exec & Pass: 17/18 & 2/18
+      Formula Exec & Pass: 21/26 & 4/26
+      Management Exec & Pass: 4/5 & 1/5
+      Pass@1: 0.16
+      Pivot Table Exec & Pass: 11/12 & 0/12
+      Total: 50
+    exec_success_list: 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales, 5_BoomerangSales,
+      6_DemographicProfile, 8_DemographicProfile, 9_DemographicProfile, 10_DemographicProfile,
+      11_Dragging, 12_Dragging, 13_Dragging, 14_Dragging, 15_Dragging, 16_EasyGDPBreakdown,
+      18_EasyGDPBreakdown, 19_EasyGDPBreakdown, 20_EasyGDPBreakdown, 21_EntireShippingCosts,
+      22_EntireShippingCosts, 23_EntireShippingCosts, 24_EntireShippingCosts, 25_EntireShippingCosts,
+      26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales, 29_EntireSummerSales,
+      30_EntireSummerSales, 31_ExpenseReport, 33_ExpenseReport, 34_ExpenseReport,
+      36_FutureValue, 37_FutureValue, 38_FutureValue, 39_FutureValue, 40_FutureValue,
+      42_GDPBreakdown, 43_GDPBreakdown, 44_GDPBreakdown, 45_GDPBreakdown, 46_IncomeStatement,
+      47_IncomeStatement, 48_IncomeStatement, 49_IncomeStatement, 50_IncomeStatement
+    exec_success_list_by_cate:
+      Charts: 2_BoomerangSales, 11_Dragging, 13_Dragging, 16_EasyGDPBreakdown, 26_EntireSummerSales,
+        27_EntireSummerSales, 28_EntireSummerSales, 29_EntireSummerSales
+      Entry and manipulation: 2_BoomerangSales, 3_BoomerangSales, 5_BoomerangSales,
+        6_DemographicProfile, 11_Dragging, 13_Dragging, 14_Dragging, 15_Dragging,
+        16_EasyGDPBreakdown, 18_EasyGDPBreakdown, 19_EasyGDPBreakdown, 20_EasyGDPBreakdown,
+        21_EntireShippingCosts, 22_EntireShippingCosts, 23_EntireShippingCosts, 24_EntireShippingCosts,
+        25_EntireShippingCosts, 26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales,
+        29_EntireSummerSales, 30_EntireSummerSales, 31_ExpenseReport, 33_ExpenseReport,
+        36_FutureValue, 37_FutureValue, 39_FutureValue, 40_FutureValue, 42_GDPBreakdown,
+        43_GDPBreakdown, 45_GDPBreakdown, 46_IncomeStatement, 47_IncomeStatement,
+        48_IncomeStatement, 49_IncomeStatement
+      Formatting: 4_BoomerangSales, 6_DemographicProfile, 8_DemographicProfile, 12_Dragging,
+        20_EasyGDPBreakdown, 26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales,
+        29_EntireSummerSales, 31_ExpenseReport, 34_ExpenseReport, 36_FutureValue,
+        38_FutureValue, 46_IncomeStatement, 47_IncomeStatement, 48_IncomeStatement,
+        50_IncomeStatement
+      Formula: 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales, 5_BoomerangSales,
+        14_Dragging, 15_Dragging, 20_EasyGDPBreakdown, 21_EntireShippingCosts, 22_EntireShippingCosts,
+        23_EntireShippingCosts, 24_EntireShippingCosts, 25_EntireShippingCosts, 31_ExpenseReport,
+        36_FutureValue, 37_FutureValue, 39_FutureValue, 42_GDPBreakdown, 43_GDPBreakdown,
+        45_GDPBreakdown, 46_IncomeStatement, 48_IncomeStatement
+      Management: 9_DemographicProfile, 10_DemographicProfile, 16_EasyGDPBreakdown,
+        44_GDPBreakdown
+      Pivot Table: 2_BoomerangSales, 6_DemographicProfile, 18_EasyGDPBreakdown, 19_EasyGDPBreakdown,
+        26_EntireSummerSales, 27_EntireSummerSales, 28_EntireSummerSales, 29_EntireSummerSales,
+        30_EntireSummerSales, 33_ExpenseReport, 49_IncomeStatement
+    gt_min_action_cnt_list: 2, 1, 1, 4, 1, 2, 2, 2
+    matched_gt_lst:
+    - 5_BoomerangSales_gt2.xlsx
+    - 3_DemographicProfile_gt2.xlsx
+    - 4_DemographicProfile_gt1.xlsx
+    - 1_Dragging_gt1.xlsx
+    - 2_Dragging_gt1.xlsx
+    - 4_Dragging_gt1.xlsx
+    - 2_FutureValue_gt2.xlsx
+    - 4_FutureValue_gt2.xlsx
+    success_list: 5_BoomerangSales, 8_DemographicProfile, 9_DemographicProfile, 11_Dragging,
+      12_Dragging, 14_Dragging, 37_FutureValue, 39_FutureValue
+    success_list_by_cate:
+      Charts: 11_Dragging
+      Entry and manipulation: 5_BoomerangSales, 11_Dragging, 14_Dragging, 37_FutureValue,
+        39_FutureValue
+      Formatting: 8_DemographicProfile, 12_Dragging
+      Formula: 5_BoomerangSales, 14_Dragging, 37_FutureValue, 39_FutureValue
+      Management: 9_DemographicProfile
+      Pivot Table: ''
