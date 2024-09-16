@@ -1,0 +1,29 @@
+Context: My workbook records information of respondents.
+Fail Response: []
+Instructions: Highlight married respondents with white text and yellow fill.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\2_DemographicProfile\2_DemographicProfile_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 4. Set the format of the profit column to Accounting Number Format.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@'
+  - 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@'
+  msg: []
+  raw response:
+  - 'Step 1. Select the range to apply the formatting.
+
+    Action API: @Select(range="Sheet1!C2:C41")@'
+  - 'Step 1. Apply conditional formatting to highlight married respondents.
+
+    Action API: @SetConditionalFormat(range="Sheet1!C2:C41", condition="=C2=''Married''",
+    format="white text, yellow fill")@'
+  - Done!
+  refined response:
+  - - SetDataType(source="Sheet1!D2:D11", dataType="currency")
+Timestamp: '2024-07-25 22:14:14'
+Total Count: 1
+Use oracle API doc: false
