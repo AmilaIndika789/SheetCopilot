@@ -36,7 +36,7 @@ class ChatGPT:
         
         print("=============== Initializing the LLM ===============")
         print("=   Model: {}".format(self.model_name))
-        print("=   API Keys: {}".format(config['api_keys']))
+        # print("=   API Keys: {}".format(config['api_keys']))
         print("=   Max Retries: {}".format(self.max_retries))
         print("=   Timeout: {}".format(self.timeout))
         print("=   Max Total Tokens: {}".format(self.max_total_tokens))
