@@ -1,0 +1,6 @@
+gpt_response:
+- Step 1. Write a VLOOKUP formula to find the price per roll in the Pricing Table.
+- Step 2. Autofill the VLOOKUP formula for the remaining rows.
+- Step 3. Write a formula to calculate revenue by multiplying the number of rolls
+  by the price per roll.
+- Step 4. Autofill the revenue formula for the remaining rows.
