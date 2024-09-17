@@ -1,0 +1,55 @@
+Context: My sheet shows how two variables (Range and Height) changes along with the
+  projection angle.
+Fail Response: []
+Instructions: Create a line chart with "Angle" on the X-axis and both "Range" and
+  "Height" on the Y-axis. Set all markers as squares. Set the chart title as "Range/Height
+  vs. Angle". Display the legends at the top.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\220_XYScatterPlot\220_XYScatterPlot_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create the line chart with "Angle" on the X-axis and both "Range" and
+    "Height" on the Y-axis.
+
+    Action API: @CreateChart(source="Sheet1!A1:C38", destSheet="Sheet1", chartType="LineMarkers",
+    chartName="Range/Height vs. Angle", XField=1, YField=[2,3])@'
+  - 'Step 2. Set the chart title as "Range/Height vs. Angle".
+
+    Action API: @SetChartTitle(chartName="Range/Height vs. Angle", title="Range/Height
+    vs. Angle")@'
+  - 'Step 3. Display the legends at the top.
+
+    Action API: @SetChartLegend(chartName="Range/Height vs. Angle", position="top")@'
+  - 'Step 4. Set all markers as squares.
+
+    Action API: @SetChartMarker(chartName="Range/Height vs. Angle", style=["square"])@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a line chart.
+
+    Action API: @CreateChart(dataRange="Sheet1!A1:C38", chartType="line", title="Range/Height
+    vs. Angle")@'
+  - 'Step 2. Set all markers as squares.
+
+    Action API: @SetChartMarkers(chartName="Range/Height vs. Angle", markerShape="Square")@'
+  - 'Step 2. Set the chart title as "Range/Height vs. Angle".
+
+    Action API: @SetChartTitle(chartName="Range/Height vs. Angle", title="Range/Height
+    vs. Angle")@'
+  - 'Step 3. Set the chart to display legends at the top.
+
+    Action API: @SetChartLegend(chartName="Range/Height vs. Angle", position="top")@'
+  - 'Step 4. Set all markers as squares.
+
+    Action API: @SetChartMarker(chartName="Range/Height vs. Angle", markerType="square")@'
+  - Done!
+  refined response:
+  - - CreateChart(source="Sheet1!A1:C38", destSheet="Sheet1", chartType="LineMarkers",
+      chartName="Range/Height vs. Angle", XField=1, YField=[2,3])
+  - - SetChartTitle(chartName="Range/Height vs. Angle", title="Range/Height vs. Angle")
+  - - SetChartLegend(chartName="Range/Height vs. Angle", position="top")
+  - - SetChartMarker(chartName="Range/Height vs. Angle", style=["square"])
+Timestamp: '2024-09-15 22:30:38'
+Total Count: 1
+Use oracle API doc: false

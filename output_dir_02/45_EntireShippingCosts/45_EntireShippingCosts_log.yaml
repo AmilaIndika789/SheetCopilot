@@ -1,0 +1,25 @@
+Context: My company needs to deliver the goods to customers by truck. My workbook
+  records the distances between my customers and four destinations. The per mile shipping
+  charge is $3.5 with a minimum charge of $80.
+Fail Response: []
+Instructions: Display only the rows where the distances to Milwaukee are less than
+  2000 miles.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\45_EntireShippingCosts\45_EntireShippingCosts_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Filter the rows where distances to Milwaukee are less than 2000 miles.
+
+    Action API: @Filter(source="Sheet1!A1:E71", fieldIndex=3, criteria="<2000")@'
+  msg: []
+  raw response:
+  - 'Step 1. Filter the data based on the distance to Milwaukee.
+
+    Action API: @Filter(range="Sheet1!A1:E71", criteria="Sheet1!C2:C71<2000")@'
+  - Done!
+  refined response:
+  - - Filter(source="Sheet1!A1:E71", fieldIndex=3, criteria="<2000")
+Timestamp: '2024-09-15 21:24:19'
+Total Count: 1
+Use oracle API doc: false

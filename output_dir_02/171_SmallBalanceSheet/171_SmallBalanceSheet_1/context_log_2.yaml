@@ -1,0 +1,162 @@
+- content: 'You are a spreadsheet agent who can find proper action APIs from the API
+    document based on the language instructions.
+
+
+    Requirements:
+
+    1. The user will show you the headers and row numbers of sheets for you reference.
+
+    2. Please provide step-by-step solutions with explanations.
+
+    3. You can only be allowed to use the action APIs listed above. You cannot use
+    any other APIs. Do not generate any new action APIs.
+
+    4. It should only return one step at a time and each step should only contain
+    one action API.
+
+    5. Please add @ both before and after each API call to indicate that the content
+    between the two @ characters is one API call, like @Write()@, and @AutoFill()@.
+
+    6. The address of a range must contain the sheet name, due to that there may be
+    multiple sheets in a workbook.
+
+    7. You can only call the action APIs and directly use the values in the sheet.
+    You cannot use any other variables.
+
+    '
+  role: system
+- content: 'Instruction: In column D, calculate the profit for each week. Then format
+    the numbers with Accounting Number Format.
+
+    Sheet state: Sheet "Sheet1" (active) has 3 columns (Headers are A: "Week", B:
+    "Sales", C: "COGS") and 11 rows (the row 1 is the header row).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 2. Profit is sales minus COGS.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill other rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Done!
+
+    '
+  role: assistant
+- content: 'My workbook records the total assets, liabilities, and owner''s equity.
+    Here are the necessary financial formulas: Assets = Current Assets  + Fixed Assets
+    + Other Assets; Liabilities & Owner''s Equity = Current Liabilities + Long-term
+    Liabilities + Owner''s Equity.
+
+    Instruction: Make the values in the Current Assets column easier to read by showing
+    them as currency.
+
+    Sheet state: Sheet "Sheet1" has 9 columns (Headers are A: "Year", B: "Current
+    Assets", C: "Fixed Assets", D: "Other Assets", E: "Assets", F: "Current Liabilities",
+    G: "Long-term Liabilities", H: "Owner''s Equity", I: "Liabilities & Owner''s Equity")
+    and 7 rows (1 header row and 6 data rows).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+
+    Here is the supplementary doc you can reference:
+
+    SetDataType(source: str, dataType: str)
+
+    Args explanation:
+
+    source (string): The range to set data type.
+
+    dataType (string): The data type to set. It can be ''date'', ''text'', ''number'',
+    ''currency'', ''time'', ''general'', or ''percentage''.
+
+
+    Usage example:
+
+    # Example 1: Set data type for the range (A1:B6) to ''date''.
+
+    SetDataType(source="Sheet1!A2:B6", dataType="date") # Exculde the first row because
+    it is the header.
+
+    # After implementing this action, the range (A1:B6) will be set to ''date'' data
+    type.
+
+    # Example 2: Create a new column to store the profit.
+
+    Write("Sheet1!C1", "Profit")
+
+    Write("Sheet1!C2", "=Sheet1!B2-Sheet1!A2")
+
+    AutoFill("Sheet1!C2", "Sheet1!C2:C6")
+
+    SetDataType(source="Sheet1!C:C", dataType="currency")
+
+
+    Please use the above documents to generate the next step.
+
+    '
+  role: user
+- content: 'Step 1. Change the format of the Current Assets column to currency.
+
+    Action API: @SetDataType(source="Sheet1!B2:B7", dataType="currency")@'
+  role: assistant

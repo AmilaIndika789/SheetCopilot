@@ -1,0 +1,36 @@
+Context: My workbook has two tables. Sheet "Sheet1" records the sales of a boomerang
+  company. Sheet "Retail Price" lists the retail prices for all products.
+Fail Response: []
+Instructions: Sort the data according to column A in an ascending order and then create
+  a line chart with the "Date Time" column on the X-axis and quantity on the Y-axis.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\6_BoomerangSales\6_BoomerangSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Sort the data according to column A in ascending order.
+
+    Action API: @Sort(source="Sheet1!A2:F36", key1="Sheet1!A1", order="asc", orientation="column")@'
+  - 'Step 2. Create a line chart with the "Date Time" column on the X-axis and quantity
+    on the Y-axis.
+
+    Action API: @CreateChart(source="Sheet1!A1:E36", destSheet="Sheet1", chartType="Line",
+    chartName="Sales Quantity Chart", XField=1, YField=[5])@'
+  msg: []
+  raw response:
+  - 'Step 1. Sort the data in ascending order based on column A.
+
+    Action API: @Sort(range="Sheet1!A1:F36", sortColumn=1, sortOrder="ascending")@'
+  - 'Step 2. Create a line chart with "Date Time" on the X-axis and "Quantity" on
+    the Y-axis.
+
+    Action API: @CreateChart(dataRange="Sheet1!A1:F36", chartType="line", xAxis="Sheet1!A2:A36",
+    yAxis="Sheet1!E2:E36")@'
+  - Done!
+  refined response:
+  - - Sort(source="Sheet1!A2:F36", key1="Sheet1!A1", order="asc", orientation="column")
+  - - CreateChart(source="Sheet1!A1:E36", destSheet="Sheet1", chartType="Line", chartName="Sales
+      Quantity Chart", XField=1, YField=[5])
+Timestamp: '2024-09-15 21:09:25'
+Total Count: 1
+Use oracle API doc: false

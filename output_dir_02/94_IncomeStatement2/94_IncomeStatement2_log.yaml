@@ -1,0 +1,35 @@
+Context: "My workbook records yearly accounting data of my company. The necessary\
+  \ accounting formulas are as follows: Gross Profit = Net Sales \u2013 Cost of Goods\
+  \ Sold (COGS); Net sales = Sales - Sales return - Discounts and allowances; Cost\
+  \ of goods sold = Materials charges + Labor charges + Overhead; Gross profit = Net\
+  \ sales - Cost of goods sold."
+Fail Response: []
+Instructions: Highlight cells in the Materials Charges column with white text and
+  green fill if their values are greater than the corresponding value in the Sales
+  column by 10%.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\94_IncomeStatement2\94_IncomeStatement2_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 4. Set the accounting format for the profit column.
+
+    Action API: @SetConditionalFormat(source="Sheet1!D2:D11", formula="=ISNUMBER(D2)",
+    fillColor="white", color="black")@'
+  msg: []
+  raw response:
+  - 'Step 1. Apply conditional formatting to the Materials Charges column.
+
+    Action API: @ConditionalFormat(range="Sheet1!F2:F10", condition="greater_than",
+    value="=B2*1.1", format="white text and green fill")@'
+  - 'Step 1. Apply conditional formatting to the Materials Charges column.
+
+    Action API: @SetConditionalFormat(range="Sheet1!F2:F10", condition="greater_than",
+    value="=B2*1.1", format="white text and green fill")@'
+  - Done!
+  refined response:
+  - - SetConditionalFormat(source="Sheet1!D2:D11", formula="=ISNUMBER(D2)", fillColor="white",
+      color="black")
+Timestamp: '2024-09-15 21:39:58'
+Total Count: 1
+Use oracle API doc: false

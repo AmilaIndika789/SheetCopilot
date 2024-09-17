@@ -1,0 +1,60 @@
+Context: My sheet records velocity against displacement.
+Fail Response: []
+Instructions: Plot a scatter chart showing displacement (X-axis) against velocity
+  (Y-axis). Set the X-axis label as the column A header and the Y-axis label as the
+  column B header. Then draw a linear trend line with its equation displayed.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\192_VelocityDisplacement\192_VelocityDisplacement_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a scatter chart for displacement against velocity.
+
+    Action API: @CreateChart(source="Sheet1!A1:B21", destSheet="Sheet1", chartType="XYScatter",
+    chartName="Displacement vs Velocity", XField=1, YField=[2])@'
+  - 'Step 2. Set the X-axis label as the column A header.
+
+    Action API: @SetChartAxis(chartName="Displacement vs Velocity", axis="x", title="Displacement
+    m")@'
+  - 'Step 3. Set the Y-axis label as the column B header.
+
+    Action API: @SetChartAxis(chartName="Displacement vs Velocity", axis="y", title="Velocity
+    m/s")@'
+  - 'Step 4. Draw a linear trend line with its equation displayed.
+
+    Action API: @SetChartTrendline(chartName="Displacement vs Velocity", trendlineType=["linear"],
+    DisplayEquation=True)@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a scatter chart.
+
+    Action API: @CreateChart(type="scatter", dataRange="Sheet1!A1:B21")@'
+  - 'Step 2. Set the X-axis label.
+
+    Action API: @SetChartAxisLabel(chartName="Displacement vs Velocity", axis="X",
+    label="Displacement m")@'
+  - 'Step 2. Set the X-axis label.
+
+    Action API: @SetChartAxis(chartName="Displacement vs Velocity", axis="X", label="Displacement
+    m")@'
+  - 'Step 3. Set the Y-axis label as the column B header.
+
+    Action API: @SetChartAxis(chartName="Displacement vs Velocity", axis="y", title="Velocity
+    m/s")@'
+  - 'Step 4. Draw a linear trend line with its equation displayed.
+
+    Action API: @SetChartTrendline(chartName="Displacement vs Velocity", trendlineType="linear",
+    displayEquation=true)@'
+  - Done!
+  refined response:
+  - - CreateChart(source="Sheet1!A1:B21", destSheet="Sheet1", chartType="XYScatter",
+      chartName="Displacement vs Velocity", XField=1, YField=[2])
+  - - SetChartAxis(chartName="Displacement vs Velocity", axis="x", title="Displacement
+      m")
+  - - SetChartAxis(chartName="Displacement vs Velocity", axis="y", title="Velocity
+      m/s")
+  - - SetChartTrendline(chartName="Displacement vs Velocity", trendlineType=["linear"],
+      DisplayEquation=True)
+Timestamp: '2024-09-15 22:14:36'
+Total Count: 1
+Use oracle API doc: false

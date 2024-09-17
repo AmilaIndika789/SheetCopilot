@@ -1,0 +1,22 @@
+Context: My workbook records the sales of my company in the summer.
+Fail Response: []
+Instructions: Sort the sales data in ascending order by the "Revenue" column.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\185_SummerSales\185_SummerSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Sort the sales data by the "Revenue" column in ascending order.
+
+    Action API: @Sort(source="Sheet1!A2:G30", key1="Sheet1!G1", order="asc", orientation="column")@'
+  msg: []
+  raw response:
+  - 'Step 1. Sort the data by the "Revenue" column.
+
+    Action API: @Sort(range="Sheet1!A1:G30", sortColumn="G", sortOrder="ascending")@'
+  - Done!
+  refined response:
+  - - Sort(source="Sheet1!A2:G30", key1="Sheet1!G1", order="asc", orientation="column")
+Timestamp: '2024-09-15 22:12:15'
+Total Count: 1
+Use oracle API doc: false

@@ -1,0 +1,374 @@
+check_result_each_repeat:
+  1:
+    action_cnt_list: 3, 2, 1, 3, 4, 1, 1, 3, 1, 1, 3, 3, 4, 1, 1, 3, 3, 7, 5, 3, 4,
+      1, 12, 3, 1, 4, 3, 39, 1, 2, 1, 6, 5, 7, 4, 3, 1, 4, 3, 3, 2, 5, 1, 4
+    checked_list: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales,
+      5_BoomerangSales, 6_BoomerangSales, 7_BoomerangSales, 8_BoomerangSales, 9_BoomerangSales,
+      10_DemographicProfile, 11_DemographicProfile, 12_DemographicProfile, 13_DemographicProfile,
+      14_DemographicProfile, 15_DemographicProfile, 16_DemographicProfile, 17_Dragging,
+      18_Dragging, 19_Dragging, 20_Dragging, 21_Dragging, 22_Dragging, 23_Dragging,
+      24_Dragging, 25_EasyGDPBreakdown, 26_EasyGDPBreakdown, 27_EasyGDPBreakdown,
+      28_EasyGDPBreakdown, 29_EasyGDPBreakdown, 30_EasyGDPBreakdown, 31_EasyGDPBreakdown,
+      32_EasyGDPBreakdown, 33_EasyGDPBreakdown, 34_EasyGDPBreakdown, 35_EntireShippingCosts,
+      36_EntireShippingCosts, 37_EntireShippingCosts, 38_EntireShippingCosts, 39_EntireShippingCosts,
+      40_EntireShippingCosts, 41_EntireShippingCosts, 42_EntireShippingCosts, 43_EntireShippingCosts,
+      44_EntireShippingCosts, 45_EntireShippingCosts, 46_EntireShippingCosts, 47_EntireShippingCosts,
+      48_EntireShippingCosts, 49_EntireShippingCosts, 50_EntireShippingCosts, 51_EntireSummerSales,
+      52_EntireSummerSales, 53_EntireSummerSales, 54_EntireSummerSales, 55_EntireSummerSales,
+      56_EntireSummerSales, 57_EntireSummerSales, 58_EntireSummerSales, 59_EntireSummerSales,
+      60_EntireSummerSales, 61_EntireSummerSales, 62_EntireSummerSales, 63_EntireSummerSales,
+      64_ExpenseReport, 65_ExpenseReport, 66_ExpenseReport, 67_ExpenseReport, 68_ExpenseReport,
+      69_ExpenseReport, 70_FutureValue, 71_FutureValue, 72_FutureValue, 73_FutureValue,
+      74_FutureValue, 75_FutureValue, 76_FutureValue, 77_GDPBreakdown, 78_GDPBreakdown,
+      79_GDPBreakdown, 80_GDPBreakdown, 81_GDPBreakdown, 82_GDPBreakdown, 83_GDPBreakdown,
+      84_IncomeStatement, 85_IncomeStatement, 86_IncomeStatement, 87_IncomeStatement,
+      88_IncomeStatement, 89_IncomeStatement2, 90_IncomeStatement2, 91_IncomeStatement2,
+      92_IncomeStatement2, 93_IncomeStatement2, 94_IncomeStatement2, 95_IncomeStatement2,
+      96_IncomeStatement2, 97_IncomeStatement2, 98_Invoices, 99_Invoices, 100_Invoices,
+      101_Invoices, 102_Invoices, 103_Invoices, 104_Invoices, 105_Invoices, 106_Invoices,
+      107_Invoices, 108_Invoices, 109_Invoices, 110_Invoices, 111_Invoices, 112_Invoices,
+      113_Invoices, 114_MaturityDate, 115_MaturityDate, 116_MaturityDate, 117_MaturityDate,
+      118_MaturityDate, 119_MaturityDate, 120_MaturityDate, 121_MaturityDate, 122_NetIncome,
+      123_NetIncome, 124_NetIncome, 125_PeriodRate, 126_PeriodRate, 127_PeriodRate,
+      128_PeriodRate, 129_PeriodRate, 130_PresentValue, 131_PresentValue, 132_PresentValue,
+      133_PresentValue, 134_PresentValue, 135_PresentValue, 136_PricingTable, 137_PricingTable,
+      138_PricingTable, 139_PricingTable, 140_PricingTable, 141_PricingTable, 142_PricingTable,
+      143_PricingTable, 144_PricingTable, 145_PricingTable, 146_RampUpAndDown, 147_RampUpAndDown,
+      148_RampUpAndDown, 149_RampUpAndDown, 150_RampUpAndDown, 151_SalesRep, 152_SalesRep,
+      153_SalesRep, 154_SalesRep, 155_SalesRep, 156_SalesRep, 157_ShippingCosts, 158_ShippingCosts,
+      159_ShippingCosts, 160_ShippingCosts, 161_ShippingCosts, 162_ShippingCosts,
+      163_ShippingCosts, 164_SimpleCompoundInterest, 165_SimpleCompoundInterest, 166_SmallBalanceSheet,
+      167_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet, 170_SmallBalanceSheet,
+      171_SmallBalanceSheet, 172_SmallBalanceSheet, 173_StockChange, 174_StockChange,
+      175_StockChange, 176_StockChange, 177_SummerSales, 178_SummerSales, 179_SummerSales,
+      180_SummerSales, 181_SummerSales, 182_SummerSales, 183_SummerSales, 184_SummerSales,
+      185_SummerSales, 186_Tax, 187_Tax, 188_Tax, 189_Tax, 190_Tax, 191_Tax, 192_VelocityDisplacement,
+      193_VelocityDisplacement, 194_VelocityDisplacement, 195_VelocityDisplacement,
+      196_VelocityDisplacement, 197_VelocityDisplacement, 198_VelocityDisplacement,
+      199_WeeklySales, 200_WeeklySales, 201_WeeklySales, 202_WeeklySales, 203_WeeklySales,
+      204_WeeklySales, 205_WeeklySales, 206_WeeklySales, 207_WeeklySales, 208_WeeklySales,
+      209_WeeklySales, 210_WeeklySales, 211_WeeklySales, 212_XYScatterPlot, 213_XYScatterPlot,
+      214_XYScatterPlot, 215_XYScatterPlot, 216_XYScatterPlot, 217_XYScatterPlot,
+      218_XYScatterPlot, 219_XYScatterPlot, 220_XYScatterPlot, 221_XYScatterPlot
+    checked_list_by_cate:
+      Charts: 1_BoomerangSales, 2_BoomerangSales, 6_BoomerangSales, 7_BoomerangSales,
+        8_BoomerangSales, 15_DemographicProfile, 16_DemographicProfile, 17_Dragging,
+        19_Dragging, 22_Dragging, 23_Dragging, 25_EasyGDPBreakdown, 32_EasyGDPBreakdown,
+        51_EntireSummerSales, 52_EntireSummerSales, 53_EntireSummerSales, 54_EntireSummerSales,
+        61_EntireSummerSales, 62_EntireSummerSales, 69_ExpenseReport, 76_FutureValue,
+        77_GDPBreakdown, 97_IncomeStatement2, 109_Invoices, 110_Invoices, 121_MaturityDate,
+        135_PresentValue, 143_PricingTable, 144_PricingTable, 146_RampUpAndDown, 149_RampUpAndDown,
+        150_RampUpAndDown, 152_SalesRep, 155_SalesRep, 164_SimpleCompoundInterest,
+        172_SmallBalanceSheet, 176_StockChange, 177_SummerSales, 181_SummerSales,
+        182_SummerSales, 183_SummerSales, 184_SummerSales, 190_Tax, 191_Tax, 192_VelocityDisplacement,
+        197_VelocityDisplacement, 208_WeeklySales, 209_WeeklySales, 210_WeeklySales,
+        211_WeeklySales, 212_XYScatterPlot, 220_XYScatterPlot, 221_XYScatterPlot
+      Entry and manipulation: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales,
+        5_BoomerangSales, 6_BoomerangSales, 7_BoomerangSales, 8_BoomerangSales, 9_BoomerangSales,
+        10_DemographicProfile, 11_DemographicProfile, 15_DemographicProfile, 16_DemographicProfile,
+        17_Dragging, 19_Dragging, 20_Dragging, 21_Dragging, 22_Dragging, 23_Dragging,
+        24_Dragging, 25_EasyGDPBreakdown, 26_EasyGDPBreakdown, 27_EasyGDPBreakdown,
+        28_EasyGDPBreakdown, 29_EasyGDPBreakdown, 32_EasyGDPBreakdown, 33_EasyGDPBreakdown,
+        34_EasyGDPBreakdown, 35_EntireShippingCosts, 36_EntireShippingCosts, 37_EntireShippingCosts,
+        38_EntireShippingCosts, 39_EntireShippingCosts, 41_EntireShippingCosts, 42_EntireShippingCosts,
+        43_EntireShippingCosts, 44_EntireShippingCosts, 46_EntireShippingCosts, 47_EntireShippingCosts,
+        48_EntireShippingCosts, 49_EntireShippingCosts, 51_EntireSummerSales, 52_EntireSummerSales,
+        53_EntireSummerSales, 54_EntireSummerSales, 55_EntireSummerSales, 56_EntireSummerSales,
+        59_EntireSummerSales, 60_EntireSummerSales, 61_EntireSummerSales, 62_EntireSummerSales,
+        64_ExpenseReport, 65_ExpenseReport, 66_ExpenseReport, 68_ExpenseReport, 69_ExpenseReport,
+        70_FutureValue, 71_FutureValue, 73_FutureValue, 74_FutureValue, 75_FutureValue,
+        76_FutureValue, 77_GDPBreakdown, 78_GDPBreakdown, 79_GDPBreakdown, 81_GDPBreakdown,
+        83_GDPBreakdown, 84_IncomeStatement, 85_IncomeStatement, 86_IncomeStatement,
+        87_IncomeStatement, 89_IncomeStatement2, 90_IncomeStatement2, 91_IncomeStatement2,
+        92_IncomeStatement2, 93_IncomeStatement2, 95_IncomeStatement2, 97_IncomeStatement2,
+        105_Invoices, 106_Invoices, 107_Invoices, 108_Invoices, 109_Invoices, 110_Invoices,
+        112_Invoices, 113_Invoices, 114_MaturityDate, 115_MaturityDate, 116_MaturityDate,
+        118_MaturityDate, 121_MaturityDate, 122_NetIncome, 123_NetIncome, 124_NetIncome,
+        125_PeriodRate, 126_PeriodRate, 127_PeriodRate, 128_PeriodRate, 130_PresentValue,
+        131_PresentValue, 133_PresentValue, 135_PresentValue, 136_PricingTable, 137_PricingTable,
+        138_PricingTable, 139_PricingTable, 140_PricingTable, 141_PricingTable, 142_PricingTable,
+        144_PricingTable, 145_PricingTable, 146_RampUpAndDown, 148_RampUpAndDown,
+        149_RampUpAndDown, 150_RampUpAndDown, 151_SalesRep, 152_SalesRep, 153_SalesRep,
+        154_SalesRep, 155_SalesRep, 156_SalesRep, 157_ShippingCosts, 158_ShippingCosts,
+        159_ShippingCosts, 161_ShippingCosts, 162_ShippingCosts, 163_ShippingCosts,
+        164_SimpleCompoundInterest, 165_SimpleCompoundInterest, 166_SmallBalanceSheet,
+        167_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet, 170_SmallBalanceSheet,
+        172_SmallBalanceSheet, 173_StockChange, 176_StockChange, 177_SummerSales,
+        178_SummerSales, 179_SummerSales, 180_SummerSales, 181_SummerSales, 182_SummerSales,
+        183_SummerSales, 184_SummerSales, 186_Tax, 187_Tax, 188_Tax, 191_Tax, 193_VelocityDisplacement,
+        194_VelocityDisplacement, 195_VelocityDisplacement, 198_VelocityDisplacement,
+        199_WeeklySales, 200_WeeklySales, 201_WeeklySales, 202_WeeklySales, 203_WeeklySales,
+        204_WeeklySales, 207_WeeklySales, 208_WeeklySales, 210_WeeklySales, 211_WeeklySales,
+        213_XYScatterPlot, 215_XYScatterPlot, 217_XYScatterPlot
+      Formatting: 4_BoomerangSales, 10_DemographicProfile, 12_DemographicProfile,
+        18_Dragging, 29_EasyGDPBreakdown, 30_EasyGDPBreakdown, 51_EntireSummerSales,
+        52_EntireSummerSales, 53_EntireSummerSales, 54_EntireSummerSales, 57_EntireSummerSales,
+        58_EntireSummerSales, 64_ExpenseReport, 67_ExpenseReport, 68_ExpenseReport,
+        70_FutureValue, 72_FutureValue, 82_GDPBreakdown, 84_IncomeStatement, 85_IncomeStatement,
+        86_IncomeStatement, 88_IncomeStatement, 89_IncomeStatement2, 93_IncomeStatement2,
+        94_IncomeStatement2, 98_Invoices, 99_Invoices, 100_Invoices, 101_Invoices,
+        102_Invoices, 103_Invoices, 104_Invoices, 117_MaturityDate, 122_NetIncome,
+        125_PeriodRate, 130_PresentValue, 132_PresentValue, 134_PresentValue, 139_PricingTable,
+        145_PricingTable, 147_RampUpAndDown, 151_SalesRep, 157_ShippingCosts, 159_ShippingCosts,
+        160_ShippingCosts, 161_ShippingCosts, 164_SimpleCompoundInterest, 165_SimpleCompoundInterest,
+        166_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet, 170_SmallBalanceSheet,
+        171_SmallBalanceSheet, 173_StockChange, 174_StockChange, 175_StockChange,
+        176_StockChange, 179_SummerSales, 186_Tax, 187_Tax, 199_WeeklySales, 206_WeeklySales,
+        214_XYScatterPlot, 216_XYScatterPlot, 218_XYScatterPlot
+      Formula: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales,
+        5_BoomerangSales, 8_BoomerangSales, 11_DemographicProfile, 20_Dragging, 21_Dragging,
+        24_Dragging, 26_EasyGDPBreakdown, 29_EasyGDPBreakdown, 35_EntireShippingCosts,
+        36_EntireShippingCosts, 37_EntireShippingCosts, 38_EntireShippingCosts, 39_EntireShippingCosts,
+        41_EntireShippingCosts, 42_EntireShippingCosts, 46_EntireShippingCosts, 47_EntireShippingCosts,
+        49_EntireShippingCosts, 50_EntireShippingCosts, 59_EntireSummerSales, 60_EntireSummerSales,
+        64_ExpenseReport, 65_ExpenseReport, 68_ExpenseReport, 70_FutureValue, 71_FutureValue,
+        73_FutureValue, 75_FutureValue, 76_FutureValue, 78_GDPBreakdown, 79_GDPBreakdown,
+        81_GDPBreakdown, 84_IncomeStatement, 86_IncomeStatement, 89_IncomeStatement2,
+        90_IncomeStatement2, 92_IncomeStatement2, 93_IncomeStatement2, 97_IncomeStatement2,
+        108_Invoices, 112_Invoices, 114_MaturityDate, 115_MaturityDate, 116_MaturityDate,
+        122_NetIncome, 123_NetIncome, 125_PeriodRate, 126_PeriodRate, 128_PeriodRate,
+        130_PresentValue, 131_PresentValue, 133_PresentValue, 136_PricingTable, 137_PricingTable,
+        138_PricingTable, 139_PricingTable, 140_PricingTable, 141_PricingTable, 148_RampUpAndDown,
+        151_SalesRep, 153_SalesRep, 155_SalesRep, 156_SalesRep, 157_ShippingCosts,
+        158_ShippingCosts, 159_ShippingCosts, 161_ShippingCosts, 163_ShippingCosts,
+        164_SimpleCompoundInterest, 165_SimpleCompoundInterest, 166_SmallBalanceSheet,
+        167_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet, 170_SmallBalanceSheet,
+        173_StockChange, 179_SummerSales, 186_Tax, 187_Tax, 188_Tax, 191_Tax, 193_VelocityDisplacement,
+        194_VelocityDisplacement, 198_VelocityDisplacement, 199_WeeklySales, 200_WeeklySales,
+        201_WeeklySales, 202_WeeklySales, 204_WeeklySales, 207_WeeklySales, 210_WeeklySales,
+        213_XYScatterPlot, 215_XYScatterPlot
+      Management: 13_DemographicProfile, 14_DemographicProfile, 25_EasyGDPBreakdown,
+        31_EasyGDPBreakdown, 40_EntireShippingCosts, 45_EntireShippingCosts, 63_EntireSummerSales,
+        77_GDPBreakdown, 80_GDPBreakdown, 96_IncomeStatement2, 101_Invoices, 107_Invoices,
+        111_Invoices, 119_MaturityDate, 120_MaturityDate, 129_PeriodRate, 143_PricingTable,
+        163_ShippingCosts, 178_SummerSales, 185_SummerSales, 189_Tax, 196_VelocityDisplacement,
+        205_WeeklySales, 219_XYScatterPlot
+      Pivot Table: 1_BoomerangSales, 2_BoomerangSales, 7_BoomerangSales, 8_BoomerangSales,
+        9_BoomerangSales, 10_DemographicProfile, 15_DemographicProfile, 16_DemographicProfile,
+        27_EasyGDPBreakdown, 28_EasyGDPBreakdown, 33_EasyGDPBreakdown, 34_EasyGDPBreakdown,
+        51_EntireSummerSales, 52_EntireSummerSales, 53_EntireSummerSales, 54_EntireSummerSales,
+        55_EntireSummerSales, 56_EntireSummerSales, 62_EntireSummerSales, 66_ExpenseReport,
+        69_ExpenseReport, 87_IncomeStatement, 105_Invoices, 109_Invoices, 113_Invoices,
+        118_MaturityDate, 121_MaturityDate, 127_PeriodRate, 143_PricingTable, 144_PricingTable,
+        145_PricingTable, 162_ShippingCosts, 177_SummerSales, 180_SummerSales, 181_SummerSales,
+        182_SummerSales, 183_SummerSales, 184_SummerSales, 203_WeeklySales
+    error_log: []
+    eval_results:
+      A50_norm: 1.5
+      A90_norm: 2.3500000000000014
+      A_mean: 3.909090909090909
+      Charts Exec & Pass: 48/53 & 5/53
+      Entry and manipulation Exec & Pass: 134/165 & 26/165
+      Exec@1: 0.8552036199095022
+      Formatting Exec & Pass: 60/65 & 10/65
+      Formula Exec & Pass: 76/97 & 23/97
+      Management Exec & Pass: 19/24 & 9/24
+      Pass@1: 0.19909502262443438
+      Pivot Table Exec & Pass: 34/39 & 1/39
+      Total: 221
+    exec_success_list: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales,
+      5_BoomerangSales, 6_BoomerangSales, 7_BoomerangSales, 10_DemographicProfile,
+      12_DemographicProfile, 13_DemographicProfile, 14_DemographicProfile, 15_DemographicProfile,
+      16_DemographicProfile, 17_Dragging, 18_Dragging, 19_Dragging, 20_Dragging, 21_Dragging,
+      22_Dragging, 23_Dragging, 24_Dragging, 27_EasyGDPBreakdown, 29_EasyGDPBreakdown,
+      30_EasyGDPBreakdown, 31_EasyGDPBreakdown, 33_EasyGDPBreakdown, 34_EasyGDPBreakdown,
+      35_EntireShippingCosts, 36_EntireShippingCosts, 37_EntireShippingCosts, 38_EntireShippingCosts,
+      39_EntireShippingCosts, 40_EntireShippingCosts, 43_EntireShippingCosts, 44_EntireShippingCosts,
+      45_EntireShippingCosts, 46_EntireShippingCosts, 47_EntireShippingCosts, 48_EntireShippingCosts,
+      50_EntireShippingCosts, 51_EntireSummerSales, 52_EntireSummerSales, 53_EntireSummerSales,
+      54_EntireSummerSales, 55_EntireSummerSales, 56_EntireSummerSales, 57_EntireSummerSales,
+      58_EntireSummerSales, 61_EntireSummerSales, 62_EntireSummerSales, 63_EntireSummerSales,
+      64_ExpenseReport, 66_ExpenseReport, 67_ExpenseReport, 69_ExpenseReport, 70_FutureValue,
+      71_FutureValue, 72_FutureValue, 73_FutureValue, 74_FutureValue, 76_FutureValue,
+      78_GDPBreakdown, 79_GDPBreakdown, 81_GDPBreakdown, 82_GDPBreakdown, 83_GDPBreakdown,
+      84_IncomeStatement, 85_IncomeStatement, 86_IncomeStatement, 87_IncomeStatement,
+      88_IncomeStatement, 89_IncomeStatement2, 90_IncomeStatement2, 91_IncomeStatement2,
+      92_IncomeStatement2, 94_IncomeStatement2, 96_IncomeStatement2, 97_IncomeStatement2,
+      98_Invoices, 99_Invoices, 100_Invoices, 101_Invoices, 102_Invoices, 103_Invoices,
+      104_Invoices, 105_Invoices, 106_Invoices, 107_Invoices, 109_Invoices, 110_Invoices,
+      111_Invoices, 112_Invoices, 113_Invoices, 114_MaturityDate, 115_MaturityDate,
+      116_MaturityDate, 117_MaturityDate, 118_MaturityDate, 119_MaturityDate, 120_MaturityDate,
+      121_MaturityDate, 122_NetIncome, 123_NetIncome, 124_NetIncome, 125_PeriodRate,
+      126_PeriodRate, 127_PeriodRate, 128_PeriodRate, 129_PeriodRate, 130_PresentValue,
+      131_PresentValue, 132_PresentValue, 133_PresentValue, 134_PresentValue, 135_PresentValue,
+      136_PricingTable, 138_PricingTable, 140_PricingTable, 142_PricingTable, 143_PricingTable,
+      144_PricingTable, 146_RampUpAndDown, 147_RampUpAndDown, 149_RampUpAndDown, 150_RampUpAndDown,
+      151_SalesRep, 152_SalesRep, 153_SalesRep, 154_SalesRep, 155_SalesRep, 156_SalesRep,
+      157_ShippingCosts, 158_ShippingCosts, 159_ShippingCosts, 160_ShippingCosts,
+      161_ShippingCosts, 162_ShippingCosts, 164_SimpleCompoundInterest, 165_SimpleCompoundInterest,
+      166_SmallBalanceSheet, 167_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet,
+      170_SmallBalanceSheet, 171_SmallBalanceSheet, 172_SmallBalanceSheet, 173_StockChange,
+      174_StockChange, 175_StockChange, 177_SummerSales, 179_SummerSales, 180_SummerSales,
+      181_SummerSales, 182_SummerSales, 183_SummerSales, 184_SummerSales, 185_SummerSales,
+      186_Tax, 187_Tax, 188_Tax, 189_Tax, 190_Tax, 191_Tax, 192_VelocityDisplacement,
+      193_VelocityDisplacement, 194_VelocityDisplacement, 195_VelocityDisplacement,
+      196_VelocityDisplacement, 197_VelocityDisplacement, 198_VelocityDisplacement,
+      199_WeeklySales, 200_WeeklySales, 201_WeeklySales, 204_WeeklySales, 205_WeeklySales,
+      206_WeeklySales, 208_WeeklySales, 209_WeeklySales, 210_WeeklySales, 211_WeeklySales,
+      212_XYScatterPlot, 213_XYScatterPlot, 214_XYScatterPlot, 216_XYScatterPlot,
+      217_XYScatterPlot, 218_XYScatterPlot, 219_XYScatterPlot, 220_XYScatterPlot,
+      221_XYScatterPlot
+    exec_success_list_by_cate:
+      Charts: 1_BoomerangSales, 2_BoomerangSales, 6_BoomerangSales, 7_BoomerangSales,
+        15_DemographicProfile, 16_DemographicProfile, 17_Dragging, 19_Dragging, 22_Dragging,
+        23_Dragging, 51_EntireSummerSales, 52_EntireSummerSales, 53_EntireSummerSales,
+        54_EntireSummerSales, 61_EntireSummerSales, 62_EntireSummerSales, 69_ExpenseReport,
+        76_FutureValue, 97_IncomeStatement2, 109_Invoices, 110_Invoices, 121_MaturityDate,
+        135_PresentValue, 143_PricingTable, 144_PricingTable, 146_RampUpAndDown, 149_RampUpAndDown,
+        150_RampUpAndDown, 152_SalesRep, 155_SalesRep, 164_SimpleCompoundInterest,
+        172_SmallBalanceSheet, 177_SummerSales, 181_SummerSales, 182_SummerSales,
+        183_SummerSales, 184_SummerSales, 190_Tax, 191_Tax, 192_VelocityDisplacement,
+        197_VelocityDisplacement, 208_WeeklySales, 209_WeeklySales, 210_WeeklySales,
+        211_WeeklySales, 212_XYScatterPlot, 220_XYScatterPlot, 221_XYScatterPlot
+      Entry and manipulation: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales,
+        5_BoomerangSales, 6_BoomerangSales, 7_BoomerangSales, 10_DemographicProfile,
+        15_DemographicProfile, 16_DemographicProfile, 17_Dragging, 19_Dragging, 20_Dragging,
+        21_Dragging, 22_Dragging, 23_Dragging, 24_Dragging, 27_EasyGDPBreakdown, 29_EasyGDPBreakdown,
+        33_EasyGDPBreakdown, 34_EasyGDPBreakdown, 35_EntireShippingCosts, 36_EntireShippingCosts,
+        37_EntireShippingCosts, 38_EntireShippingCosts, 39_EntireShippingCosts, 43_EntireShippingCosts,
+        44_EntireShippingCosts, 46_EntireShippingCosts, 47_EntireShippingCosts, 48_EntireShippingCosts,
+        51_EntireSummerSales, 52_EntireSummerSales, 53_EntireSummerSales, 54_EntireSummerSales,
+        55_EntireSummerSales, 56_EntireSummerSales, 61_EntireSummerSales, 62_EntireSummerSales,
+        64_ExpenseReport, 66_ExpenseReport, 69_ExpenseReport, 70_FutureValue, 71_FutureValue,
+        73_FutureValue, 74_FutureValue, 76_FutureValue, 78_GDPBreakdown, 79_GDPBreakdown,
+        81_GDPBreakdown, 83_GDPBreakdown, 84_IncomeStatement, 85_IncomeStatement,
+        86_IncomeStatement, 87_IncomeStatement, 89_IncomeStatement2, 90_IncomeStatement2,
+        91_IncomeStatement2, 92_IncomeStatement2, 97_IncomeStatement2, 105_Invoices,
+        106_Invoices, 107_Invoices, 109_Invoices, 110_Invoices, 112_Invoices, 113_Invoices,
+        114_MaturityDate, 115_MaturityDate, 116_MaturityDate, 118_MaturityDate, 121_MaturityDate,
+        122_NetIncome, 123_NetIncome, 124_NetIncome, 125_PeriodRate, 126_PeriodRate,
+        127_PeriodRate, 128_PeriodRate, 130_PresentValue, 131_PresentValue, 133_PresentValue,
+        135_PresentValue, 136_PricingTable, 138_PricingTable, 140_PricingTable, 142_PricingTable,
+        144_PricingTable, 146_RampUpAndDown, 149_RampUpAndDown, 150_RampUpAndDown,
+        151_SalesRep, 152_SalesRep, 153_SalesRep, 154_SalesRep, 155_SalesRep, 156_SalesRep,
+        157_ShippingCosts, 158_ShippingCosts, 159_ShippingCosts, 161_ShippingCosts,
+        162_ShippingCosts, 164_SimpleCompoundInterest, 165_SimpleCompoundInterest,
+        166_SmallBalanceSheet, 167_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet,
+        170_SmallBalanceSheet, 172_SmallBalanceSheet, 173_StockChange, 177_SummerSales,
+        179_SummerSales, 180_SummerSales, 181_SummerSales, 182_SummerSales, 183_SummerSales,
+        184_SummerSales, 186_Tax, 187_Tax, 188_Tax, 191_Tax, 193_VelocityDisplacement,
+        194_VelocityDisplacement, 195_VelocityDisplacement, 198_VelocityDisplacement,
+        199_WeeklySales, 200_WeeklySales, 201_WeeklySales, 204_WeeklySales, 208_WeeklySales,
+        210_WeeklySales, 211_WeeklySales, 213_XYScatterPlot, 217_XYScatterPlot
+      Formatting: 4_BoomerangSales, 10_DemographicProfile, 12_DemographicProfile,
+        18_Dragging, 29_EasyGDPBreakdown, 30_EasyGDPBreakdown, 51_EntireSummerSales,
+        52_EntireSummerSales, 53_EntireSummerSales, 54_EntireSummerSales, 57_EntireSummerSales,
+        58_EntireSummerSales, 64_ExpenseReport, 67_ExpenseReport, 70_FutureValue,
+        72_FutureValue, 82_GDPBreakdown, 84_IncomeStatement, 85_IncomeStatement, 86_IncomeStatement,
+        88_IncomeStatement, 89_IncomeStatement2, 94_IncomeStatement2, 98_Invoices,
+        99_Invoices, 100_Invoices, 101_Invoices, 102_Invoices, 103_Invoices, 104_Invoices,
+        117_MaturityDate, 122_NetIncome, 125_PeriodRate, 130_PresentValue, 132_PresentValue,
+        134_PresentValue, 147_RampUpAndDown, 151_SalesRep, 157_ShippingCosts, 159_ShippingCosts,
+        160_ShippingCosts, 161_ShippingCosts, 164_SimpleCompoundInterest, 165_SimpleCompoundInterest,
+        166_SmallBalanceSheet, 168_SmallBalanceSheet, 169_SmallBalanceSheet, 170_SmallBalanceSheet,
+        171_SmallBalanceSheet, 173_StockChange, 174_StockChange, 175_StockChange,
+        179_SummerSales, 186_Tax, 187_Tax, 199_WeeklySales, 206_WeeklySales, 214_XYScatterPlot,
+        216_XYScatterPlot, 218_XYScatterPlot
+      Formula: 1_BoomerangSales, 2_BoomerangSales, 3_BoomerangSales, 4_BoomerangSales,
+        5_BoomerangSales, 20_Dragging, 21_Dragging, 24_Dragging, 29_EasyGDPBreakdown,
+        35_EntireShippingCosts, 36_EntireShippingCosts, 37_EntireShippingCosts, 38_EntireShippingCosts,
+        39_EntireShippingCosts, 46_EntireShippingCosts, 47_EntireShippingCosts, 50_EntireShippingCosts,
+        64_ExpenseReport, 70_FutureValue, 71_FutureValue, 73_FutureValue, 76_FutureValue,
+        78_GDPBreakdown, 79_GDPBreakdown, 81_GDPBreakdown, 84_IncomeStatement, 86_IncomeStatement,
+        89_IncomeStatement2, 90_IncomeStatement2, 92_IncomeStatement2, 97_IncomeStatement2,
+        112_Invoices, 114_MaturityDate, 115_MaturityDate, 116_MaturityDate, 122_NetIncome,
+        123_NetIncome, 125_PeriodRate, 126_PeriodRate, 128_PeriodRate, 130_PresentValue,
+        131_PresentValue, 133_PresentValue, 136_PricingTable, 138_PricingTable, 140_PricingTable,
+        151_SalesRep, 153_SalesRep, 155_SalesRep, 156_SalesRep, 157_ShippingCosts,
+        158_ShippingCosts, 159_ShippingCosts, 161_ShippingCosts, 164_SimpleCompoundInterest,
+        165_SimpleCompoundInterest, 166_SmallBalanceSheet, 167_SmallBalanceSheet,
+        168_SmallBalanceSheet, 169_SmallBalanceSheet, 170_SmallBalanceSheet, 173_StockChange,
+        179_SummerSales, 186_Tax, 187_Tax, 188_Tax, 191_Tax, 193_VelocityDisplacement,
+        194_VelocityDisplacement, 198_VelocityDisplacement, 199_WeeklySales, 200_WeeklySales,
+        201_WeeklySales, 204_WeeklySales, 210_WeeklySales, 213_XYScatterPlot
+      Management: 13_DemographicProfile, 14_DemographicProfile, 31_EasyGDPBreakdown,
+        40_EntireShippingCosts, 45_EntireShippingCosts, 63_EntireSummerSales, 96_IncomeStatement2,
+        101_Invoices, 107_Invoices, 111_Invoices, 119_MaturityDate, 120_MaturityDate,
+        129_PeriodRate, 143_PricingTable, 185_SummerSales, 189_Tax, 196_VelocityDisplacement,
+        205_WeeklySales, 219_XYScatterPlot
+      Pivot Table: 1_BoomerangSales, 2_BoomerangSales, 7_BoomerangSales, 10_DemographicProfile,
+        15_DemographicProfile, 16_DemographicProfile, 27_EasyGDPBreakdown, 33_EasyGDPBreakdown,
+        34_EasyGDPBreakdown, 51_EntireSummerSales, 52_EntireSummerSales, 53_EntireSummerSales,
+        54_EntireSummerSales, 55_EntireSummerSales, 56_EntireSummerSales, 62_EntireSummerSales,
+        66_ExpenseReport, 69_ExpenseReport, 87_IncomeStatement, 105_Invoices, 109_Invoices,
+        113_Invoices, 118_MaturityDate, 121_MaturityDate, 127_PeriodRate, 143_PricingTable,
+        144_PricingTable, 162_ShippingCosts, 177_SummerSales, 180_SummerSales, 181_SummerSales,
+        182_SummerSales, 183_SummerSales, 184_SummerSales
+    gt_min_action_cnt_list: 2, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 2, 2, 1, 1, 2, 2, 2,
+      2, 2, 2, 1, 4, 2, 1, 2, 2, 2, 1, 1, 1, 3, 3, 5, 3, 2, 1, 3, 2, 2, 1, 5, 1, 5
+    matched_gt_lst:
+    - 5_BoomerangSales_gt2.xlsx
+    - 6_BoomerangSales_gt1.xlsx
+    - 4_DemographicProfile_gt1.xlsx
+    - 2_Dragging_gt1.xlsx
+    - 4_Dragging_gt1.xlsx
+    - 6_EntireShippingCosts_gt1.xlsx
+    - 11_EntireShippingCosts_gt1.xlsx
+    - 12_EntireShippingCosts_gt1.xlsx
+    - 7_EntireSummerSales_gt1.xlsx
+    - 13_EntireSummerSales_gt1.xlsx
+    - 2_FutureValue_gt2.xlsx
+    - 4_FutureValue_gt2.xlsx
+    - 5_GDPBreakdown_gt2.xlsx
+    - 6_IncomeStatement2_gt2.xlsx
+    - 14_Invoices_gt1.xlsx
+    - 15_Invoices_gt1.xlsx
+    - 2_MaturityDate_gt1.xlsx
+    - 3_MaturityDate_gt1.xlsx
+    - 2_NetIncome_gt1.xlsx
+    - 2_PeriodRate_gt1.xlsx
+    - 4_PeriodRate_gt2.xlsx
+    - 5_PeriodRate_gt1.xlsx
+    - 2_PresentValue_gt1.xlsx
+    - 4_PresentValue_gt1.xlsx
+    - 5_PresentValue_gt3.xlsx
+    - 1_PricingTable_gt1.xlsx
+    - 5_PricingTable_gt1.xlsx
+    - 6_ShippingCosts_gt1.xlsx
+    - 6_SmallBalanceSheet_gt1.xlsx
+    - 2_StockChange_gt1.xlsx
+    - 9_SummerSales_gt1.xlsx
+    - 1_Tax_gt2.xlsx
+    - 2_Tax_gt2.xlsx
+    - 6_Tax_gt1.xlsx
+    - 1_VelocityDisplacement_gt2.xlsx
+    - 2_VelocityDisplacement_gt1.xlsx
+    - 5_VelocityDisplacement_gt2.xlsx
+    - 1_WeeklySales_gt2.xlsx
+    - 3_WeeklySales_gt1.xlsx
+    - 6_WeeklySales_gt1.xlsx
+    - 8_WeeklySales_gt1.xlsx
+    - 10_WeeklySales_gt1.xlsx
+    - 8_XYScatterPlot_gt2.xlsx
+    - 9_XYScatterPlot_gt2.xlsx
+    success_list: 5_BoomerangSales, 6_BoomerangSales, 13_DemographicProfile, 18_Dragging,
+      20_Dragging, 40_EntireShippingCosts, 45_EntireShippingCosts, 46_EntireShippingCosts,
+      57_EntireSummerSales, 63_EntireSummerSales, 71_FutureValue, 73_FutureValue,
+      81_GDPBreakdown, 94_IncomeStatement2, 111_Invoices, 112_Invoices, 115_MaturityDate,
+      116_MaturityDate, 123_NetIncome, 126_PeriodRate, 128_PeriodRate, 129_PeriodRate,
+      131_PresentValue, 133_PresentValue, 134_PresentValue, 136_PricingTable, 140_PricingTable,
+      162_ShippingCosts, 171_SmallBalanceSheet, 174_StockChange, 185_SummerSales,
+      186_Tax, 187_Tax, 191_Tax, 192_VelocityDisplacement, 193_VelocityDisplacement,
+      196_VelocityDisplacement, 199_WeeklySales, 201_WeeklySales, 204_WeeklySales,
+      206_WeeklySales, 208_WeeklySales, 219_XYScatterPlot, 220_XYScatterPlot
+    success_list_by_cate:
+      Charts: 6_BoomerangSales, 191_Tax, 192_VelocityDisplacement, 208_WeeklySales,
+        220_XYScatterPlot
+      Entry and manipulation: 5_BoomerangSales, 6_BoomerangSales, 20_Dragging, 46_EntireShippingCosts,
+        71_FutureValue, 73_FutureValue, 81_GDPBreakdown, 112_Invoices, 115_MaturityDate,
+        116_MaturityDate, 123_NetIncome, 126_PeriodRate, 128_PeriodRate, 131_PresentValue,
+        133_PresentValue, 136_PricingTable, 140_PricingTable, 162_ShippingCosts, 186_Tax,
+        187_Tax, 191_Tax, 193_VelocityDisplacement, 199_WeeklySales, 201_WeeklySales,
+        204_WeeklySales, 208_WeeklySales
+      Formatting: 18_Dragging, 57_EntireSummerSales, 94_IncomeStatement2, 134_PresentValue,
+        171_SmallBalanceSheet, 174_StockChange, 186_Tax, 187_Tax, 199_WeeklySales,
+        206_WeeklySales
+      Formula: 5_BoomerangSales, 20_Dragging, 46_EntireShippingCosts, 71_FutureValue,
+        73_FutureValue, 81_GDPBreakdown, 112_Invoices, 115_MaturityDate, 116_MaturityDate,
+        123_NetIncome, 126_PeriodRate, 128_PeriodRate, 131_PresentValue, 133_PresentValue,
+        136_PricingTable, 140_PricingTable, 186_Tax, 187_Tax, 191_Tax, 193_VelocityDisplacement,
+        199_WeeklySales, 201_WeeklySales, 204_WeeklySales
+      Management: 13_DemographicProfile, 40_EntireShippingCosts, 45_EntireShippingCosts,
+        63_EntireSummerSales, 111_Invoices, 129_PeriodRate, 185_SummerSales, 196_VelocityDisplacement,
+        219_XYScatterPlot
+      Pivot Table: 162_ShippingCosts

@@ -1,0 +1,24 @@
+Context: My company needs to deliver the goods to customers by truck. My workbook
+  records the distances between my customers and four destinations. The per mile shipping
+  charge is $3.5 with a minimum charge of $80.
+Fail Response: []
+Instructions: Sort the data by the Seattle column in ascending order.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\40_EntireShippingCosts\40_EntireShippingCosts_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Sort the data by the Seattle column in ascending order.
+
+    Action API: @Sort(source="Sheet1!A2:E71", key1="Sheet1!B1", order="asc", orientation="column")@'
+  msg: []
+  raw response:
+  - 'Step 1. Sort the data by the Seattle column.
+
+    Action API: @Sort(range="Sheet1!A1:E71", sortColumn="B", sortOrder="ascending")@'
+  - Done!
+  refined response:
+  - - Sort(source="Sheet1!A2:E71", key1="Sheet1!B1", order="asc", orientation="column")
+Timestamp: '2024-09-15 21:22:23'
+Total Count: 1
+Use oracle API doc: false

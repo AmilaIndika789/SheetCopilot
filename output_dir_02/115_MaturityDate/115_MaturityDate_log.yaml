@@ -1,0 +1,39 @@
+Context: My workbook records my loans with their lengths in days.
+Fail Response: []
+Instructions: Calculate the number of days between 2011/01/15 and each "Loan Issue
+  Date" in a new column labeled "Days Passed".
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\115_MaturityDate\115_MaturityDate_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new column labeled "Days Passed".
+
+    Action API: @Write(range="Sheet1!C1", value="Days Passed")@'
+  - 'Step 2. Calculate the number of days between 2011/01/15 and each "Loan Issue
+    Date".
+
+    Action API: @Write(range="Sheet1!C2", value="=DATE(2011,1,15)-A2")@'
+  - 'Step 3. Fill other rows to calculate "Days Passed".
+
+    Action API: @AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new column C.
+
+    Action API: @Write(range="Sheet1!C1", value="Days Passed")@'
+  - 'Step 2. Calculate the number of days between the fixed date and each loan issue
+    date.
+
+    Action API: @Write(range="Sheet1!C2", value="=DATEDIF(A2, DATE(2011, 1, 15), ''D'')")@'
+  - 'Step 3. Fill other rows for "Days Passed".
+
+    Action API: @AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")@'
+  - Done!
+  refined response:
+  - - Write(range="Sheet1!C1", value="Days Passed")
+  - - Write(range="Sheet1!C2", value="=DATE(2011,1,15)-A2")
+  - - AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")
+Timestamp: '2024-09-15 21:46:14'
+Total Count: 1
+Use oracle API doc: false

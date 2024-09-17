@@ -1,0 +1,184 @@
+- content: 'You are a spreadsheet agent who can find proper action APIs from the API
+    document based on the language instructions.
+
+
+    Requirements:
+
+    1. The user will show you the headers and row numbers of sheets for you reference.
+
+    2. Please provide step-by-step solutions with explanations.
+
+    3. You can only be allowed to use the action APIs listed above. You cannot use
+    any other APIs. Do not generate any new action APIs.
+
+    4. It should only return one step at a time and each step should only contain
+    one action API.
+
+    5. Please add @ both before and after each API call to indicate that the content
+    between the two @ characters is one API call, like @Write()@, and @AutoFill()@.
+
+    6. The address of a range must contain the sheet name, due to that there may be
+    multiple sheets in a workbook.
+
+    7. You can only call the action APIs and directly use the values in the sheet.
+    You cannot use any other variables.
+
+    '
+  role: system
+- content: 'Instruction: In column D, calculate the profit for each week. Then format
+    the numbers with Accounting Number Format.
+
+    Sheet state: Sheet "Sheet1" (active) has 3 columns (Headers are A: "Week", B:
+    "Sales", C: "COGS") and 11 rows (the row 1 is the header row).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 2. Profit is sales minus COGS.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill other rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Done!
+
+    '
+  role: assistant
+- content: 'My sheet shows how two variables (Range and Height) changes along with
+    the projection angle.
+
+    Instruction: Create a line chart with "Angle" on the X-axis and both "Range" and
+    "Height" on the Y-axis. Set all markers as squares. Set the chart title as "Range/Height
+    vs. Angle". Display the legends at the top.
+
+    Sheet state: Sheet "Sheet1" has 3 columns (Headers are A: "Angle (Degrees)", B:
+    "Range (m)", C: "Height (m)") and 38 rows (1 header row and 37 data rows).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+
+    Here is the supplementary doc you can reference:
+
+    CreateChart(source: str, destSheet: str, chartType: str, chartName: str, XField:
+    int = None, YField: List[int] = [])
+
+    Args explanation:
+
+    source (string): The range that contains the data used to create the chart.
+
+    destSheet (string): The name of the sheet where the chart will be located.
+
+    chartType (string): The type of chart. It can be ''Area'', ''AreaStacked'', ''BarClustered'',
+    ''BarOfPie'', ''BarStacked'', ''Bubble'', ''ColumnClustered'', ''ColumnStacked'',
+    ''Line'', ''LineMarkers'', ''LineMarkersStacked'', ''LineStacked'', ''Pie'', ''XYScatter'',
+    ''XYScatterLines'', ''XYScatterLinesNoMarkers'', ''XYScatterSmooth'', ''XYScatterSmoothNoMarkers'',
+    ''3DPie''.
+
+    chartName (string): The name for the chart to be created.
+
+    XField (int): The index of the column that contains the X values, starting from
+    1. If XField is None, the first column will be used.
+
+    YField (List[int]): The indices of the columns that contain the Y values, starting
+    from 1. If YField is [], all columns except the first column will be used.
+
+
+    Usage example:
+
+    # Example 1: Create a chart in Sheet2 based on the data from A1 to B10 in Sheet1
+    and set the chart name to ''Chart1''.
+
+    CreateChart(source=''Sheet1!A1:B10'', destSheet=''Sheet2'', chartType=''ColumnClustered'',
+    chartName=''Chart1'')
+
+    # After implementing this action, a chart named ''Chart1'' will be created in
+    Sheet2 based on the data from A1 to B10 in Sheet1.
+
+    # Example 2: Create a chart based on the data from A1 to B10 in Sheet1 and set
+    the chart title to ''Chart1 Title''.
+
+    CreateChart(source=''Sheet1!A1:B10'', destSheet=''Sheet1'', chartType=''ColumnClustered'',
+    chartName=''Chart1'')
+
+    SetChartTitle(chartName=''Chart1'', title=''Chart1 Title'')
+
+    # After implementing this action, a chart named ''Chart1'' will be created for
+    the data from Sheet1 A1 to B10 and the chart title will be ''Chart1 Title''.
+
+    # Example 3: Create a scatter chart in the ScatterChart sheet with Columns B,
+    C on the y-axis and Column A on the x-axis. XField is set as 1 to denote Column
+    A. YField is set as [2,3] to denote Columns B and C.
+
+    CreateChart(source="Sheet1!A1:B122", destSheet="ScatterChart", chartType="XYScatter",
+    chartName="ScatterChart1", XField=1, YField=[2,3])
+
+
+    Please use the above documents to generate the next step.
+
+    '
+  role: user
+- content: 'Step 1. Create the line chart with "Angle" on the X-axis and both "Range"
+    and "Height" on the Y-axis.
+
+    Action API: @CreateChart(source="Sheet1!A1:C38", destSheet="Sheet1", chartType="LineMarkers",
+    chartName="Range/Height vs. Angle", XField=1, YField=[2,3])@'
+  role: assistant

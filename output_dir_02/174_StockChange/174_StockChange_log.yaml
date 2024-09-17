@@ -1,0 +1,29 @@
+Context: My workbook records the values of my stocks on two dates.
+Fail Response: []
+Instructions: Set all stock values as currency type.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\174_StockChange\174_StockChange_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Set the data type for the values of stocks on Jan 1.
+
+    Action API: @SetDataType(source="Sheet1!B2:B13", dataType="currency")@'
+  - 'Step 2. Set the data type for the values of stocks on Dec 31.
+
+    Action API: @SetDataType(source="Sheet1!C2:C13", dataType="currency")@'
+  msg: []
+  raw response:
+  - 'Step 1. Set the format of the values in column B as currency.
+
+    Action API: @SetDataType(source="Sheet1!B2:B13", dataType="currency")@'
+  - 'Step 2. Set the data type for the values of stocks on Dec 31.
+
+    Action API: @SetDataType(source="Sheet1!C2:C13", dataType="currency")@'
+  - Done!
+  refined response:
+  - - SetDataType(source="Sheet1!B2:B13", dataType="currency")
+  - - SetDataType(source="Sheet1!C2:C13", dataType="currency")
+Timestamp: '2024-09-15 22:09:14'
+Total Count: 1
+Use oracle API doc: false

@@ -1,7 +1,7 @@
 path:
   source_path: ../dataset/task_sheets/
   save_path: ../output_dir/
-  task_path: ../dataset/dataset_50Samples.xlsx
+  task_path: ../dataset/dataset_221_copy.xlsx
   gt_path: ../dataset/task_sheet_answers_v2
 
 worker: 1

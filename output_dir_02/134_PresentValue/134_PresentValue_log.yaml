@@ -1,0 +1,24 @@
+Context: 'My workbook records several investments whose present values need to be
+  calculated according to the formula Present value = Future value / (1 + Annual Interest
+  Rate / # Compound periods) ^ (Years * # Compound periods).'
+Fail Response: []
+Instructions: Keep the header row visible when scrolling vertically or horizontally.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\134_PresentValue\134_PresentValue_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Keep the header row visible when scrolling.
+
+    Action API: @FreezePanes(source="Sheet1!A2")@'
+  msg: []
+  raw response:
+  - 'Step 1. Freeze the header row.
+
+    Action API: @FreezePanes(rows=1)@'
+  - Done!
+  refined response:
+  - - FreezePanes(source="Sheet1!A2")
+Timestamp: '2024-09-15 21:51:14'
+Total Count: 1
+Use oracle API doc: false
