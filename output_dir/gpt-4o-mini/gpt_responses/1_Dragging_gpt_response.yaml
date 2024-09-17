@@ -1,0 +1,7 @@
+gpt_response:
+- Step 1. Autofill the values in the Hanging Mass column down to row 122.
+- Step 2. Create a scatter chart to visualize the relationship between Hanging Mass
+  and Acceleration.
+- Step 3. Set the title of the chart to "Acceleration vs. Hanging Mass."
+- Step 4. Label the x-axis as "Hanging Mass (m2) (kg)."
+- Step 5. Label the y-axis as "Acceleration (m/s^2)."
