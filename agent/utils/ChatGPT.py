@@ -34,14 +34,14 @@ class ChatGPT:
 
         self.temperature = config['temperature']
         
-        print("=============== Initializing the LLM ===============")
-        print("=   Model: {}".format(self.model_name))
+        # print("=============== Initializing the LLM ===============")
+        # print("=   Model: {}".format(self.model_name))
         # print("=   API Keys: {}".format(config['api_keys']))
-        print("=   Max Retries: {}".format(self.max_retries))
-        print("=   Timeout: {}".format(self.timeout))
-        print("=   Max Total Tokens: {}".format(self.max_total_tokens))
-        print("=   Temperature: {}".format(self.temperature))
-        print("======================================================")
+        # print("=   Max Retries: {}".format(self.max_retries))
+        # print("=   Timeout: {}".format(self.timeout))
+        # print("=   Max Total Tokens: {}".format(self.max_total_tokens))
+        # print("=   Temperature: {}".format(self.temperature))
+        # print("======================================================")
         # openai.api_key = next(self.api_keys)
 
     def reset_query_count(self):
