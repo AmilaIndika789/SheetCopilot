@@ -1,0 +1,7 @@
+intermediate response:
+- Step 1. Write the formula to calculate Present Value in the Present Value column.
+- Step 2. Fill the Present Value for the remaining rows.
+- Step 3. Create a new sheet for the investment summary.
+- Step 4. Write the headers in the new sheet.
+- Step 5. Fetch the values from "Sheet1" and write them into the new sheet.
+- Step 6. Fill the remaining rows in the Investment Summary sheet.

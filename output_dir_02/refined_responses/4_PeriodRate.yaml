@@ -1,0 +1,5 @@
+refined_response:
+- Write(range="Sheet1!C1", value="High Periods")
+- Write(range="Sheet1!C2", value="=IF(B2>=5, TRUE, FALSE)")
+- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C25")
+- Write(range="Sheet1!C26", value="=COUNTIF(C2:C25, TRUE)")

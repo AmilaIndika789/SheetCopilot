@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Create a new column "Unique Sales Rep ID".
+- Step 2. Create the unique identifier by concatenating the sales rep name with the
+  first letter of the product.
+- Step 3. Fill other rows for the unique identifier.

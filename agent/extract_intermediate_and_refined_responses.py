@@ -3,8 +3,10 @@ import yaml
 import pathlib
 import pandas as pd
 
+OUTPUT_DIR = "../output_dir_02"
+DATA_PATH = "../dataset/dataset_221_copy.xlsx"
 # %%
-evaluation_config_file = "../output_dir/eval_result.yaml"
+evaluation_config_file = f"{OUTPUT_DIR}/eval_result.yaml"
 with open(evaluation_config_file, mode='r') as file:
     eval_config = yaml.load(file, Loader=yaml.Loader)
 
@@ -16,7 +18,7 @@ successful_list
 
 # %%
 def load_success_log(task_name):
-    log_file_path = f"../output_dir/{task_name}/{task_name}_log.yaml"
+    log_file_path = f"{OUTPUT_DIR}/{task_name}/{task_name}_log.yaml"
     with open(log_file_path, mode="r") as file:
         log_file = yaml.load(file, Loader=yaml.Loader)
     return log_file
@@ -31,7 +33,7 @@ def extract_intermediate_responses(log_file):
 # %%
 def get_new_task_name(task_name):
     row_index = int(task_name.split('_')[0]) - 1
-    tasks = pd.read_excel("../dataset/dataset_50Samples.xlsx")
+    tasks = pd.read_excel(DATA_PATH)
     task_no = tasks.iloc[row_index]["No."]
     new_task_name = "_".join([str(task_no), task_name.split('_')[1]])
     return new_task_name
@@ -56,8 +58,8 @@ for success_task_name in successful_list:
     log_file = load_success_log(success_task_name)
     intermediate_response_dict = extract_intermediate_responses(log_file)
     refined_response_dict = extract_refined_responses(log_file)
-    save_dictionary(save_path="../output_dir/intermediate_responses", task_name=success_task_name, dictionary=intermediate_response_dict)
-    save_dictionary(save_path="../output_dir/refined_responses", task_name=success_task_name, dictionary=refined_response_dict)
+    save_dictionary(save_path=f"{OUTPUT_DIR}/intermediate_responses", task_name=success_task_name, dictionary=intermediate_response_dict)
+    save_dictionary(save_path=f"{OUTPUT_DIR}/refined_responses", task_name=success_task_name, dictionary=refined_response_dict)
 
 # %%
 

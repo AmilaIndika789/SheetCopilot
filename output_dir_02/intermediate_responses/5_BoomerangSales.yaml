@@ -1,0 +1,4 @@
+intermediate response:
+- Step 1. Create a new column G titled "Product Price".
+- Step 2. Write the VLOOKUP formula to find the retail price for each product.
+- Step 3. Fill the formula down to other rows.

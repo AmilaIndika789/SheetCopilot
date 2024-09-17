@@ -1,0 +1,4 @@
+refined_response:
+- Write(range="Sheet1!B1", value="Present Value")
+- Write(range="Sheet1!B2", value="=F2/(1+D2/E2)^(C2*E2)")
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B5")

@@ -1,0 +1,4 @@
+intermediate response:
+- Step 1. Create a new column C for "Price".
+- Step 2. Fill the Price column using a formula that references the Pricing Table.
+- Step 3. Fill the Price column for all rows.

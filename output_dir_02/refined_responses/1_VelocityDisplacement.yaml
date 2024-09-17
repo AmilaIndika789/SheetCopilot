@@ -1,0 +1,8 @@
+refined_response:
+- CreateChart(source="Sheet1!A1:B21", destSheet="Sheet1", chartType="XYScatter", chartName="Displacement
+  vs Velocity", XField=1, YField=[2])
+- SetChartAxis(chartName="Displacement vs Velocity", axis="x", title="Displacement
+  m")
+- SetChartAxis(chartName="Displacement vs Velocity", axis="y", title="Velocity m/s")
+- SetChartTrendline(chartName="Displacement vs Velocity", trendlineType=["linear"],
+  DisplayEquation=True)

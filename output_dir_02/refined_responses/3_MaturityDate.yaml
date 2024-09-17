@@ -1,0 +1,6 @@
+refined_response:
+- CreateSheet(sheetName="Sheet2")
+- Write(range="Sheet2!A1", value="Minimum Loan Length")
+- Write(range="Sheet2!A2", value="=MIN(Sheet1!B2:B10)")
+- Write(range="Sheet2!B2", value="=MAX(Sheet1!B2:B10)")
+- Write(range="Sheet2!C2", value="=AVERAGE(Sheet1!B2:B10)")

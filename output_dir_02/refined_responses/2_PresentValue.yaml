@@ -1,0 +1,7 @@
+refined_response:
+- Write(range="Sheet1!B2", value="=F2/(1+D2/E2)^(C2*E2)")
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B5")
+- CreateSheet(sheetName="Investment Summary")
+- Write(range="Investment Summary!A1", value="No.")
+- Write(range="Investment Summary!A2", value="=Sheet1!A2")
+- AutoFill(source="Investment Summary!A2", destination="Investment Summary!A2:A5")

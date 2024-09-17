@@ -1,0 +1,4 @@
+intermediate response:
+- Step 1. Create a new column for "Adjusted Annual Rate".
+- Step 2. Add 1.0 to each value in the Annual Rate column.
+- Step 3. Fill other rows for the Adjusted Annual Rate.

@@ -1,0 +1,4 @@
+refined_response:
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B122")
+- SetConditionalFormat(source="Sheet1!B2:B122", formula="=$B2>=1", fillColor="green")
+- SetConditionalFormat(source="Sheet1!B2:B122", formula="=$B2<1", fillColor="yellow")

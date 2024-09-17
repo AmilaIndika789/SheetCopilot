@@ -1,0 +1,2 @@
+refined_response:
+- SetDataType(source="Sheet1!G2:G2001", dataType="currency")

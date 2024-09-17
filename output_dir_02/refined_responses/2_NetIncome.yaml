@@ -1,0 +1,5 @@
+refined_response:
+- CreateSheet(sheetName="Summary")
+- Write(range="Summary!A1", value="Total Revenue")
+- Write(range="Summary!A2", value="=SUM(Sheet1!A2:A20)")
+- Write(range="Summary!B2", value="=SUM(Sheet1!B2:B20)")

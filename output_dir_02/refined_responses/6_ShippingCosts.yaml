@@ -1,0 +1,5 @@
+refined_response:
+- CreateSheet(sheetName="DistanceTable")
+- Write(range="DistanceTable!A1", value="Customers")
+- Write(range="DistanceTable!A2", value="=Sheet1!A2")
+- Write(range="DistanceTable!B2", value="=AVERAGE(Sheet1!B2:E2)")

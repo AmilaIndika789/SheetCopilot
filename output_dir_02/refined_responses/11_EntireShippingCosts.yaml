@@ -1,0 +1,2 @@
+refined_response:
+- Filter(source="Sheet1!A1:E71", fieldIndex=3, criteria="<2000")

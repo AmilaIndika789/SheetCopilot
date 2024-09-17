@@ -1,0 +1,4 @@
+intermediate response:
+- Step 1. Create a new column labeled "Days Passed".
+- Step 2. Calculate the number of days between 2011/01/15 and each "Loan Issue Date".
+- Step 3. Fill other rows to calculate "Days Passed".

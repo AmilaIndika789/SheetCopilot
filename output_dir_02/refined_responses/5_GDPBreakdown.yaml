@@ -1,0 +1,5 @@
+refined_response:
+- Write(range="Sheet1!Q1", value="2013 in Quarters")
+- Write(range="Sheet1!Q2", value="=P2/4")
+- AutoFill(source="Sheet1!Q2", destination="Sheet1!Q2:Q3686")
+- SetDataType(source="Sheet1!Q2:Q3686", dataType="number")
