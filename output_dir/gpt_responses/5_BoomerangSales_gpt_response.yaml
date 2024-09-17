@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Write "Product Price" in cell G1.
-- Step 2. Write a VLOOKUP formula in cell G2 to fetch the retail price based on the
-  product in C2.
-- Step 3. AutoFill the formula from G2 down to G36.

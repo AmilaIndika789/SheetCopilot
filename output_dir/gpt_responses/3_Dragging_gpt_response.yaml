@@ -1,8 +1,0 @@
-gpt_response:
-- Step 1. Fill out other rows in column B using the formula in B2.
-- Step 2. Create a new sheet named "ScatterChart".
-- Step 3. Create a scatter plot in "ScatterChart" using data from "Sheet1" with "Hanging
-  Mass" on the X-axis and "Acceleration" on the Y-axis.
-- Step 4. Set the chart title as "Acceleration vs Hanging Mass".
-- Step 5. Set the X-axis title as "Hanging Mass (m2) (kg)".
-- Step 6. Set the Y-axis title as "Acceleration (m/s^2)".
