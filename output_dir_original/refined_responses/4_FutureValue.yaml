@@ -1,4 +1,0 @@
-refined_response:
-- Write(range="Sheet1!F1", value="Future Value")
-- Write(range="Sheet1!F2", value="=B2*(1+D2/E2)^(C2*E2)")
-- AutoFill(source="Sheet1!F2", destination="Sheet1!F2:F5")

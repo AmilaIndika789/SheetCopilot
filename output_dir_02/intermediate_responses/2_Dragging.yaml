@@ -1,4 +1,0 @@
-intermediate response:
-- Step 1. Fill other rows in column B using the formula in B2.
-- Step 2. Highlight cells with accelerations >= 1 with green fill.
-- Step 3. Highlight cells with accelerations < 1 with yellow fill.
