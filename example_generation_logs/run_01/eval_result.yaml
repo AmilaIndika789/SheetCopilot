@@ -1,0 +1,71 @@
+check_result_each_repeat:
+  1:
+    action_cnt_list: 1, 6, 1
+    checked_list: 1_BoomerangSales, 2_DemographicProfile, 3_EasyGDPBreakdown, 4_IncomeStatement2,
+      5_EasyGDPBreakdown, 6_IncomeStatement, 7_Dragging, 8_EntireShippingCosts, 9_DemographicProfile,
+      10_Invoices, 11_IncomeStatement2, 12_Tax, 13_PricingTable, 14_BoomerangSales,
+      15_PricingTable, 16_BoomerangSales, 17_StockChange, 18_PricingTable, 19_EntireSummerSales,
+      20_SimpleCompoundInterest
+    checked_list_by_cate:
+      Charts: 7_Dragging, 11_IncomeStatement2, 12_Tax, 13_PricingTable, 14_BoomerangSales,
+        15_PricingTable, 16_BoomerangSales, 17_StockChange, 19_EntireSummerSales,
+        20_SimpleCompoundInterest
+      Entry and Manipulation: 6_IncomeStatement
+      Entry and manipulation: 1_BoomerangSales, 3_EasyGDPBreakdown, 4_IncomeStatement2,
+        5_EasyGDPBreakdown, 7_Dragging, 8_EntireShippingCosts, 10_Invoices, 11_IncomeStatement2,
+        14_BoomerangSales, 15_PricingTable, 16_BoomerangSales, 17_StockChange, 18_PricingTable,
+        19_EntireSummerSales, 20_SimpleCompoundInterest
+      Formatting: 2_DemographicProfile, 4_IncomeStatement2, 5_EasyGDPBreakdown, 6_IncomeStatement,
+        17_StockChange, 18_PricingTable, 19_EntireSummerSales, 20_SimpleCompoundInterest
+      Formula: 1_BoomerangSales, 4_IncomeStatement2, 5_EasyGDPBreakdown, 11_IncomeStatement2,
+        16_BoomerangSales, 20_SimpleCompoundInterest
+      Management: 9_DemographicProfile, 10_Invoices, 13_PricingTable
+      Pivot Table: 3_EasyGDPBreakdown, 13_PricingTable, 14_BoomerangSales, 15_PricingTable,
+        16_BoomerangSales, 18_PricingTable, 19_EntireSummerSales
+    error_log: []
+    eval_results:
+      A50_norm: 1.0
+      A90_norm: 1.4
+      A_mean: 2.6666666666666665
+      Charts Exec & Pass: 9/10 & 1/10
+      Entry and Manipulation Exec & Pass: 1/1 & 0/1
+      Entry and manipulation Exec & Pass: 12/15 & 1/15
+      Exec@1: 0.85
+      Formatting Exec & Pass: 6/8 & 1/8
+      Formula Exec & Pass: 5/6 & 0/6
+      Management Exec & Pass: 3/3 & 1/3
+      Pass@1: 0.15
+      Pivot Table Exec & Pass: 6/7 & 0/7
+      Total: 20
+    exec_success_list: 1_BoomerangSales, 2_DemographicProfile, 5_EasyGDPBreakdown,
+      6_IncomeStatement, 7_Dragging, 8_EntireShippingCosts, 9_DemographicProfile,
+      10_Invoices, 11_IncomeStatement2, 12_Tax, 13_PricingTable, 14_BoomerangSales,
+      15_PricingTable, 16_BoomerangSales, 18_PricingTable, 19_EntireSummerSales, 20_SimpleCompoundInterest
+    exec_success_list_by_cate:
+      Charts: 7_Dragging, 11_IncomeStatement2, 12_Tax, 13_PricingTable, 14_BoomerangSales,
+        15_PricingTable, 16_BoomerangSales, 19_EntireSummerSales, 20_SimpleCompoundInterest
+      Entry and Manipulation: 6_IncomeStatement
+      Entry and manipulation: 1_BoomerangSales, 5_EasyGDPBreakdown, 7_Dragging, 8_EntireShippingCosts,
+        10_Invoices, 11_IncomeStatement2, 14_BoomerangSales, 15_PricingTable, 16_BoomerangSales,
+        18_PricingTable, 19_EntireSummerSales, 20_SimpleCompoundInterest
+      Formatting: 2_DemographicProfile, 5_EasyGDPBreakdown, 6_IncomeStatement, 18_PricingTable,
+        19_EntireSummerSales, 20_SimpleCompoundInterest
+      Formula: 1_BoomerangSales, 5_EasyGDPBreakdown, 11_IncomeStatement2, 16_BoomerangSales,
+        20_SimpleCompoundInterest
+      Management: 9_DemographicProfile, 10_Invoices, 13_PricingTable
+      Pivot Table: 13_PricingTable, 14_BoomerangSales, 15_PricingTable, 16_BoomerangSales,
+        18_PricingTable, 19_EntireSummerSales
+    gt_min_action_cnt_list: 1, 4, 1
+    matched_gt_lst:
+    - 3_DemographicProfile_gt2.xlsx
+    - 3_Dragging_gt2.xlsx
+    - 4_DemographicProfile_gt1.xlsx
+    success_list: 2_DemographicProfile, 7_Dragging, 9_DemographicProfile
+    success_list_by_cate:
+      Charts: 7_Dragging
+      Entry and Manipulation: ''
+      Entry and manipulation: 7_Dragging
+      Formatting: 2_DemographicProfile
+      Formula: ''
+      Management: 9_DemographicProfile
+      Pivot Table: ''

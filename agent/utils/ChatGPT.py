@@ -36,7 +36,7 @@ class ChatGPT:
         
         print("=============== Initializing the LLM ===============")
         print("=   Model: {}".format(self.model_name))
-        print("=   API Keys: {}".format(config['api_keys']))
+        # print("=   API Keys: {}".format(config['api_keys']))
         print("=   Max Retries: {}".format(self.max_retries))
         print("=   Timeout: {}".format(self.timeout))
         print("=   Max Total Tokens: {}".format(self.max_total_tokens))
@@ -67,7 +67,8 @@ class ChatGPT:
                 print("API call timed out after {} seconds. Retring {}/{}...".format(self.timeout, i+1, self.max_retries))
             except openai.RateLimitError  as e:
                 print("API call rate limited. Retring {}/{}...\n{}".format(i+1, self.max_retries, e))
-            except openai.APIError:
+            except openai.APIError as e:
+                print(e)
                 print("API call failed. Retring {}/{}...".format(i+1, self.max_retries))
                 # time.sleep(20)
             except Exception as e:
