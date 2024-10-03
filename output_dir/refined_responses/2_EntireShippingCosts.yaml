@@ -1,0 +1,6 @@
+refined_response:
+- Write(range="Sheet1!A72", value="Average")
+- Write(range="Sheet1!B72", value="=AVERAGE(B2:B71)")
+- Write(range="Sheet1!C72", value="=AVERAGE(C2:C71)")
+- Write(range="Sheet1!D72", value="=AVERAGE(D2:D71)")
+- Write(range="Sheet1!E72", value="=AVERAGE(E2:E71)")

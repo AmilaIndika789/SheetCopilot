@@ -1,0 +1,44 @@
+Context: My workbook records many invoices made on different dates.
+Fail Response: []
+Instructions: Copy the Product column to a new sheet and sort it in ascending order.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\91_Invoices\91_Invoices_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet for the copied product column.
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - "Step 2. Copy the Product column from Sheet1 to Sheet2.\nAction API: @Write(range=\"\
+    Sheet2!A1\", value=\"Product\")@  \nAction API: @Write(range=\"Sheet2!A2\", value=\"\
+    =Sheet1!D2\")@"
+  - 'Step 3. Fill the Product column in Sheet2 with the data from Sheet1.
+
+    Action API: @AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A19")@'
+  - 'Step 4. Sort the Product column in Sheet2 in ascending order.
+
+    Action API: @Sort(source="Sheet2!A2:A19", key1="Sheet2!A1", order="asc", orientation="column")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet for the products.
+
+    Action API: @CreateSheet(sheetName="ProductList")@'
+  - 'Step 2. Copy the Product column to the new sheet.
+
+    Action API: @Write(range="Sheet2!A1", value="=Sheet1!D2:D19")@'
+  - 'Step 3. Fill other rows of the Product column in Sheet2.
+
+    Action API: @AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A19")@'
+  - 'Step 4. Sort the Product column in ascending order.
+
+    Action API: @Sort(range="Sheet2!A2:A19", sortOrder="ascending")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Sheet2")
+  - - Write(range="Sheet2!A1", value="Product")
+    - Write(range="Sheet2!A2", value="=Sheet1!D2")
+  - - AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A19")
+  - - Sort(source="Sheet2!A2:A19", key1="Sheet2!A1", order="asc", orientation="column")
+Timestamp: '2024-09-26 18:39:53'
+Total Count: 1
+Use oracle API doc: false

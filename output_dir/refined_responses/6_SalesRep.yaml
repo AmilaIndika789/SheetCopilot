@@ -1,0 +1,7 @@
+refined_response:
+- CreateSheet(sheetName="Average Sales")
+- Write(range="Average Sales!A1", value="Sales Rep")
+- Write(range="Average Sales!B2", value="=AVERAGE(Sheet1!B2:G2)")
+- AutoFill(source="Average Sales!B2", destination="Average Sales!B2:B11")
+- Write(range="Average Sales!A2", value="=Sheet1!A2")
+- AutoFill(source="Average Sales!A2", destination="Average Sales!A2:A11")

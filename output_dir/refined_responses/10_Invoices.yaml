@@ -1,0 +1,5 @@
+refined_response:
+- CreateSheet(sheetName="Sheet2")
+- Write(range="Sheet2!A1", value="Product")
+- AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A19")
+- Sort(source="Sheet2!A2:A19", key1="Sheet2!A1", order="asc", orientation="column")
