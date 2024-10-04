@@ -1,0 +1,9 @@
+refined_response:
+- CreateSheet(sheetName="TotalSales")
+- Write(range="TotalSales!A1", value="Month")
+- Write(range="TotalSales!A2", value="Jan")
+- Write(range="TotalSales!A3", value="Feb")
+- Write(range="TotalSales!A4", value="Mar")
+- Write(range="TotalSales!A5", value="Apr")
+- Write(range="TotalSales!A6", value="May")
+- Write(range="TotalSales!A7", value="Jun")

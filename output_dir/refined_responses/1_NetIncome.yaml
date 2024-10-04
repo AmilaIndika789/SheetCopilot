@@ -1,0 +1,5 @@
+refined_response:
+- Write(range="Sheet1!C1", value="Net Income")
+- Write(range="Sheet1!C2", value="=A2-B2")
+- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C20")
+- SetDataType(source="Sheet1!C2:C20", dataType="currency")

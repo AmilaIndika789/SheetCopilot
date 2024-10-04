@@ -1,0 +1,4 @@
+intermediate response:
+- Step 1. Sort the Sales column in descending order.
+- Step 2. Apply conditional formatting for Sales < 250 with red fill.
+- Step 3. Apply conditional formatting for Sales > 500 with blue fill.

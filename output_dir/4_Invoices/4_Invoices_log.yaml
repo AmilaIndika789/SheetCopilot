@@ -1,0 +1,45 @@
+Context: My workbook records many invoices made on different dates.
+Fail Response: []
+Instructions: 'Sort by Sales in descending order and then apply different colors to
+  the Sales column: the cells < 250 gets red fill while those > 500 gets blue fill.'
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\82_Invoices\82_Invoices_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Sort the Sales column in descending order.
+
+    Action API: @Sort(source="Sheet1!A2:G19", key1="Sheet1!G1", order="desc", orientation="column")@'
+  - 'Step 2. Apply conditional formatting for Sales < 250 with red fill.
+
+    Action API: @SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2<250",
+    fillColor="red")@'
+  - 'Step 3. Apply conditional formatting for Sales > 500 with blue fill.
+
+    Action API: @SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>500",
+    fillColor="blue")@'
+  msg: []
+  raw response:
+  - 'Step 1. Sort the Sales column in descending order.
+
+    Action API: @Sort(range="Sheet1!A1:G19", sortColumn="G", sortOrder="descending")@'
+  - 'Step 2. Apply red fill to cells in the Sales column that are less than 250.
+
+    Action API: @ConditionalFormat(range="Sheet1!G2:G19", condition="lessThan", value=250,
+    format="redFill")@'
+  - 'Step 2. Apply red fill to cells in the Sales column that are less than 250.
+
+    Action API: @SetConditionalFormat(range="Sheet1!G2:G19", condition="lessThan",
+    value=250, format="redFill")@'
+  - 'Step 3. Apply conditional formatting for Sales > 500 with blue fill.
+
+    Action API: @SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>500",
+    fillColor="blue")@'
+  - Done!
+  refined response:
+  - - Sort(source="Sheet1!A2:G19", key1="Sheet1!G1", order="desc", orientation="column")
+  - - SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2<250", fillColor="red")
+  - - SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>500", fillColor="blue")
+Timestamp: '2024-10-03 13:28:58'
+Total Count: 1
+Use oracle API doc: false
