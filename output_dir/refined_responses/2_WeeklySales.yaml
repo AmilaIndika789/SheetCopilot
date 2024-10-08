@@ -1,0 +1,4 @@
+refined_response:
+- Write(range="Sheet1!A12", value="Total")
+- Write(range="Sheet1!B12", value="=SUM(B2:B11)")
+- Write(range="Sheet1!C12", value="=SUM(C2:C11)")
