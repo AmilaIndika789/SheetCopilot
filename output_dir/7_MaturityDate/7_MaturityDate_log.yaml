@@ -1,0 +1,23 @@
+Context: My workbook records my loans with their lengths in days.
+Fail Response: []
+Instructions: Keep the headers in the first row visible when scrolling vertically
+  or horizontally.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\95_MaturityDate\95_MaturityDate_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Freeze the header row.
+
+    Action API: @FreezePanes(source="Sheet1!A2")@'
+  msg: []
+  raw response:
+  - 'Step 1. Freeze the first row to keep headers visible.
+
+    Action API: @FreezePanes(row=1, column=1)@'
+  - Done!
+  refined response:
+  - - FreezePanes(source="Sheet1!A2")
+Timestamp: '2024-10-08 10:13:21'
+Total Count: 1
+Use oracle API doc: false

@@ -1,0 +1,11 @@
+refined_response:
+- Write(range="Sheet1!B3", value="=(B2 * m2) / m1")
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B122")
+- CreateChart(source="Sheet1!A1:B122", destSheet="Sheet1", chartType="Line", chartName="Acceleration
+  vs Hanging Mass", XField=1, YField=[2])
+- SetChartTitle(chartName="Acceleration vs Hanging Mass", title="Acceleration vs Hanging
+  Mass")
+- SetChartAxis(chartName="Acceleration vs Hanging Mass", axis="x", title="Hanging
+  Mass (m2) (kg)")
+- SetChartAxis(chartName="Acceleration vs Hanging Mass", axis="y", title="Acceleration
+  (m/s^2)")
