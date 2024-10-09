@@ -1,0 +1,8 @@
+gpt_response:
+- Step 1. Write the header for the new column "Shipping Cost to Seattle".
+- Step 2. Calculate the shipping cost using the specified formula.
+- Step 3. Autofill the shipping cost formula for all relevant rows.
+- Step 4. Write the formula for acceleration in the B column.
+- Step 5. Autofill the acceleration formula for the remaining rows.
+- Step 6. Set conditional formatting for values greater than or equal to 1 in green.
+- Step 7. Set conditional formatting for values less than 1 in yellow.
