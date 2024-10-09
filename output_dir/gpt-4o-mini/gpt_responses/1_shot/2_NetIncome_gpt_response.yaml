@@ -1,0 +1,7 @@
+gpt_response:
+- 'Step 1: Create a new sheet named "Summary."'
+- 'Step 2: Write "Total Revenue" in cell A1 of the Summary sheet.'
+- 'Step 3: Write a formula in cell A2 of the Summary sheet to calculate the total
+  revenue from the first column of Sheet1.'
+- 'Step 4: Write a formula in cell B2 of the Summary sheet to calculate the total
+  expenses from the second column of Sheet1.'

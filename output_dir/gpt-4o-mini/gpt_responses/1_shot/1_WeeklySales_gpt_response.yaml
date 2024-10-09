@@ -1,0 +1,5 @@
+gpt_response:
+- 'Step 1: Write "Profit" as the header in cell D1 of Sheet1.'
+- 'Step 2: Write the formula to calculate profit in cell D2.'
+- 'Step 3: Autofill the profit formula from D2 down to D11.'
+- 'Step 4: Set the data type for the profit range D2:D11 to currency.'
