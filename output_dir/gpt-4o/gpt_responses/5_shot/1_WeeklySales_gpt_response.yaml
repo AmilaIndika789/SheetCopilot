@@ -1,0 +1,5 @@
+gpt_response:
+- Step 1. Add a new "Profit" column.
+- Step 2. Calculate the profit for the first entry using a formula.
+- Step 3. Autofill the profit formula for the remaining entries.
+- Step 4. Format the Profit column as currency.

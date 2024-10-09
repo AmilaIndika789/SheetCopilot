@@ -1,0 +1,5 @@
+gpt_response:
+- Step 1. Create a scatter chart for displacement versus velocity.
+- Step 2. Set the x-axis title to "Displacement m".
+- Step 3. Set the y-axis title to "Velocity m/s".
+- Step 4. Add a linear trendline to the chart and display the equation.

@@ -1,0 +1,4 @@
+gpt_response:
+- Step 1. Add a new column for "Adjusted Annual Rate".
+- Step 2. Compute the adjusted annual rate by increasing each annual rate by 1.
+- Step 3. Extend the adjusted rate calculation to the remaining rows.
