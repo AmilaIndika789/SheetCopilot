@@ -1,0 +1,11 @@
+gpt_response:
+- Step 1. Add a new column header for Minimum Distance.
+- Step 2. Write the formula to calculate the minimum distance for each row.
+- Step 3. Autofill the Minimum Distance formula down the column.
+- Step 4. Add a new column header for Shipping Center.
+- Step 5. Write the formula to find the Shipping Center based on Minimum Distance.
+- Step 6. Autofill the Shipping Center formula down the column.
+- Step 7. Add a new column header for Total Shipping Charge.
+- Step 8. Write the formula to calculate the Total Shipping Charge.
+- Step 9. Autofill the Total Shipping Charge formula down the column.
+- Step 10. Set the data type of the Total Shipping Charge column to currency.
