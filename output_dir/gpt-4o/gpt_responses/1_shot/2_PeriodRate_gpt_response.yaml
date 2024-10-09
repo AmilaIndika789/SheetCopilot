@@ -1,0 +1,4 @@
+gpt_response:
+- Step 1. Add a header "Adjusted Annual Rate" in column C of Sheet1.
+- Step 2. Write a formula in cell C2 of Sheet1 to add 1.0 to the value in A2.
+- Step 3. Autofill the formula from C2 down to C25 in Sheet1.
