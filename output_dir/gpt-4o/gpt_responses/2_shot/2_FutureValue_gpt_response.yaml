@@ -1,0 +1,4 @@
+gpt_response:
+- Step 1. Add a "Future Value" header in column F of Sheet1.
+- Step 2. Write a formula in cell F2 to calculate the future value.
+- Step 3. Autofill the future value formula from F2 to F5.
