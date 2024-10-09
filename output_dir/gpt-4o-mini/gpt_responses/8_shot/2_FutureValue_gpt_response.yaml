@@ -1,0 +1,5 @@
+gpt_response:
+- Step 1. Create a new column titled "Future Value".
+- Step 2. Write the formula to calculate the future value based on present value and
+  interest.
+- Step 3. Autofill the future value formula for the remaining rows.
