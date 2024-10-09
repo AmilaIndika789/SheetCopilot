@@ -1,0 +1,11 @@
+gpt_response:
+- Step 1. Add a column for Min Distance and calculate the minimum distance from columns
+  B to E.
+- Step 2. Autofill the Min Distance formula for all data rows.
+- Step 3. Add a column for Shipping Center and use the INDEX and MATCH functions to
+  find the corresponding shipping center.
+- Step 4. Autofill the Shipping Center formula for all data rows.
+- Step 5. Add a column for Total Shipping Charge and calculate the charge using a
+  formula.
+- Step 6. Autofill the Total Shipping Charge formula for all data rows.
+- Step 7. Set the data type of the Total Shipping Charge column to currency.
