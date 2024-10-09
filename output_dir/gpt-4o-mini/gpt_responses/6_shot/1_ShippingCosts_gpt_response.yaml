@@ -1,0 +1,11 @@
+gpt_response:
+- Step 1. Create a new column for "Min Distance" and calculate the minimum distance
+  across specified columns.
+- Step 2. Fill the "Min Distance" column for all relevant rows.
+- Step 3. Create a new column for "Shipping Center" and find the corresponding center
+  based on the minimum distance.
+- Step 4. Fill the "Shipping Center" column for all relevant rows.
+- Step 5. Create a new column for "Total Shipping Charge" and calculate the shipping
+  cost based on the minimum distance.
+- Step 6. Fill the "Total Shipping Charge" column for all relevant rows.
+- Step 7. Set the data type for the "Total Shipping Charge" column to currency.
