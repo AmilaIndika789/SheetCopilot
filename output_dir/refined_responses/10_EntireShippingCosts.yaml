@@ -1,0 +1,8 @@
+refined_response:
+- Write(range="Sheet2!A1", value="Customers")
+- Write(range="Sheet2!A1", value="Customers")
+- CreateSheet(sheetName="Sheet2")
+- Write(range="Sheet2!A1", value="Customers")
+- AutoFill(source="Sheet1!A2:E2", destination="Sheet2!A2:E11")
+- AutoFill(source="Sheet1!A2:E2", destination="Sheet2!A2:E11")
+- Write(range="Sheet2!A2", value="=Sheet1!A2")
