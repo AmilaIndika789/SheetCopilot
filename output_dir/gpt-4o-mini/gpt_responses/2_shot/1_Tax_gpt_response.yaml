@@ -1,0 +1,8 @@
+gpt_response:
+- Step 1. Write a formula in Sheet1 to calculate profit by subtracting total expenses
+  from sales.
+- Step 2. Autofill the profit formula down the column for all relevant rows.
+- Step 3. Write a formula in Sheet1 to calculate tax expense based on profit.
+- Step 4. Autofill the tax expense formula down the column for all relevant rows.
+- Step 5. Set the data type for the profit column to currency.
+- Step 6. Set the data type for the tax expense column to currency.
