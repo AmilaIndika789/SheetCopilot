@@ -338,6 +338,7 @@ class Agent:
             None.
         """
         for func in actions:
+            print(f"Debug (Actions): {actions}")
             print('Trying to execute {} on {}'.format(func, self._backend.activeWB.Name), '\n')
             try:
                 func = func.replace('\\', '')
