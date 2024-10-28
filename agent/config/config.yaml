@@ -1,7 +1,7 @@
 path:
   source_path: ../dataset/task_sheets/
   save_path: ../output_dir/
-  task_path: ../dataset/dataset_159_copy.xlsx
+  task_path: ../dataset/dataset_158_copy.xlsx
   gt_path: ../dataset/task_sheet_answers_v2
 
 worker: 1
@@ -18,7 +18,7 @@ Agent:
   use_oracle_API_doc: false
   add_example_data2feedback: false
 
-  max_cycle_times: 20
+  max_cycle_times: 30
   max_error_count: 999
 
   ChatGPT_1:
@@ -28,20 +28,20 @@ Agent:
     max_total_tokens: 16384
     max_new_tokens: 256
     topk: 0
-    temperature: 0.6
+    temperature: 0.8
     timeout: 50
     max_retries: 20
-    sleep_time: 20
+    sleep_time: 30
     api_base: https://api.openai.com/v1
     api_keys: [ 
     ]
   ChatGPT_2:
-    temperature: 0.4
+    temperature: 0.8
     max_new_tokens: 256
     topk: 0
     timeout: 50
     max_retries: 20
-    sleep_time: 20
+    sleep_time: 30
     api_base: https://api.openai.com/v1
     api_keys: [
     ]
