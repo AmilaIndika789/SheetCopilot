@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Create a new sheet named "Copy of Dates".
+- Step 2. Write the header "Dates" in the new sheet.
+- Step 3. Copy the Date values from "Sheet1" to "Copy of Dates".
+- Step 4. Fill down the Date values to cover all the necessary rows.

@@ -1,0 +1,5 @@
+refined_response:
+- CreateSheet(sheetName="Copy of Dates")
+- Write(range="Copy of Dates!A1", value="Dates")
+- Write(range="Copy of Dates!A2", value="=Sheet1!A2:A26")
+- AutoFill(source="Copy of Dates!A2", destination="Copy of Dates!A2:A26")
