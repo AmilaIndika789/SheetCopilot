@@ -1,0 +1,6 @@
+refined_response:
+- Write(range="Sheet1!D1", value="Revenue")
+- Write(range="Sheet1!C2", value="=VLOOKUP(B2, 'Pricing Table'!A:C, 3, TRUE)")
+- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C26")
+- Write(range="Sheet1!D2", value="=B2*C2")
+- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D26")

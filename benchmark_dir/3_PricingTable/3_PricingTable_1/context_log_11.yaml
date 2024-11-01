@@ -1,0 +1,207 @@
+- content: 'You are a spreadsheet agent who can find proper action APIs from the API
+    document based on the language instructions.
+
+
+    Requirements:
+
+    1. The user will show you the headers and row numbers of sheets for you reference.
+
+    2. Please provide step-by-step solutions with explanations.
+
+    3. You can only be allowed to use the action APIs listed above. You cannot use
+    any other APIs. Do not generate any new action APIs.
+
+    4. It should only return one step at a time and each step should only contain
+    one action API.
+
+    5. Please add @ both before and after each API call to indicate that the content
+    between the two @ characters is one API call, like @Write()@, and @AutoFill()@.
+
+    6. The address of a range must contain the sheet name, due to that there may be
+    multiple sheets in a workbook.
+
+    7. You can only call the action APIs and directly use the values in the sheet.
+    You cannot use any other variables.
+
+    '
+  role: system
+- content: 'Instruction: In column D, calculate the profit for each week. Then format
+    the numbers with Accounting Number Format.
+
+    Sheet state: Sheet "Sheet1" (active) has 3 columns (Headers are A: "Week", B:
+    "Sales", C: "COGS") and 11 rows (the row 1 is the header row).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 2. Profit is sales minus COGS.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill other rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Done!
+
+    '
+  role: assistant
+- content: 'My workbook contains two tables: Sheet "Sheet1" records my transactional
+    data which are the number of rolls of fence sold on certain dates. Sheet "Pricing
+    Table" is a pricing table used to determine price per roll according to the range
+    the roll number falls in (The range is bounded by Units From and Unit To).
+
+    Instruction: Calculate the total revenue based on the units sold and put the results
+    in the Revenue column.
+
+    Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Date", B: "Number of
+    Rolls", C: "Price", D: "Revenue") and 26 rows (1 header row and 25 data rows).
+    Sheet "Pricing Table" has 3 columns (Headers are A: "Units From", B: "Units To",
+    C: "Price per Roll (100 feet)") and 5 rows (1 header row and 4 data rows).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column for Revenue.
+
+    Action API: @Write(range="Sheet1!D1", value="Revenue")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Date", B: "Number
+    of Rolls", C: "Price", D: "Revenue") and 26 rows (1 header row and 25 data rows).
+    Sheet "Pricing Table" has 3 columns (Headers are A: "Units From", B: "Units To",
+    C: "Price per Roll (100 feet)") and 5 rows (1 header row and 4 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 2. Calculate the price per roll based on the number of rolls sold
+    using the pricing table.
+
+    Action API: @Write(range="Sheet1!C2", value="=VLOOKUP(B2, ''Pricing Table''!A:C,
+    3, TRUE)")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Date", B: "Number
+    of Rolls", C: "Price", D: "Revenue") and 26 rows (1 header row and 25 data rows).
+    Sheet "Pricing Table" has 3 columns (Headers are A: "Units From", B: "Units To",
+    C: "Price per Roll (100 feet)") and 5 rows (1 header row and 4 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill the Price column for all rows based on the VLOOKUP.
+
+    Action API: @AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C26")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Date", B: "Number
+    of Rolls", C: "Price", D: "Revenue") and 26 rows (1 header row and 25 data rows).
+    Sheet "Pricing Table" has 3 columns (Headers are A: "Units From", B: "Units To",
+    C: "Price per Roll (100 feet)") and 5 rows (1 header row and 4 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 4. Calculate the total revenue by multiplying the number of rolls
+    by the price per roll.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2*C2")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Date", B: "Number
+    of Rolls", C: "Price", D: "Revenue") and 26 rows (1 header row and 25 data rows).
+    Sheet "Pricing Table" has 3 columns (Headers are A: "Units From", B: "Units To",
+    C: "Price per Roll (100 feet)") and 5 rows (1 header row and 4 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 5. Fill the Revenue column for all rows based on the revenue calculation.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D26")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Date", B: "Number
+    of Rolls", C: "Price", D: "Revenue") and 26 rows (1 header row and 25 data rows).
+    Sheet "Pricing Table" has 3 columns (Headers are A: "Units From", B: "Units To",
+    C: "Price per Roll (100 feet)") and 5 rows (1 header row and 4 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: Done!
+  role: assistant

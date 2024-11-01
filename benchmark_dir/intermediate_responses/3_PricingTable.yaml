@@ -1,0 +1,8 @@
+intermediate response:
+- Step 1. Create a new column for Revenue.
+- Step 2. Calculate the price per roll based on the number of rolls sold using the
+  pricing table.
+- Step 3. Fill the Price column for all rows based on the VLOOKUP.
+- Step 4. Calculate the total revenue by multiplying the number of rolls by the price
+  per roll.
+- Step 5. Fill the Revenue column for all rows based on the revenue calculation.
