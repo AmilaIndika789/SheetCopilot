@@ -1,0 +1,3 @@
+intermediate response:
+- Step 1. Set conditional formatting to highlight "Loan Issue Date" in red if "Length
+  of Loan in Days" is greater than 100.

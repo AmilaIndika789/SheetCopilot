@@ -1,0 +1,29 @@
+Context: "My workbook records yearly accounting data of my company. The necessary\
+  \ accounting formulas are as follows: Gross Profit = Net Sales \u2013 Cost of Goods\
+  \ Sold (COGS); Net sales = Sales - Sales return - Discounts and allowances; Cost\
+  \ of goods sold = Materials charges + Labor charges + Overhead; Gross profit = Net\
+  \ sales - Cost of goods sold."
+Fail Response: []
+Instructions: Keep the header row visible while scrolling in any direction.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\73_IncomeStatement2\73_IncomeStatement2_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 4. Freeze the header row for easy navigation.
+
+    Action API: @FreezePanes(source="Sheet1!A2")@'
+  msg: []
+  raw response:
+  - 'Step 1. Freeze the header row.
+
+    Action API: @Freeze(pane="Sheet1!A2")@'
+  - 'Step 1. Freeze the header row.
+
+    Action API: @FreezePanes(range="Sheet1!A2")@'
+  - Done!
+  refined response:
+  - - FreezePanes(source="Sheet1!A2")
+Timestamp: '2024-10-31 18:53:41'
+Total Count: 1
+Use oracle API doc: false
