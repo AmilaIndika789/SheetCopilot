@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Set conditional format for the red background if the distance to Birmingham
+  is 1.5 times greater than the distance to Seattle.
+- Step 2. Set conditional format for the yellow background if the distance to Seattle
+  is less than 2 times the distance to Oakland.
