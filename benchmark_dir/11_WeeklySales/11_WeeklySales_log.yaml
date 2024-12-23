@@ -1,0 +1,27 @@
+Context: My workbook records weekly sales and COGS but the profit has not been calculated.
+  The necessary formula is Profit = Sales - COGS.
+Fail Response: []
+Instructions: Plot a line chart with weeks as the X-axis, and Sales and COGS columns
+  as the Y-axis values.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\140_WeeklySales\140_WeeklySales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a line chart with weeks as the X-axis and Sales and COGS as the
+    Y-axis values.
+
+    Action API: @CreateChart(source="Sheet1!A1:C11", destSheet="Sheet1", chartType="Line",
+    chartName="Sales and COGS Chart", XField=1, YField=[2,3])@'
+  msg: []
+  raw response:
+  - 'Step 1. Select the data range for the chart.
+
+    Action API: @CreateChart(data="Sheet1!A1:C11", chartType="line")@'
+  - Done!
+  refined response:
+  - - CreateChart(source="Sheet1!A1:C11", destSheet="Sheet1", chartType="Line", chartName="Sales
+      and COGS Chart", XField=1, YField=[2,3])
+Timestamp: '2024-11-21 19:46:09'
+Total Count: 1
+Use oracle API doc: false
