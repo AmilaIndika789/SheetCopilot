@@ -1,0 +1,7 @@
+refined_response:
+- CreateSheet(sheetName="Sales & COGS Chart")
+- Write(range="Sales & COGS Chart!A1", value="='Sheet1'!A1")
+- CreateChart(source="Sheet1!A1:C11", destSheet="Sales & COGS Chart", chartType="ColumnClustered",
+  chartName="Sales & COGS")
+- SetChartTitle(chartName="Sales & COGS", title="Sales & COGS", fontSize=12, bold=True,
+  color="black")

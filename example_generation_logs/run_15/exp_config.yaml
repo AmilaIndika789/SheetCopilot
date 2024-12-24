@@ -1,0 +1,46 @@
+LLM_config:
+  Agent:
+    API_backend: xw
+    APP_backend: excel
+    ChatGPT_1:
+      api_base: https://api.openai.com/v1
+      api_keys:
+      max_new_tokens: 256
+      max_retries: 20
+      max_total_tokens: 16384
+      model_name: gpt-4o-mini
+      prompt_format: gpt-chat-prompt
+      sleep_time: 30
+      temperature: 0.8
+      timeout: 50
+      topk: 0
+    ChatGPT_2:
+      api_base: https://api.openai.com/v1
+      api_keys: []
+      max_new_tokens: 256
+      max_retries: 20
+      sleep_time: 30
+      temperature: 0.8
+      timeout: 50
+      topk: 0
+    Llaama_3_1:
+      model: llama-3.1-70b-versatile
+      temperature: 0.5
+    add_example_data2feedback: false
+    api_doc_path: config/API_document.yaml
+    max_cycle_times: 30
+    max_error_count: 999
+    prompt_path: config/prompt.yaml
+    use_doc_in_syspromt: true
+    use_ext_doc: true
+    use_oracle_API_doc: false
+    use_same_LLM: true
+  path:
+    gt_path: ../dataset/task_sheet_answers_v2
+    save_path: ../output_dir/
+    source_path: ../dataset/task_sheets/
+    task_path: ../dataset/dataset_147_copy.xlsx
+  repeat: 1
+  worker: 1
+finish_time: '2024-12-23 16:17:56'
+start_time: '2024-12-23 15:20:07'
