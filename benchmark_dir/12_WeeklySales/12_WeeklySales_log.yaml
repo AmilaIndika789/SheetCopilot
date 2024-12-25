@@ -1,0 +1,77 @@
+Context: My workbook records weekly sales and COGS but the profit has not been calculated.
+  The necessary formula is Profit = Sales - COGS.
+Fail Response: []
+Instructions: Calculate the profit for each row in a new column named "Profit". Then,
+  create a column chart with Week as the X-axis and Profit as the Y-axis. Set chart
+  title as "Sales Trend" and add data labels.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\137_WeeklySales\137_WeeklySales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Insert a new column after the "COGS" column.
+
+    Action API: @InsertColumn("Sheet1", after="C")@'
+  - 'Step 1. Insert a new column named "Profit".
+
+    Action API: @InsertColumn(sheetName="Sheet1", afterColumn="C")@'
+  - 'Step 2. Write "Profit" in the new column header.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@'
+  - 'Step 3. Calculate and write the profit formula for the first row of data.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@'
+  - 'Step 4. Auto fill the profit formula to the remaining rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@'
+  - 'Step 5. Create a column chart with Week as the X-axis and Profit as the Y-axis.
+
+    Action API: @CreateChart(source="Sheet1!A1:D11", destSheet="Sheet1", chartType="ColumnClustered",
+    chartName="Sales_Trend", XField=1, YField=[4])@'
+  - 'Step 6. Set the chart title to "Sales Trend".
+
+    Action API: @SetChartTitle(chartName="Sales_Trend", title="Sales Trend")@'
+  - 'Step 7. Add data labels to the chart.
+
+    Action API: @AddDataLabels(chartName="Sales_Trend")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@'
+  - 'Step 2. Rename column D to "Profit".
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@'
+  - 'Step 3. Calculate profit for the first row.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@'
+  - 'Step 4. Fill the formula down to calculate profit for each week.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@'
+  - 'Step 5. Create a column chart with Week as the X-axis and Profit as the Y-axis.
+
+    Action API: @AddChart(chartType="Column", range="Sheet1!A1:D11", xRange="Sheet1!A2:A11",
+    yRange="Sheet1!D2:D11", title="Sales Trend")@'
+  - 'Step 5. Create a column chart from the existing data.
+
+    Action API: @CreateChart(sheetName="Sheet1", range="Sheet1!A1:D11", chartType="Column")@'
+  - 'Step 6. Set the chart title to "Sales Trend".
+
+    Action API: @SetChartTitle(sheetName="Sheet1", chartName="Sales_Trend", title="Sales
+    Trend")@'
+  - 'Step 7. Add data labels to the chart.
+
+    Action API: @AddDataLabels(chartName="Sales_Trend")@'
+  - Done!
+  refined response:
+  - - InsertColumn(sheetName="Sheet1", afterColumn="C")
+  - - Write(range="Sheet1!D1", value="Profit")
+  - - Write(range="Sheet1!D2", value="=B2-C2")
+  - - AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
+  - - CreateChart(source="Sheet1!A1:D11", destSheet="Sheet1", chartType="ColumnClustered",
+      chartName="Sales_Trend", XField=1, YField=[4])
+  - - SetChartTitle(chartName="Sales_Trend", title="Sales Trend")
+  - - AddDataLabels(chartName="Sales_Trend")
+Timestamp: '2024-12-24 21:07:31'
+Total Count: 1
+Use oracle API doc: false

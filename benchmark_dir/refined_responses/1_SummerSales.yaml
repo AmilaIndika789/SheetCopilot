@@ -1,0 +1,8 @@
+refined_response:
+- CreateSheet(sheetName="PivotTableSheet")
+- CreatePivotTable(source="Sheet1!A1:G30", destSheet="PivotTableSheet", name="ProductRevenuePivot",
+  RowField=["Product"], DataField=["Revenue ($)"], summarizeFunction="sum")
+- CreateChartFromPivotTable(pivotTableName="ProductRevenuePivot", destSheet="PivotTableSheet",
+  chartName="RevenueBarChart", chartType="BarClustered")
+- SetChartHasLegend(chartName="RevenueBarChart", hasLegend=False)
+- SetChartTitle(chartName="RevenueBarChart", title="Revenue of each product")

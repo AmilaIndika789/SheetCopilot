@@ -1,0 +1,200 @@
+- content: 'You are a spreadsheet agent who can find proper action APIs from the API
+    document based on the language instructions.
+
+
+    Requirements:
+
+    1. The user will show you the headers and row numbers of sheets for you reference.
+
+    2. Please provide step-by-step solutions with explanations.
+
+    3. You can only be allowed to use the action APIs listed above. You cannot use
+    any other APIs. Do not generate any new action APIs.
+
+    4. It should only return one step at a time and each step should only contain
+    one action API.
+
+    5. Please add @ both before and after each API call to indicate that the content
+    between the two @ characters is one API call, like @Write()@, and @AutoFill()@.
+
+    6. The address of a range must contain the sheet name, due to that there may be
+    multiple sheets in a workbook.
+
+    7. You can only call the action APIs and directly use the values in the sheet.
+    You cannot use any other variables.
+
+    '
+  role: system
+- content: 'Instruction: In column D, calculate the profit for each week. Then format
+    the numbers with Accounting Number Format.
+
+    Sheet state: Sheet "Sheet1" (active) has 3 columns (Headers are A: "Week", B:
+    "Sales", C: "COGS") and 11 rows (the row 1 is the header row).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 2. Profit is sales minus COGS.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill other rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Done!
+
+    '
+  role: assistant
+- content: 'My workbook records the sales of my company in the summer.
+
+    Instruction: Summarize the total revenue for each promotion type in a new sheet
+    with the promotion names as the column headers.
+
+    Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Date", B: "Month",
+    C: "Week", D: "Promotion", E: "Sales Channel", F: "Product", G: "Revenue") and
+    2001 rows (1 header row and 2000 data rows).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new sheet for the summary.
+
+    Action API: @CreateSheet(sheetName="PromotionSummary")@'
+  role: assistant
+- content: 'There is no API: Unique
+
+    . You can only choose from the following APIs:
+
+    Write CopyPaste CutPaste SetHyperlink RemoveHyperlink AutoFill Sort Filter DeleteFilter
+    MoveRow MoveColumn RemoveDuplicate SetFormat DeleteFormat SetDataType SetCellMerge
+    Delete Clear InsertRow InsertColumn AutoFit ResizeRowColumn SetConditionalFormat
+    SetDataValidation SetCellLock FreezePanes UnfreezePanes CreateChart SetChartTrendline
+    SetChartTitle SetChartHasAxis SetChartAxis SetChartHasLegend SetChartLegend SetChartType
+    AddChartErrorBars RemoveChartErrorBars AddDataLabels RemoveDataLabels SetChartMarker
+    CreatePivotTable CreateChartFromPivotTable CreateSheet RemoveSheet
+
+    Please regenerate this step.
+
+    Here is the supplementary doc you can reference:
+
+    CreatePivotTable(source: str, destSheet: str, name: str, RowField: List = [],
+    ColumnField: List = [], PageField: List = [], DataField: List = [], summarizeFunction
+    = ''sum'')
+
+    Args explanation:
+
+    source (string): The range which contains the data used to create the pivot table.
+    The source range MUST specify the sheet name and include the header row and it
+    must also be a contiguous range from one sheet, not multiple sheets.
+
+    destSheet (string): The name of the sheet to place the pivot table.
+
+    name (string): The name for the pivot table to be created.
+
+    RowField (list): The list of row fields.
+
+    ColumnField (list): The list of column fields.
+
+    PageField (list): The list of page fields.
+
+    DataField (list): The list of data fields.
+
+    summarizeFunction (string): The function is used to summarize the data in DataField
+    only. It can be ''sum'', ''count'', ''average'', ''max'', ''min'', ''product'',
+    ''countNumbers'', ''standardDeviation'', ''standardDeviationP'', ''var'', or ''varP''.
+
+
+    # Note that, each element in the Field list can only be the name of the header.
+
+
+    Usage example:
+
+    # Example 1: Create a pivot table in Sheet1 based on the data from the range ''A1:C10''
+    in Sheet1.
+
+    # The pivot table will have the row field ''Name'', the column field ''Month'',
+    the page field ''Year'', and the data field ''Sales''.
+
+    CreatePivotTable(''Sheet1!A1:C10'', ''Sheet1'', ''PivotTable1'', [''Name''], [''Month''],
+    [''Year''], [''Sales''])
+
+    # Example 2: Sum the quantity of products sold by type.
+
+    # Sheet state: Sheet "Sheet1" has 6 columns (Headers are A: "Date Time", B: "Web
+    Site", C: "Product", D: "Type", E: "Quantity", F: "Discount") and 11 rows (including
+    the header row).
+
+    CreatePivotTable(''Sheet1!A1:F11'', ''Sheet1'', ''PivotTable1'', [''Type''], [],
+    [], [''Quantity''])
+
+
+    Please use the above documents to generate the next step.
+
+    '
+  role: user
+- content: 'Step 2. Create a pivot table to summarize the total revenue for each promotion
+    type.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G2001", destSheet="PromotionSummary",
+    name="PromotionRevenueSummary", RowField=["Promotion"], DataField=["Revenue"],
+    summarizeFunction="sum")@'
+  role: assistant

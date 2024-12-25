@@ -1,0 +1,8 @@
+intermediate response:
+- Step 1. Create an XY scatter chart.
+- Step 2. Move the legend to the left.
+- Step 3. Set the marker shape of Range as a square and that of Height as a triangle.
+- Step 4. Set the X-axis label as the column A header.
+- Step 5. Turn off the vertical axis.
+- Step 6. Add a polynomial trendline for the Range and a linear trendline for the
+  Height.

@@ -1,0 +1,4 @@
+refined_response:
+- Write(range="Sheet1!G20", value="=MEDIAN(G2:G19)")
+- SetConditionalFormat(source="Sheet1!C2:C19", formula="=$G2>$G$20", color="white",
+  fillColor="green")

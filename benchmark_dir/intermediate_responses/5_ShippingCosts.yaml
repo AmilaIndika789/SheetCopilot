@@ -1,0 +1,7 @@
+intermediate response:
+- Step 1. To add the "Cost" column, first insert a new column F and name it "Cost".
+- Step 2. Calculate the cost using the per mile shipping charge across each destination
+  and take the minimum of them.
+- Step 3. Fill column F with the cost formulas for all rows.
+- Step 4. Highlight the customer name in green if the cost is less than the minimum
+  charge of $75.

@@ -1,0 +1,3 @@
+refined_response:
+- SetConditionalFormat(source='Sheet1!B2:B5', formula='=$B2<10000', fillColor='yellow')
+- SetConditionalFormat(source='Sheet1!B2:B5', formula='=$B2>50000', fillColor='green')

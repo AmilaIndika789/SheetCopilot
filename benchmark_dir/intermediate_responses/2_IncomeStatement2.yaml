@@ -1,0 +1,6 @@
+intermediate response:
+- Step 1. Insert a new column after the "Sales" column.
+- Step 1. Create a new column named "Sales Tax" after the Sales column.
+- Step 2. Write the header for the new column.
+- Step 3. Calculate the sales tax at 20% for the Sales column.
+- Step 4. Autofill the sales tax calculation for all rows.

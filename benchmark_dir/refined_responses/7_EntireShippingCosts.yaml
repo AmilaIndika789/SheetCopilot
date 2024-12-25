@@ -1,0 +1,4 @@
+refined_response:
+- CreateSheet(sheetName="Results")
+- Write(range="Results!A1", value="Count")
+- Write(range="Results!A2", value="=SUMPRODUCT((Sheet1!B2:B71<2000)*(Sheet1!C2:C71<2000)*(Sheet1!D2:D71<2000)*(Sheet1!E2:E71<2000))")

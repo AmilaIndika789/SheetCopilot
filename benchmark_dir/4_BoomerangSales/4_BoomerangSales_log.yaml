@@ -1,0 +1,28 @@
+Context: My workbook has two tables. Sheet "Sheet1" records the sales of a boomerang
+  company. Sheet "Retail Price" lists the retail prices for all products.
+Fail Response: []
+Instructions: Highlight cells containing a date after 2015/07/01 in the Date Time
+  column with red fill.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\4_BoomerangSales\4_BoomerangSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Highlight the cells in the "Date Time" column with a date after 2015/07/01
+    with red fill.
+
+    Action API: @SetConditionalFormat(source=''Sheet1!A2:A36'', formula=''=$A2>DATE(2015,7,1)'',
+    fillColor=''red'')@'
+  msg: []
+  raw response:
+  - 'Step 1. Apply conditional formatting to highlight cells in the "Date Time" column.
+
+    Action API: @SetConditionalFormat(range="Sheet1!A2:A36", criteria="greater than",
+    value="2015-07-01", format={"fill": "red"})@'
+  - Done!
+  refined response:
+  - - SetConditionalFormat(source='Sheet1!A2:A36', formula='=$A2>DATE(2015,7,1)',
+      fillColor='red')
+Timestamp: '2024-12-24 19:44:57'
+Total Count: 1
+Use oracle API doc: false

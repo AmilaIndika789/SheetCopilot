@@ -1,0 +1,8 @@
+refined_response:
+- CreateChart(source="Sheet1!A1:C38", destSheet="Sheet1", chartType="XYScatter", chartName="AngleVsRangeHeight",
+  XField=1, YField=[2, 3])
+- SetChartLegend(chartName="AngleVsRangeHeight", position="left")
+- SetChartMarker(chartName="AngleVsRangeHeight", style=["square", "triangle"])
+- SetChartAxis(chartName="AngleVsRangeHeight", axis="x", title="Angle (Degrees)")
+- SetChartHasAxis(chartName="AngleVsRangeHeight", axis="y", hasAxis=False)
+- SetChartTrendline(chartName="AngleVsRangeHeight", trendlineType=["polynomial", "linear"])

@@ -1,0 +1,9 @@
+intermediate response:
+- Step 1. Autofill the rest rows for column B using B2.
+- Step 2. Create a new sheet named "Sheet2".
+- Step 3. Copy columns A and B from Sheet1 to Sheet2.
+- Step 4. Create a line chart in Sheet2 with column A as X values and column B as
+  Y values.
+- Step 5. Set the chart title to "Acc. Vs. Up Block".
+- Step 6. Set the X-axis title as "Hanging mass (kilograms)".
+- Step 7. Set the Y-axis title as "Acceleration of Block up Ramp".

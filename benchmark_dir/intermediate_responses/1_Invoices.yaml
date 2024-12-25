@@ -1,0 +1,8 @@
+intermediate response:
+- Step 1. Calculate the median of the "Sales" column.
+- "Step 2. Highlight the \u201CSales Rep\u201D cells for rows where \"Sales\" is above\
+  \ the median."
+- "Step 2. Apply conditional formatting to the \u201CSales Rep\u201D cells where \"\
+  Sales\" is above the median."
+- Step 2. Set conditional formatting for "Sales Rep" cells based on "Sales" being
+  above the median.

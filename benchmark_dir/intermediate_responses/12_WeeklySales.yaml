@@ -1,0 +1,9 @@
+intermediate response:
+- Step 1. Insert a new column after the "COGS" column.
+- Step 1. Insert a new column named "Profit".
+- Step 2. Write "Profit" in the new column header.
+- Step 3. Calculate and write the profit formula for the first row of data.
+- Step 4. Auto fill the profit formula to the remaining rows.
+- Step 5. Create a column chart with Week as the X-axis and Profit as the Y-axis.
+- Step 6. Set the chart title to "Sales Trend".
+- Step 7. Add data labels to the chart.

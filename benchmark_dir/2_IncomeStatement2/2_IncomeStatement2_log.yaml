@@ -1,0 +1,52 @@
+Context: "My workbook records yearly accounting data of my company. The necessary\
+  \ accounting formulas are as follows: Gross Profit = Net Sales \u2013 Cost of Goods\
+  \ Sold (COGS); Net sales = Sales - Sales return - Discounts and allowances; Cost\
+  \ of goods sold = Materials charges + Labor charges + Overhead; Gross profit = Net\
+  \ sales - Cost of goods sold."
+Fail Response: []
+Instructions: In a new column named "Sales Tax" after the Sales column, calculate
+  the taxes of the Sales using the tax rate 20%.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\64_IncomeStatement2\64_IncomeStatement2_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Insert a new column after the "Sales" column.
+
+    Action API: @InsertColumn("Sheet1", after="B")@'
+  - 'Step 1. Create a new column named "Sales Tax" after the Sales column.
+
+    Action API: @InsertColumn(sheetName="Sheet1", afterColumn="B")@'
+  - 'Step 2. Write the header for the new column.
+
+    Action API: @Write(range="Sheet1!C1", value="Sales Tax")@'
+  - 'Step 3. Calculate the sales tax at 20% for the Sales column.
+
+    Action API: @Write(range="Sheet1!C2", value="=B2*0.2")@'
+  - 'Step 4. Autofill the sales tax calculation for all rows.
+
+    Action API: @AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new column named "Sales Tax" after the "Sales" column.
+
+    Action API: @Write(range="Sheet1!C1", value="Sales Tax")@'
+  - 'Step 2. Name the column header as "Sales Tax".
+
+    Action API: @Write(range="Sheet1!C1", value="Sales Tax")@'
+  - 'Step 3. Calculate the Sales Tax in the new column for the first data row using
+    a tax rate of 20%.
+
+    Action API: @Write(range="Sheet1!C2", value="=B2*0.2")@'
+  - 'Step 4. Fill the sales tax formula down for all rows.
+
+    Action API: @AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")@'
+  - Done!
+  refined response:
+  - - InsertColumn(sheetName="Sheet1", afterColumn="B")
+  - - Write(range="Sheet1!C1", value="Sales Tax")
+  - - Write(range="Sheet1!C2", value="=B2*0.2")
+  - - AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")
+Timestamp: '2024-12-24 20:23:51'
+Total Count: 1
+Use oracle API doc: false

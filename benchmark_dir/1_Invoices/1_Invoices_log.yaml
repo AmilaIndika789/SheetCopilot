@@ -1,0 +1,40 @@
+Context: My workbook records many invoices made on different dates.
+Fail Response: []
+Instructions: Highlight the Sales Rep cells whose corresponding values in the Sales
+  column are above the median as green fill with white text.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\70_Invoices\70_Invoices_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Calculate the median of the "Sales" column.
+
+    Action API: @Write(range="Sheet1!G20", value="=MEDIAN(G2:G19)")@'
+  - "Step 2. Highlight the \u201CSales Rep\u201D cells for rows where \"Sales\" is\
+    \ above the median.\nAction API: @SetColor(range=\"Sheet1!C2:C19\", formula=\"\
+    =$G2>G$20\", fill_color=\"green\", text_color=\"white\")@"
+  - "Step 2. Apply conditional formatting to the \u201CSales Rep\u201D cells where\
+    \ \"Sales\" is above the median.\nAction API: @SetConditionalFormat(range=\"Sheet1!C2:C19\"\
+    , formula=\"=$G2>G$20\", fill_color=\"green\", text_color=\"white\")@"
+  - 'Step 2. Set conditional formatting for "Sales Rep" cells based on "Sales" being
+    above the median.
+
+    Action API: @SetConditionalFormat(source="Sheet1!C2:C19", formula="=$G2>$G$20",
+    color="white", fillColor="green")@'
+  msg: []
+  raw response:
+  - 'Step 1. Calculate the median of the Sales column.
+
+    Action API: @Write(range="Sheet1!H2", value="=MEDIAN(G2:G19)")@'
+  - 'Step 2. Insert a new column to the right of the "Sales" column to determine if
+    sales are above the median.
+
+    Action API: @Write(range="Sheet1!H1", value="Above Median")@'
+  - Done!
+  refined response:
+  - - Write(range="Sheet1!G20", value="=MEDIAN(G2:G19)")
+  - - SetConditionalFormat(source="Sheet1!C2:C19", formula="=$G2>$G$20", color="white",
+      fillColor="green")
+Timestamp: '2024-12-24 20:31:12'
+Total Count: 1
+Use oracle API doc: false

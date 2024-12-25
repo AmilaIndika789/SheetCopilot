@@ -1,0 +1,64 @@
+Context: My workbook records economic indicators of countries across many years.
+Fail Response: []
+Instructions: Summarize the total values of all indicators in 2013 for each country
+  in a new sheet.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\17_EasyGDPBreakdown\17_EasyGDPBreakdown_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet for summarizing the total values of 2013 indicators.
+
+    Action API: @CreateSheet(sheetName="Summary2013")@'
+  - 'Step 2. Write headers for the new summary data in the new sheet.
+
+    Action API: @Write(range="Summary2013!A1", value="Country")@
+
+    '
+  - 'Step 3. Write the header "Total 2013" in "Summary2013".
+
+    Action API: @Write(range="Summary2013!B1", value="Total 2013")@'
+  - 'Step 3. Write the header "Total 2013" in "Summary2013".
+
+    Action API: @Write(range="Summary2013!B1", value="Total 2013")@'
+  - 'Step 4. Create a pivot table in "Summary2013" to summarize the total values of
+    all indicators in 2013 for each country.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:P3686", destSheet="Summary2013",
+    name="PivotTable1", RowField=["Country"], DataField=["2013"], summarizeFunction="sum")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet for summarizing the total values.
+
+    Action API: @CreateSheet(sheetName="Summary2013")@'
+  - 'Step 2. Insert headers in "Summary2013".
+
+    Action API: @Write(range="Summary2013!A1", value="Country")@'
+  - 'Step 3. Add a header for total values of 2013 indicators.
+
+    Action API: @Write(range="Summary2013!B1", value="Total 2013")@'
+  - 'Step 4. Extract and write unique countries in column A of "Summary2013".
+
+    Action API: @Unique(sourceRange="Sheet1!A2:A3686", destinationRange="Summary2013!A2")@'
+  - 'Step 4. Write formula to calculate the total value of indicators in 2013 for
+    the first country.
+
+    Action API: @Write(range="Summary2013!B2", value="=SUMIF(Sheet1!A:A, A2, Sheet1!P:P)")@
+
+    '
+  - 'Step 4. Create a PivotTable to summarize total values of all indicators in 2013
+    for each country on "Summary2013".
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:P3686", destination="Summary2013!A1",
+    rows="Country", values="2013", summarizeFunction="sum")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Summary2013")
+  - - Write(range="Summary2013!A1", value="Country")
+  - - Write(range="Summary2013!B1", value="Total 2013")
+  - - Write(range="Summary2013!B1", value="Total 2013")
+  - - CreatePivotTable(source="Sheet1!A1:P3686", destSheet="Summary2013", name="PivotTable1",
+      RowField=["Country"], DataField=["2013"], summarizeFunction="sum")
+Timestamp: '2024-12-24 19:58:33'
+Total Count: 1
+Use oracle API doc: false

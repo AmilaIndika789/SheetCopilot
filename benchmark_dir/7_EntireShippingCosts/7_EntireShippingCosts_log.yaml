@@ -1,0 +1,41 @@
+Context: My company needs to deliver the goods to customers by truck. My workbook
+  records the distances between my customers and four destinations. The per mile shipping
+  charge is $3.5 with a minimum charge of $80.
+Fail Response: []
+Instructions: Count the number of customers whose distances from Seattle, Milwaukee,
+  Birmingham, and Oakland columns are all less than 2000. Put the results in column
+  A called "Count" of a new sheet.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\26_EntireShippingCosts\26_EntireShippingCosts_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet named ''Results''.
+
+    Action API: @CreateSheet(sheetName="Results")@'
+  - 'Step 2. Write "Count" in column A header of the ''Results'' sheet.
+
+    Action API: @Write(range="Results!A1", value="Count")@'
+  - 'Step 3. Count customers where distances from all four columns are less than 2000.
+
+    Action API: @Write(range="Results!A2", value="=SUMPRODUCT((Sheet1!B2:B71<2000)*(Sheet1!C2:C71<2000)*(Sheet1!D2:D71<2000)*(Sheet1!E2:E71<2000))")@'
+  msg: []
+  raw response:
+  - "Step 1. Create new sheet and set column A.\nAction API: @CreateSheet(sheetName=\"\
+    Results\")@  \n"
+  - 'Step 2. Write header "Count" in column A of the "Results" sheet.
+
+    Action API: @Write(range="Results!A1", value="Count")@'
+  - 'Step 3. Count customers whose distances from all four destinations are less than
+    2000.
+
+    Action API: @Write(range="Results!A2", value="=COUNTIFS(Sheet1!B2:B71, \"<2000\",
+    Sheet1!C2:C71, \"<2000\", Sheet1!D2:D71, \"<2000\", Sheet1!E2:E71, \"<2000\")")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Results")
+  - - Write(range="Results!A1", value="Count")
+  - - Write(range="Results!A2", value="=SUMPRODUCT((Sheet1!B2:B71<2000)*(Sheet1!C2:C71<2000)*(Sheet1!D2:D71<2000)*(Sheet1!E2:E71<2000))")
+Timestamp: '2024-12-24 20:03:29'
+Total Count: 1
+Use oracle API doc: false

@@ -1,0 +1,5 @@
+refined_response:
+- InsertColumn(sheetName="Sheet1", afterColumn="A")
+- Write(range="Sheet1!B1", value="Angle (Radians)")
+- Write(range="Sheet1!B2", value="=RADIANS(A2)")
+- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B38")

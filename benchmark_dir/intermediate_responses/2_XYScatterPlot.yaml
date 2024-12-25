@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Insert a new column named "Angle (Radians)" between columns A and B.
+- Step 2. Write the header "Angle (Radians)" for the new column B.
+- Step 3. Convert angles from degrees to radians by writing the formula in B2.
+- Step 4. Fill the formula for the rest of the rows in the "Angle (Radians)" column.

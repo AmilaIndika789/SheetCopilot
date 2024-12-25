@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Create a new column named "Combined Info".
+- Step 2. Concatenate headers and values into the specified format for the first data
+  row.
+- Step 3. Fill the concatenation formula for the rest of the rows.

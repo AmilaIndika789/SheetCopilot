@@ -1,0 +1,4 @@
+refined_response:
+- Write(range="Sheet1!D1", value="Marked Angles")
+- Write(range="Sheet1!D2", value='=IF(B2>0.5, "+", "")')
+- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D38")

@@ -1,0 +1,2 @@
+refined_response:
+- Filter(source="Sheet1!A1:C11", fieldIndex=1, criteria=">Week 5")

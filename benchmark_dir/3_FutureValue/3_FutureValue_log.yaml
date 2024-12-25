@@ -1,0 +1,35 @@
+Context: 'My workbook records several investments whose future values need to be calculated
+  according to the formula Future value = Present value * (1 + Annual Interest Rate
+  / # Compound periods) ^ (Years * # Compound periods).'
+Fail Response: []
+Instructions: Highlight the column B cells less than 10,000 with yellow fill, and
+  greater than 50,000 with green.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\50_FutureValue\50_FutureValue_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Highlight column B cells less than 10,000 with yellow fill.
+
+    Action API: @SetConditionalFormat(source=''Sheet1!B2:B5'', formula=''=$B2<10000'',
+    fillColor=''yellow'')@'
+  - 'Step 2. Highlight column B cells greater than 50,000 with green fill.
+
+    Action API: @SetConditionalFormat(source=''Sheet1!B2:B5'', formula=''=$B2>50000'',
+    fillColor=''green'')@'
+  msg: []
+  raw response:
+  - 'Step 1. Apply conditional formatting to cells less than 10,000 in column B.
+
+    Action API: @SetConditionalFormat(range="Sheet1!B2:B5", condition="<$10000", format="fill:yellow")@'
+  - 'Step 2. Highlight column B cells greater than 50,000 with green fill.
+
+    Action API: @SetConditionalFormat(source=''Sheet1!B2:B5'', formula=''=$B2>50000'',
+    fillColor=''green'')@'
+  - Done!
+  refined response:
+  - - SetConditionalFormat(source='Sheet1!B2:B5', formula='=$B2<10000', fillColor='yellow')
+  - - SetConditionalFormat(source='Sheet1!B2:B5', formula='=$B2>50000', fillColor='green')
+Timestamp: '2024-12-24 20:16:21'
+Total Count: 1
+Use oracle API doc: false

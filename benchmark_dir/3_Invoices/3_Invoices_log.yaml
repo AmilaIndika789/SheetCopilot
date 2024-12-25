@@ -1,0 +1,27 @@
+Context: My workbook records many invoices made on different dates.
+Fail Response: []
+Instructions: I want to highlight the Sales column cells > 600$ with red fill with
+  white text.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\72_Invoices\72_Invoices_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Apply conditional formatting to highlight cells in Sales column greater
+    than 600 with red fill and white text.
+
+    Action API: @SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>600",
+    color="white", fillColor="red")@'
+  msg: []
+  raw response:
+  - 'Step 1. Apply conditional formatting to highlight cells greater than $600.
+
+    Action API: @SetConditionalFormat(range="Sheet1!G2:G19", criteria=">600", format={"fill_color":
+    "red", "font_color": "white"})@'
+  - Done!
+  refined response:
+  - - SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>600", color="white",
+      fillColor="red")
+Timestamp: '2024-12-24 20:31:36'
+Total Count: 1
+Use oracle API doc: false

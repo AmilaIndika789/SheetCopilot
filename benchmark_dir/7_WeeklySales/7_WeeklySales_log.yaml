@@ -1,0 +1,24 @@
+Context: My workbook records weekly sales and COGS but the profit has not been calculated.
+  The necessary formula is Profit = Sales - COGS.
+Fail Response: []
+Instructions: Display only the rows whose Week greater than "Week 5".
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\135_WeeklySales\135_WeeklySales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Filter the rows based on the "Week" column to display rows greater than
+    "Week 5".
+
+    Action API: @Filter(source="Sheet1!A1:C11", fieldIndex=1, criteria=">Week 5")@'
+  msg: []
+  raw response:
+  - 'Step 1. Apply filter to show rows where "Week" is greater than "Week 5".
+
+    Action API: @Filter(source="Sheet1!A2:A11", expression="A > ''Week 5''")@'
+  - Done!
+  refined response:
+  - - Filter(source="Sheet1!A1:C11", fieldIndex=1, criteria=">Week 5")
+Timestamp: '2024-12-24 21:05:18'
+Total Count: 1
+Use oracle API doc: false

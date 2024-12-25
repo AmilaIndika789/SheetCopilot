@@ -1,0 +1,8 @@
+intermediate response:
+- Step 1. Fill the rest cells in column B according to B2.
+- Step 2. Create a scatter chart to display acceleration against hanging mass.
+- Step 3. Set the chart to display axes.
+- Step 4. Set the chart to display the y-axis.
+- Step 5. Set the x-axis title as "Hanging Mass (m2) (kg)".
+- Step 6. Set the y-axis title as "Acceleration (m/s^2)".
+- Step 7. Set the chart title as "Acceleration vs. Hanging Mass".
