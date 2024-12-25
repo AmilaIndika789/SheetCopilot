@@ -1,0 +1,273 @@
+- content: 'You are a spreadsheet agent who can find proper action APIs from the API
+    document based on the language instructions.
+
+
+    Requirements:
+
+    1. The user will show you the headers and row numbers of sheets for you reference.
+
+    2. Please provide step-by-step solutions with explanations.
+
+    3. You can only be allowed to use the action APIs listed above. You cannot use
+    any other APIs. Do not generate any new action APIs.
+
+    4. It should only return one step at a time and each step should only contain
+    one action API.
+
+    5. Please add @ both before and after each API call to indicate that the content
+    between the two @ characters is one API call, like @Write()@, and @AutoFill()@.
+
+    6. The address of a range must contain the sheet name, due to that there may be
+    multiple sheets in a workbook.
+
+    7. You can only call the action APIs and directly use the values in the sheet.
+    You cannot use any other variables.
+
+    '
+  role: system
+- content: 'Instruction: In column D, calculate the profit for each week. Then format
+    the numbers with Accounting Number Format.
+
+    Sheet state: Sheet "Sheet1" (active) has 3 columns (Headers are A: "Week", B:
+    "Sales", C: "COGS") and 11 rows (the row 1 is the header row).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 2. Profit is sales minus COGS.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill other rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Done!
+
+    '
+  role: assistant
+- content: 'My company needs to deliver the goods to customers by truck. My workbook
+    records the distances between my customers and four destinations. The per mile
+    shipping charge is $3.5 with a minimum charge of $80.
+
+    Instruction: For each customer, please help me determine which destination has
+    the shortest distance. Put the distances in a new column with header "Min Distance"
+    and the nearest destination in another new column with header "Shipping Center".
+    Finally, calculate the total shipping charge for each customer transaction accordingly
+    in a new column with header "Total Shipping Charge".
+
+    Sheet state: Sheet "Sheet1" has 5 columns (Headers are A: "Customers", B: "Seattle",
+    C: "Milwaukee", D: "Birmingham", E: "Oakland") and 71 rows (1 header row and 70
+    data rows).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create new columns for "Min Distance" and "Shipping Center".
+
+    Action API: @Write(range="Sheet1!F1", value="Min Distance")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 6 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance")
+    and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 2. Create a new column for "Shipping Center".
+
+    Action API: @Write(range="Sheet1!G1", value="Shipping Center")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance",
+    G: "Shipping Center") and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 3. Determine the minimum distance and the corresponding shipping
+    center for each customer.
+
+    Action API: @Write(range="Sheet1!F2", value="=MIN(B2:E2)")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance",
+    G: "Shipping Center") and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: "Step 4. Fill the \"Shipping Center\" based on the minimum distance found.\
+    \  \nAction API: @Write(range=\"Sheet1!G2\", value=\"=INDEX($B$1:$E$1, MATCH(F2,\
+    \ B2:E2, 0))\")@"
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance",
+    G: "Shipping Center") and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: "Step 5. Fill down the \"Min Distance\" and \"Shipping Center\" columns\
+    \ for all customers.  \nAction API: @AutoFill(source=\"Sheet1!F2\", destination=\"\
+    Sheet1!F2:F71\")@"
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance",
+    G: "Shipping Center") and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: "Step 6. Fill down the \"Shipping Center\" column for all customers.  \n\
+    Action API: @AutoFill(source=\"Sheet1!G2\", destination=\"Sheet1!G2:G71\")@"
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance",
+    G: "Shipping Center") and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: "Step 7. Calculate the total shipping charge based on the minimum distance\
+    \ for each customer.  \nAction API: @Write(range=\"Sheet1!H2\", value=\"=MAX(80,\
+    \ F2 * 3.5)\")@"
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 8 columns (Headers are A: "Customers",
+    B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland", F: "Min Distance",
+    G: "Shipping Center", H: "None") and 71 rows (1 header row and 70 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+
+    Here is the supplementary doc you can reference:
+
+    Write(range: str, value: str)
+
+    Args explanation:
+
+    range (string): The range to write the value into. Here, the range must be a single
+    cell.
+
+    value (string): The value to be written. The string in value also can be an Excel
+    formula. A string starting with "=" will be treated as a formula. When using address
+    indexing from another sheet in a formula, if the worksheet name contains spaces,
+    its name must be enclosed in single quotes (e.g. ''Pivot Table''!A1). Please use
+    correct absolute and relative references, e.g., $A$1, $A1, A$1, A1.
+
+
+    Usage example:
+
+    # Example 1: Write headers for the new column.
+
+    Write("Sheet2!A1", "Date")
+
+    Write("Sheet2!B1", "Sales")
+
+    # Example 2: Write the formula into the cell.
+
+    Write("Sheet1!A2", "=VLOOKUP(''Retail Price''!C2, ''Retail Price''!A:B, 2, FALSE)")
+    # Must single quote the sheet name if it contains spaces.
+
+    Write("Sheet1!A3", "=SUM(Sheet2!$A$1:$A$20)") # Absolute address.
+
+    # Example 3: Add a new column after the A column named "Month".
+
+    InsertColumn("Sheet1", after="A")
+
+    Write("Sheet1!B1", "Month")
+
+
+    Please use the above documents to generate the next step.
+
+    '
+  role: user
+- content: "Step 8. Fill down the \"Total Shipping Charge\" column for all customers.\
+    \  \nAction API: @AutoFill(source=\"Sheet1!H2\", destination=\"Sheet1!H2:H71\"\
+    )@"
+  role: assistant

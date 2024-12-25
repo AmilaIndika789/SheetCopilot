@@ -1,0 +1,25 @@
+intermediate response:
+- Step 1. Create new columns for "Min Distance" and "Shipping Center".
+- Step 2. Create a new column for "Shipping Center".
+- Step 3. Determine the minimum distance and the corresponding shipping center for
+  each customer.
+- Step 4. Fill the "Shipping Center" based on the minimum distance found.
+- Step 4. Fill the "Shipping Center" based on the minimum distance found.
+- Step 4. Fill the "Shipping Center" based on the minimum distance found.
+- Step 4. Fill the "Shipping Center" based on the minimum distance found.
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 4. Fill the "Shipping Center" based on the minimum distance found.  '
+- 'Step 5. Fill down the "Min Distance" and "Shipping Center" columns for all customers.  '
+- 'Step 6. Fill down the "Shipping Center" column for all customers.  '
+- 'Step 7. Calculate the total shipping charge based on the minimum distance for each
+  customer.  '
+- 'Step 8. Fill down the "Total Shipping Charge" column for all customers.  '
+- 'Step 8. Fill down the "Total Shipping Charge" column for all customers.  '
+- 'Step 9. Write the correct header for the "Total Shipping Charge" column.  '

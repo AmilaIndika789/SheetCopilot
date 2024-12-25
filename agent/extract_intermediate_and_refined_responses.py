@@ -4,7 +4,7 @@ import pathlib
 import pandas as pd
 
 OUTPUT_DIR = "../output_dir"
-DATA_PATH = "../dataset/dataset_147_copy.xlsx"
+DATA_PATH = "../dataset/dataset_146_copy.xlsx"
 # %%
 evaluation_config_file = f"{OUTPUT_DIR}/eval_result.yaml"
 with open(evaluation_config_file, mode='r') as file:
