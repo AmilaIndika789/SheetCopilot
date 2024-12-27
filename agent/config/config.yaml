@@ -21,7 +21,7 @@ Agent:
   max_cycle_times: 30
   max_error_count: 999
 
-  ChatGPT_1:
+  ChatGPT_1: # GPT-4o-mini
     # model_name: 'gpt-3.5-turbo-16k'
     model_name: 'gpt-4o-mini'
     prompt_format: gpt-chat-prompt
@@ -34,16 +34,20 @@ Agent:
     sleep_time: 30
     api_base: https://api.openai.com/v1
     api_keys: []
-  ChatGPT_2:
-    temperature: 0.8
+  ChatGPT_2: # GPT-4o
+    model_name: 'gpt-4o'
+    prompt_format: gpt-chat-prompt
+    max_total_tokens: 16384
     max_new_tokens: 256
     topk: 0
+    temperature: 1.2
     timeout: 50
     max_retries: 20
     sleep_time: 30
     api_base: https://api.openai.com/v1
     api_keys: []
   Llaama_3_1:
+    model_name: "llama-3.1-70B"
     temperature: 0.5
     model: 'llama-3.1-70b-versatile'
     api_keys: []
