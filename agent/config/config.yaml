@@ -8,8 +8,8 @@ worker: 1
 repeat: 1
 
 Agent:
-  API_backend: 'xw'
-  APP_backend: 'excel'
+  API_backend: "xw"
+  APP_backend: "excel"
   prompt_path: config/prompt.yaml
   api_doc_path: config/API_document.yaml
   use_doc_in_syspromt: true
@@ -23,7 +23,7 @@ Agent:
 
   ChatGPT_1: # GPT-4o-mini
     # model_name: 'gpt-3.5-turbo-16k'
-    model_name: 'gpt-4o-mini'
+    model_name: "gpt-4o-mini"
     prompt_format: gpt-chat-prompt
     max_total_tokens: 16384
     max_new_tokens: 256
@@ -35,7 +35,7 @@ Agent:
     api_base: https://api.openai.com/v1
     api_keys: []
   ChatGPT_2: # GPT-4o
-    model_name: 'gpt-4o'
+    model_name: "gpt-4o"
     prompt_format: gpt-chat-prompt
     max_total_tokens: 16384
     max_new_tokens: 256
@@ -49,5 +49,15 @@ Agent:
   Llaama_3_1:
     model_name: "llama-3.1-70B"
     temperature: 0.5
-    model: 'llama-3.1-70b-versatile'
+    model: "llama-3.1-70b-versatile"
+    api_keys: []
+  Gemma_2:
+    model_name: "gemma2-9B"
+    temperature: 0.5
+    model: "gemma2-9b-it"
+    api_keys: []
+  Mistral:
+    model_name: "mistral-7B"
+    temperature: 0.5
+    model: "mixtral-8x7b-32768"
     api_keys: []
