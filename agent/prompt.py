@@ -37,8 +37,11 @@ class Prompt:
             file_path=f"{self.output_path}/refined_responses/"
         )
         input_filepaths = [str(path) for path in input_path_generator]
+        excel_path_generator = self.create_path_generator(
+            file_path=f"{self.output_path}/refined_responses/"
+        )
         excel_filenames = self.get_source_excel_filenames(
-            path_generator=input_path_generator
+            path_generator=excel_path_generator
         )
         excel_filepaths = [
             f"../dataset/task_sheets/{filename}" for filename in excel_filenames
@@ -105,9 +108,8 @@ class Prompt:
 
     def create_few_shot_examples(self):
         few_shot_examples = []
+        filepaths = self.get_filepaths()
         for example_index in range(self.few_shot_count):
-            filepaths = self.get_filepaths()
-
             # Paths
             example_source_path = filepaths["excel"][example_index]
             example_input_path = filepaths["input"][example_index]
@@ -135,3 +137,33 @@ class Prompt:
                 {"role": "assistant", "content": f"{example_response}\n"}
             )
         return few_shot_examples
+
+    def create_actual_prompt(self, index):
+        filepaths = self.get_filepaths()
+
+        # Paths
+        source_path = filepaths["excel"][index]
+        input_path = filepaths["input"][index]
+        response_path = filepaths["response"][index]
+
+        # Actual information
+        sheet_state = self.get_sheet_state(source_path)
+        documentation = self.extract_input_function_docs(input_path)
+        input_ = self.get_input_functions(input_path)
+        response = self.get_correct_summarization(response_path)
+
+        actual_prompt = {}
+        if self.agent_name == "ChatGPT":
+            actual_prompt["role"] = "developer"
+        else:
+            actual_prompt["role"] = "system"
+
+        actual_prompt["content"] = (
+            f"{input_}\n"
+            "Here is the supplementary documentation you can reference:\n"
+            f"{documentation}\n"
+            "Here is the corresponding sheet state:\n"
+            f"{sheet_state}\n\n"
+        )
+
+        return actual_prompt
