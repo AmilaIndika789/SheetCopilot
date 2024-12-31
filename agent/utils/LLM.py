@@ -1,4 +1,6 @@
 import time
+import pathlib
+import yaml
 
 from openai import OpenAI
 import openai
@@ -46,5 +48,28 @@ class LLM:
                 print(f"Unexpected error: {e}")
 
         return response.choices[0].message.content
+    
+    {
+        ## Deprecated (TODO: Need to fix if planning to save the prompts)
+        ## With the current implementation saving the prompts is not necessary
+        # def save_prompt(self, prompt, test_input_file_path, agent_config, few_shot_count):
+        #     prompt_filename = test_input_file_path.split('\\')[-1].split('.')[0] + '_prompt.txt'
+        #     agent_name = agent_config["ChatGPT_1"]["model_name"]
+        #     create_path_if_non_existing(f"{OUTPUT_PATH}/{agent_name}/prompts/{few_shot_count}_shot")
+        #     with open(f"{OUTPUT_PATH}/{agent_name}/prompts/{few_shot_count}_shot/{prompt_filename}", "w") as file:
+        #         file.write(prompt)
+    }
+
+    def create_path_if_non_existing(self, path):
+        pathlib.Path(path).mkdir(parents=True, exist_ok=True)
+
+    def save_response(self, predicted_instructions, test_input_path, few_shot_count):
+        model_response_filename = test_input_path.split('\\')[-1].split('.')[0] + "_response.yaml"
+        model_response = {f"{self.model_name}_response": predicted_instructions}
+        self.create_path_if_non_existing(f"{self.output_path}/{self.model_name}/model_responses/{few_shot_count}_shot")
+        with open(f"{self.output_path}/{self.model_name}/model_responses/{few_shot_count}_shot/{model_response_filename}", "w") as file:
+            yaml.dump(model_response, file)
+    
+    
 
         
