@@ -23,6 +23,9 @@ class Prompt:
         self.config_file = config_file
         self.output_path = output_path
 
+    def get_few_shot_count(self):
+        return self.few_shot_count
+
     def create_path_generator(self, file_path):
         return pathlib.Path(f"{file_path}").glob("**/*")
 
@@ -150,20 +153,29 @@ class Prompt:
         sheet_state = self.get_sheet_state(source_path)
         documentation = self.extract_input_function_docs(input_path)
         input_ = self.get_input_functions(input_path)
-        response = self.get_correct_summarization(response_path)
 
-        actual_prompt = {}
-        if self.agent_name == "ChatGPT":
-            actual_prompt["role"] = "developer"
+        system_prompt = {}
+        if (self.agent_name == "ChatGPT_1") or (self.agent_name == "ChatGPT_2"):
+            system_prompt["role"] = "developer"
         else:
-            actual_prompt["role"] = "system"
+            system_prompt["role"] = "system"
 
-        actual_prompt["content"] = (
-            f"{input_}\n"
-            "Here is the supplementary documentation you can reference:\n"
-            f"{documentation}\n"
-            "Here is the corresponding sheet state:\n"
-            f"{sheet_state}\n\n"
+        system_prompt["content"] = (
+            "Summarize the each sub-step of instructions into explanations in natural language.\n"
+            "Be brief and do not provide verbose explanations.\n"
+            "Do not add text formatting such as bold, italic.\n"
+            "Avoid redundant steps and provide minimal steps\n\n"
         )
 
-        return actual_prompt
+        user_promopt = {
+            "role": "user",
+            "content": (
+                f"{input_}\n"
+                "Here is the supplementary documentation you can reference:\n"
+                f"{documentation}\n"
+                "Here is the corresponding sheet state:\n"
+                f"{sheet_state}\n\n"
+            ),
+        }
+
+        return system_prompt, user_promopt
