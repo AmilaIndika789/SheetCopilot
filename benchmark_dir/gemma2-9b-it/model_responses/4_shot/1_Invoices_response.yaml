@@ -1,0 +1,9 @@
+gemma2-9b-it_response:
+- '- Step 1. Calculate the median of sales for the range and write it in cell G20.'
+- '- Step 2. Highlight all cells in column C that have a value greater than the median
+  sales value in cell G20 with a green fill color.'
+- ''
+- ''
+- ''
+- ''
+- ''
