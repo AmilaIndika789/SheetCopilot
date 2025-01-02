@@ -1,0 +1,5 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Write a formula to calculate the median of the Sales column in Sheet1.'
+- '- Step 2. Set conditional formatting for the Sales Rep column in Sheet1.'
+- '- Step 3. Highlight the cells in the Sales Rep column when the Sales value is greater
+  than the median value with a green background.'
