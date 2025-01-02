@@ -22,7 +22,7 @@ class LLM:
         self.config_file = config_file
         self.output_path = output_path
 
-    def call_chatgpt_api(self, prompt:list):
+    def call_chatgpt_api(self, prompt: list):
         chat_gpt = self.agent_config[self.agent_name]
         client = OpenAI(
             api_key=chat_gpt["api_keys"][0],
@@ -33,7 +33,7 @@ class LLM:
             response = client.chat.completions.create(
                 model=self.model_name,
                 messages=prompt,
-                temperature=chat_gpt["temperature"]
+                temperature=chat_gpt["temperature"],
             )
         except openai.OpenAIError as e:
             if isinstance(e, openai.RateLimitError):
@@ -48,7 +48,32 @@ class LLM:
                 print(f"Unexpected error: {e}")
 
         return response.choices[0].message.content
-    
+
+    async def call_groq_api(self, prompt: list):
+        groq_model = self.agent_config[self.agent_name]
+        client = AsyncGroq(
+            api_key=groq_model["api_keys"][0],
+            timeout=groq_model["timeout"],
+            max_retries=groq_model["max_retries"],
+        )
+        try:
+            response = await client.chat.completions.create(
+                model=self.model_name,
+                messages=prompt,
+                temperature=groq_model["temperature"]
+            )
+        except AsyncGroq.APIConnectionError as e:
+            print("The server could not be reached")
+            print(e.__cause__)  # an underlying Exception, likely raised within httpx.
+        except AsyncGroq.RateLimitError as e:
+            print("A 429 status code was received; we should back off a bit.")
+        except AsyncGroq.APIStatusError as e:
+            print("Another non-200-range status code was received")
+            print(e.status_code)
+            print(e.response)
+
+        return response.choices[0].message.content
+
     {
         ## Deprecated (TODO: Need to fix if planning to save the prompts)
         ## With the current implementation saving the prompts is not necessary
@@ -64,12 +89,15 @@ class LLM:
         pathlib.Path(path).mkdir(parents=True, exist_ok=True)
 
     def save_response(self, predicted_instructions, test_input_path, few_shot_count):
-        model_response_filename = test_input_path.split('\\')[-1].split('.')[0] + "_response.yaml"
+        model_response_filename = (
+            test_input_path.split("\\")[-1].split(".")[0] + "_response.yaml"
+        )
         model_response = {f"{self.model_name}_response": predicted_instructions}
-        self.create_path_if_non_existing(f"{self.output_path}/{self.model_name}/model_responses/{few_shot_count}_shot")
-        with open(f"{self.output_path}/{self.model_name}/model_responses/{few_shot_count}_shot/{model_response_filename}", "w") as file:
+        self.create_path_if_non_existing(
+            f"{self.output_path}/{self.model_name}/model_responses/{few_shot_count}_shot"
+        )
+        with open(
+            f"{self.output_path}/{self.model_name}/model_responses/{few_shot_count}_shot/{model_response_filename}",
+            "w",
+        ) as file:
             yaml.dump(model_response, file)
-    
-    
-
-        
