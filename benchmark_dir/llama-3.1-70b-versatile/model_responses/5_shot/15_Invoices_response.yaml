@@ -1,0 +1,4 @@
+llama-3.1-70b-versatile_response:
+- '- Step 1. Create a new column for Unique Sales Rep ID.'
+- '- Step 2. Write a formula to combine Sales Rep and the first letter of Product.'
+- '- Step 3. Autofill the formula for the remaining rows.'
