@@ -50,14 +50,20 @@ Agent:
     model_name: "llama-3.1-70B"
     temperature: 0.5
     model: "llama-3.1-70b-versatile"
+    timeout: 50
+    max_retries: 20
     api_keys: []
   Gemma_2:
     model_name: "gemma2-9B"
     temperature: 0.5
     model: "gemma2-9b-it"
+    timeout: 50
+    max_retries: 20
     api_keys: []
   Mistral:
     model_name: "mistral-7B"
     temperature: 0.5
     model: "mixtral-8x7b-32768"
+    timeout: 50
+    max_retries: 20
     api_keys: []
