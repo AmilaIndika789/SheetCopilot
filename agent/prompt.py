@@ -164,6 +164,7 @@ class Prompt:
             "Summarize the each sub-step of instructions into explanations in natural language.\n"
             "Be brief and do not provide verbose explanations.\n"
             "Do not add text formatting such as bold, italic.\n"
+            "Do not provide extra notes or postscriptum.\n"
             "Avoid redundant steps and provide minimal steps\n\n"
         )
 
