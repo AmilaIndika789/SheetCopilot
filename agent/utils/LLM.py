@@ -4,7 +4,8 @@ import yaml
 
 from openai import OpenAI
 import openai
-from groq import AsyncGroq
+from groq import Groq
+import groq
 
 
 class LLM:
@@ -49,25 +50,25 @@ class LLM:
 
         return response.choices[0].message.content
 
-    async def call_groq_api(self, prompt: list):
+    def call_groq_api(self, prompt: list):
         groq_model = self.agent_config[self.agent_name]
-        client = AsyncGroq(
+        client = Groq(
             api_key=groq_model["api_keys"][0],
             timeout=groq_model["timeout"],
             max_retries=groq_model["max_retries"],
         )
         try:
-            response = await client.chat.completions.create(
+            response = client.chat.completions.create(
                 model=self.model_name,
                 messages=prompt,
-                temperature=groq_model["temperature"]
+                temperature=groq_model["temperature"],
             )
-        except AsyncGroq.APIConnectionError as e:
+        except groq.APIConnectionError as e:
             print("The server could not be reached")
             print(e.__cause__)  # an underlying Exception, likely raised within httpx.
-        except AsyncGroq.RateLimitError as e:
+        except groq.RateLimitError as e:
             print("A 429 status code was received; we should back off a bit.")
-        except AsyncGroq.APIStatusError as e:
+        except groq.APIStatusError as e:
             print("Another non-200-range status code was received")
             print(e.status_code)
             print(e.response)
