@@ -1,4 +1,4 @@
 refined_response:
-- Write(range="Sheet1!C1", value="Adjusted Annual Rate")
-- Write(range="Sheet1!C2", value="=A2+1.0")
-- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C25")
+- - Write(range="Sheet1!C1", value="Adjusted Annual Rate")
+- - Write(range="Sheet1!C2", value="=A2+1.0")
+- - AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C25")

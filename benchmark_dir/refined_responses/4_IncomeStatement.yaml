@@ -1,7 +1,7 @@
 refined_response:
-- CreateSheet(sheetName="PivotTable")
-- Write(range="PivotTable!A1", value="Year")
-- Write(range="PivotTable!A2", value="=UNIQUE(Sheet1!A2:A9)")
-- Write(range="PivotTable!B1", value="Total Operating Expenses")
-- Write(range="PivotTable!B2", value="=SUMIF(Sheet1!A:A, A2, Sheet1!E:E)")
-- AutoFill(source="PivotTable!B2", destination="PivotTable!B2:B10")
+- - CreateSheet(sheetName="PivotTable")
+- - Write(range="PivotTable!A1", value="Year")
+- - Write(range="PivotTable!A2", value="=UNIQUE(Sheet1!A2:A9)")
+- - Write(range="PivotTable!B1", value="Total Operating Expenses")
+- - Write(range="PivotTable!B2", value="=SUMIF(Sheet1!A:A, A2, Sheet1!E:E)")
+- - AutoFill(source="PivotTable!B2", destination="PivotTable!B2:B10")

@@ -1,4 +1,4 @@
 refined_response:
-- Sort(source="Sheet1!A2:F36", key1="Sheet1!A1", order="asc", orientation="column")
-- CreateChart(source="Sheet1!A1:E36", destSheet="Sheet1", chartType="Line", chartName="Sales
-  Quantity Chart", XField=1, YField=[5])
+- - Sort(source="Sheet1!A2:F36", key1="Sheet1!A1", order="asc", orientation="column")
+- - CreateChart(source="Sheet1!A1:E36", destSheet="Sheet1", chartType="Line", chartName="Sales
+    Quantity Chart", XField=1, YField=[5])

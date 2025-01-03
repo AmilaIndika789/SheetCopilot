@@ -1,6 +1,6 @@
 refined_response:
-- CreateChart(source="Sheet1!A1:C38", destSheet="Sheet1", chartType="LineMarkers",
-  chartName="Range/Height vs. Angle", XField=1, YField=[2,3])
-- SetChartTitle(chartName="Range/Height vs. Angle", title="Range/Height vs. Angle")
-- SetChartLegend(chartName="Range/Height vs. Angle", position="top")
-- SetChartMarker(chartName="Range/Height vs. Angle", style=["square"])
+- - CreateChart(source="Sheet1!A1:C38", destSheet="Sheet1", chartType="LineMarkers",
+    chartName="Range/Height vs. Angle", XField=1, YField=[2,3])
+- - SetChartTitle(chartName="Range/Height vs. Angle", title="Range/Height vs. Angle")
+- - SetChartLegend(chartName="Range/Height vs. Angle", position="top")
+- - SetChartMarker(chartName="Range/Height vs. Angle", style=["square"])

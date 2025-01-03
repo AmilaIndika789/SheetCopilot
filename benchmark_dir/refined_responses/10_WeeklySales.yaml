@@ -1,7 +1,7 @@
 refined_response:
-- Write(range="Sheet1!D1", value="Profit")
-- Write(range="Sheet1!D2", value="=B2-C2")
-- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
-- CreateChart(source="Sheet1!A1:D11", destSheet="Sheet1", chartType="Line", chartName="Weekly
-  Trends")
-- SetChartLegend(chartName="Weekly Trends", position="bottom")
+- - Write(range="Sheet1!D1", value="Profit")
+- - Write(range="Sheet1!D2", value="=B2-C2")
+- - AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
+- - CreateChart(source="Sheet1!A1:D11", destSheet="Sheet1", chartType="Line", chartName="Weekly
+    Trends")
+- - SetChartLegend(chartName="Weekly Trends", position="bottom")

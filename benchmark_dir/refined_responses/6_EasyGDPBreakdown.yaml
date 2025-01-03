@@ -1,5 +1,5 @@
 refined_response:
-- Write(range="Sheet1!A1", value="=IF(A1=""Brazil"", TEXT(A1, """"), A1)")
-- Write(range="Sheet1!A1", value="Brazil")
-- SetConditionalFormat(source="Sheet1!A2:A3686", formula='=$A2="Brazil"', color="green",
-  fillColor="yellow")
+- - Write(range="Sheet1!A1", value="=IF(A1=""Brazil"", TEXT(A1, """"), A1)")
+- - Write(range="Sheet1!A1", value="Brazil")
+- - SetConditionalFormat(source="Sheet1!A2:A3686", formula='=$A2="Brazil"', color="green",
+    fillColor="yellow")

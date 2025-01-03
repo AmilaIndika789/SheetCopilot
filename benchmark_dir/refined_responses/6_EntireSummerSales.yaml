@@ -1,4 +1,4 @@
 refined_response:
-- CreateSheet(sheetName="PromotionSummary")
-- CreatePivotTable(source="Sheet1!A1:G2001", destSheet="PromotionSummary", name="PromotionRevenueSummary",
-  RowField=["Promotion"], DataField=["Revenue"], summarizeFunction="sum")
+- - CreateSheet(sheetName="PromotionSummary")
+- - CreatePivotTable(source="Sheet1!A1:G2001", destSheet="PromotionSummary", name="PromotionRevenueSummary",
+    RowField=["Promotion"], DataField=["Revenue"], summarizeFunction="sum")

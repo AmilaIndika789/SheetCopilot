@@ -1,4 +1,4 @@
 refined_response:
-- Write(range="Sheet1!H1", value="Unique Sales Rep ID")
-- Write(range="Sheet1!H2", value="=C2&LEFT(D2,1)")
-- AutoFill(source="Sheet1!H2", destination="Sheet1!H2:H19")
+- - Write(range="Sheet1!H1", value="Unique Sales Rep ID")
+- - Write(range="Sheet1!H2", value="=C2&LEFT(D2,1)")
+- - AutoFill(source="Sheet1!H2", destination="Sheet1!H2:H19")

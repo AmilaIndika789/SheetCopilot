@@ -1,6 +1,7 @@
 refined_response:
-- CreateSheet(sheetName="Sheet2")
-- Write(range="Sheet2!A1", value="Displacement m")
-- AutoFill(source="Sheet1!A2", destination="Sheet2!A2:A21")
-- Write(range="Sheet2!A2", value="=Sheet1!A2")
-- AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A21")
+- - CreateSheet(sheetName="Sheet2")
+- - Write(range="Sheet2!A1", value="Displacement m")
+- - AutoFill(source="Sheet1!A2", destination="Sheet2!A2:A21")
+- - Write(range="Sheet2!A2:A21", value="=Sheet1!A2:A21")
+- - Write(range="Sheet2!A2", value="=Sheet1!A2")
+- - AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A21")

@@ -1,7 +1,7 @@
 refined_response:
-- CreateSheet(sheetName="Summary2013")
-- Write(range="Summary2013!A1", value="Country")
-- Write(range="Summary2013!B1", value="Total 2013")
-- Write(range="Summary2013!B1", value="Total 2013")
-- CreatePivotTable(source="Sheet1!A1:P3686", destSheet="Summary2013", name="PivotTable1",
-  RowField=["Country"], DataField=["2013"], summarizeFunction="sum")
+- - CreateSheet(sheetName="Summary2013")
+- - Write(range="Summary2013!A1", value="Country")
+- - Write(range="Summary2013!B1", value="Total 2013")
+- - Write(range="Summary2013!B1", value="Total 2013")
+- - CreatePivotTable(source="Sheet1!A1:P3686", destSheet="Summary2013", name="PivotTable1",
+    RowField=["Country"], DataField=["2013"], summarizeFunction="sum")

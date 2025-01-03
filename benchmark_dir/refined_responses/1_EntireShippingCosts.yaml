@@ -1,26 +1,27 @@
 refined_response:
-- Write(range="Sheet1!F1", value="Min Distance")
-- Write(range="Sheet1!G1", value="Shipping Center")
-- Write(range="Sheet1!F2", value="=MIN(B2:E2)")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0), \"Seattle\", \"Milwaukee\",
-  \"Birmingham\", \"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2, B2:E2, 0), \"Seattle\", \"Milwaukee\",
-  \"Birmingham\", \"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
-- Write(range="Sheet1!G2", value="=CHOOSE(MATCH(TRUE, F2=B2:E2, 0), \"Seattle\", \"Milwaukee\",
-  \"Birmingham\", \"Oakland\")")
-- Write(range="Sheet1!G2", value="=INDEX({\"Seattle\", \"Milwaukee\", \"Birmingham\",
-  \"Oakland\"}, MATCH(F2, B2:E2, 0))")
-- Write(range="Sheet1!G2", value="=INDEX($B$1:$E$1, MATCH(F2, B2:E2, 0))")
-- AutoFill(source="Sheet1!F2", destination="Sheet1!F2:F71")
-- AutoFill(source="Sheet1!G2", destination="Sheet1!G2:G71")
-- Write(range="Sheet1!H2", value="=MAX(80, F2 * 3.5)")
-- AutoFill(source="Sheet1!H2", destination="Sheet1!H2:H71")
-- Write(range="Sheet1!H1", value="Total Shipping Charge")
+- - Write(range="Sheet1!F1", value="Min Distance")
+- - Write(range="Sheet1!G1", value="Shipping Center")
+- - Write(range="Sheet1!F2", value="=MIN(B2:E2)")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0), \"Seattle\", \"Milwaukee\",
+    \"Birmingham\", \"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2, B2:E2, 0), \"Seattle\", \"Milwaukee\",
+    \"Birmingham\", \"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(F2,B2:E2,0),\"Seattle\",\"Milwaukee\",\"Birmingham\",\"Oakland\")")
+- - Write(range="Sheet1!G2", value="=CHOOSE(MATCH(TRUE, F2=B2:E2, 0), \"Seattle\",
+    \"Milwaukee\", \"Birmingham\", \"Oakland\")")
+- - Write(range="Sheet1!G2", value="=INDEX({\"Seattle\", \"Milwaukee\", \"Birmingham\",
+    \"Oakland\"}, MATCH(F2, B2:E2, 0))")
+- - Write(range="Sheet1!G2", value="=INDEX($B$1:$E$1, MATCH(F2, B2:E2, 0))")
+- - AutoFill(source="Sheet1!F2", destination="Sheet1!F2:F71")
+- - AutoFill(source="Sheet1!G2", destination="Sheet1!G2:G71")
+- - Write(range="Sheet1!H2", value="=MAX(80, F2 * 3.5)")
+- - AutoFill(source="Sheet1!H2", destination="Sheet1!H2:H71")
+- - AutoFill(source="Sheet1!H2", destination="Sheet1!H2:H71")
+- - Write(range="Sheet1!H1", value="Total Shipping Charge")

@@ -1,7 +1,7 @@
 refined_response:
-- Write(range="Sheet1!J1", value="Asset Growth Rate")
-- Write(range="Sheet1!E2", value="=B2+C2+D2")
-- AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E7")
-- Write(range="Sheet1!J3", value="=(E3-E2)/E2")
-- AutoFill(source="Sheet1!J3", destination="Sheet1!J3:J7")
-- SetDataType(source="Sheet1!J3:J7", dataType="percentage")
+- - Write(range="Sheet1!J1", value="Asset Growth Rate")
+- - Write(range="Sheet1!E2", value="=B2+C2+D2")
+- - AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E7")
+- - Write(range="Sheet1!J3", value="=(E3-E2)/E2")
+- - AutoFill(source="Sheet1!J3", destination="Sheet1!J3:J7")
+- - SetDataType(source="Sheet1!J3:J7", dataType="percentage")

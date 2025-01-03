@@ -1,2 +1,3 @@
 refined_response:
-- SetDataType(source="Sheet1!D2:D11", dataType="currency")
+- - SetDataType(source="Sheet1!D2:D11", dataType="currency")
+- - SetDataType(source="Sheet1!D2:D11", dataType="currency")

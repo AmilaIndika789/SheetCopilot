@@ -1,10 +1,11 @@
 refined_response:
-- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B122")
-- CreateChart(source="Sheet1!A1:B122", destSheet="Sheet1", chartType="XYScatterSmoothNoMarkers",
-  chartName="Acceleration Chart", XField=1, YField=[2])
-- SetChartHasAxis(chartName="Acceleration Chart", axis="x", hasAxis=True)
-- SetChartHasAxis(chartName="Acceleration Chart", axis="y", hasAxis=True)
-- SetChartAxis(chartName="Acceleration Chart", axis="x", title="Hanging Mass (m2)
-  (kg)")
-- SetChartAxis(chartName="Acceleration Chart", axis="y", title="Acceleration (m/s^2)")
-- SetChartTitle(chartName="Acceleration Chart", title="Acceleration vs. Hanging Mass")
+- - AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B122")
+- - CreateChart(source="Sheet1!A1:B122", destSheet="Sheet1", chartType="XYScatterSmoothNoMarkers",
+    chartName="Acceleration Chart", XField=1, YField=[2])
+- - SetChartHasAxis(chartName="Acceleration Chart", axis="x", hasAxis=True)
+- - SetChartHasAxis(chartName="Acceleration Chart", axis="y", hasAxis=True)
+- - SetChartAxis(chartName="Acceleration Chart", axis="x", title="Hanging Mass (m2)
+    (kg)")
+- - SetChartAxis(chartName="Acceleration Chart", axis="y", title="Acceleration (m/s^2)")
+- - SetChartTitle(chartName="Acceleration Chart", title="Acceleration vs. Hanging
+    Mass")

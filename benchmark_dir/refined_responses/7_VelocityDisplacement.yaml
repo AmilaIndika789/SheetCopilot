@@ -1,4 +1,4 @@
 refined_response:
-- Write(range="Sheet1!C1", value="High Velocity?")
-- Write(range="Sheet1!C2", value='=IF(B2>150, "+", "")')
-- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C21")
+- - Write(range="Sheet1!C1", value="High Velocity?")
+- - Write(range="Sheet1!C2", value='=IF(B2>150, "+", "")')
+- - AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C21")

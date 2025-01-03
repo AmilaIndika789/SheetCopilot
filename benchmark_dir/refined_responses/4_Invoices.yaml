@@ -1,4 +1,4 @@
 refined_response:
-- Sort(source="Sheet1!A2:G19", key1="Sheet1!G1", order="desc", orientation="column")
-- SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2<250", fillColor="red")
-- SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>500", fillColor="blue")
+- - Sort(source="Sheet1!A2:G19", key1="Sheet1!G1", order="desc", orientation="column")
+- - SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2<250", fillColor="red")
+- - SetConditionalFormat(source="Sheet1!G2:G19", formula="=$G2>500", fillColor="blue")

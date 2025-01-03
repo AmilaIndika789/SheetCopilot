@@ -1,4 +1,4 @@
 refined_response:
-- Write(range="Sheet1!F1", value="Shipping Cost to Seattle")
-- Write(range="Sheet1!F2", value="=MAX(80, B2 * 3.5)")
-- AutoFill(source="Sheet1!F2", destination="Sheet1!F2:F71")
+- - Write(range="Sheet1!F1", value="Shipping Cost to Seattle")
+- - Write(range="Sheet1!F2", value="=MAX(80, B2 * 3.5)")
+- - AutoFill(source="Sheet1!F2", destination="Sheet1!F2:F71")

@@ -1,6 +1,7 @@
 refined_response:
-- CreateSheet(sheetName="SalesRepData")
-- Write(range="SalesRepData!A1", value="Sales Rep")
-- AutoFill(source="Sheet1!A2", destination="SalesRepData!A2:A11")
-- Write(range="SalesRepData!A2", value="=Sheet1!A2:A11")
-- AutoFill(source="SalesRepData!A2", destination="SalesRepData!A2:A11")
+- - CreateSheet(sheetName="SalesRepData")
+- - Write(range="SalesRepData!A1", value="Sales Rep")
+- - AutoFill(source="Sheet1!A2", destination="SalesRepData!A2:A11")
+- - Write(range="SalesRepData!A2:A11", value="=Sheet1!A2:A11")
+- - Write(range="SalesRepData!A2", value="=Sheet1!A2:A11")
+- - AutoFill(source="SalesRepData!A2", destination="SalesRepData!A2:A11")

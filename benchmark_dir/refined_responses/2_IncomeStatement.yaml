@@ -1,5 +1,6 @@
 refined_response:
-- Write(range="Sheet1!D1", value="Gross Profit")
-- Write(range="Sheet1!D2", value="=B2-C2")
-- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D9")
-- SetConditionalFormat(source="Sheet1!D2:D9", formula="=D2>AVERAGE($D$2:$D$9)", fillColor="green")
+- - Write(range="Sheet1!D1", value="Gross Profit")
+- - Write(range="Sheet1!D2", value="=B2-C2")
+- - AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D9")
+- - SetConditionalFormat(source="Sheet1!D2:D9", formula="=D2>AVERAGE($D$2:$D$9)",
+    fillColor="green")

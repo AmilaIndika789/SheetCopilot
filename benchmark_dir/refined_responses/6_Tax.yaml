@@ -1,9 +1,9 @@
 refined_response:
-- Write(range="Sheet1!D2", value="=B2-C2")
-- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
-- Write(range="Sheet1!E2", value="=D2*0.225")
-- AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E11")
-- CreateChart(source="Sheet1!A1:D11", destSheet="Sheet1", chartType="Line", chartName="Sales
-  and Profit Chart", XField=1, YField=[2,4])
-- SetChartHasLegend(chartName="Sales and Profit Chart", hasLegend=True)
-- SetChartLegend(chartName="Sales and Profit Chart", position="bottom")
+- - Write(range="Sheet1!D2", value="=B2-C2")
+- - AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
+- - Write(range="Sheet1!E2", value="=D2*0.225")
+- - AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E11")
+- - CreateChart(source="Sheet1!A1:D11", destSheet="Sheet1", chartType="Line", chartName="Sales
+    and Profit Chart", XField=1, YField=[2,4])
+- - SetChartHasLegend(chartName="Sales and Profit Chart", hasLegend=True)
+- - SetChartLegend(chartName="Sales and Profit Chart", position="bottom")

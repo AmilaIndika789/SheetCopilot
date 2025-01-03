@@ -1,10 +1,10 @@
 refined_response:
-- AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B30")
-- CreateSheet(sheetName="Sheet2")
-- CopyPaste(source="Sheet1!A1:B30", destination="Sheet2!A1:B30")
-- CreateChart(source='Sheet2!A1:B30', destSheet='Sheet2', chartType='Line', chartName='AccVsUpBlockChart',
-  XField=1, YField=[2])
-- SetChartTitle(chartName="AccVsUpBlockChart", title="Acc. Vs. Up Block")
-- SetChartAxis(chartName="AccVsUpBlockChart", axis="x", title="Hanging mass (kilograms)")
-- SetChartAxis(chartName="AccVsUpBlockChart", axis="y", title="Acceleration of Block
-  up Ramp")
+- - AutoFill(source="Sheet1!B2", destination="Sheet1!B2:B30")
+- - CreateSheet(sheetName="Sheet2")
+- - CopyPaste(source="Sheet1!A1:B30", destination="Sheet2!A1:B30")
+- - CreateChart(source='Sheet2!A1:B30', destSheet='Sheet2', chartType='Line', chartName='AccVsUpBlockChart',
+    XField=1, YField=[2])
+- - SetChartTitle(chartName="AccVsUpBlockChart", title="Acc. Vs. Up Block")
+- - SetChartAxis(chartName="AccVsUpBlockChart", axis="x", title="Hanging mass (kilograms)")
+- - SetChartAxis(chartName="AccVsUpBlockChart", axis="y", title="Acceleration of Block
+    up Ramp")

@@ -1,6 +1,6 @@
 refined_response:
-- Write(range="Sheet1!D2", value="=B2-C2")
-- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
-- Write(range="Sheet1!E2", value="=D2*0.19")
-- AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E11")
-- SetDataType(source="Sheet1!D2:E11", dataType="currency")
+- - Write(range="Sheet1!D2", value="=B2-C2")
+- - AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
+- - Write(range="Sheet1!E2", value="=D2*0.19")
+- - AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E11")
+- - SetDataType(source="Sheet1!D2:E11", dataType="currency")

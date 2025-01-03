@@ -1,5 +1,6 @@
 refined_response:
-- InsertColumn(sheetName="Sheet1", afterColumn="B")
-- Write(range="Sheet1!C1", value="Sales Tax")
-- Write(range="Sheet1!C2", value="=B2*0.2")
-- AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")
+- - InsertColumn("Sheet1", after="B")
+- - InsertColumn(sheetName="Sheet1", afterColumn="B")
+- - Write(range="Sheet1!C1", value="Sales Tax")
+- - Write(range="Sheet1!C2", value="=B2*0.2")
+- - AutoFill(source="Sheet1!C2", destination="Sheet1!C2:C10")
