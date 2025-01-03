@@ -87,6 +87,10 @@ class Prompt:
         api_doc = self.get_api_documentation()
         _, _, api_detail_doc = get_api_doc(prompt_format, api_doc)
 
+        # Flatten the 2D list of functions
+        input_functions["refined_response"] = [
+            item for sublist in input_functions["refined_response"] for item in sublist
+        ]
         # Filter upto first open paranthesis of input functions
         unique_input_functions = set(
             [
