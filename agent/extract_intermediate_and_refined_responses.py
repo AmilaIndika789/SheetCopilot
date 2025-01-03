@@ -2,6 +2,7 @@
 import yaml
 import pathlib
 import pandas as pd
+import re
 
 OUTPUT_DIR = "../output_dir"
 DATA_PATH = "../dataset/dataset_145_copy.xlsx"
@@ -48,8 +49,8 @@ def save_dictionary(save_path, task_name, dictionary):
 
 # %%
 def extract_refined_responses(log_file):
-    refined_response = log_file["Success Response"][0]["refined response"]
-    refined_response = [code_segment[0] for code_segment in refined_response]
+    intermediate_response = log_file["Success Response"][0]["intermediate response"]
+    refined_response = [re.findall(r'(?<=@)([A-Z].*?\))(?=@|\n|$)', sub_step) for sub_step in intermediate_response]
     refined_response_dict = {"refined_response": refined_response}
     return refined_response_dict
 
