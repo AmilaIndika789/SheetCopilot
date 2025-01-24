@@ -1,0 +1,6 @@
+intermediate response:
+- Step 1. Add the new "Sales Difference" column after the "Sales" column.
+- Step 1. Insert a new column titled "Sales Difference" after the Sales column.
+- Step 2. Write the header "Sales Difference" for the new column.
+- Step 3. Calculate the sales difference for the first pair of years.
+- Step 4. AutoFill the sales difference calculation down the column for other years.

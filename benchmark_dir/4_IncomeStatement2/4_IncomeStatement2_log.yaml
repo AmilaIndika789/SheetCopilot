@@ -1,0 +1,53 @@
+Context: "My workbook records yearly accounting data of my company. The necessary\
+  \ accounting formulas are as follows: Gross Profit = Net Sales \u2013 Cost of Goods\
+  \ Sold (COGS); Net sales = Sales - Sales return - Discounts and allowances; Cost\
+  \ of goods sold = Materials charges + Labor charges + Overhead; Gross profit = Net\
+  \ sales - Cost of goods sold."
+Fail Response: []
+Instructions: Add a column titled "Sales Difference" after the Sales column and calculate
+  the difference in sales values between each consecutive year.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\55_IncomeStatement2\55_IncomeStatement2_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Add the new "Sales Difference" column after the "Sales" column.
+
+    Action API: @InsertColumn(sheetName="Sheet1", after="B")@'
+  - 'Step 1. Insert a new column titled "Sales Difference" after the Sales column.
+
+    Action API: @InsertColumn(sheetName="Sheet1", afterColumn="B")@'
+  - 'Step 2. Write the header "Sales Difference" for the new column.
+
+    Action API: @Write(range="Sheet1!C1", value="Sales Difference")@'
+  - 'Step 3. Calculate the sales difference for the first pair of years.
+
+    Action API: @Write(range="Sheet1!C3", value="=B3-B2")@'
+  - 'Step 4. AutoFill the sales difference calculation down the column for other years.
+
+    Action API: @AutoFill(source="Sheet1!C3", destination="Sheet1!C3:C10")@'
+  msg: []
+  raw response:
+  - 'Step 1. Add a new column.
+
+    Action API: @Write(range="Sheet1!C1", value="Sales Difference")@
+
+    '
+  - 'Step 2. Rename the newly inserted column to "Sales Difference".
+
+    Action API: @Write(range="Sheet1!C1", value="Sales Difference")@'
+  - 'Step 3. Calculate the sales difference for year 2.
+
+    Action API: @Write(range="Sheet1!C3", value="=B3-B2")@'
+  - 'Step 4. AutoFill the formula for the sales difference down to the last row.
+
+    Action API: @AutoFill(source="Sheet1!C3", destination="Sheet1!C3:C10")@'
+  - Done!
+  refined response:
+  - - InsertColumn(sheetName="Sheet1", afterColumn="B")
+  - - Write(range="Sheet1!C1", value="Sales Difference")
+  - - Write(range="Sheet1!C3", value="=B3-B2")
+  - - AutoFill(source="Sheet1!C3", destination="Sheet1!C3:C10")
+Timestamp: '2025-01-04 22:25:05'
+Total Count: 1
+Use oracle API doc: false

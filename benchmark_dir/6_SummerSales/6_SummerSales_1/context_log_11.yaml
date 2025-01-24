@@ -1,0 +1,231 @@
+- content: 'You are a spreadsheet agent who can find proper action APIs from the API
+    document based on the language instructions.
+
+
+    Requirements:
+
+    1. The user will show you the headers and row numbers of sheets for you reference.
+
+    2. Please provide step-by-step solutions with explanations.
+
+    3. You can only be allowed to use the action APIs listed above. You cannot use
+    any other APIs. Do not generate any new action APIs.
+
+    4. It should only return one step at a time and each step should only contain
+    one action API.
+
+    5. Please add @ both before and after each API call to indicate that the content
+    between the two @ characters is one API call, like @Write()@, and @AutoFill()@.
+
+    6. The address of a range must contain the sheet name, due to that there may be
+    multiple sheets in a workbook.
+
+    7. You can only call the action APIs and directly use the values in the sheet.
+    You cannot use any other variables.
+
+    '
+  role: system
+- content: 'Instruction: In column D, calculate the profit for each week. Then format
+    the numbers with Accounting Number Format.
+
+    Sheet state: Sheet "Sheet1" (active) has 3 columns (Headers are A: "Week", B:
+    "Sales", C: "COGS") and 11 rows (the row 1 is the header row).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new column D.
+
+    Action API: @Write(range="Sheet1!D1", value="Profit")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 2. Profit is sales minus COGS.
+
+    Action API: @Write(range="Sheet1!D2", value="=B2-C2")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 3. Fill other rows.
+
+    Action API: @AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Step 4. Change the format of the results as these are accounting values.
+
+    Action API: @SetDataType(source="Sheet1!D2:D11", dataType="currency")@
+
+    '
+  role: assistant
+- content: 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Week", B: "Sales",
+    C: "COGS", D: "Profit") and 11 rows (the row 1 is the header row).
+
+    If task is not finished, please provide the next step; otherwise, please type
+    "Done!". Do select an API from the API document. Keep concise and do not present
+    explanations.
+
+    '
+  role: user
+- content: 'Done!
+
+    '
+  role: assistant
+- content: 'My workbook records the sales of my company in the summer.
+
+    Instruction: Create a table in a new sheet showing the total revenue for each
+    month and then plot a line chart with the months as the x-axis labels.
+
+    Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Date", B: "Month",
+    C: "Week", D: "Promotion", E: "Sales Channel", F: "Product", G: "Revenue ($)")
+    and 30 rows (1 header row and 29 data rows).
+
+    Please provide the first step and add @ both before and after the API call in
+    the generated step. Do select an API from the API document. Keep concise and do
+    not present explanations.
+
+    '
+  role: user
+- content: 'Step 1. Create a new sheet "Summary".
+
+    Action API: @CreateSheet(sheetName="Summary")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Summary"  has no content. Sheet "Sheet1" has 7 columns
+    (Headers are A: "Date", B: "Month", C: "Week", D: "Promotion", E: "Sales Channel",
+    F: "Product", G: "Revenue ($)") and 30 rows (1 header row and 29 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: "Step 2. Write headers \"Month\" and \"Total Revenue\" in the new sheet.\n\
+    Action API: @Write(range=\"Summary!A1\", value=\"Month\")@   \n"
+  role: assistant
+- content: 'Sheet state: Sheet "Summary" has 1 columns (Headers are A: "Month") and
+    1 rows (1 header row and 0 data rows). Sheet "Sheet1" has 7 columns (Headers are
+    A: "Date", B: "Month", C: "Week", D: "Promotion", E: "Sales Channel", F: "Product",
+    G: "Revenue ($)") and 30 rows (1 header row and 29 data rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+    '
+  role: user
+- content: 'Step 3. Write the second header "Total Revenue" in the "Summary" sheet.
+
+    Action API: @Write(range="Summary!B1", value="Total Revenue")@'
+  role: assistant
+- content: 'There is no API: UniqueAndSum
+
+    . You can only choose from the following APIs:
+
+    Write CopyPaste CutPaste SetHyperlink RemoveHyperlink AutoFill Sort Filter DeleteFilter
+    MoveRow MoveColumn RemoveDuplicate SetFormat DeleteFormat SetDataType SetCellMerge
+    Delete Clear InsertRow InsertColumn AutoFit ResizeRowColumn SetConditionalFormat
+    SetDataValidation SetCellLock FreezePanes UnfreezePanes CreateChart SetChartTrendline
+    SetChartTitle SetChartHasAxis SetChartAxis SetChartHasLegend SetChartLegend SetChartType
+    AddChartErrorBars RemoveChartErrorBars AddDataLabels RemoveDataLabels SetChartMarker
+    CreatePivotTable CreateChartFromPivotTable CreateSheet RemoveSheet
+
+    Please regenerate this step.'
+  role: user
+- content: 'Step 4. Create a pivot table to calculate total revenue per month.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G30", destSheet="Summary", name="MonthlyRevenue",
+    RowField=["Month"], DataField=["Revenue ($)"], summarizeFunction="sum")@'
+  role: assistant
+- content: 'Sheet state: Sheet "Summary" has 3 columns (Headers are A: "Month", B:
+    "Total Revenue", C: "None") and 8 rows (1 header row and 7 data rows) and this
+    sheet has the pivot tables whose names are "MonthlyRevenue". Sheet "Sheet1" has
+    7 columns (Headers are A: "Date", B: "Month", C: "Week", D: "Promotion", E: "Sales
+    Channel", F: "Product", G: "Revenue ($)") and 30 rows (1 header row and 29 data
+    rows).
+
+    If task is not finished, please provide the next step (add @ both before and after
+    each API call, like "Action API: @Write(range=..., value=...)@"); otherwise, please
+    type "Done!". Do select an API from the API document. Keep concise and do not
+    present explanations.
+
+
+    Here is the supplementary doc you can reference:
+
+    CreateChartFromPivotTable(pivotTableName: str, destSheet:str, chartName: str,
+    chartType: str)
+
+    Args explanation:
+
+    pivotTableName (string): The name of the pivot table which source data will be
+    used to create the pivot chart.
+
+    destSheet (string): The name of the sheet to place the pivot chart.
+
+    chartName (string): The name for the chart to be created.
+
+    chartType (string): The type of the pivot chart. It can be ''Area'', ''AreaStacked'',
+    ''BarClustered'', ''BarOfPie'', ''BarStacked'', ''Bubble'', ''ColumnClustered'',
+    ''ColumnStacked'', ''Line'', ''LineMarkers'', ''LineMarkersStacked'', ''LineStacked'',
+    ''Pie'', ''XYScatter'', ''XYScatterLines'', ''XYScatterLinesNoMarkers'', ''XYScatterSmooth'',
+    ''XYScatterSmoothNoMarkers'', ''3DPie''.
+
+
+    Usage example:
+
+    # Example 1: Sum the quantity of products sold by type and create a pie chart.
+
+    # Sheet state: Sheet "Sheet1" has 6 columns (Headers are A: "Date Time", B: "Web
+    Site", C: "Product", D: "Type", E: "Quantity", F: "Discount") and 11 rows (including
+    the header row).
+
+    CreatePivotTable(''Sheet1!A1:F11'', ''PivotTable1'', [''Type''], [], [], [''Quantity''])
+
+    CreateChartFromPivotTable(''PivotTable1'', ''Sheet1'', ''PivotChart1'', ''Pie'')
+
+    # After running the above two APIs, a pivot chart named ''PivotChart1'' will be
+    created in Sheet1, whose source data is based on data from the pivot table ''PivotTable1''.
+
+
+    Please use the above documents to generate the next step.
+
+    '
+  role: user
+- content: 'Step 5. Create a line chart using the pivot table data in the "Summary"
+    sheet.
+
+    Action API: @CreateChartFromPivotTable(pivotTableName="MonthlyRevenue", destSheet="Summary",
+    chartName="MonthlyRevenueChart", chartType="Line")@'
+  role: assistant

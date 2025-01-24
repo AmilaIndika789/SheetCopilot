@@ -1,0 +1,9 @@
+intermediate response:
+- Step 1. Create a new sheet "Summary".
+- Step 2. Write headers "Month" and "Total Revenue" in the new sheet.
+- Step 3. Write the second header "Total Revenue" in the "Summary" sheet.
+- Step 4. Create a pivot table to calculate total revenue per month.
+- Step 5. Create a line chart using the pivot table data in the "Summary" sheet.
+- Step 6. Set the title of the line chart.
+- Step 7. Set the x-axis title for the line chart.
+- Step 8. Set the y-axis title for the line chart.

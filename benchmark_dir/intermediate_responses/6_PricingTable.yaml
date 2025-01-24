@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Insert a column named "Marked Dates" after column A.
+- Step 2. Name the new column "Marked Dates".
+- Step 3. Write logic to determine if the date is before, after, or equal to 9/17/2015.
+- Step 4. Auto fill the logic for all rows in column B.

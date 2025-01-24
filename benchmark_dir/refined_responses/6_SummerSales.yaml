@@ -1,0 +1,12 @@
+refined_response:
+- - CreateSheet(sheetName="Summary")
+- - Write(range="Summary!A1", value="Month")
+- - Write(range="Summary!B1", value="Total Revenue")
+- - CreatePivotTable(source="Sheet1!A1:G30", destSheet="Summary", name="MonthlyRevenue",
+    RowField=["Month"], DataField=["Revenue ($)"], summarizeFunction="sum")
+- - CreateChartFromPivotTable(pivotTableName="MonthlyRevenue", destSheet="Summary",
+    chartName="MonthlyRevenueChart", chartType="Line")
+- - SetChartTitle(chartName="MonthlyRevenueChart", title="Monthly Revenue", fontSize=14,
+    bold=True, color="black")
+- - SetChartAxis(chartName="MonthlyRevenueChart", axis="x", title="Month")
+- - SetChartAxis(chartName="MonthlyRevenueChart", axis="y", title="Total Revenue")

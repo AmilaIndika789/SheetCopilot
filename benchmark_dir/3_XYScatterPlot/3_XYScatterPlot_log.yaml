@@ -1,0 +1,29 @@
+Context: My sheet shows how two variables (Range and Height) changes along with the
+  projection angle.
+Fail Response: []
+Instructions: If the column A angle < 75 and the column C height > 0.25, change the
+  font color of the corresponding Range column cells to red.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\117_XYScatterPlot\117_XYScatterPlot_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Set the conditional format based on the given conditions.
+
+    Action API: @SetConditionalFormat(source=''Sheet1!B2:B38'', formula=''=AND($A2<75,
+    $C2>0.25)'', color=''red'')@
+
+    '
+  msg: []
+  raw response:
+  - 'Step 1. Apply conditional formatting for the given conditions.
+
+    Action API: @SetConditionalFormat(range="Sheet1!B2:B38", formula="=AND(A2<75,
+    C2>0.25)", fontColor="red")@'
+  - Done!
+  refined response:
+  - - SetConditionalFormat(source='Sheet1!B2:B38', formula='=AND($A2<75, $C2>0.25)',
+      color='red')
+Timestamp: '2025-01-04 23:02:31'
+Total Count: 1
+Use oracle API doc: false

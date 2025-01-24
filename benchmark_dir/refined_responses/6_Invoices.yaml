@@ -1,0 +1,3 @@
+refined_response:
+- - Write(range="Sheet1!H1", value="=AVERAGE(G2:G19)")
+- - SetConditionalFormat(source="Sheet1!G2:G19", formula='=$G2>$H$1', fillColor="red")

@@ -1,0 +1,112 @@
+Context: My company needs to deliver the goods to customers by truck. My workbook
+  records the distances between my customers and four destinations. The per mile shipping
+  charge is $3.11 with a minimum charge of $75.
+Fail Response: []
+Instructions: 'In a new sheet with the same headers as in Sheet1, list only the customers
+  who have a distance of more than 700 miles to all four destinations, and sort them
+  by their distance to Seattle in descending order. '
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\92_ShippingCosts\92_ShippingCosts_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Begin by creating a new sheet to store the filtered customers.
+
+    Action API: @CreateSheet(sheetName="FilteredCustomers")@'
+  - 'Step 2. Copy the headers from Sheet1 to the new sheet.
+
+    Action API: @Write(range="FilteredCustomers!A1", value="Customers")@
+
+    Action API: @Write(range="FilteredCustomers!B1", value="Seattle")@
+
+    Action API: @Write(range="FilteredCustomers!C1", value="Milwaukee")@
+
+    Action API: @Write(range="FilteredCustomers!D1", value="Birmingham")@
+
+    Action API: @Write(range="FilteredCustomers!E1", value="Oakland")@'
+  - 'Step 3. Filter the customers whose distance is more than 700 miles to all destinations.
+
+    Action API: @Filter(source="Sheet1!A2:E19", fieldIndex=2, criteria=">700")@
+
+    Action API: @Filter(source="Sheet1!A2:E19", fieldIndex=3, criteria=">700")@
+
+    Action API: @Filter(source="Sheet1!A2:E19", fieldIndex=4, criteria=">700")@
+
+    Action API: @Filter(source="Sheet1!A2:E19", fieldIndex=5, criteria=">700")@'
+  - 'Step 3. Filter the customers whose distance is more than 700 miles to all destinations.
+
+    Action API: @Filter(source="Sheet1!A1:E19", fieldIndex=2, criteria=">700")@
+
+    Action API: @Filter(source="Sheet1!A1:E19", fieldIndex=3, criteria=">700")@
+
+    Action API: @Filter(source="Sheet1!A1:E19", fieldIndex=4, criteria=">700")@
+
+    Action API: @Filter(source="Sheet1!A1:E19", fieldIndex=5, criteria=">700")@'
+  - 'Step 4. Copy the filtered data from Sheet1 to FilteredCustomers.
+
+    Action API: @CopyPaste(source="Sheet1!A2:E19", destination="FilteredCustomers!A2")@'
+  - 'Step 5. Sort the filtered customers in "FilteredCustomers" by their distance
+    to Seattle in descending order.
+
+    Action API: @Sort(source="FilteredCustomers!A2:E5", key1="FilteredCustomers!B2",
+    order="desc", orientation="column")@'
+  msg: []
+  raw response:
+  - "Step 1. Add a new sheet with the same headers.\nAction API: @CreateSheet(sheetName=\"\
+    Sheet2\")@ \n"
+  - 'Step 2. Copy headers from "Sheet1" to "FilteredCustomers".
+
+    Action API: @Write(range="FilteredCustomers!A1:E1", value=["Customers", "Seattle",
+    "Milwaukee", "Birmingham", "Oakland"])@'
+  - 'Step 3. Filter the customers who have a distance of more than 700 miles to all
+    four destinations.
+
+    Action API: @Filter(source="Sheet1!A2:E19", destination="FilteredCustomers!A2",
+    criteria={"B2:E19>700"})@'
+  - 'Step 4. Copy the filtered entries to the new sheet.
+
+    Action API: @CopyData(from="Sheet1!A2:E19", to="FilteredCustomers!A2", criteria={"B":">700",
+    "C":">700", "D":">700", "E":">700"})@'
+  - 'Step 4. Use Filter API to display customers with all distances over 700 miles
+    directly on "FilteredCustomers" sheet.
+
+    Action API: @Filter(source="Sheet1!A2:E19", fieldIndex=B, criteria=">700", outputRange="FilteredCustomers!A2:E2")@
+
+    Action API: @Filter(source="FilteredCustomers!A2:E19", fieldIndex=C, criteria=">700",
+    outputRange="FilteredCustomers!A2:E19")@
+
+    Action API: @Filter(source="FilteredCustomers!A2:E19", fieldIndex=D, criteria=">700",
+    outputRange="FilteredCustomers!A2:E19")@
+
+    Action API: @Filter(source="FilteredCustomers!A2:E19", fieldIndex=E, criteria=">700",
+    outputRange="FilteredCustomers!A2:E19")@'
+  - 'Step 4. Copy filtered data to the FilteredCustomers sheet.
+
+    Action API: @CopyPaste(source="Sheet1!A2:E19", destination="FilteredCustomers!A2",
+    pasteType="values")@'
+  - 'Step 5. Sort the filtered customers by their distance to Seattle in descending
+    order.
+
+    Action API: @Sort(source="FilteredCustomers!A1:E5", sortField=2, order="descending")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="FilteredCustomers")
+  - - Write(range="FilteredCustomers!A1", value="Customers")
+    - Write(range="FilteredCustomers!B1", value="Seattle")
+    - Write(range="FilteredCustomers!C1", value="Milwaukee")
+    - Write(range="FilteredCustomers!D1", value="Birmingham")
+    - Write(range="FilteredCustomers!E1", value="Oakland")
+  - - Filter(source="Sheet1!A2:E19", fieldIndex=2, criteria=">700")
+    - Filter(source="Sheet1!A2:E19", fieldIndex=3, criteria=">700")
+    - Filter(source="Sheet1!A2:E19", fieldIndex=4, criteria=">700")
+    - Filter(source="Sheet1!A2:E19", fieldIndex=5, criteria=">700")
+  - - Filter(source="Sheet1!A1:E19", fieldIndex=2, criteria=">700")
+    - Filter(source="Sheet1!A1:E19", fieldIndex=3, criteria=">700")
+    - Filter(source="Sheet1!A1:E19", fieldIndex=4, criteria=">700")
+    - Filter(source="Sheet1!A1:E19", fieldIndex=5, criteria=">700")
+  - - CopyPaste(source="Sheet1!A2:E19", destination="FilteredCustomers!A2")
+  - - Sort(source="FilteredCustomers!A2:E5", key1="FilteredCustomers!B2", order="desc",
+      orientation="column")
+Timestamp: '2025-01-04 22:50:07'
+Total Count: 1
+Use oracle API doc: false

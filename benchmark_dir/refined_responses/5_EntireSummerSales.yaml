@@ -1,0 +1,8 @@
+refined_response:
+- - CreateSheet(sheetName="ProductSummary")
+- - Write(range="ProductSummary!A1", value="Product")
+  - Write(range="ProductSummary!B1", value="Total Revenue")
+- - CreatePivotTable(source="Sheet1!A1:G2001", destination="ProductSummary!A1", rows="Sheet1!F:F",
+    values="Sheet1!G:G", totalsFunction="SUM")
+- - CreatePivotTable(source="Sheet1!A1:G2001", destSheet="ProductSummary", name="ProductRevenueSummary",
+    RowField=["Product"], DataField=["Revenue"], summarizeFunction='sum')

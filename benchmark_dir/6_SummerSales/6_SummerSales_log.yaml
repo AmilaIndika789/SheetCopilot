@@ -1,0 +1,89 @@
+Context: My workbook records the sales of my company in the summer.
+Fail Response: []
+Instructions: Create a table in a new sheet showing the total revenue for each month
+  and then plot a line chart with the months as the x-axis labels.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\106_SummerSales\106_SummerSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet "Summary".
+
+    Action API: @CreateSheet(sheetName="Summary")@'
+  - "Step 2. Write headers \"Month\" and \"Total Revenue\" in the new sheet.\nAction\
+    \ API: @Write(range=\"Summary!A1\", value=\"Month\")@   \n"
+  - 'Step 3. Write the second header "Total Revenue" in the "Summary" sheet.
+
+    Action API: @Write(range="Summary!B1", value="Total Revenue")@'
+  - 'Step 4. Create a pivot table to calculate total revenue per month.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G30", destSheet="Summary", name="MonthlyRevenue",
+    RowField=["Month"], DataField=["Revenue ($)"], summarizeFunction="sum")@'
+  - 'Step 5. Create a line chart using the pivot table data in the "Summary" sheet.
+
+    Action API: @CreateChartFromPivotTable(pivotTableName="MonthlyRevenue", destSheet="Summary",
+    chartName="MonthlyRevenueChart", chartType="Line")@'
+  - 'Step 6. Set the title of the line chart.
+
+    Action API: @SetChartTitle(chartName="MonthlyRevenueChart", title="Monthly Revenue",
+    fontSize=14, bold=True, color="black")@'
+  - 'Step 7. Set the x-axis title for the line chart.
+
+    Action API: @SetChartAxis(chartName="MonthlyRevenueChart", axis="x", title="Month")@'
+  - 'Step 8. Set the y-axis title for the line chart.
+
+    Action API: @SetChartAxis(chartName="MonthlyRevenueChart", axis="y", title="Total
+    Revenue")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet named "Monthly Revenue".
+
+    Action API: @CreateSheet(name="Monthly Revenue")@
+
+    '
+  - 'Step 2. Write the header for the table in "Summary".
+
+    Action API: @Write(range="Summary!A1", value="Month")@'
+  - 'Step 3. Write header "Total Revenue" in the new sheet.
+
+    Action API: @Write(range="Summary!B1", value="Total Revenue")@'
+  - 'Step 4. Calculate total revenue for each month and write into "Summary" sheet.
+
+    Action API: @UniqueAndSum(sourceRange="Sheet1!B2:B30", criteriaRange="Sheet1!B2:B30",
+    sumRange="Sheet1!G2:G30", destination="Summary!A2")@'
+  - 'Step 4. Create a pivot table in "Summary" to calculate the total revenue for
+    each month.
+
+    Action API: @CreatePivotTable(sourceRange="Sheet1!A1:G30", destinationRange="Summary!A1",
+    rowFields=["Month"], dataFields={"Revenue ($)": "sum"})@'
+  - 'Step 5. Insert a line chart using the pivot table data with "Month" as the x-axis.
+
+    Action API: @CreateChartFromPivotTable(sourceSheet="Summary", pivotTableName="MonthlyRevenue",
+    destSheet="Summary", chartType="line", position="Summary!E1")@'
+  - 'Step 6. Set the chart title to "Monthly Revenue".
+
+    Action API: @SetChartTitle(chartName="MonthlyRevenueChart", title="Monthly Revenue")@'
+  - 'Step 7. Set the months as the x-axis labels for the line chart.
+
+    Action API: @SetChartAxis(chartName="MonthlyRevenueChart", axisType="Category",
+    range="Summary!A2:A8")@'
+  - 'Step 8. Set the y-axis title for the line chart.
+
+    Action API: @SetChartAxis(chartName="MonthlyRevenueChart", axis="y", title="Total
+    Revenue ($)")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Summary")
+  - - Write(range="Summary!A1", value="Month")
+  - - Write(range="Summary!B1", value="Total Revenue")
+  - - CreatePivotTable(source="Sheet1!A1:G30", destSheet="Summary", name="MonthlyRevenue",
+      RowField=["Month"], DataField=["Revenue ($)"], summarizeFunction="sum")
+  - - CreateChartFromPivotTable(pivotTableName="MonthlyRevenue", destSheet="Summary",
+      chartName="MonthlyRevenueChart", chartType="Line")
+  - - SetChartTitle(chartName="MonthlyRevenueChart", title="Monthly Revenue", fontSize=14,
+      bold=True, color="black")
+  - - SetChartAxis(chartName="MonthlyRevenueChart", axis="x", title="Month")
+  - - SetChartAxis(chartName="MonthlyRevenueChart", axis="y", title="Total Revenue")
+Timestamp: '2025-01-04 22:59:01'
+Total Count: 1
+Use oracle API doc: false

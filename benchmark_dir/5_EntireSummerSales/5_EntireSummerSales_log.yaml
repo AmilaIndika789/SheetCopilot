@@ -1,0 +1,51 @@
+Context: My workbook records the sales of my company in the summer.
+Fail Response: []
+Instructions: Summarize the total revenue for each product in a new sheet.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\31_EntireSummerSales\31_EntireSummerSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet to summarize the total revenue for each product.
+
+    Action API: @CreateSheet(sheetName="ProductSummary")@'
+  - 'Step 2. Write the headers for the new sheet.
+
+    Action API: @Write(range="ProductSummary!A1", value="Product")@
+
+    Action API: @Write(range="ProductSummary!B1", value="Total Revenue")@'
+  - 'Step 2. Create a pivot table on the new sheet to summarize total revenue for
+    each product.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G2001", destination="ProductSummary!A1",
+    rows="Sheet1!F:F", values="Sheet1!G:G", totalsFunction="SUM")@'
+  - 'Step 2. Create a pivot table to summarize total revenue for each product.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G2001", destSheet="ProductSummary",
+    name="ProductRevenueSummary", RowField=["Product"], DataField=["Revenue"], summarizeFunction=''sum'')@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet named "Summary".
+
+    Action API: @CreateSheet(sheetName="Summary")@
+
+    '
+  - "Step 2. Write headers for the new sheet.\nAction API: @Write(range=\"ProductSummary!A1\"\
+    , value=\"Product\")@  \n"
+  - 'Step 3. Summarize the total revenue for each product.
+
+    Action API: @UniqueAndSort(sourceRange="Sheet1!F2:F2001", destinationRange="ProductSummary!A2")@'
+  - 'Step 3. Copy the "Product" and "Revenue" data to the new sheet.
+
+    Action API: @CopyPaste(sourceRange="Sheet1!F1:G2001", destinationRange="ProductSummary!A1",
+    pasteType="All")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="ProductSummary")
+  - - Write(range="ProductSummary!A1", value="Product")
+    - Write(range="ProductSummary!B1", value="Total Revenue")
+  - - CreatePivotTable(source="Sheet1!A1:G2001", destSheet="ProductSummary", name="ProductRevenueSummary",
+      RowField=["Product"], DataField=["Revenue"], summarizeFunction='sum')
+Timestamp: '2025-01-04 22:12:22'
+Total Count: 1
+Use oracle API doc: false

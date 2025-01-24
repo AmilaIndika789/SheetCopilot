@@ -1,0 +1,5 @@
+intermediate response:
+- Step 1. Add a header for the new column.
+- Step 2. Concatenate the values in columns B to E for the first customer with a delimiter
+  ",".
+- Step 3. Fill the formula down through the rest of the rows.

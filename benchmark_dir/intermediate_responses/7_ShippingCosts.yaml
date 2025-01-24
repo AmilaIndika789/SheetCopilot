@@ -1,0 +1,8 @@
+intermediate response:
+- Step 1. Begin by creating a new sheet to store the filtered customers.
+- Step 2. Copy the headers from Sheet1 to the new sheet.
+- Step 3. Filter the customers whose distance is more than 700 miles to all destinations.
+- Step 3. Filter the customers whose distance is more than 700 miles to all destinations.
+- Step 4. Copy the filtered data from Sheet1 to FilteredCustomers.
+- Step 5. Sort the filtered customers in "FilteredCustomers" by their distance to
+  Seattle in descending order.

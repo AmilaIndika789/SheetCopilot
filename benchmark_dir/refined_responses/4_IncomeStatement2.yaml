@@ -1,0 +1,6 @@
+refined_response:
+- - InsertColumn(sheetName="Sheet1", after="B")
+- - InsertColumn(sheetName="Sheet1", afterColumn="B")
+- - Write(range="Sheet1!C1", value="Sales Difference")
+- - Write(range="Sheet1!C3", value="=B3-B2")
+- - AutoFill(source="Sheet1!C3", destination="Sheet1!C3:C10")

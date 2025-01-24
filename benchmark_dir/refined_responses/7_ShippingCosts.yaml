@@ -1,0 +1,18 @@
+refined_response:
+- - CreateSheet(sheetName="FilteredCustomers")
+- - Write(range="FilteredCustomers!A1", value="Customers")
+  - Write(range="FilteredCustomers!B1", value="Seattle")
+  - Write(range="FilteredCustomers!C1", value="Milwaukee")
+  - Write(range="FilteredCustomers!D1", value="Birmingham")
+  - Write(range="FilteredCustomers!E1", value="Oakland")
+- - Filter(source="Sheet1!A2:E19", fieldIndex=2, criteria=">700")
+  - Filter(source="Sheet1!A2:E19", fieldIndex=3, criteria=">700")
+  - Filter(source="Sheet1!A2:E19", fieldIndex=4, criteria=">700")
+  - Filter(source="Sheet1!A2:E19", fieldIndex=5, criteria=">700")
+- - Filter(source="Sheet1!A1:E19", fieldIndex=2, criteria=">700")
+  - Filter(source="Sheet1!A1:E19", fieldIndex=3, criteria=">700")
+  - Filter(source="Sheet1!A1:E19", fieldIndex=4, criteria=">700")
+  - Filter(source="Sheet1!A1:E19", fieldIndex=5, criteria=">700")
+- - CopyPaste(source="Sheet1!A2:E19", destination="FilteredCustomers!A2")
+- - Sort(source="FilteredCustomers!A2:E5", key1="FilteredCustomers!B2", order="desc",
+    orientation="column")
