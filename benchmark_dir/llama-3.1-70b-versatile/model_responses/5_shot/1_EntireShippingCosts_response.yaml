@@ -1,9 +1,0 @@
-llama-3.1-70b-versatile_response:
-- '- Step 1. Create headers for Min Distance and Shipping Center columns.'
-- '- Step 2. Calculate the minimum distance for each customer.'
-- '- Step 3. Determine the shipping center for each customer based on the minimum
-  distance.'
-- '- Step 4. Autofill the minimum distance and shipping center formulas for all customers.'
-- '- Step 5. Calculate the total shipping charge for each customer.'
-- '- Step 6. Autofill the total shipping charge formula for all customers.'
-- '- Step 7. Create a header for the Total Shipping Charge column.'
