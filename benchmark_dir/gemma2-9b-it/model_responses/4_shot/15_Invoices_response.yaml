@@ -1,9 +1,0 @@
-gemma2-9b-it_response:
-- '- Step 1. Create a new column for Unique Sales Rep ID.'
-- '- Step 2. Write a formula to combine the Sales Rep name and the first letter of
-  the Product name to create the Unique Sales Rep ID.'
-- '- Step 3. Autofill the formula down the Unique Sales Rep ID column.'
-- ''
-- ''
-- ''
-- ''
