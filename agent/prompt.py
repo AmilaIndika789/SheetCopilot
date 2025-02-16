@@ -100,7 +100,7 @@ class Prompt:
         )
 
         # Extract docs of unique input functions
-        input_function_docs = [api_detail_doc[name] for name in unique_input_functions]
+        input_function_docs = [api_detail_doc[name] for name in unique_input_functions if name in api_detail_doc.keys()]
         return input_function_docs
 
     def get_input_functions(self, input_filepath):
