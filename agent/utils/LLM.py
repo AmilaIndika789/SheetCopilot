@@ -63,6 +63,7 @@ class LLM:
                 messages=prompt,
                 temperature=groq_model["temperature"],
             )
+            time.sleep(60)  # Workaround to avoid rate limit exceeding per minute
         except groq.APIConnectionError as e:
             print("The server could not be reached")
             print(e.__cause__)  # an underlying Exception, likely raised within httpx.
@@ -102,3 +103,14 @@ class LLM:
             "w",
         ) as file:
             yaml.dump(model_response, file)
+
+    def save_prompt(self, prompt, test_input_path, few_shot_count):
+        prompt_filename = test_input_path.split("\\")[-1].split(".")[0] + "_prompt.txt"
+        self.create_path_if_non_existing(
+            f"{self.output_path}/{self.model_name}/prompts/{few_shot_count}_shot"
+        )
+        with open(
+            f"{self.output_path}/{self.model_name}/prompts/{few_shot_count}_shot/{prompt_filename}",
+            "w",
+        ) as file:
+            file.write(prompt)
