@@ -1,0 +1,76 @@
+Context: 'My workbook records all aspects of expenses but has not yet been completed.
+  The necessary formulas are as follows: Tax = Subtotal * Tax rate; Total = Subtotal
+  + Tax.'
+Fail Response: []
+Instructions: Summarize the total Subtotal for each vendor/client in a new sheet.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\36_ExpenseReport\36_ExpenseReport_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet for summarizing the subtotal.
+
+    Action API: @CreateSheet(sheetName="VendorClientSubtotalSummary")@'
+  - 'Step 2. Write headers for the new summary table.
+
+    Action API: @Write(range="VendorClientSubtotalSummary!A1", value="Vendor/Client")@
+
+    '
+  - 'Step 3. Add a header for the subtotal column in the new summary table.
+
+    Action API: @Write(range="VendorClientSubtotalSummary!B1", value="Subtotal")@'
+  - 'Step 4. Retrieve and summarize the subtotal for each vendor/client using a formula.
+
+    Action API: @Write(range="VendorClientSubtotalSummary!B2", value="=SUMIF(Sheet1!B2:B24,
+    VendorClientSubtotalSummary!A2, Sheet1!D2:D24)")@'
+  - 'Step 4. Filter unique vendor/client names into the new summary sheet to list
+    them.
+
+    Action API: @Filter(source="Sheet1!B2:B24", destination="VendorClientSubtotalSummary!A2:A")@'
+  - 'Step 4. Filter unique vendors/clients.
+
+    Action API: @Filter(source="Sheet1!B1:B24", fieldIndex=1, criteria="<>, B:B")@'
+  - 'Step 5. Create a pivot table to summarize subtotal for each vendor/client.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:F24", destSheet="VendorClientSubtotalSummary",
+    name="VendorClientSubtotalPivot", RowField=["Vendor/Client"], DataField=["Subtotal"],
+    summarizeFunction="sum")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet named "Summary".
+
+    Action API: @CreateSheet(sheetName="Summary")@
+
+    '
+  - "Step 2. Write headers on the new sheet.\nAction API: @Write(range=\"VendorClientSubtotalSummary!A1\"\
+    , value=\"Vendor/Client\")@   \n"
+  - 'Step 3. Add another column header for Subtotal in the summary table.
+
+    Action API: @Write(range="VendorClientSubtotalSummary!B1", value="Subtotal")@'
+  - 'Step 4. Use a formula to summarize the subtotal for each vendor/client.
+
+    Action API: @Write(range="VendorClientSubtotalSummary!A2", value="=UNIQUE(Sheet1!B2:B24)")@'
+  - 'Step 5. Populate the vendor/client names to be summarized in the new sheet.
+
+    Action API: @Unique(source="Sheet1!B2:B24", destination="VendorClientSubtotalSummary!A2")@'
+  - 'Step 5. Sort by Vendor/Client to prepare for unique extraction.
+
+    Action API: @Sort(range="Sheet1!B2:B24", sortOrder="Ascending")@'
+  - 'Step 5. Create a pivot table to summarize total subtotals for each vendor/client.
+
+    Action API: @CreatePivotTable(source="Sheet1!B1:D24", destination="VendorClientSubtotalSummary!A1",
+    rows="Vendor/Client", values="sum(D:Subtotal)")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="VendorClientSubtotalSummary")
+  - - Write(range="VendorClientSubtotalSummary!A1", value="Vendor/Client")
+  - - Write(range="VendorClientSubtotalSummary!B1", value="Subtotal")
+  - - Write(range="VendorClientSubtotalSummary!B2", value="=SUMIF(Sheet1!B2:B24, VendorClientSubtotalSummary!A2,
+      Sheet1!D2:D24)")
+  - - Filter(source="Sheet1!B1:B24", fieldIndex=1, criteria="<>, B:B")
+  - - CreatePivotTable(source="Sheet1!A1:F24", destSheet="VendorClientSubtotalSummary",
+      name="VendorClientSubtotalPivot", RowField=["Vendor/Client"], DataField=["Subtotal"],
+      summarizeFunction="sum")
+Timestamp: '2025-01-24 15:05:41'
+Total Count: 1
+Use oracle API doc: false

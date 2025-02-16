@@ -1,0 +1,67 @@
+LLM_config:
+  Agent:
+    API_backend: xw
+    APP_backend: excel
+    ChatGPT_1:
+      api_base: https://api.openai.com/v1
+      api_keys:
+      max_new_tokens: 256
+      max_retries: 20
+      max_total_tokens: 16384
+      model_name: gpt-4o
+      prompt_format: gpt-chat-prompt
+      sleep_time: 30
+      temperature: 1.2
+      timeout: 50
+      topk: 0
+    ChatGPT_2:
+      api_base: https://api.openai.com/v1
+      api_keys: []
+      max_new_tokens: 256
+      max_retries: 20
+      max_total_tokens: 16384
+      model_name: gpt-4o
+      prompt_format: gpt-chat-prompt
+      sleep_time: 30
+      temperature: 1.2
+      timeout: 50
+      topk: 0
+    Gemma_2:
+      api_keys: []
+      max_retries: 20
+      model: gemma2-9b-it
+      model_name: gemma2-9B
+      temperature: 0.5
+      timeout: 50
+    Llaama_3_1:
+      api_keys: []
+      max_retries: 20
+      model: llama-3.1-70b-versatile
+      model_name: llama-3.1-70B
+      temperature: 0.5
+      timeout: 50
+    Mistral:
+      api_keys: []
+      max_retries: 20
+      model: mixtral-8x7b-32768
+      model_name: mistral-7B
+      temperature: 0.5
+      timeout: 50
+    add_example_data2feedback: false
+    api_doc_path: config/API_document.yaml
+    max_cycle_times: 30
+    max_error_count: 999
+    prompt_path: config/prompt.yaml
+    use_doc_in_syspromt: true
+    use_ext_doc: true
+    use_oracle_API_doc: false
+    use_same_LLM: true
+  path:
+    gt_path: ../dataset/task_sheet_answers_v2
+    save_path: ../output_dir/
+    source_path: ../dataset/task_sheets/
+    task_path: ../dataset/dataset_113_copy.xlsx
+  repeat: 1
+  worker: 1
+finish_time: '2025-01-24 15:50:24'
+start_time: '2025-01-24 14:37:03'

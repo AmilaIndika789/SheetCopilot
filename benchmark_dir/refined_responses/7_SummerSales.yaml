@@ -1,0 +1,10 @@
+refined_response:
+- - CreateSheet(sheetName="Weekly Summary")
+- - Write(range="Weekly Summary!A1", value="Week")
+  - Write(range="Weekly Summary!B1", value="Total Revenue")
+- - CreatePivotTable(sourceRange="Sheet1!C1:G30", destinationRange="Weekly Summary!A1",
+    values="Revenue ($)", rows="Week", aggregation="sum")
+- - CreatePivotTable(source="Sheet1!A1:G30", destSheet="Weekly Summary", name="WeeklyRevenue",
+    RowField=["Week"], DataField=["Revenue ($)"], summarizeFunction="sum")
+- - CreateChartFromPivotTable(pivotTableName="WeeklyRevenue", destSheet="Weekly Summary",
+    chartName="WeeklyRevenueChart", chartType="Line")

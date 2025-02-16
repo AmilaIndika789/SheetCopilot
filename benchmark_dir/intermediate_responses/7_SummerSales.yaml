@@ -1,0 +1,6 @@
+intermediate response:
+- Step 1. Create a new sheet named "Weekly Summary".
+- Step 2. Write headers "Week" and "Total Revenue" in the new sheet.
+- Step 3. Calculate total revenue by week.
+- Step 3. Create a pivot table on "Weekly Summary" to summarize total revenue by week.
+- Step 4. Create a line chart from the pivot table in the "Weekly Summary" sheet.

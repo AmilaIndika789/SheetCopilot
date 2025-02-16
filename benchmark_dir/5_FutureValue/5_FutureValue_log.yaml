@@ -1,0 +1,113 @@
+Context: 'My workbook records several investments whose future values need to be calculated
+  according to the formula Future value = Present value * (1 + Annual Interest Rate
+  / # Compound periods) ^ (Years * # Compound periods).'
+Fail Response: []
+Instructions: Create a new sheet named "Sheet2" and merge cells A1:C1 to write the
+  header "Investment Summary". Beneath that, merge cells A2:B2 to write "High Interest
+  Rate" and merge cells C2:D2 to form "Low Interest Rate".
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\40_FutureValue\40_FutureValue_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Merge cells A1:C1 on "Sheet2" and write "Investment Summary".
+
+    Action API: @SetCellMerge(sheetName="Sheet2", range="A1:C1", mergeType="merge")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Merge cells A1:C1 on "Sheet2" and write the header "Investment Summary".
+
+    Action API: @SetCellMerge(sheetName="Sheet2", range="A1:C1", merge=True)@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Merge cells A1:C1 on "Sheet2" to write the header "Investment Summary".
+
+    Action API: @SetCellMerge(range="Sheet2!A1:C1")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 1. Merge cells A1:C1 and write "Investment Summary" on "Sheet2".
+
+    Action API: @SetCellMerge(range="Sheet2!A1:C1", content="Investment Summary")@'
+  - 'Step 2. Merge cells A1:C1 to write the header "Investment Summary".
+
+    Action API: @SetCellMerge(source="Sheet2!A1:C1", merge=True)@'
+  - 'Step 3. Write the header "Investment Summary" in the merged cells A1:C1.
+
+    Action API: @Write(range="Sheet2!A1", value="Investment Summary")@'
+  - 'Step 4. Merge cells A2:B2 to form "High Interest Rate".
+
+    Action API: @SetCellMerge(source="Sheet2!A2:B2", merge=True)@'
+  - 'Step 5. Write "High Interest Rate" in the merged cells A2:B2.
+
+    Action API: @Write(range="Sheet2!A2", value="High Interest Rate")@'
+  - 'Step 6. Merge cells C2:D2 to form "Low Interest Rate".
+
+    Action API: @SetCellMerge(source="Sheet2!C2:D2", merge=True)@'
+  - 'Step 7. Write "Low Interest Rate" in the merged cells C2:D2.
+
+    Action API: @Write(range="Sheet2!C2", value="Low Interest Rate")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet named "Sheet2".
+
+    Action API: @CreateSheet(sheetName="Sheet2")@'
+  - 'Step 2. Merge cells A1:C1 and write "Investment Summary".
+
+    Action API: @MergeCells(range="Sheet2!A1:C1")@ and @Write(range="Sheet2!A1", value="Investment
+    Summary")@'
+  - 'Step 2. Merge cells A1:C1 to write "Investment Summary".
+
+    Action API: @SetCellMerge(range="Sheet2!A1:C1")@ and @Write(range="Sheet2!A1",
+    value="Investment Summary")@'
+  - 'Step 2. Write the header "Investment Summary" in the merged cells A1:C1.
+
+    Action API: @Write(range="Sheet2!A1", value="Investment Summary")@'
+  - 'Step 4. Merge cells A2:B2 to write "High Interest Rate".
+
+    Action API: @SetCellMerge(source="Sheet2!A2:B2", merge=True)@'
+  - 'Step 5. Write "High Interest Rate" in the merged cells A2:B2.
+
+    Action API: @Write(range="Sheet2!A2", value="High Interest Rate")@'
+  - 'Step 6. Merge cells C2:D2 to form "Low Interest Rate".
+
+    Action API: @SetCellMerge(source="Sheet2!C2:D2", merge=True)@'
+  - 'Step 7. Write "Low Interest Rate" in the merged cells C2:D2.
+
+    Action API: @Write(range="Sheet2!C2", value="Low Interest Rate")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Sheet2")
+  - - CreateSheet(sheetName="Sheet2")
+  - - CreateSheet(sheetName="Sheet2")
+  - - CreateSheet(sheetName="Sheet2")
+  - - CreateSheet(sheetName="Sheet2")
+  - - SetCellMerge(source="Sheet2!A1:C1", merge=True)
+  - - Write(range="Sheet2!A1", value="Investment Summary")
+  - - SetCellMerge(source="Sheet2!A2:B2", merge=True)
+  - - Write(range="Sheet2!A2", value="High Interest Rate")
+  - - SetCellMerge(source="Sheet2!C2:D2", merge=True)
+  - - Write(range="Sheet2!C2", value="Low Interest Rate")
+Timestamp: '2025-01-24 15:09:12'
+Total Count: 1
+Use oracle API doc: false

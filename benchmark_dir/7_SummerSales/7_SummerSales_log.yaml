@@ -1,0 +1,64 @@
+Context: My workbook records the sales of my company in the summer.
+Fail Response: []
+Instructions: Summarize revenue by week in a new sheet and display it as a line chart
+  in the new sheet.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\100_SummerSales\100_SummerSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet named "Weekly Summary".
+
+    Action API: @CreateSheet(sheetName="Weekly Summary")@'
+  - "Step 2. Write headers \"Week\" and \"Total Revenue\" in the new sheet.\nAction\
+    \ API: @Write(range=\"Weekly Summary!A1\", value=\"Week\")@  \nAction API: @Write(range=\"\
+    Weekly Summary!B1\", value=\"Total Revenue\")@"
+  - 'Step 3. Calculate total revenue by week.
+
+    Action API: @CreatePivotTable(sourceRange="Sheet1!C1:G30", destinationRange="Weekly
+    Summary!A1", values="Revenue ($)", rows="Week", aggregation="sum")@'
+  - 'Step 3. Create a pivot table on "Weekly Summary" to summarize total revenue by
+    week.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G30", destSheet="Weekly Summary",
+    name="WeeklyRevenue", RowField=["Week"], DataField=["Revenue ($)"], summarizeFunction="sum")@'
+  - 'Step 4. Create a line chart from the pivot table in the "Weekly Summary" sheet.
+
+    Action API: @CreateChartFromPivotTable(pivotTableName="WeeklyRevenue", destSheet="Weekly
+    Summary", chartName="WeeklyRevenueChart", chartType="Line")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet named "Summary".
+
+    Action API: @CreateSheet(sheetName="Summary")@'
+  - 'Step 2. Copy the "Week" header to the new sheet "Weekly Summary".
+
+    Action API: @Write(range="Weekly Summary!A1", value="Week")@'
+  - 'Step 3. Remove duplicates and list unique weeks from "Sheet1" in "Weekly Summary".
+
+    Action API: @UniqueValues(source="Sheet1!C2:C30", destination="Weekly Summary!A2")@'
+  - 'Step 3. Copy the values of "Week" from "Sheet1" to the "Weekly Summary" sheet
+    without duplicates using "RemoveDuplicate".
+
+    Action API (Copy Weeks): @CopyPaste(source="Sheet1!C2:C30", destination="Weekly
+    Summary!A2")@
+
+
+    (Note: The removal of duplicates will be addressed in the next step as only one
+    action can be performed at a time.)'
+  - 'Step 4. Create a line chart on "Weekly Summary" based on the pivot table.
+
+    Action API: @CreateChartFromPivotTable(sheetName="Weekly Summary", pivotTable="WeeklyRevenue",
+    chartType="line")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Weekly Summary")
+  - - Write(range="Weekly Summary!A1", value="Week")
+    - Write(range="Weekly Summary!B1", value="Total Revenue")
+  - - CreatePivotTable(source="Sheet1!A1:G30", destSheet="Weekly Summary", name="WeeklyRevenue",
+      RowField=["Week"], DataField=["Revenue ($)"], summarizeFunction="sum")
+  - - CreateChartFromPivotTable(pivotTableName="WeeklyRevenue", destSheet="Weekly
+      Summary", chartName="WeeklyRevenueChart", chartType="Line")
+Timestamp: '2025-01-24 15:46:22'
+Total Count: 1
+Use oracle API doc: false

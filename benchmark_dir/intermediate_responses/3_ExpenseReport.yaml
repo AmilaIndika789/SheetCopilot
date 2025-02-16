@@ -1,0 +1,8 @@
+intermediate response:
+- Step 1. Create a new sheet for summarizing the subtotal.
+- Step 2. Write headers for the new summary table.
+- Step 3. Add a header for the subtotal column in the new summary table.
+- Step 4. Retrieve and summarize the subtotal for each vendor/client using a formula.
+- Step 4. Filter unique vendor/client names into the new summary sheet to list them.
+- Step 4. Filter unique vendors/clients.
+- Step 5. Create a pivot table to summarize subtotal for each vendor/client.

@@ -1,0 +1,11 @@
+refined_response:
+- - CreateSheet(sheetName="VendorClientSubtotalSummary")
+- - Write(range="VendorClientSubtotalSummary!A1", value="Vendor/Client")
+- - Write(range="VendorClientSubtotalSummary!B1", value="Subtotal")
+- - Write(range="VendorClientSubtotalSummary!B2", value="=SUMIF(Sheet1!B2:B24, VendorClientSubtotalSummary!A2,
+    Sheet1!D2:D24)")
+- - Filter(source="Sheet1!B2:B24", destination="VendorClientSubtotalSummary!A2:A")
+- - Filter(source="Sheet1!B1:B24", fieldIndex=1, criteria="<>, B:B")
+- - CreatePivotTable(source="Sheet1!A1:F24", destSheet="VendorClientSubtotalSummary",
+    name="VendorClientSubtotalPivot", RowField=["Vendor/Client"], DataField=["Subtotal"],
+    summarizeFunction="sum")
