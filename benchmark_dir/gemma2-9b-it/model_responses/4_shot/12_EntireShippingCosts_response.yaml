@@ -1,0 +1,15 @@
+gemma2-9b-it_response:
+- '- Step 1. Write the headers for the new column.\nWrite("Sheet1!F1", "Shipping Cost
+  to Seattle")'
+- '- AutoFill(source="Sheet1!F2", value="=MAX(B2 * 3.5)")'
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
