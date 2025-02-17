@@ -113,4 +113,5 @@ class LLM:
             f"{self.output_path}/{self.model_name}/prompts/{few_shot_count}_shot/{prompt_filename}",
             "w",
         ) as file:
-            file.write(prompt)
+            for line in prompt:
+                file.write(f"{line}\n")
