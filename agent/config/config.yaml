@@ -46,10 +46,10 @@ Agent:
     sleep_time: 30
     api_base: https://api.openai.com/v1
     api_keys: []
-  Llaama_3_1:
-    model_name: "llama-3.1-70B"
+  Llaama_3_3:
+    model_name: "llama-3.3-70B"
     temperature: 0.5
-    model: "llama-3.1-70b-versatile"
+    model: "llama-3.3-70b-versatile"
     timeout: 50
     max_retries: 20
     api_keys: []
