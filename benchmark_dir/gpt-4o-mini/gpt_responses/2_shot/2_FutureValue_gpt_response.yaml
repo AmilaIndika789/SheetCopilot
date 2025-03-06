@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Add a header titled "Future Value" in the first row of column F in Sheet1.
-- Step 2. Write a formula in cell F2 to calculate the future value based on other
-  columns in the same row.
-- Step 3. Autofill the formula from F2 down to F5 to apply it to the next rows.

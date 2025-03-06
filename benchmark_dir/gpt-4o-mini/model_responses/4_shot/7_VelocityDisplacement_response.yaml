@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for the "High Velocity?" column.'
+- '- Step 2. Write a formula to check if the velocity exceeds 150.'
+- '- Step 3. Autofill the formula down the "High Velocity?" column for the remaining
+  rows.'

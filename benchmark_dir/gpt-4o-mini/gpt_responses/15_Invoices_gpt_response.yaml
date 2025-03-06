@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Add a new column for "Unique Sales Rep ID".
-- Step 2. Write the formula to create a unique ID based on the Sales Rep and the first
-  letter of the Product.
-- Step 3. Autofill the unique ID formula for the remaining rows.

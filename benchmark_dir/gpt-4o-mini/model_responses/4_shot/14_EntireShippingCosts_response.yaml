@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new sheet named "Customers."'
+- '- Step 2. Autofill the first column in the "Customers" sheet with data from "Sheet1."'
+- '- Step 3. Write the corresponding values from "Sheet1" to "Customers."'
+- '- Step 4. Autofill the remaining data for the customer names in the "Customers"
+  sheet.'
+- '- Step 5. Finalize by completing autofill to ensure all relevant data is populated
+  in the "Customers" sheet.'

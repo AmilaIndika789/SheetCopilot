@@ -1,8 +1,0 @@
-gpt_response:
-- Step 1. Write a formula in cell B2 of Sheet1 to calculate acceleration based on
-  mass.
-- Step 2. Autofill the formula down the B column from B2 to B122.
-- Step 3. Set conditional formatting for cells B2 to B122 to fill green if the value
-  is 1 or greater.
-- Step 4. Set conditional formatting for cells B2 to B122 to fill yellow if the value
-  is less than 1.

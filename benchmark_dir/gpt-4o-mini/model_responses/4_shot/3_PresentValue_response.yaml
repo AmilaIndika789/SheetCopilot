@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Set a conditional format in column D to highlight cells green where the
+  annual interest rate is greater than 0.1.'
+- '- Step 2. Set a conditional format in column F to highlight cells red where the
+  future value is less than 40000.'

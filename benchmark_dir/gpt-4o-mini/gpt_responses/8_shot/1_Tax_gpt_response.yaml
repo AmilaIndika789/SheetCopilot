@@ -1,7 +1,0 @@
-gpt_response:
-- Step 1. Write a header for "Profit Before Tax" in the Profit column.
-- Step 2. Calculate profit before tax using the formula.
-- Step 3. Autofill the profit formula for the remaining rows.
-- Step 4. Calculate tax expense based on profit before tax using the formula.
-- Step 5. Autofill the tax expense formula for the remaining rows.
-- Step 6. Set the data type for the Profit and Tax Expense columns to currency.

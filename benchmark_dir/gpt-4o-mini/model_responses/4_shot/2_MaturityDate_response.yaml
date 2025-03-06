@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Write a header for the new column that calculates days passed since a
+  specific date.'
+- '- Step 2. Write a formula to calculate the difference in days between the specified
+  date and the loan issue date.'
+- '- Step 3. Autofill the formula down the column for the remaining rows.'

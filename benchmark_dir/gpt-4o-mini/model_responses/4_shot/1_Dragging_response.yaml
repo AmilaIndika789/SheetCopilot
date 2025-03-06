@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Autofill data in column B for rows 2 to 122.'
+- '- Step 2. Create a scatter plot chart to display the relationship between hanging
+  mass and acceleration.'
+- '- Step 3. Set the chart title to "Acceleration vs. Hanging Mass".'
+- '- Step 4. Label the x-axis as "Hanging Mass (m2) (kg)".'
+- '- Step 5. Label the y-axis as "Acceleration (m/s^2)".'

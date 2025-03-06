@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Autofill the Acceleration column for the range down to row 122.'
+- '- Step 2. Write the header for the Force column.'
+- '- Step 3. Write the formula to calculate Force based on Acceleration.'
+- '- Step 4. Autofill the Force column through to row 122.'

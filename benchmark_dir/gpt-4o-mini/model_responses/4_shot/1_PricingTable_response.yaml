@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Write a VLOOKUP formula to retrieve the price based on unit rolls.'
+- '- Step 2. Autofill the price formula for the remaining rows.'
+- '- Step 3. Calculate the revenue by multiplying the number of rolls by the price.'
+- '- Step 4. Autofill the revenue formula for the rest of the rows.'

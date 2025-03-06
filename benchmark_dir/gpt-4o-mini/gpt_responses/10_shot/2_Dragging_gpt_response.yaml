@@ -1,6 +1,0 @@
-gpt_response:
-- Step 1. Write a new column header "Net Force" in column B.
-- Step 2. Calculate the net force using the formula provided.
-- Step 3. Autofill the net force calculation for all relevant rows.
-- Step 4. Apply conditional formatting to highlight cells in green if the value is
-  greater than or equal to 1, and in yellow if less than 1.

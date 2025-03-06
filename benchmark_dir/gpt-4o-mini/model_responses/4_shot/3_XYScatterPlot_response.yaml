@@ -1,0 +1,3 @@
+gpt-4o-mini_response:
+- '- Step 1. Apply a conditional format to the range of "Range (m)" where the angle
+  is less than 75 and height is greater than 0.25, coloring the cells red.'

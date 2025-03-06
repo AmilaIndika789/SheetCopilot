@@ -1,6 +1,0 @@
-gpt_response:
-- 'Step 1: Add a header for the Profit column in cell D1.'
-- 'Step 2: Write a formula in cell D2 to calculate Profit by subtracting COGS from
-  Sales.'
-- 'Step 3: Autofill the Profit formula from D2 to D11 to apply it to all data rows.'
-- 'Step 4: Set the data type for the Profit column to currency.'

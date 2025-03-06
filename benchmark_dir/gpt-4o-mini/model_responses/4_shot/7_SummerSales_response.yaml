@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new sheet named "Weekly Summary."'
+- '- Step 2. Write the headers for Week and Total Revenue in the new sheet.'
+- '- Step 3. Create a pivot table to summarize total revenue by week.'
+- '- Step 4. Create another pivot table for weekly revenue specifically.'
+- '- Step 5. Generate a line chart from the weekly revenue pivot table.'

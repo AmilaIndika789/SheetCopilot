@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Autofill the Acceleration column in Sheet1.'
+- '- Step 2. Create a new sheet named Sheet2.'
+- '- Step 3. Write the header from Sheet1 to Sheet2.'
+- '- Step 4. Autofill the header down in Sheet2.'
+- '- Step 5. Write the Net Force header in Sheet2.'
+- '- Step 6. Write the formula for calculating Net Force in Sheet2.'
+- '- Step 7. Autofill the Net Force calculation down in Sheet2.'

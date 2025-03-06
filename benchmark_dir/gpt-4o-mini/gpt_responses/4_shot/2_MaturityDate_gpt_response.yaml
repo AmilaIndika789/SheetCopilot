@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Add a new header for "Days Passed" in column C.
-- Step 2. Write a formula to calculate the number of days passed since January 15,
-  2011.
-- Step 3. Autofill the formula down the column for the remaining rows.

@@ -1,0 +1,3 @@
+gpt-4o-mini_response:
+- '- Step 1. Apply a conditional format to highlight cells in column A where the length
+  of the loan in column B exceeds 100 days, using white text on a red background.'

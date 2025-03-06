@@ -1,8 +1,0 @@
-gpt_response:
-- 'Step 1: Write a formula in the Profit column to calculate profit from Sales and
-  COGS.'
-- 'Step 2: Autofill the Profit formula down to the last row.'
-- 'Step 3: Write a formula in the Tax Expense column to calculate tax based on Profit.'
-- 'Step 4: Autofill the Tax Expense formula down to the last row.'
-- 'Step 5: Set the data type for the Profit column to currency.'
-- 'Step 6: Set the data type for the Tax Expense column to currency.'

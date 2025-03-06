@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for the new column titled "Combined Info."'
+- '- Step 2. Write a formula in the Combined Info column to concatenate information
+  from other columns.'
+- '- Step 3. Autofill the Combined Info formula down the column for the remaining
+  rows.'

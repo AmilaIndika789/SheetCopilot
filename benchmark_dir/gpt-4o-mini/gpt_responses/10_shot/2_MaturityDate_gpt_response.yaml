@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Create a new column titled "Days Passed".
-- Step 2. Calculate the number of days passed since January 15, 2011, based on the
-  loan issue dates.
-- Step 3. Autofill the formula to calculate days passed for the remaining rows.

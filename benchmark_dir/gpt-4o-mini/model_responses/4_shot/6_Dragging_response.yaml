@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Autofill the Acceleration data in the specified range.'
+- '- Step 2. Create an XY scatter chart using the mass and acceleration data.'
+- '- Step 3. Enable the x-axis for the chart.'
+- '- Step 4. Enable the y-axis for the chart.'
+- '- Step 5. Set the title for the x-axis.'
+- '- Step 6. Set the title for the y-axis.'
+- '- Step 7. Set the overall title for the chart.'

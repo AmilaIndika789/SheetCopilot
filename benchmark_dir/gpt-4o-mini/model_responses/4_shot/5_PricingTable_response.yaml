@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column for Price in Sheet1.'
+- '- Step 2. Write a VLOOKUP formula to find the price based on the number of rolls.'
+- '- Step 3. Autofill the Price formula for the remaining rows in the Price column.'

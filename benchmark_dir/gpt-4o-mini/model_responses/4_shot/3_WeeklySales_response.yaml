@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for the Profit column in Sheet1.'
+- '- Step 2. Write a formula to calculate Profit in the second row of the Profit column.'
+- '- Step 3. Autofill the Profit formula down to the eleventh row.'

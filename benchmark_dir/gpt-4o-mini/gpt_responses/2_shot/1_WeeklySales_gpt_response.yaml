@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Add a header for the Profit column in Sheet1.
-- Step 2. Insert a formula to calculate Profit in the second row of Sheet1.
-- Step 3. Autofill the Profit formula down to the 11th row in Sheet1.
-- Step 4. Set the data type of the Profit column to currency in Sheet1.

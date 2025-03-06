@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Sort rows based on sales in descending order.'
+- '- Step 2. Apply conditional formatting to highlight sales less than 250 in red.'
+- '- Step 3. Apply conditional formatting to highlight sales greater than 500 in blue.'

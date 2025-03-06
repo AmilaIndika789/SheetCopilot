@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column after column B.'
+- '- Step 2. Label the new column as "Sales Difference".'
+- '- Step 3. Write a formula to calculate the sales difference in the Sales Difference
+  column.'
+- '- Step 4. Autofill the sales difference formula down for the following rows.'

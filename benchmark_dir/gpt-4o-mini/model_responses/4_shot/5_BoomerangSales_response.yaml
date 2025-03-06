@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for the Product Price column in Sheet1.'
+- '- Step 2. Write a VLOOKUP formula in the Product Price column to retrieve prices
+  from the ''Retail Price'' sheet.'
+- '- Step 3. Autofill the VLOOKUP formula for the remaining rows in the Product Price
+  column.'

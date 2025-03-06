@@ -1,6 +1,0 @@
-gpt_response:
-- Step 1. Create a new column for "Shipping Cost to Seattle".
-- Step 2. Calculate the shipping cost using the formula.
-- Step 3. Autofill the shipping cost formula for the remaining rows.
-- Step 4. Set conditional formatting to highlight cells in green if the value is greater
-  than or equal to 1, and in yellow if it is less than 1.

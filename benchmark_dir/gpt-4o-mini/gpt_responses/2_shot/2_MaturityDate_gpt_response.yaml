@@ -1,6 +1,0 @@
-gpt_response:
-- Step 1. Add a header titled "Days Passed" in Column C of Sheet1.
-- Step 2. Write a formula in Cell C2 to calculate the days passed since a specified
-  date based on the value in Column A.
-- Step 3. Autofill the formula from Cell C2 down to Cell C10 to apply the calculation
-  for all relevant rows.

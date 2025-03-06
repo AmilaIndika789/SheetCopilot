@@ -1,0 +1,3 @@
+gpt-4o-mini_response:
+- '- Step 1. Apply conditional formatting to the Revenue column, highlighting cells
+  in yellow where the Promotion is not "None" and the Sales Channel is "In Store Sales".'

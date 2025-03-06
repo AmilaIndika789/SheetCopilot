@@ -1,5 +1,0 @@
-gpt_response:
-- 'Step 1: Write the header "Days Passed" in cell C1 of Sheet1.'
-- 'Step 2: Write a formula in cell C2 to calculate the days passed since January 15,
-  2011, based on the date in column A.'
-- 'Step 3: Autofill the formula from C2 down to C10 in column C.'

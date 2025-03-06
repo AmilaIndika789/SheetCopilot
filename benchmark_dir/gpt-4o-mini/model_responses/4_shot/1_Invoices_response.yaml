@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Write a formula to calculate the median of the sales figures in G20.'
+- '- Step 2. Set a conditional format to fill C2:C19 with green and white text if
+  their corresponding value in G is greater than the calculated median.'
+- '- Step 3. Apply conditional formatting to color C2:C19 based on the median in G20.'

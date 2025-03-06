@@ -1,7 +1,0 @@
-gpt_response:
-- Step 1. Write the formula for Profit Before Tax in the appropriate cell.
-- Step 2. Autofill the Profit formula down to cover the relevant rows.
-- Step 3. Write the formula for Tax Expense based on Profit Before Tax.
-- Step 4. Autofill the Tax Expense formula down to cover the relevant rows.
-- Step 5. Set the data type for the Profit column to currency.
-- Step 6. Set the data type for the Tax Expense column to currency.

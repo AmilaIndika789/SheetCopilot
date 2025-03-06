@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new sheet named "Shipping Costs".'
+- '- Step 2. Write the headers "Shortest Distance" and "Cost" in the new sheet.'
+- '- Step 3. Calculate the shortest distance from the distance columns in Sheet1.'
+- '- Step 4. Autofill the shortest distance formula for all rows in "Shipping Costs".'
+- '- Step 5. Calculate the shipping cost from the shortest distance, ensuring a minimum
+  charge.'
+- '- Step 6. Autofill the shipping costs formula for all rows in "Shipping Costs".'

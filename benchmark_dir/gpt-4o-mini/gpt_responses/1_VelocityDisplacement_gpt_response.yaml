@@ -1,6 +1,0 @@
-gpt_response:
-- 'Step 1: Create a scatter chart named "Displacement vs Velocity" using data from
-  columns A and B.'
-- 'Step 2: Set the title for the x-axis as "Displacement m".'
-- 'Step 3: Set the title for the y-axis as "Velocity m/s".'
-- 'Step 4: Add a linear trendline to the chart and display its equation.'

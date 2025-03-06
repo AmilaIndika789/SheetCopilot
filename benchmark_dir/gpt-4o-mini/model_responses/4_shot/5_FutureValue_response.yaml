@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new sheet named ''Sheet2''.'
+- '- Step 2. Set the cell range A1 to C1 in Sheet2 to be merged.'
+- '- Step 3. Write "Investment Summary" in the merged cell A1.'
+- '- Step 4. Set the cell range A2 to B2 in Sheet2 to be merged.'
+- '- Step 5. Write "High Interest Rate" in cell A2.'
+- '- Step 6. Set the cell range C2 to D2 in Sheet2 to be merged.'
+- '- Step 7. Write "Low Interest Rate" in cell C2.'
