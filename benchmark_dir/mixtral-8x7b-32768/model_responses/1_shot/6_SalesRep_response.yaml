@@ -1,0 +1,11 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a new sheet named ''Average Sales''.'
+- '- Step 2. Write the headers in ''Average Sales''.'
+- '- Step 3. Write the formula for the average sales in ''Average Sales''.'
+- '- Step 4. Autofill the formula for the average sales in ''Average Sales''.'
+- '- Step 5. Write the sales representatives'' names in ''Average Sales''.'
+- '- Step 6. Autofill the sales representatives'' names in ''Average Sales''.'
+- ''
+- 'Note: The sheet state is that ''Sheet1'' has 7 columns (Headers are A: "Sales Rep",
+  B: "Jan", C: "Feb", D: "Mar", E: "Apr", F: "May", G: "Jun") and 11 rows (1 header
+  row and 10 data rows).'

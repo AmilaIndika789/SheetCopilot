@@ -1,0 +1,4 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Freeze the first row and first column of Sheet1.'
+- '- Step 1. Freeze the panes in Sheet1 starting from cell A2.'
+- '- Step 1. Freeze the rows above and columns to the left of cell A2 in Sheet1.'

@@ -1,0 +1,13 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Set conditional formats in Sheet1.'
+- '- Step 1. Highlight cells B2 to B5 in Sheet1.'
+- '- Step 1. If the value in B2 is less than 10000, highlight it in yellow.'
+- '- Step 1. If the value in B2 is greater than 50000, highlight it in green.'
+- ''
+- 'Note:'
+- '- The range for conditional formatting is B2:B5.'
+- '- The formula for the first conditional format is ''$B2<10000''.'
+- '- The fill color for the first conditional format is yellow.'
+- '- The formula for the second conditional format is ''$B2>50000''.'
+- '- The fill color for the second conditional format is green.'
+- '- The sheet state is Sheet1 with 5 columns and 5 rows.'

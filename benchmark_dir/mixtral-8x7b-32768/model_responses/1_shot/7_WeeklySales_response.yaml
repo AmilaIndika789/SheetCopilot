@@ -1,0 +1,1339 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Filter the data in Sheet1.'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  by the criteria ">Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) being greater than "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) being greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) being greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet1 by the first column (i.e. A column)
+  with values greater than or equal to "Week 5".'
+- '- Step 1. Apply a filter to the range A1:C11 in Sheet1 based on the first column
+  (i.e. A column) having values greater than or equal to "Week 5".'
+- '- Step 1. Filter the range A1:C11 in Sheet'

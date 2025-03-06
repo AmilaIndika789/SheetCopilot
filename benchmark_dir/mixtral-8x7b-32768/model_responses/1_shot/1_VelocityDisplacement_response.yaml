@@ -1,0 +1,7 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a scatter chart using data from Sheet1!A1:B21.'
+- '- Step 1. Create a chart named "Displacement vs Velocity" using data from Sheet1!A1:B21.'
+- '- Step 2. Set the X-axis title to "Displacement m".'
+- '- Step 3. Set the Y-axis title to "Velocity m/s".'
+- '- Step 4. Add a trendline to the chart.'
+- '- Step 4. Add a linear trendline to the chart and display the equation.'

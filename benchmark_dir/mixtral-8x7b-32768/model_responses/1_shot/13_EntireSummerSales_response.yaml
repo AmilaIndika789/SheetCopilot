@@ -1,0 +1,18 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order and
+  by column orientation.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order and
+  by column orientation.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order, excluding
+  the header row.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order and
+  by column orientation, excluding the header row.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order and
+  by column orientation, excluding the header row.'
+- '- Step 1. Sort the data in Sheet1 by the Revenue column in ascending order and
+  by column orientation, excluding the header row.'
+- ''
+- 'Note: The range to sort is "Sheet1!A2:G2001", the key to sort by is "Sheet1!G1",
+  the order to sort by is ''asc'' and the orientation to sort by is ''column''.'

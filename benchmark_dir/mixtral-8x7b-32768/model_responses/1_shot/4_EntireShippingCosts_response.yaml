@@ -1,0 +1,7 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a new sheet named ''Shipping Costs''.'
+- '- Step 2. Write "Shortest Distance" in cell A1 and "Cost" in cell B1.'
+- '- Step 3. Write the formula =MIN(Sheet1!B2:E2) in cell A2.'
+- '- Step 4. Autofill the formula from A2 to A71.'
+- '- Step 5. Write the formula =MAX(80, A2 \* 3.5) in cell B2.'
+- '- Step 6. Autofill the formula from B2 to B71.'

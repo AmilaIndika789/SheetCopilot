@@ -1,0 +1,14 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Write the median of cells G2 to G19 into cell G20.'
+- '- Step 2. Highlight cells C2 to C19 with green background and white text if cell
+  G2 is greater than G20.'
+- '- Step 2. Set a conditional format on cells C2 to C19, highlighting them with a
+  green background and white text if cell G2 is greater than G20.'
+- '- Step 2. Set a conditional format on cells C2 to C19, highlighting them with a
+  green background and white text if cell G2 is greater than G20.'
+- '- Step 2. Set a conditional format on cells C2 to C19, highlighting them with a
+  white text and green background if cell G2 is greater than G20.'
+- ''
+- 'Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Invoice No.", B: "Date",
+  C: "Sales Rep", D: "Product", E: "Price", F: "Units", G: "Sales") and 19 rows (1
+  header row and 18 data rows).'

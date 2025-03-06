@@ -1,0 +1,25 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Set a conditional format for cells in column A of Sheet1.'
+- '- Step 1. Highlight cells in the source range if the value in column B is greater
+  than 100.'
+- '- Step 1. Set the text color to white and the background color to red.'
+- '- Step 1. Set the formula for the conditional format.'
+- '- Step 1. Set the condition for the conditional format.'
+- '- Step 1. Set the source range for the conditional format.'
+- '- Step 1. Set the conditional format for cells in column A of Sheet1.'
+- '- Step 1. Highlight cells in the source range if the value in column B is greater
+  than 100.'
+- '- Step 1. Set the text color to white and the background color to red.'
+- '- Step 1. Set the formula for the conditional format.'
+- '- Step 1. Set the condition for the conditional format.'
+- '- Step 1. Set the source range for the conditional format.'
+- '- Step 1. Set the conditional format for cells in column A of Sheet1.'
+- '- Step 1. Highlight cells in the source range if the value in column B is greater
+  than 100.'
+- '- Step 1. Set the text color to white and the background color to red.'
+- '- Step 1. Set the formula for the conditional format.'
+- '- Step 1. Set the condition for the conditional format.'
+- '- Step 1. Set the source range for the conditional format.'
+- ''
+- 'Sheet state: Sheet "Sheet1" has 2 columns (Headers are A: "Loan Issue Date", B:
+  "Length of Loan in Days") and 10 rows (1 header row and 9 data rows).'

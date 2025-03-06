@@ -1,0 +1,10 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a scatter chart named ''AngleVsRangeHeight'' using data from Sheet1
+  A1:C38.'
+- '- Step 2. Set the chart legend position to the left.'
+- '- Step 3. Set the chart marker style to square and triangle.'
+- '- Step 4. Set the X-axis title to ''Angle (Degrees)''.'
+- '- Step 5. Remove the Y-axis.'
+- '- Step 6. Add a polynomial and linear trendline to the chart.'
+- ''
+- 'Note: The chart will be created on Sheet1.'

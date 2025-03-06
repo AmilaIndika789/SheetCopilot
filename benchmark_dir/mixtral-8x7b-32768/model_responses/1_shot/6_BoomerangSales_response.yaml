@@ -1,0 +1,23 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Sort the data in Sheet1 by the first column in ascending order.'
+- '- Step 2. Create a line chart in Sheet1 based on the data from A1 to E36.'
+- '- Step 2. Create a chart in Sheet1 based on the data from A1 to E36.'
+- '- Step 2. Create a chart in Sheet1 based on the data from A1 to E36 with the specified
+  chart type and name.'
+- '- Step 2. Create a chart in Sheet1 based on the data from A1 to E36 with the specified
+  chart type, name, XField, and YField.'
+- '- Step 2. Create a chart in Sheet1 based on the data from A1 to E36 with the specified
+  chart type and name, and set the XField and YField.'
+- ''
+- 'Note:'
+- ''
+- '- XField is the index of the column that contains the X values, starting from 1.'
+- '- YField is the indices of the columns that contain the Y values, starting from
+  1.'
+- '- If XField is None, the first column will be used.'
+- '- If YField is [], all columns except the first column will be used.'
+- '- The chart type can be ''Area'', ''AreaStacked'', ''BarClustered'', ''BarOfPie'',
+  ''BarStacked'', ''Bubble'', ''ColumnClustered'', ''ColumnStacked'', ''Line'', ''LineMarkers'',
+  ''LineMarkersStacked'', ''LineStacked'', ''Pie'', ''XYScatter'', ''XYScatterLines'',
+  ''XYScatterLinesNoMarkers'', ''XYScatterSmooth'', ''XYScatterSmoothNoMarkers'',
+  ''3DPie''.'

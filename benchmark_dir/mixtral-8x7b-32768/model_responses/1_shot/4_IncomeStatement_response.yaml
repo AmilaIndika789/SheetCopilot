@@ -1,0 +1,13 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a new sheet named ''PivotTable''.'
+- '- Step 2. Write ''Year'' in cell A1 of ''PivotTable''.'
+- '- Step 3. Write the unique values of column A in Sheet1 from cell A2 to cell A2
+  of ''PivotTable''.'
+- '- Step 4. Write ''Total Operating Expenses'' in cell B1 of ''PivotTable''.'
+- '- Step 5. Write the sum of operating expenses for each year in column B of ''PivotTable''
+  starting from cell B2.'
+- '- Step 6. Autofill the formula in cell B2 down to cell B10 of ''PivotTable''.'
+- ''
+- 'Note: The sheet state of Sheet1 has 8 columns (Headers are A: "Year", B: "Net Sales",
+  C: "COGS", D: "Gross Profit", E: "Operating Expenses", F: "Operating Profit", G:
+  "Tax Expense", H: "Net Profit") and 9 rows (1 header row and 8 data rows).'

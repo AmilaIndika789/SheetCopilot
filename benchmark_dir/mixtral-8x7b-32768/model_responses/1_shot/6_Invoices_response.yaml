@@ -1,0 +1,10 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Write an average formula in cell H1.'
+- '- Step 2. Set a conditional format for cells G2 to G19.'
+- '- Step 2. Highlight cells in G2 to G19 that are greater than the value in H1.'
+- '- Step 2. Set a conditional format for cells in G2 to G19.'
+- '- Step 2. Highlight cells in G2 to G19 that are greater than the average of cells
+  G2 to G19.'
+- '- Step 2. Set a conditional format for cells in G2 to G19.'
+- '- Step 2. Highlight cells in G2 to G19 that are greater than the average of cells
+  G2 to G19 in red.'

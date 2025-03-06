@@ -1,0 +1,6 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a Line chart in Sheet1.'
+- '- Step 2. Use the data from Week, Sales, and COGS columns.'
+- '- Step 3. Name the chart "Sales and COGS Chart".'
+- '- Step 4. Use the Week column as the X-axis.'
+- '- Step 5. Use the Sales and COGS columns as the Y-axis.'

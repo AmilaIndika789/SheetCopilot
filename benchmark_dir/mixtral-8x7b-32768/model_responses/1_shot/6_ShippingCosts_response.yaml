@@ -1,0 +1,12 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a new sheet named "DistanceTable".'
+- '- Step 2. Write the headers in the first row of "DistanceTable".'
+- '- Step 3. Write the first 19 customers'' names from Sheet1 to row 2-19 in "DistanceTable"
+  column A.'
+- '- Step 4. Write the average distance for each customer (AVERAGE of columns B-E)
+  in "DistanceTable" column B.'
+- ''
+- 'Note: The formulas used in the instructions are written in the "Write" function,
+  where the range is the cell where the formula will be written, and the value is
+  the formula itself. The formula calculates the average distance for each customer
+  by taking the average of columns B-E.'

@@ -1,0 +1,5 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Write "Shipping Cost to Seattle" in cell F1.'
+- '- Step 2. Write a formula to calculate the shipping cost in cell F2.'
+- '- Step 3. Autofill the formula in F2 to the rest of the cells in column F.'
+- '- Step 3. Copy the formula in F2 to the rest of the cells in column F.'

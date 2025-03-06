@@ -1,0 +1,11 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Write the header "Min Distance" in cell F1.'
+- '- Step 2. Write the formula "=MIN(B2:E2)" in cell F2.'
+- '- Step 3. Autofill the formula from F2 to F19.'
+- '- Step 4. Write the header "Shipping Center" in cell G1.'
+- '- Step 5. Write the formula "=INDEX($B$1:$E$1, MATCH(F2, B2:E2, 0))" in cell G2.'
+- '- Step 6. Autofill the formula from G2 to G19.'
+- '- Step 7. Write the header "Total Shipping Charge" in cell H1.'
+- '- Step 8. Write the formula "=MAX(F2*3.11, 75)" in cell H2.'
+- '- Step 9. Autofill the formula from H2 to H19.'
+- '- Step 10. Set the data type of cells H2:H19 to currency.'

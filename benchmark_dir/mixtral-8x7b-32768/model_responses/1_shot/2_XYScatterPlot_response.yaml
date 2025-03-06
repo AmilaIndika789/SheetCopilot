@@ -1,0 +1,35 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Insert a new column after column A in Sheet1.'
+- '- Step 2. Write the header "Angle (Radians)" in the new column B.'
+- '- Step 3. Write the formula "=RADIANS(A2)" in cell B2.'
+- '- Step 4. Autofill the formula from B2 to B38.'
+- ''
+- 'Here is the supplementary documentation you can reference:'
+- '[''AutoFill(source: str, destination: str)\nArgs explanation:\nsource (string):
+  The range to auto fill from.\ndestination (string): The range to auto fill into.\n#
+  The destination must include the source range.\n\nUsage example:\n# Example 1: Autofill
+  down columns\nAutoFill("Sheet1!A1", "Sheet1!A1:A10")\n'', ''Write(range: str, value:
+  str)\nArgs explanation:\nrange (string): The range to write the value into. Here,
+  the range must be a single cell.\nvalue (string): The value to be written. The string
+  in value also can be an Excel formula. A string starting with "=" will be treated
+  as a formula. When using address indexing from another sheet in a formula, if the
+  worksheet name contains spaces, its name must be enclosed in single quotes (e.g.
+  \''Pivot Table\''!A1). Please use correct absolute and relative references, e.g.,
+  $A$1, $A1, A$1, A1.\n\nUsage example:\n# Example 1: Write headers for the new column.\nWrite("Sheet2!A1",
+  "Date")\nWrite("Sheet2!B1", "Sales")\n# Example 2: Write the formula into the cell.\nWrite("Sheet1!A2",
+  "=VLOOKUP(\''Retail Price\''!C2, \''Retail Price\''!A:B, 2, FALSE)") # Must single
+  quote the sheet name if it contains spaces.\nWrite("Sheet1!A3", "=SUM(Sheet2!$A$1:$A$20)")
+  # Absolute address.\n# Example 3: Add a new column after the A column named "Month".\nInsertColumn("Sheet1",
+  after="A")\nWrite("Sheet1!B1", "Month")\n'', ''InsertColumn(sheetName: str, beforeColumn:
+  str = None, afterColumn: str = None)\nArgs explanation:\nsheetName (string): The
+  name of the sheet to insert column.\nbeforeColumn (string): The column before which
+  the new column will be inserted.\nafterColumn (string): The column after which the
+  new column will be inserted.\n\nUsage example:\n# Example 1: Create a new column
+  at Column G in Sheet1, i.e, after Column F.\nInsertColumn("Sheet1", afterColumn="F")\n#
+  The following call is equivalent.\nInsertColumn("Sheet1", beforeColumn="G")\n# After
+  implementing this action, a new column will be inserted at Column G in Sheet1. The
+  original Column G will become Column H.\n'']'
+- 'Here is the corresponding sheet state:'
+- 'Sheet state: Sheet "Sheet1" has 4 columns (Headers are A: "Angle (Degrees)", B:
+  "Angle (Radians)", C: "Range (m)", D: "Height (m)") and 38 rows (1 header row and
+  37 data rows).'

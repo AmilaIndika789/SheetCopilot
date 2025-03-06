@@ -1,0 +1,7 @@
+mixtral-8x7b-32768_response:
+- '- Step 1: Create a new sheet named "Summary2013".'
+- '- Step 2: Write "Country" in cell A1 of "Summary2013".'
+- '- Step 3: Write "Total 2013" in cell B1 of "Summary2013".'
+- '- Step 4: Create a pivot table using data from Sheet1!A1:P3686, in "Summary2013",
+  named "PivotTable1". Use "Country" as the row field and "2013" as the data field
+  with the summarize function set to "sum".'

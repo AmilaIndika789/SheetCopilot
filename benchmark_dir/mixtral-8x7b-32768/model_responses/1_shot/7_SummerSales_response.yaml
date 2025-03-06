@@ -1,0 +1,11 @@
+mixtral-8x7b-32768_response:
+- '- Step 1. Create a new sheet named "Weekly Summary".'
+- '- Step 2. Write "Week" in cell A1 and "Total Revenue" in cell B1.'
+- '- Step 3. Create a pivot table by summarizing the revenue by week.'
+- '- Step 4. Create a pivot table by summarizing the revenue by week.'
+- '- Step 5. Create a line chart based on the pivot table.'
+- ''
+- 'Note: The source data is from Sheet1 cells C1:G30. The pivot table will be placed
+  in the "Weekly Summary" sheet and will be named "WeeklyRevenue". The chart will
+  also be placed in the "Weekly Summary" sheet and will be named "WeeklyRevenueChart".
+  The chart type is a line chart.'
