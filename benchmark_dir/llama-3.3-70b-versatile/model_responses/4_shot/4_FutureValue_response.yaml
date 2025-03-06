@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for Future Value.'
+- '- Step 2. Write the formula to calculate Future Value in the first data row.'
+- '- Step 3. Autofill the Future Value formula for the remaining rows.'

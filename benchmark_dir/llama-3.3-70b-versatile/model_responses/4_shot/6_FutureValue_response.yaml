@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for Combined Info.'
+- '- Step 2. Write a formula to combine information from other columns.'
+- '- Step 3. Autofill the formula for the remaining rows.'

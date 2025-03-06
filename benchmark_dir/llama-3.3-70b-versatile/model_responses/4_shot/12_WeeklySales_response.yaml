@@ -1,0 +1,8 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Add a new column after the COGS column.'
+- '- Step 2. Write the header for the new column as Profit.'
+- '- Step 3. Write the formula to calculate profit in the Profit column.'
+- '- Step 4. Autofill the profit formula for the remaining rows.'
+- '- Step 5. Create a chart to show the trend of Sales and Profit.'
+- '- Step 6. Set the title of the chart to Sales Trend.'
+- '- Step 7. Add data labels to the chart.'

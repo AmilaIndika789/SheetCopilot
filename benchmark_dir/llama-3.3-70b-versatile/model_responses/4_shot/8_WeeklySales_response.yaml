@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Format the Sales column as currency.'
+- '- Step 2. Format the COGS column as currency.'

@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column named Distances.'
+- '- Step 2. Write a formula to concatenate the distances for each customer.'
+- '- Step 3. Autofill the formula for all customers.'

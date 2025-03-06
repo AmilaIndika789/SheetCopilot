@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for summary.'
+- '- Step 2. Write the headers for total revenue and total expenses.'
+- '- Step 3. Calculate the total revenue.'
+- '- Step 4. Calculate the total expenses.'

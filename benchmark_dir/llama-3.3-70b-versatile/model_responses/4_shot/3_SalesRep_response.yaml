@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet to store total sales data.'
+- '- Step 2. Write the headers for the new sheet.'
+- '- Step 3. Calculate and write the total sales for each month.'

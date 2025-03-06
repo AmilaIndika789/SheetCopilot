@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Sort the data in descending order by Sales.'
+- '- Step 2. Highlight the sales less than 250 in red.'
+- '- Step 3. Highlight the sales greater than 500 in blue.'

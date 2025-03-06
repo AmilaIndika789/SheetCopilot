@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Write the label "Average" in the first column of the 72nd row.'
+- '- Step 2. Calculate the average values for each city and write them in the corresponding
+  columns of the 72nd row.'

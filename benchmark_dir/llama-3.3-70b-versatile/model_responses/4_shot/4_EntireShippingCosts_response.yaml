@@ -1,0 +1,7 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for shipping costs.'
+- '- Step 2. Write the headers for the shipping costs sheet.'
+- '- Step 3. Calculate the shortest distance for each customer.'
+- '- Step 4. Autofill the shortest distance formula for all customers.'
+- '- Step 5. Calculate the shipping cost based on the shortest distance.'
+- '- Step 6. Autofill the shipping cost formula for all customers.'

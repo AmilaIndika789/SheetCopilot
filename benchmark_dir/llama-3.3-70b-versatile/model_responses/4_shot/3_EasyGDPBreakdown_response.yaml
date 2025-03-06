@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet named Summary2013.'
+- '- Step 2. Write the headers for the pivot table in the new sheet.'
+- '- Step 3. Create a pivot table to summarize the 2013 data by country.'

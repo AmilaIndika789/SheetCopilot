@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Sort the sales data by date in ascending order.'
+- '- Step 2. Create a line chart to show the sales quantity over time.'

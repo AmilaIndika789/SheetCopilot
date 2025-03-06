@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for Net Income.'
+- '- Step 2. Calculate the Net Income for the first row.'
+- '- Step 3. Fill the Net Income formula for the remaining rows.'
+- '- Step 4. Format the Net Income column as currency.'

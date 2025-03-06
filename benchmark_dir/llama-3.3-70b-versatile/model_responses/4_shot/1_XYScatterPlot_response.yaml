@@ -1,0 +1,8 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a scatter chart to show the relationship between Angle, Range,
+  and Height.'
+- '- Step 2. Set the legend for the chart at the left.'
+- '- Step 3. Set the marker styles for the chart to square and triangle.'
+- '- Step 4. Set the title for the x-axis to Angle (Degrees).'
+- '- Step 5. Hide the y-axis.'
+- '- Step 6. Add polynomial and linear trendlines to the chart.'

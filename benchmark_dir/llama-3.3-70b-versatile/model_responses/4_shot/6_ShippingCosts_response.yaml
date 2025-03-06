@@ -1,0 +1,6 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet to store the distance table.'
+- '- Step 2. Write the headers for the distance table.'
+- '- Step 3. Copy the customer names from Sheet1 to the distance table.'
+- '- Step 4. Calculate the average distance for each customer and write it to the
+  distance table.'

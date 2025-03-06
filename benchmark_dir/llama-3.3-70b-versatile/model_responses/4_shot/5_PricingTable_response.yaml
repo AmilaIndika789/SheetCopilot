@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Add a header for the Price column.'
+- '- Step 2. Write a formula to look up the price based on the number of rolls.'
+- '- Step 3. Autofill the price formula for the remaining rows.'

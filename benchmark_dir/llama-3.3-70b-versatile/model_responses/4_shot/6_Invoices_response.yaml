@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Calculate the average sales in cell H1.'
+- '- Step 2. Highlight the sales values that exceed the average sales in red.'

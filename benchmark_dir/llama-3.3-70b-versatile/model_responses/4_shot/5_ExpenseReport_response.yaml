@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Insert a new column after the Date column.'
+- '- Step 2. Write the header for the new column as Formatted Date.'
+- '- Step 3. Write a formula to format the date in the new column.'
+- '- Step 4. Autofill the formula to format the date for the remaining rows.'

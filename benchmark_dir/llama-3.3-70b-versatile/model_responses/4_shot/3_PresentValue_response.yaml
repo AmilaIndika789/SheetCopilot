@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Highlight cells in column D where the Annual Interest Rate is greater
+  than 0.1 with a green background.'
+- '- Step 2. Highlight cells in column F where the Future Value is less than 40000
+  with a red background.'

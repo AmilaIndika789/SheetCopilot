@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Highlight cells in the Loan Issue Date column where the Length of Loan
+  in Days is greater than 100 with white text and red background.'

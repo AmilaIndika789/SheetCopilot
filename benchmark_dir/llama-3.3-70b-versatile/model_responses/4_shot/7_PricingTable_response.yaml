@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet to copy dates.'
+- '- Step 2. Write the header for the dates column.'
+- '- Step 3. Copy the dates from Sheet1 to the new sheet.'
+- '- Step 4. Autofill the dates in the new sheet.'

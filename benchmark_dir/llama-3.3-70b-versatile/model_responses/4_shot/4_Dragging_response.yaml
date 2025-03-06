@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Copy the acceleration values down the column.'
+- '- Step 2. Create a new column for Force.'
+- '- Step 3. Write the formula to calculate force in the Force column.'
+- '- Step 4. Fill the force formula down the Force column.'

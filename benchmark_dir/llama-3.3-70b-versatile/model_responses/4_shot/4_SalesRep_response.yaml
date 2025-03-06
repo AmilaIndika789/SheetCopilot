@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet named SalesRepData.'
+- '- Step 2. Write the header for the Sales Rep column in the new sheet.'
+- '- Step 3. Copy the Sales Rep data from Sheet1 to SalesRepData.'
+- '- Step 4. Autofill the Sales Rep data in SalesRepData.'

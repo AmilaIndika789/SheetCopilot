@@ -1,0 +1,8 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Autofill the Acceleration of Block up Ramp column.'
+- '- Step 2. Create a new sheet for the chart.'
+- '- Step 3. Copy the data to the new sheet.'
+- '- Step 4. Create a line chart for the Acceleration of Block up Ramp.'
+- '- Step 5. Set the title of the chart.'
+- '- Step 6. Set the x-axis title to Hanging mass.'
+- '- Step 7. Set the y-axis title to Acceleration of Block up Ramp.'

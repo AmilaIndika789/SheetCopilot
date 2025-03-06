@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Highlight the rows where Promotion is not "None" and Sales Channel is
+  "In Store Sales" by filling the Revenue cell with yellow.'

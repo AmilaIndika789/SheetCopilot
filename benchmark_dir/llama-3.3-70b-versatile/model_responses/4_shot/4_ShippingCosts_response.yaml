@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Highlight the customers where the Birmingham value is more than 1.5 times
+  the Seattle value in red.'
+- '- Step 2. Highlight the customers where the Seattle value is less than 2 times
+  the Oakland value in yellow.'

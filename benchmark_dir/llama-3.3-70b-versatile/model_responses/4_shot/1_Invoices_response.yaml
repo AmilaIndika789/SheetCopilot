@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Calculate the median sales in cell G20.'
+- '- Step 2. Highlight sales reps with sales above the median in green.'

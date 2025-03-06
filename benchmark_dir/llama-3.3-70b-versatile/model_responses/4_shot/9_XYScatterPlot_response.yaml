@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a line chart with markers to show Range and Height vs. Angle.'
+- '- Step 2. Set the title of the chart to "Range/Height vs. Angle".'
+- '- Step 3. Set the legend of the chart to the top.'
+- '- Step 4. Set the marker style of the chart to square.'

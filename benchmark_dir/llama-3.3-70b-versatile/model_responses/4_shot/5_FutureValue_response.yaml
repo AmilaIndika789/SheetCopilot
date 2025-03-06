@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet named ''Sheet2''.'
+- '- Step 2. Merge cells A1 to C1 in Sheet2 and write ''Investment Summary''.'
+- '- Step 3. Merge cells A2 to B2 in Sheet2 and write ''High Interest Rate''.'
+- '- Step 4. Merge cells C2 to D2 in Sheet2 and write ''Low Interest Rate''.'

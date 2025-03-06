@@ -1,0 +1,6 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for the vendor/client subtotal summary.'
+- '- Step 2. Write the headers for the new sheet.'
+- '- Step 3. Calculate the subtotal for each vendor/client.'
+- '- Step 4. Get the unique vendor/client list.'
+- '- Step 5. Create a pivot table to summarize the subtotals by vendor/client.'

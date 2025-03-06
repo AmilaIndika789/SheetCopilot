@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Format the country name Brazil as text.'
+- '- Step 2. Set the value of the first cell to Brazil.'
+- '- Step 3. Highlight cells containing Brazil in green text and yellow fill.'

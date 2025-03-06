@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Highlight cells in the Present Value column with values less than 10000
+  in yellow.'
+- '- Step 2. Highlight cells in the Present Value column with values greater than
+  50000 in green.'

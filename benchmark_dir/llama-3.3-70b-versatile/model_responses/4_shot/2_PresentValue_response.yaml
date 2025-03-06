@@ -1,0 +1,7 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Calculate the present value for the first investment.'
+- '- Step 2. Autofill the present value formula for the remaining investments.'
+- '- Step 3. Create a new sheet to summarize the investments.'
+- '- Step 4. Write the headers for the investment summary.'
+- '- Step 5. Copy the investment details from Sheet1 to the Investment Summary sheet.'
+- '- Step 6. Autofill the investment details for the remaining rows.'

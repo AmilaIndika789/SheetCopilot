@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Write the header for the Present Value column.'
+- '- Step 2. Write the formula to calculate the Present Value in the first data row.'
+- '- Step 3. Autofill the Present Value formula for the remaining rows.'

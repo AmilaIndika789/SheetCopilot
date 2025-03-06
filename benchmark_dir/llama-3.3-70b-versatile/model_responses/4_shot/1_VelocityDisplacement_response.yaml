@@ -1,0 +1,6 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a scatter chart to show the relationship between Displacement
+  and Velocity.'
+- '- Step 2. Set the title for the x-axis as Displacement m.'
+- '- Step 3. Set the title for the y-axis as Velocity m/s.'
+- '- Step 4. Add a linear trendline to the chart and display its equation.'

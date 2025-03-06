@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for customers.'
+- '- Step 2. Copy the customers from Sheet1 to the new sheet.'
+- ' '
+- 'Note: The rest of the steps are redundant and can be removed.'

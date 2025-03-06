@@ -1,0 +1,6 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Insert a new column after the Sales column.'
+- '- Step 2. Name the new column as Sales Difference.'
+- '- Step 3. Calculate the difference in sales between the first two years.'
+- '- Step 4. Fill the Sales Difference column with the calculated differences for
+  the remaining years.'

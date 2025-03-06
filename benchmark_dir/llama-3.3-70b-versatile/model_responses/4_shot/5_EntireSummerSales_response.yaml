@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for product summary.'
+- '- Step 2. Write the headers for the product summary.'
+- '- Step 3. Create a pivot table to summarize product revenue.'
+- '- Step 4. Create a pivot table to summarize product revenue by product.'

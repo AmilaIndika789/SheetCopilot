@@ -1,0 +1,3 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Freeze the first row of Sheet1 so that the headers remain visible when
+  scrolling.'

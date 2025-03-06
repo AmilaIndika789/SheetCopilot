@@ -1,0 +1,7 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for average sales data.'
+- '- Step 2. Write the headers for the average sales data.'
+- '- Step 3. Calculate the average sales for the first sales rep.'
+- '- Step 4. Autofill the average sales formula for the remaining sales reps.'
+- '- Step 5. Copy the sales rep names to the new sheet.'
+- '- Step 6. Autofill the sales rep names for the remaining rows.'

@@ -1,0 +1,8 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet for the pivot table.'
+- '- Step 2. Write the header for the Year column.'
+- '- Step 3. Extract unique years from Sheet1 and write them in the Year column.'
+- '- Step 4. Write the header for the Total Operating Expenses column.'
+- '- Step 5. Calculate the total operating expenses for each year and write the formula
+  in the Total Operating Expenses column.'
+- '- Step 6. Autofill the formula for the remaining years.'

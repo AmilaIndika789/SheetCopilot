@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Write the label "Total" in the 12th row.'
+- '- Step 2. Calculate the total sales in the 12th row.'
+- '- Step 3. Calculate the total COGS in the 12th row.'

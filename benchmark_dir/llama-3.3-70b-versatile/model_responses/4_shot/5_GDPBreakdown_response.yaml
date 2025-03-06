@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for 2013 in Quarters.'
+- '- Step 2. Calculate the first quarter of 2013.'
+- '- Step 3. Fill in the rest of the quarters for 2013.'
+- '- Step 4. Set the data type of the 2013 in Quarters column to number.'

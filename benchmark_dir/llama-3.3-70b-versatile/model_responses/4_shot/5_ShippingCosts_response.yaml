@@ -1,0 +1,5 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for Cost.'
+- '- Step 2. Calculate the cost by multiplying the minimum distance by 3.11.'
+- '- Step 3. Autofill the cost formula for the remaining rows.'
+- '- Step 4. Highlight rows where the cost is less than 75 in green.'

@@ -1,0 +1,7 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Autofill the Acceleration column.'
+- '- Step 2. Create a new sheet for the scatter chart.'
+- '- Step 3. Create a scatter chart of Acceleration vs Hanging Mass.'
+- '- Step 4. Set the title of the chart.'
+- '- Step 5. Set the x-axis title to Hanging Mass.'
+- '- Step 6. Set the y-axis title to Acceleration.'

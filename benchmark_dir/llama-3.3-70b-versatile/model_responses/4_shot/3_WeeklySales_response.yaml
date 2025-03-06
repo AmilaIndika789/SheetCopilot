@@ -1,0 +1,4 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for Profit.'
+- '- Step 2. Write the formula to calculate profit in the first data row.'
+- '- Step 3. Autofill the profit formula for the remaining rows.'

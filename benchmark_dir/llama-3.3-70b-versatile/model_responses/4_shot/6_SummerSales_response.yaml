@@ -1,0 +1,7 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new sheet named Summary.'
+- '- Step 2. Write the header for the Month and Total Revenue columns.'
+- '- Step 3. Create a pivot table to summarize monthly revenue.'
+- '- Step 4. Create a line chart based on the pivot table.'
+- '- Step 5. Set the title of the chart to Monthly Revenue.'
+- '- Step 6. Set the x-axis title to Month and the y-axis title to Total Revenue.'

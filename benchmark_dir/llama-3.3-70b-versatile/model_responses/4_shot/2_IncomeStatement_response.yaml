@@ -1,0 +1,6 @@
+llama-3.3-70b-versatile_response:
+- '- Step 1. Create a new column for Gross Profit.'
+- '- Step 2. Write the formula to calculate Gross Profit in the Gross Profit column.'
+- '- Step 3. Autofill the Gross Profit formula for the remaining rows.'
+- '- Step 4. Highlight the cells where Gross Profit is higher than the average Gross
+  Profit in green.'
