@@ -63,7 +63,7 @@ class LLM:
                 messages=prompt,
                 temperature=groq_model["temperature"],
             )
-            time.sleep(60)  # Workaround to avoid rate limit exceeding per minute
+            time.sleep(10)  # Workaround to avoid rate limit exceeding per minute
         except groq.APIConnectionError as e:
             print("The server could not be reached")
             print(e.__cause__)  # an underlying Exception, likely raised within httpx.
