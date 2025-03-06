@@ -1,0 +1,6 @@
+gpt_response:
+- Step 1. Write a header for "Shipping Cost to Seattle".
+- Step 2. Calculate the shipping cost using the specified formula.
+- Step 3. Autofill the shipping cost formula for additional rows.
+- Step 4. Apply conditional formatting to highlight cells based on the shipping cost
+  values.

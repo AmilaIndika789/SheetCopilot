@@ -1,0 +1,13 @@
+gpt_response:
+- 'Step 1: Write a formula in cell D2 of Sheet1 to calculate profit before tax by
+  subtracting total expenses from sales.'
+- 'Step 2: Autofill the formula from D2 down to D11 in Sheet1 to apply it to all relevant
+  rows.'
+- 'Step 3: Write a formula in cell E2 of Sheet1 to calculate tax expense based on
+  the profit before tax.'
+- 'Step 4: Autofill the formula from E2 down to E11 in Sheet1 to apply it to all relevant
+  rows.'
+- 'Step 5: Set the data type of the range D2:D11 in Sheet1 to currency for proper
+  formatting.'
+- 'Step 6: Set the data type of the range E2:E11 in Sheet1 to currency for proper
+  formatting.'

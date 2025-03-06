@@ -1,0 +1,7 @@
+gpt_response:
+- Step 1. Write the formula for Acceleration in cell B2.
+- Step 2. Autofill the Acceleration formula down to row 122.
+- Step 3. Set conditional formatting to fill cells in green if the value is greater
+  than or equal to 1.
+- Step 4. Set conditional formatting to fill cells in yellow if the value is less
+  than 1.

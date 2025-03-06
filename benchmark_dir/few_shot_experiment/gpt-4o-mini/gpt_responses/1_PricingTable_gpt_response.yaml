@@ -1,0 +1,7 @@
+gpt_response:
+- Step 1. Write a formula in the Price column to lookup prices based on the Number
+  of Rolls.
+- Step 2. Autofill the Price formula for all relevant rows.
+- Step 3. Write a formula in the Revenue column to calculate total revenue based on
+  Number of Rolls and Price.
+- Step 4. Autofill the Revenue formula for all relevant rows.

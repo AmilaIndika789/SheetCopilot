@@ -1,0 +1,7 @@
+gpt_response:
+- Step 1. Create a new sheet named "Summary".
+- Step 2. Write the header "Total Revenue" in the first cell of the Summary sheet.
+- Step 3. Write a formula to calculate the total revenue from the specified range
+  in Sheet1.
+- Step 4. Write a formula to calculate the total expenses from the specified range
+  in Sheet1.

@@ -1,0 +1,6 @@
+gpt_response:
+- 'Step 1: Create a scatter chart in Sheet1 using data from columns A and B, named
+  "Displacement vs Velocity".'
+- 'Step 2: Set the x-axis title of the chart to "Displacement m".'
+- 'Step 3: Set the y-axis title of the chart to "Velocity m/s".'
+- 'Step 4: Add a linear trendline to the chart and display its equation.'

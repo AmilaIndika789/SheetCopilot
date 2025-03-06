@@ -1,0 +1,5 @@
+gpt_response:
+- Step 1. Add a header "Adjusted Annual Rate" in the first row of column C in Sheet1.
+- Step 2. Write a formula in cell C2 to calculate the adjusted annual rate based on
+  the value in cell A2.
+- Step 3. Autofill the formula from C2 down to C25 to apply it to all relevant rows.

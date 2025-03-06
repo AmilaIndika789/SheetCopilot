@@ -1,0 +1,7 @@
+gpt_response:
+- Step 1. Insert a formula in cell B2 of Sheet1 to calculate a value based on cell
+  A2.
+- Step 2. Copy the formula in B2 down to B122 to apply it to all rows.
+- Step 3. Apply a green fill to cells in B2:B122 if the value is greater than or equal
+  to 1.
+- Step 4. Apply a yellow fill to cells in B2:B122 if the value is less than 1.

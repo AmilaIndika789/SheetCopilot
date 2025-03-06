@@ -1,0 +1,3 @@
+gpt_response:
+- Step 1. Apply a filter to the range to show only rows where the values in the third
+  column (Milwaukee) are less than 2000.

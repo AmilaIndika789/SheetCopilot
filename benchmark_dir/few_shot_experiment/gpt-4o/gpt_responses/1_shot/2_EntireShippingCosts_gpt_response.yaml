@@ -1,0 +1,6 @@
+gpt_response:
+- Step 1. Label cell A72 as "Average" in Sheet1.
+- Step 2. Calculate the average for column B in cell B72 of Sheet1.
+- Step 3. Calculate the average for column C in cell C72 of Sheet1.
+- Step 4. Calculate the average for column D in cell D72 of Sheet1.
+- Step 5. Calculate the average for column E in cell E72 of Sheet1.

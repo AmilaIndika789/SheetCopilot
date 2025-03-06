@@ -1,0 +1,7 @@
+gpt_response:
+- Step 1. Write a formula in the Profit Before Tax column to calculate profit.
+- Step 2. Autofill the Profit formula for the remaining rows.
+- Step 3. Write a formula in the Tax Expense column to calculate tax based on profit.
+- Step 4. Autofill the Tax Expense formula for the remaining rows.
+- Step 5. Set the data type for the Profit column to currency.
+- Step 6. Set the data type for the Tax Expense column to currency.

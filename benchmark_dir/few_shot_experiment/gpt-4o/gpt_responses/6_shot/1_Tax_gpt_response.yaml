@@ -1,0 +1,6 @@
+gpt_response:
+- Step 1. Calculate Profit Before Tax for the first row and autofill for remaining
+  rows.
+- Step 2. Calculate Tax Expense for the first row and autofill for remaining rows.
+- Step 3. Format the Profit Before Tax column as currency.
+- Step 4. Format the Tax Expense column as currency.

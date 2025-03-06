@@ -1,0 +1,9 @@
+gpt_response:
+- Step 1. Write a formula in the second row of column B to calculate acceleration
+  based on values in column A.
+- Step 2. Autofill the acceleration formula down to the rest of the rows in column
+  B.
+- Step 3. Set conditional formatting to color cells in column B green if the value
+  is greater than or equal to 1.
+- Step 4. Set conditional formatting to color cells in column B yellow if the value
+  is less than 1.

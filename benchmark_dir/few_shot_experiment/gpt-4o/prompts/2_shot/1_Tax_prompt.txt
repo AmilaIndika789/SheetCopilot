@@ -1,0 +1,59 @@
+SYSTEM
+Summarize the each sub-step of instructions into explanations in natural language. Be brief and do not provide verbose explanations.Avoid redundant steps and provide minimal steps
+
+USER
+- Write(range="Sheet2!A1", value="Customers")
+- Write(range="Sheet2!A1", value="Customers")
+- CreateSheet(sheetName="Sheet2")
+- Write(range="Sheet2!A1", value="Customers")
+- AutoFill(source="Sheet1!A2:E2", destination="Sheet2!A2:E11")
+- AutoFill(source="Sheet1!A2:E2", destination="Sheet2!A2:E11")
+- Write(range="Sheet2!A2", value="=Sheet1!A2")
+
+Here is the supplementary documentation you can reference:
+['Write(range: str, value: str)\nArgs explanation:\nrange (string): The range to write the value into. Here, the range must be a single cell.\nvalue (string): The value to be written. The string in value also can be an Excel formula. A string starting with "=" will be treated as a formula. When using address indexing from another sheet in a formula, if the worksheet name contains spaces, its name must be enclosed in single quotes (e.g. \'Pivot Table\'!A1). Please use correct absolute and relative references, e.g., $A$1, $A1, A$1, A1.\n\nUsage example:\n# Example 1: Write headers for the new column.\nWrite("Sheet2!A1", "Date")\nWrite("Sheet2!B1", "Sales")\n# Example 2: Write the formula into the cell.\nWrite("Sheet1!A2", "=VLOOKUP(\'Retail Price\'!C2, \'Retail Price\'!A:B, 2, FALSE)") # Must single quote the sheet name if it contains spaces.\nWrite("Sheet1!A3", "=SUM(Sheet2!$A$1:$A$20)") # Absolute address.\n# Example 3: Add a new column after the A column named "Month".\nInsertColumn("Sheet1", after="A")\nWrite("Sheet1!B1", "Month")\n', 'CreateSheet(sheetName: str = None, before: str = None, after: str = None)\nArgs explanation:\nsheetName (string): The name for the new sheet.\nbefore (string): The name of the sheet before which the new sheet will be inserted.\nafter (string): The name of the sheet after which the new sheet will be inserted.\n\nUsage example:\n# Example 1: Create a new sheet named \'Sheet2\'.\nCreateSheet(\'Sheet2\')\n# Example 2: Summarize the quantity of products sold by type in a new sheet.\n# Sheet state: Sheet "Sheet1" has 6 columns (Headers are A: "Date Time", B: "Web Site", C: "Product", D: "Type", E: "Quantity", F: "Discount") and 11 rows (including the header row).\nCreateSheet(\'Sheet2\')\nCreatePivotTable(\'Sheet1!A1:F11\', \'Sheet2\', \'PivotTable1\', [\'Type\'], [], [], [\'Quantity\'])\n', 'AutoFill(source: str, destination: str)\nArgs explanation:\nsource (string): The range to auto fill from.\ndestination (string): The range to auto fill into.\n# The destination must include the source range.\n\nUsage example:\n# Example 1: Autofill down columns\nAutoFill("Sheet1!A1", "Sheet1!A1:A10")\n']
+Here is the corresponding sheet state:
+Sheet state: Sheet "Sheet1" has 5 columns (Headers are A: "Customers", B: "Seattle", C: "Milwaukee", D: "Birmingham", E: "Oakland") and 71 rows (1 header row and 70 data rows).
+
+ASSISTANT
+- Step 1. Write the headers in Sheet2.
+- Step 1. Create the headers in Sheet2.
+- Step 1. Create Sheet2.
+- Step 1. Create a new sheet named 'Sheet2'.
+- Step 2. Write the headers in Sheet2.
+- Step 3. Autofill the first 10 rows of data from Sheet1 to Sheet2.
+- Step 3. Write the first 10 rows of data from Sheet1 to Sheet2 manually.
+- Step 3. Copy the first 10 rows of data from Sheet1 to Sheet2.
+- Step 3. Write the first 10 rows of data from Sheet1 to Sheet2 manually.
+
+
+USER
+- CreateSheet(sheetName="Sheet2")
+- Write(range="Sheet2!A1", value="Product")
+- AutoFill(source="Sheet2!A2", destination="Sheet2!A2:A19")
+- Sort(source="Sheet2!A2:A19", key1="Sheet2!A1", order="asc", orientation="column")
+
+Here is the supplementary documentation you can reference:
+['Sort(source: str, key1: str, order: str=\'asc\', orientation: str=\'column\')\nArgs explanation:\nsource (string): The range to sort.\nkey1 (string): The key to sort by.\norder (string): The order to sort by. It can be \'asc\' or \'desc\'.\norientation (string): The orientation to sort by. It can be \'column\' or \'row\'.\n\nUsage example:\n# Example 1: Sort the range (A1:E6) in Sheet1 by the first column (i.e. A column) in ascending order.\nSort("Sheet1!A2:E6", "Sheet1!A1", "asc", "column") # Exculde the first row (i.e. A1:E1) because it is the header.\n', 'Write(range: str, value: str)\nArgs explanation:\nrange (string): The range to write the value into. Here, the range must be a single cell.\nvalue (string): The value to be written. The string in value also can be an Excel formula. A string starting with "=" will be treated as a formula. When using address indexing from another sheet in a formula, if the worksheet name contains spaces, its name must be enclosed in single quotes (e.g. \'Pivot Table\'!A1). Please use correct absolute and relative references, e.g., $A$1, $A1, A$1, A1.\n\nUsage example:\n# Example 1: Write headers for the new column.\nWrite("Sheet2!A1", "Date")\nWrite("Sheet2!B1", "Sales")\n# Example 2: Write the formula into the cell.\nWrite("Sheet1!A2", "=VLOOKUP(\'Retail Price\'!C2, \'Retail Price\'!A:B, 2, FALSE)") # Must single quote the sheet name if it contains spaces.\nWrite("Sheet1!A3", "=SUM(Sheet2!$A$1:$A$20)") # Absolute address.\n# Example 3: Add a new column after the A column named "Month".\nInsertColumn("Sheet1", after="A")\nWrite("Sheet1!B1", "Month")\n', 'CreateSheet(sheetName: str = None, before: str = None, after: str = None)\nArgs explanation:\nsheetName (string): The name for the new sheet.\nbefore (string): The name of the sheet before which the new sheet will be inserted.\nafter (string): The name of the sheet after which the new sheet will be inserted.\n\nUsage example:\n# Example 1: Create a new sheet named \'Sheet2\'.\nCreateSheet(\'Sheet2\')\n# Example 2: Summarize the quantity of products sold by type in a new sheet.\n# Sheet state: Sheet "Sheet1" has 6 columns (Headers are A: "Date Time", B: "Web Site", C: "Product", D: "Type", E: "Quantity", F: "Discount") and 11 rows (including the header row).\nCreateSheet(\'Sheet2\')\nCreatePivotTable(\'Sheet1!A1:F11\', \'Sheet2\', \'PivotTable1\', [\'Type\'], [], [], [\'Quantity\'])\n', 'AutoFill(source: str, destination: str)\nArgs explanation:\nsource (string): The range to auto fill from.\ndestination (string): The range to auto fill into.\n# The destination must include the source range.\n\nUsage example:\n# Example 1: Autofill down columns\nAutoFill("Sheet1!A1", "Sheet1!A1:A10")\n']
+Here is the corresponding sheet state:
+Sheet state: Sheet "Sheet1" has 7 columns (Headers are A: "Invoice No.", B: "Date", C: "Sales Rep", D: "Product", E: "Price", F: "Units", G: "Sales") and 19 rows (1 header row and 18 data rows).
+
+ASSISTANT
+- Step 1. Create a new sheet for the copied product column.
+- Step 2. Copy the Product column from Sheet1 to Sheet2.
+- Step 3. Fill the Product column in Sheet2 with the data from Sheet1.
+- Step 4. Sort the Product column in Sheet2 in ascending order.
+
+
+USER
+- Write(range="Sheet1!D2", value="=B2-C2")
+- AutoFill(source="Sheet1!D2", destination="Sheet1!D2:D11")
+- Write(range="Sheet1!E2", value="=D2*0.225")
+- AutoFill(source="Sheet1!E2", destination="Sheet1!E2:E11")
+- SetDataType(source="Sheet1!D2:D11", dataType="currency")
+- SetDataType(source="Sheet1!E2:E11", dataType="currency")
+
+Here is the supplementary documentation you can reference:
+['SetDataType(source: str, dataType: str)\nArgs explanation:\nsource (string): The range to set data type.\ndataType (string): The data type to set. It can be \'date\', \'text\', \'number\', \'currency\', \'time\', \'general\', or \'percentage\'.\n\nUsage example:\n# Example 1: Set data type for the range (A1:B6) to \'date\'.\nSetDataType(source="Sheet1!A2:B6", dataType="date") # Exculde the first row because it is the header.\n# After implementing this action, the range (A1:B6) will be set to \'date\' data type.\n# Example 2: Create a new column to store the profit.\nWrite("Sheet1!C1", "Profit")\nWrite("Sheet1!C2", "=Sheet1!B2-Sheet1!A2")\nAutoFill("Sheet1!C2", "Sheet1!C2:C6")\nSetDataType(source="Sheet1!C:C", dataType="currency")\n', 'Write(range: str, value: str)\nArgs explanation:\nrange (string): The range to write the value into. Here, the range must be a single cell.\nvalue (string): The value to be written. The string in value also can be an Excel formula. A string starting with "=" will be treated as a formula. When using address indexing from another sheet in a formula, if the worksheet name contains spaces, its name must be enclosed in single quotes (e.g. \'Pivot Table\'!A1). Please use correct absolute and relative references, e.g., $A$1, $A1, A$1, A1.\n\nUsage example:\n# Example 1: Write headers for the new column.\nWrite("Sheet2!A1", "Date")\nWrite("Sheet2!B1", "Sales")\n# Example 2: Write the formula into the cell.\nWrite("Sheet1!A2", "=VLOOKUP(\'Retail Price\'!C2, \'Retail Price\'!A:B, 2, FALSE)") # Must single quote the sheet name if it contains spaces.\nWrite("Sheet1!A3", "=SUM(Sheet2!$A$1:$A$20)") # Absolute address.\n# Example 3: Add a new column after the A column named "Month".\nInsertColumn("Sheet1", after="A")\nWrite("Sheet1!B1", "Month")\n', 'AutoFill(source: str, destination: str)\nArgs explanation:\nsource (string): The range to auto fill from.\ndestination (string): The range to auto fill into.\n# The destination must include the source range.\n\nUsage example:\n# Example 1: Autofill down columns\nAutoFill("Sheet1!A1", "Sheet1!A1:A10")\n']
+Here is the corresponding sheet state:
+Sheet state: Sheet "Sheet1" has 5 columns (Headers are A: "Week", B: "Sales", C: "Total Expenses Before Tax", D: "Profit Before Tax", E: "Tax Expense") and 11 rows (1 header row and 10 data rows).
