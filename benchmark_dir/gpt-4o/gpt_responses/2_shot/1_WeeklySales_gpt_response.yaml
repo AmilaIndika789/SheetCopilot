@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Add a "Profit" column in Sheet1.
-- Step 2. Calculate profit by subtracting COGS from Sales for the first row.
-- Step 3. Copy the profit formula down to the next 9 rows.
-- Step 4. Format the Profit column as currency.

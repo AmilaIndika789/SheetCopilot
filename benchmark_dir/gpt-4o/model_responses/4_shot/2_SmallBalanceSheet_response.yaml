@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Add a new column for "Asset Growth Rate".'
+- '- Step 2. Calculate total assets for each row.'
+- '- Step 3. Autofill the Assets values for respective rows.'
+- '- Step 4. Compute the Asset Growth Rate between consecutive rows.'
+- '- Step 5. Autofill the calculated Asset Growth Rate down to remaining rows.'
+- '- Step 6. Format the Asset Growth Rate values as percentages.'

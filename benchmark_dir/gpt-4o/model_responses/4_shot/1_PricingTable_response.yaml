@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Use VLOOKUP in Sheet1 to get the price per roll based on the number of
+  rolls.'
+- '- Step 2. Copy the VLOOKUP formula down to the rest of the rows in Price column.'
+- '- Step 3. Calculate the revenue in Sheet1 as the product of number of rolls and
+  price.'
+- '- Step 4. Copy the revenue formula down to the rest of the rows in Revenue column.'

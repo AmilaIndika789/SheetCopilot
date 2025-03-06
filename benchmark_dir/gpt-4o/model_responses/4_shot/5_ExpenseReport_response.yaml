@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a new column titled "Formatted Date" after the "Date" column in Sheet1. '
+- '- Step 2. Apply a formula in the new column to format the date using the expression
+  mm-yyyy.'
+- '- Step 3. AutoFill the formula in the "Formatted Date" column for 23 rows.'

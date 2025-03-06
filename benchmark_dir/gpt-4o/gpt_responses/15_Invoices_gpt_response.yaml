@@ -1,4 +1,0 @@
-gpt_response:
-- Step 1. Add a new column header for Unique Sales Rep ID.
-- Step 2. Write the formula to generate Unique Sales Rep ID in the new column.
-- Step 3. Autofill the Unique Sales Rep ID formula for the remaining rows.

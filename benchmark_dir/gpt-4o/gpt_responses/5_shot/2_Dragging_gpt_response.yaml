@@ -1,7 +1,0 @@
-gpt_response:
-- Step 1. Calculate acceleration using the given formula in the Acceleration column.
-- Step 2. Autofill the formula for the remaining rows.
-- Step 3. Highlight cells in the Acceleration column green if the value is greater
-  than or equal to 1.
-- Step 4. Highlight cells in the Acceleration column yellow if the value is less than
-  1.

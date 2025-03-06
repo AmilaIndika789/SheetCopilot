@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Create a new column for Gross Profit.'
+- '- Step 2. Enter the formula to calculate Gross Profit in the first data row.'
+- '- Step 3. Autofill the Gross Profit formula down the column.'
+- '- Step 4. Highlight rows where Gross Profit exceeds the average with green fill.'

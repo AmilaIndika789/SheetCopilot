@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Create a new sheet called 'Summary'.
-- Step 2. Write "Total Revenue" in the Summary sheet.
-- Step 3. Calculate the total revenue from Sheet1 and write it in the Summary sheet.
-- Step 4. Calculate the total expenses from Sheet1 and write it in the Summary sheet.

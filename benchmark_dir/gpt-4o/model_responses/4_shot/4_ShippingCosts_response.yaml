@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Set conditional formatting to highlight cells in the ''Customers'' column
+  if the Birmingham distance is greater than 1.5 times the Seattle distance, using
+  red fill color.'
+- '- Step 2. Apply conditional formatting to the same range to highlight cells where
+  the Seattle distance is less than twice the Oakland distance, using yellow fill
+  color.'

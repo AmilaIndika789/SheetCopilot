@@ -1,0 +1,9 @@
+gpt-4o_response:
+- '- Step 1. Add headers for Min Distance and Shipping Center in new columns.'
+- '- Step 2. Calculate the minimum distance for each row using an Excel formula.'
+- '- Step 3. Determine the closest shipping center for each row using a formula.'
+- '- Step 4. Autofill the Min Distance and Shipping Center formulas down the columns
+  for all rows.'
+- '- Step 5. Write formula to calculate the Total Shipping Charge with provided criteria
+  and autofill.'
+- '- Step 6. Add a header for Total Shipping Charge.'

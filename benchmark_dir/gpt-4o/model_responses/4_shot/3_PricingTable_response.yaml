@@ -1,0 +1,9 @@
+gpt-4o_response:
+- '- Step 1. Add a header for the Revenue column.'
+- '- Step 2. Write a formula to lookup the price per roll from the Pricing Table and
+  populate it in column C.'
+- '- Step 3. Autofill the price lookup formula down to fill the column C for all data
+  rows.'
+- '- Step 4. Calculate Revenue by multiplying the number of rolls with price for each
+  row.'
+- '- Step 5. Autofill the Revenue formula to fill column D for all data rows.'

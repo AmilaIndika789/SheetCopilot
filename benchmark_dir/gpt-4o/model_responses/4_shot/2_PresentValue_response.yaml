@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Calculate the present value for an investment in a specified cell.'
+- '- Step 2. Fill the calculated present values down the column.'
+- '- Step 3. Create a new sheet named Investment Summary.'
+- '- Step 4. Write headers for No., Present Value, and Future Value in the new sheet.'
+- '- Step 5. Copy data from Sheet1 to Investment Summary for the defined columns.'
+- '- Step 6. Autofill these values for the remaining rows.'

@@ -1,4 +1,0 @@
-gpt_response:
-- Step 1. Add a new row labeled "Average" at the end of the data.
-- Step 2. Calculate the average for each city column from Seattle to Oakland.
-- Step 3. Write the average calculations in the corresponding cells.

@@ -1,4 +1,0 @@
-gpt_response:
-- Step 1. Add a header for the Days Passed column.
-- Step 2. Calculate the days passed since a specific date for the first row.
-- Step 3. Autofill the days passed formula for the remaining rows.

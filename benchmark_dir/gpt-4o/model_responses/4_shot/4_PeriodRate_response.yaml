@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Introduce a new column named "High Periods."'
+- '- Step 2. Add a formula to check if the period is 5 or more in the "High Periods"
+  column.'
+- '- Step 3. Fill the formula down to cover all data rows in the "High Periods" column.'
+- '- Step 4. Count the number of TRUE values in the "High Periods" column and write
+  the count below the formula results.'

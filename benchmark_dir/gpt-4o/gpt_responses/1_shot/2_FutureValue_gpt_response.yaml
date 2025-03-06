@@ -1,6 +1,0 @@
-gpt_response:
-- Step 1. Add a new column header "Future Value" in Sheet1.
-- Step 2. Write a formula in the first cell of the "Future Value" column to calculate
-  future value based on other columns.
-- Step 3. Extend the formula in the "Future Value" column to the remaining rows using
-  autofill.

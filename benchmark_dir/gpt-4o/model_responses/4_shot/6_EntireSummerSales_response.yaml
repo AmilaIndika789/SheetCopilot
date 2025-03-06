@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Add a new sheet named "PromotionSummary" for the analysis.'
+- '- Step 2. Create a pivot table on the "PromotionSummary" sheet to summarize revenue
+  by promotion type using data from Sheet1.'

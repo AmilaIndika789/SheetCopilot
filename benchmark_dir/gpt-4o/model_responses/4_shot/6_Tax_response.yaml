@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Compute the profit before tax by subtracting expenses from sales.'
+- '- Step 2. Autofill the profit calculation down the rows.'
+- '- Step 3. Calculate the tax expense based on the profit.'
+- '- Step 4. Autofill the tax expense for all rows.'
+- '- Step 5. Create a line chart to visualize Sales and Tax Expenses.'
+- '- Step 6. Add a legend to the chart.'
+- '- Step 7. Position the legend at the bottom of the chart.'

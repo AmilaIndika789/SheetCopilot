@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Add a new column named Cost.'
+- '- Step 2. Calculate and write the Cost formula for the first row.'
+- '- Step 3. Autofill the Cost formula for the remaining rows.'
+- '- Step 4. Apply conditional formatting to highlight cells where the cost is less
+  than 75 in green.'

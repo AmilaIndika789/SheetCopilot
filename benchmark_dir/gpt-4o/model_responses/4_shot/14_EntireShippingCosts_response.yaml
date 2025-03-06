@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named "Customers" to hold data related to customers.'
+- '- Step 2. Use autofill to copy the data related to customers from Sheet1 to the
+  new Customers sheet.'
+- '- Step 3. Write the data from Sheet1 into the Customers sheet starting from the
+  second row and then autofill the remaining rows.'
+- ''

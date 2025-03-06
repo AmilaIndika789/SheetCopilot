@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Add a column header named "Net Income" in Sheet1.'
+- '- Step 2. Write the formula in the first data cell to calculate net income as Revenue
+  minus Total Expenses.'
+- '- Step 3. Autofill this formula down the Net Income column for all data rows.'
+- '- Step 4. Set the data type of the Net Income column to currency format.'

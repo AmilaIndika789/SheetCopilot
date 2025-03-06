@@ -1,7 +1,0 @@
-gpt_response:
-- Step 1. Calculate Profit Before Tax by subtracting Total Expenses from Sales, and
-  autofill for all rows.
-- Step 2. Calculate Tax Expense as 22.5% of Profit Before Tax, and autofill for all
-  rows.
-- Step 3. Format the Profit Before Tax column as currency.
-- Step 4. Format the Tax Expense column as currency.

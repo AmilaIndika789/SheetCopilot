@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Calculate the profit before tax for the columns provided and then autofill
+  the formula.'
+- '- Step 2. Compute the tax expense using the profit before tax and autofill the
+  formula.'
+- '- Step 3. Apply currency format to the profit before tax range.'
+- '- Step 4. Set the tax expense cells to display as currency too.'

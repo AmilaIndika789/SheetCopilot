@@ -1,0 +1,9 @@
+gpt-4o_response:
+- '- Step 1. Insert a new column after Column C for profit calculations.'
+- '- Step 2. Set a header for the column as "Profit".'
+- '- Step 3. Write a formula to calculate Profit in the new column.'
+- '- Step 4. Autofill the formula to other cells in the Profit column.'
+- '- Step 5. Create a clustered column chart for Sales trend, including Profit data
+  over time.'
+- '- Step 6. Set a title for the chart as "Sales Trend".'
+- '- Step 7. Add data labels to the chart to highlight the values.'

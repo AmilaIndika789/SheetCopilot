@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Add a new column next to the Date column.'
+- '- Step 2. Label the new column as "Marked Dates".'
+- '- Step 3. Write an IF formula to indicate whether dates are before, after, or equal
+  to a specific date.'
+- '- Step 4. Apply the formula to the new column over all relevant rows using autofill.'

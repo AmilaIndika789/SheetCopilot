@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet called ''FilteredCustomers''.'
+- '- Step 2. Write the headers in the new ''FilteredCustomers'' sheet.'
+- '- Step 3. Filter the data in Sheet1 for columns with values greater than 700 in
+  any city column.'
+- '- Step 4. Copy and paste the filtered data into ''FilteredCustomers'' sheet.'
+- '- Step 5. Sort the pasted data in ''FilteredCustomers'' based on Seattle column
+  in descending order.'

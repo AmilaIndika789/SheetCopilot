@@ -1,6 +1,0 @@
-gpt_response:
-- Step 1. Add a new column header "Days Passed" in Sheet1.
-- Step 2. Write a formula to calculate the days passed since January 15, 2011, in
-  the second row of the new column.
-- Step 3. Autofill the formula down to the 10th row to calculate days passed for each
-  entry.

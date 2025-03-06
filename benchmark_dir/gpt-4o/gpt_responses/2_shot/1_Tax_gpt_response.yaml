@@ -1,8 +1,0 @@
-gpt_response:
-- Step 1. Calculate the difference between Sales and Total Expenses for Profit Before
-  Tax in the first row.
-- Step 2. Fill the Profit Before Tax formula down to the next 9 rows.
-- Step 3. Calculate Tax Expense as 22.5% of Profit Before Tax in the first row.
-- Step 4. Fill the Tax Expense formula down to the next 9 rows.
-- Step 5. Format the Profit Before Tax column as currency.
-- Step 6. Format the Tax Expense column as currency.

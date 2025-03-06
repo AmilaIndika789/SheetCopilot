@@ -1,7 +1,0 @@
-gpt_response:
-- Step 1. Write the formula for acceleration in the specified cell.
-- Step 2. Autofill the acceleration formula for all relevant rows.
-- Step 3. Apply conditional formatting to highlight cells with acceleration values
-  of 1 or more in green.
-- Step 4. Apply conditional formatting to highlight cells with acceleration values
-  less than 1 in yellow.

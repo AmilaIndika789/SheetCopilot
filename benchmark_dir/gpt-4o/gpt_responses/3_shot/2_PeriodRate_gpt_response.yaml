@@ -1,4 +1,0 @@
-gpt_response:
-- Step 1. Add a new column header for Adjusted Annual Rate.
-- Step 2. Write a formula to adjust the annual rate in the first data cell.
-- Step 3. Autofill the formula down the Adjusted Annual Rate column for all data rows.

@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Create a new column for Marked Angles.'
+- '- Step 2. Enter a formula to check the range and mark angles with ''+'' if criteria
+  are met.'
+- '- Step 3. Copy the formula for the Marked Angles column down through row 38.'

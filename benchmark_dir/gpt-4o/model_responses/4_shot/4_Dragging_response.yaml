@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Copy data down column B for all rows in the Acceleration column.'
+- '- Step 2. Add headers for the new Force column in Sheet1.'
+- '- Step 3. Calculate the Force values for the first row using a formula and write
+  it in the first cell of the Force column.'
+- '- Step 4. Autofill the Force formula through the entire Force column.'

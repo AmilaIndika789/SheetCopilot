@@ -1,5 +1,0 @@
-gpt_response:
-- ' Add a new column header "Profit" in Sheet1.'
-- ' Calculate profit for the first row using the formula "=B2-C2".'
-- ' Copy the profit formula from the first row to the next 9 rows.'
-- ' Change the data type of the Profit column to "currency" for the specified range.'

@@ -1,4 +1,0 @@
-gpt_response:
-- Step 1. Write the label "Average" in the first column of the summary row.
-- Step 2. Calculate the average for each column from B to E and write the formulas
-  in the corresponding cells of the summary row.

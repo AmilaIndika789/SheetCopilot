@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a header for the Price column in Sheet1.'
+- '- Step 2. Use VLOOKUP to fetch prices from the Pricing Table for the corresponding
+  number of rolls.'
+- '- Step 3. Fill down the VLOOKUP formula for all rows in the Price column.'

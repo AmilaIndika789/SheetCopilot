@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Apply conditional formatting to highlight cells in Sheet1 column A from
+  rows 2 to 10 with white text and a red background if the corresponding value in
+  column B exceeds 100 days.'

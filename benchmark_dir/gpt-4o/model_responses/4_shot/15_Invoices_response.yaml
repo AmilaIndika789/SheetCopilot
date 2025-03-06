@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a header for the ''Unique Sales Rep ID'' column.'
+- '- Step 2. Write a formula to generate a unique Sales Rep ID by combining the Sales
+  Rep name and the first letter of the Product.'
+- '- Step 3. Fill the ''Unique Sales Rep ID'' formula down to include all rows.'

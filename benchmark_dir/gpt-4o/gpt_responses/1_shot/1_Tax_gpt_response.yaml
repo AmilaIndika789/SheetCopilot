@@ -1,7 +1,0 @@
-gpt_response:
-- Step 1. Calculate the difference between sales and expenses in cell D2.
-- Step 2. Use the formula from D2 to fill down to D11.
-- Step 3. Calculate the tax expense in cell E2 by multiplying D2 by 0.225.
-- Step 4. Use the formula from E2 to fill down to E11.
-- Step 5. Format the range D2:D11 as currency.
-- Step 6. Format the range E2:E11 as currency.

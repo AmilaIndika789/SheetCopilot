@@ -1,4 +1,0 @@
-gpt_response:
-- Step 1. Add a new column for "Days Passed".
-- Step 2. Calculate the days passed since the loan issue date.
-- Step 3. Fill the formula for the remaining rows in the column.

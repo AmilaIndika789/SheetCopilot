@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Fill the Acceleration column down through 121 rows.'
+- '- Step 2. Create a smooth scatter chart for Acceleration vs. Hanging Mass.'
+- '- Step 3. Ensure the chart displays both X and Y axes.'
+- '- Step 4. Label the X-axis as "Hanging Mass (m2) (kg)" and the Y-axis as "Acceleration
+  (m/s^2)".'
+- '- Step 5. Title the chart "Acceleration vs. Hanging Mass".'

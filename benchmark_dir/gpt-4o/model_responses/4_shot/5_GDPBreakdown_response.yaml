@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Create a new header "2013 in Quarters" in column Q.'
+- '- Step 2. Enter a formula to convert 2013 values to quarterly in the first row
+  of column Q.'
+- '- Step 3. Autofill the quarterly conversion formula down the column Q for all rows.'
+- '- Step 4. Set the data type of column Q to number for consistent display.'
+- ''
+- ''

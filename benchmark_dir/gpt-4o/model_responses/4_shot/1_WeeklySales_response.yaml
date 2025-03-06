@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for Profits.'
+- '- Step 2. Calculate the profit for the first row by subtracting COGS from Sales.'
+- '- Step 3. Autofill the profit formula for the other rows.'
+- '- Step 4. Set the data type for the Profit column to currency.'

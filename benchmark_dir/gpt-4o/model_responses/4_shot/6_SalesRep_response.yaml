@@ -1,0 +1,9 @@
+gpt-4o_response:
+- '- Step 1. Create a sheet called ''Average Sales''.'
+- '- Step 2. Set headers for Sales Rep and Avg Sales in the new sheet.'
+- '- Step 3. Calculate average monthly sales for the first sales rep.'
+- '- Step 4. Copy the average sales formula to the entire column for additional reps.'
+- '- Step 5. Populate the Sales Rep names from Sheet1 into the new sheet.'
+- '- Step 6. Copy the Sales Rep name format to all corresponding cells.'
+- ''
+- ''

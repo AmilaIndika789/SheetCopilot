@@ -1,5 +1,0 @@
-gpt_response:
-- Step 1. Create an XY scatter chart for Displacement and Velocity data.
-- Step 2. Set the title for the X-axis to "Displacement m".
-- Step 3. Set the title for the Y-axis to "Velocity m/s".
-- Step 4. Add a linear trendline to the chart and display the equation.

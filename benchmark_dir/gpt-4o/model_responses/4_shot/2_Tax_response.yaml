@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Calculate the profit before tax and fill down for all rows.'
+- '- Step 2. Calculate the tax expense at 19% of profit and fill down.'
+- '- Step 3. Set the data type for the profit and tax expense columns to currency.'

@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Add an ''Average'' label under the data rows.'
+- '- Step 2. Calculate the average for the Seattle column and place the result in
+  the row below the last data entry.'
+- '- Step 3. Calculate the average for the Milwaukee column and place the result similar
+  to step 2.'
+- '- Step 4. Calculate the average for the Birmingham column in the same way.'
+- '- Step 5. Calculate the average for the Oakland column and display the result.'

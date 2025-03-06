@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Apply a green fill color to cells in the Annual Interest Rate column
+  if they are greater than 0.1.'
+- '- Step 2. Apply a red fill color to cells in the Future Value column if they are
+  less than 40000.'

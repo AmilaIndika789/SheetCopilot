@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named ''Sheet2''.'
+- '- Step 2. Write headers in Sheet2 for minimum, maximum, and average loan lengths.'
+- '- Step 3. Calculate the minimum loan length from Sheet1 and display it in Sheet2.'
+- '- Step 4. Calculate the maximum loan length from Sheet1 and display it in Sheet2.'
+- '- Step 5. Calculate the average loan length from Sheet1 and display it in Sheet2.'
