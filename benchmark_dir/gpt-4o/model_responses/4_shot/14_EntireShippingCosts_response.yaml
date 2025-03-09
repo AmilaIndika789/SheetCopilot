@@ -1,7 +1,6 @@
 gpt-4o_response:
-- '- Step 1. Create a new sheet named "Customers" to hold data related to customers.'
-- '- Step 2. Use autofill to copy the data related to customers from Sheet1 to the
-  new Customers sheet.'
-- '- Step 3. Write the data from Sheet1 into the Customers sheet starting from the
-  second row and then autofill the remaining rows.'
-- ''
+- '- Step 1. Create a new sheet named ''Customers''.'
+- '- Step 2. Copy the ''Customers'' column from Sheet1 to the new sheet.'
+- '- Step 3. Write a formula to link the ''Customers'' column from Sheet1 to the new
+  sheet.'
+- '- Step 4. Autofill the linked ''Customers'' data from Sheet1 to the new sheet.'

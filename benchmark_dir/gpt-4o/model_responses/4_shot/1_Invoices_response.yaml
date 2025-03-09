@@ -1,5 +1,4 @@
 gpt-4o_response:
-- '- Step 1. Calculate the median of the Sales values and write it in cell G20 on
-  Sheet1.'
-- '- Step 2. Apply a conditional format to Sales Rep column for values where Sales
-  exceed the median, using white text and green fill.'
+- '- Step 1. Calculate the median of the Sales column and write it in cell G20.'
+- '- Step 2. Apply conditional formatting to highlight cells in the Sales Rep column
+  where Sales are greater than the median, using green fill and white text.'

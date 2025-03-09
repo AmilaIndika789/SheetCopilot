@@ -1,2 +1,2 @@
 gpt-4o_response:
-- '- Step 1. Sort rows in Sheet1 by the Revenue column in ascending order.'
+- '- Step 1. Sort the data range based on the Revenue column in ascending order.'

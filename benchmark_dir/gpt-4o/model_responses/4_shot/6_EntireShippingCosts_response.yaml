@@ -1,3 +1,2 @@
 gpt-4o_response:
-- '- Step 1. Sort the data in Sheet1 based on the Seattle column in ascending order,
-  ignoring the header.'
+- '- Step 1. Sort the data in Sheet1 by the Seattle column in ascending order.'

@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Create a new column header named Days Passed.'
-- '- Step 2. Write a formula to calculate the number of days passed since January
-  15, 2011.'
+- '- Step 1. Add a new column header for Days Passed.'
+- '- Step 2. Calculate the number of days passed since a specific date for the first
+  row.'
 - '- Step 3. Autofill the Days Passed formula for the remaining rows.'

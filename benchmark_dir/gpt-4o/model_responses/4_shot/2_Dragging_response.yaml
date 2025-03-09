@@ -1,6 +1,6 @@
 gpt-4o_response:
-- '- Step 1. Write a formula to compute the value for column B for the first row.'
-- '- Step 2. Autofill the computed formula down the remaining rows of column B.'
-- '- Step 3. Apply a green fill to cells where the value is greater than or equal
-  to 1.'
-- '- Step 4. Apply a yellow fill to cells where the value is less than 1.'
+- '- Step 1. Write a formula in cell B2 to calculate acceleration.'
+- '- Step 2. Autofill the formula in column B from row 2 to row 122.'
+- '- Step 3. Highlight cells in column B with values greater than or equal to 1 in
+  green.'
+- '- Step 4. Highlight cells in column B with values less than 1 in yellow.'

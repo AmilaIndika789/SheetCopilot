@@ -1,9 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Create a new sheet named TotalSales.'
-- '- Step 2. Add headers for Month and Total in TotalSales.'
-- '- Step 3. Write the month names and calculate total sales for January.'
-- '- Step 4. Record and calculate total sales for February.'
-- '- Step 5. Record and calculate total sales for March.'
-- '- Step 6. Record and calculate total sales for April.'
-- '- Step 7. Record and calculate total sales for May.'
-- '- Step 8. Record and calculate total sales for June.'
+- '- Step 1. Create a new sheet named "TotalSales".'
+- '- Step 2. Write the headers "Month" and "Total" in the new sheet.'
+- '- Step 3. Write the month names and calculate the total sales for each month using
+  the SUM formula for the respective columns in Sheet1.'

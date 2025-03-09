@@ -1,8 +1,8 @@
 gpt-4o_response:
-- '- Step 1. Create a sheet named "Shipping Costs".'
-- '- Step 2. Add headers "Shortest Distance" and "Cost" in the new sheet.'
-- '- Step 3. Calculate the shortest distance from each city for every customer.'
-- '- Step 4. Autofill the calculated shortest distance for all customers.'
-- '- Step 5. Calculate the shipping cost as the greater value between $80 and 3.5
-  times the shortest distance.'
-- '- Step 6. Autofill the calculated shipping costs for all customers.'
+- '- Step 1. Create a new sheet named "Shipping Costs".'
+- '- Step 2. Write headers for "Shortest Distance" and "Cost" in the new sheet.'
+- '- Step 3. Calculate the shortest distance for each row from Sheet1 and write it
+  in "Shortest Distance".'
+- '- Step 4. Autofill the shortest distance formula for all rows.'
+- '- Step 5. Calculate the cost based on the shortest distance for each row.'
+- '- Step 6. Autofill the cost formula for all rows.'

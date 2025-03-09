@@ -1,5 +1,5 @@
 gpt-4o_response:
 - '- Step 1. Create a new sheet named "Results".'
-- '- Step 2. Add a "Count" header in the new sheet.'
-- '- Step 3. Calculate and display the count of rows where the values in columns B
-  to E are all less than 2000.'
+- '- Step 2. Add a header labeled "Count" in the Results sheet.'
+- '- Step 3. Calculate and write the count of rows in Sheet1 where all cities have
+  values less than 2000 using the SUMPRODUCT formula.'

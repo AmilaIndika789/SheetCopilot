@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Add a new column named "High Velocity?".'
-- '- Step 2. Write a formula to mark high velocity in the new column based on the
-  criteria.'
-- '- Step 3. Apply the formula to all relevant rows using AutoFill.'
+- '- Step 1. Add a new column header for "High Velocity?" in Sheet1.'
+- '- Step 2. Write a formula to check if the velocity is greater than 150 and mark
+  with a "+".'
+- '- Step 3. Autofill the formula down to row 21 to apply it to the rest of the data.'

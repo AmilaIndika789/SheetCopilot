@@ -1,6 +1,11 @@
 gpt-4o_response:
-- '- Step 1. Add a "Min Distance" column and fill with the shortest among distances.'
-- '- Step 2. Add a "Shipping Center" column to find the shortest distance''s corresponding
-  city.'
-- '- Step 3. Add a "Total Shipping Charge" column to calculate charges based on distances.'
-- '- Step 4. Set the shipping charges to be displayed as currency.'
+- '- Step 1. Add a new column for the minimum distance.'
+- '- Step 2. Calculate the minimum distance for each row.'
+- '- Step 3. Autofill the minimum distance formula for all rows.'
+- '- Step 4. Add a new column for the shipping center.'
+- '- Step 5. Determine the shipping center based on the minimum distance.'
+- '- Step 6. Autofill the shipping center formula for all rows.'
+- '- Step 7. Add a new column for total shipping charge.'
+- '- Step 8. Calculate the total shipping charge for each row.'
+- '- Step 9. Autofill the total shipping charge formula for all rows.'
+- '- Step 10. Set the data type for total shipping charge to currency.'

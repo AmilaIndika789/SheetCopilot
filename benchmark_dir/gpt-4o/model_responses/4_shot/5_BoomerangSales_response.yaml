@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Add a new header named ''Product Price'' in column G.'
-- '- Step 2. Use VLOOKUP to fetch the product prices based on the Product column.'
-- '- Step 3. Autofill the VLOOKUP formula for the remaining rows.'
-- ''
+- '- Step 1. Add a new column header for Product Price in Sheet1.'
+- '- Step 2. Use VLOOKUP to find the product price based on the Product column.'
+- '- Step 3. Autofill the VLOOKUP formula for the rest of the rows in the Product
+  Price column.'

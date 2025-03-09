@@ -1,6 +1,6 @@
 gpt-4o_response:
-- '- Step 1. Create a new Sheet2 for data manipulation.'
-- '- Step 2. Merge cells in row 1 from A1 to C1.'
-- '- Step 3. Enter the text "Investment Summary" in the merged cells of row 1.'
-- '- Step 4. Merge and label cells A2 to B2 as "High Interest Rate."'
-- '- Step 5. Merge and label cells C2 to D2 as "Low Interest Rate."'
+- '- Step 1. Create a new sheet named ''Sheet2''.'
+- '- Step 2. Merge cells A1 to C1 in Sheet2.'
+- '- Step 3. Write "Investment Summary" in the merged cells A1 to C1.'
+- '- Step 4. Merge cells A2 to B2 in Sheet2 and write "High Interest Rate".'
+- '- Step 5. Merge cells C2 to D2 in Sheet2 and write "Low Interest Rate".'

@@ -1,9 +1,8 @@
 gpt-4o_response:
-- '- Step 1. Autofill the values in column B of Sheet1 down to row 30.'
-- '- Step 2. Create a new sheet named Sheet2 to hold copied data and a chart.'
-- '- Step 3. Copy paste data from first 30 rows of Sheet1 columns A and B to Sheet2.'
-- '- Step 4. Create a line chart named ''AccVsUpBlockChart'' in Sheet2 using columns
-  A as X values and B as Y values.'
-- '- Step 5. Set the title of the chart to "Acc. Vs. Up Block".'
-- '- Step 6. Set the X-axis title to "Hanging mass (kilograms)".'
-- '- Step 7. Set the Y-axis title to "Acceleration of Block up Ramp".'
+- '- Step 1. Autofill the data in column B from row 2 to row 30.'
+- '- Step 2. Create a new sheet named ''Sheet2''.'
+- '- Step 3. Copy data from Sheet1 to Sheet2.'
+- '- Step 4. Create a line chart in Sheet2 using the copied data.'
+- '- Step 5. Set the chart title to "Acc. Vs. Up Block".'
+- '- Step 6. Set the x-axis title to "Hanging mass (kilograms)".'
+- '- Step 7. Set the y-axis title to "Acceleration of Block up Ramp".'

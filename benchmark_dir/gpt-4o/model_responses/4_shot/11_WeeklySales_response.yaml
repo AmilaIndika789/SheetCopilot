@@ -1,2 +1,3 @@
 gpt-4o_response:
-- '- Create a line chart showing Sales and COGS over weeks on Sheet1.'
+- '- Step 1. Create a line chart on Sheet1 using the data from columns Week, Sales,
+  and COGS. Use the Week column as the X-axis and Sales and COGS columns as the Y-axis.'

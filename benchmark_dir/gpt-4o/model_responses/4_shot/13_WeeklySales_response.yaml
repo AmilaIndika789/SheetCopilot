@@ -1,5 +1,5 @@
 gpt-4o_response:
 - '- Step 1. Create a new sheet named "Sales & COGS Chart".'
-- '- Step 2. Copy headers and data from Sheet1 to the new sheet up to row 11.'
-- '- Step 3. Create a clustered column chart in the new sheet using the copied data.'
-- '- Step 4. Set the chart title and style it as specified.'
+- '- Step 2. Copy the data from Sheet1 to the new sheet.'
+- '- Step 3. Create a clustered column chart using the data from Sheet1.'
+- '- Step 4. Set the title for the chart with specified formatting.'

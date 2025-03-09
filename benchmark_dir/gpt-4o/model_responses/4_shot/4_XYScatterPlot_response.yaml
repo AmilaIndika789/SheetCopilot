@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Create a new column for Marked Angles.'
-- '- Step 2. Enter a formula to check the range and mark angles with ''+'' if criteria
-  are met.'
-- '- Step 3. Copy the formula for the Marked Angles column down through row 38.'
+- '- Step 1. Add a new column header for Marked Angles.'
+- '- Step 2. Write a formula to mark angles with a "+" if the range is greater than
+  0.5 meters.'
+- '- Step 3. Autofill the formula for all relevant rows in the Marked Angles column.'

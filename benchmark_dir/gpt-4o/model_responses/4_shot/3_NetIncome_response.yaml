@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Create a new sheet called Sheet2.'
-- '- Step 2. Write the header "Revenue" in cell A1 of Sheet2.'
-- '- Step 3. Reference data from Sheet1 to copy Revenue column data to Sheet2.'
-- '- Step 4. Use autofill to complete the transfer of the Revenue data in Sheet2.'
+- '- Step 1. Create a new sheet named Sheet2.'
+- '- Step 2. Add a header "Revenue" in the new sheet.'
+- '- Step 3. Write the range formula to copy revenue data from Sheet1 to Sheet2.'
+- '- Step 4. Autofill the formula to cover the specified range in Sheet2.'

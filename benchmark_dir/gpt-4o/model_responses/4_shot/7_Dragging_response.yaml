@@ -1,7 +1,8 @@
 gpt-4o_response:
-- '- Step 1. Insert a formula for computing data in a specific cell.'
-- '- Step 2. Use autofill to expand the formula to the rest of the column.'
-- '- Step 3. Create a line chart to visualize the data relationship.'
-- '- Step 4. Set a title for the newly created chart.'
-- '- Step 5. Define the x-axis title for the chart.'
-- '- Step 6. Define the y-axis title for the chart.'
+- '- Step 1. Write a formula in cell B3 to calculate acceleration using given variables.'
+- '- Step 2. Autofill the formula for the acceleration column from B2 to B122.'
+- '- Step 3. Create a line chart showing the relationship between Hanging Mass and
+  Acceleration.'
+- '- Step 4. Set the title of the chart to "Acceleration vs Hanging Mass".'
+- '- Step 5. Set the X-axis title to "Hanging Mass (m2) (kg)".'
+- '- Step 6. Set the Y-axis title to "Acceleration (m/s^2)".'

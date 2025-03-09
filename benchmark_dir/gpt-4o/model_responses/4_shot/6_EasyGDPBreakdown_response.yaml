@@ -1,4 +1,4 @@
 gpt-4o_response:
-- '- Step 1. Write the text "Brazil" into the cell A1 of Sheet1.'
-- '- Step 2. Apply conditional formatting to highlight cells in column A where the
-  country is Brazil with green text and yellow fill.'
+- '- Step 1. Write "Brazil" into the first cell of the Country column.'
+- '- Step 2. Apply conditional formatting to highlight rows with "Brazil" in the Country
+  column using green text on a yellow background.'

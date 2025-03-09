@@ -1,9 +1,9 @@
 gpt-4o_response:
-- '- Step 1. Autofill the Acceleration column in Sheet1 for the entire range.'
+- '- Step 1. Autofill the Acceleration column in Sheet1.'
 - '- Step 2. Create a new sheet named Sheet2.'
 - '- Step 3. Copy the header from Sheet1 to Sheet2.'
-- '- Step 4. Extend the formula from the copied header cell in Sheet2.'
-- '- Step 5. Write the header "Net Force (N)" in Sheet2''s second column.'
-- '- Step 6. Calculate the Net Force using the formula and add it to Sheet2.'
-- '- Step 7. Autofill the Net Force formula for the full range in Sheet2.'
-- ''
+- '- Step 4. Autofill the copied header across the rows in Sheet2.'
+- '- Step 5. Write the header for Net Force in Sheet2.'
+- '- Step 6. Calculate Net Force in Sheet2 using the formula involving Hanging Mass
+  and Acceleration.'
+- '- Step 7. Autofill the Net Force calculations for all rows in Sheet2.'

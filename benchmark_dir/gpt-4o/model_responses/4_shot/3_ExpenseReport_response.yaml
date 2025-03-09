@@ -1,7 +1,8 @@
 gpt-4o_response:
-- '- Step 1. Create a new sheet named "VendorClientSubtotalSummary".'
-- '- Step 2. Write headers for "Vendor/Client" and "Subtotal" in the new sheet.'
-- '- Step 3. Write a formula to calculate subtotals based on filter criteria.'
-- '- Step 4. Extract unique Vendor/Client data from Sheet1.'
-- '- Step 5. Filter out empty Vendor/Client entries.'
-- '- Step 6. Create a pivot table summarizing subtotals by Vendor/Client.'
+- '- Step 1. Create a new sheet for the Vendor/Client subtotal summary.'
+- '- Step 2. Create headers for Vendor/Client and Subtotal in the new sheet.'
+- '- Step 3. Write a formula to calculate subtotals for each Vendor/Client.'
+- '- Step 4. Filter unique Vendor/Client names from Sheet1 to the new sheet.'
+- '- Step 5. Filter non-empty Vendor/Client entries from Sheet1.'
+- '- Step 6. Create a pivot table to summarize subtotals by Vendor/Client in the new
+  sheet.'

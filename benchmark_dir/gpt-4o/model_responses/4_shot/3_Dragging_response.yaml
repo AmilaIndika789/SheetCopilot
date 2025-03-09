@@ -1,8 +1,7 @@
 gpt-4o_response:
-- '- Step 1. Extend the data in column B to cover all rows down to row 122 using autofill. '
-- '- Step 2. Create a new sheet named ''ScatterChart''.'
-- '- Step 3. Create a scatter chart showcasing Acceleration against Hanging Mass in
-  the ''ScatterChart'' sheet.'
-- '- Step 4. Assign the title "Acceleration vs Hanging Mass" to the chart.'
-- '- Step 5. Label the x-axis as "Hanging Mass (m2) (kg)".'
-- '- Step 6. Label the y-axis as "Acceleration (m/s^2)".'
+- '- Step 1. Autofill the Acceleration data down the column in Sheet1.'
+- '- Step 2. Create a new sheet for the scatter chart.'
+- '- Step 3. Create a scatter chart using the data from Sheet1.'
+- '- Step 4. Set the title for the scatter chart.'
+- '- Step 5. Set the X-axis title for the chart.'
+- '- Step 6. Set the Y-axis title for the chart.'

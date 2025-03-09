@@ -1,6 +1,4 @@
 gpt-4o_response:
-- '- Step 1. Add a header named Profit for the new column.'
-- '- Step 2. Enter the formula to calculate Profit for the first row of data.'
-- '- Step 3. Fill down the Profit formula to the other rows.'
-- ''
-- ''
+- '- Step 1. Add a new column header for Profit in Sheet1.'
+- '- Step 2. Enter the formula to calculate Profit for the first row.'
+- '- Step 3. Autofill the Profit formula for the remaining rows down to row 11.'

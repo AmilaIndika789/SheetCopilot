@@ -1,6 +1,5 @@
 gpt-4o_response:
 - '- Step 1. Add a new column header "Combined Info" in Sheet1.'
-- '- Step 2. Combine information from columns A to E into one cell for F2.'
-- '- Step 3. Autofill the formula in F2 down to F5.'
-- ''
-- ''
+- '- Step 2. Write a formula to combine information from columns A to E into a single
+  string in the first data row.'
+- '- Step 3. Autofill the combined information formula for the remaining data rows.'

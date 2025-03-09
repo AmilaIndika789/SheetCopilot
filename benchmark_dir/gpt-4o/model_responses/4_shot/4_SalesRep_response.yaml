@@ -1,4 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Create a new sheet called SalesRepData.'
-- '- Step 2. Add a header "Sales Rep" in the new sheet SalesRepData.'
-- '- Step 3. AutoFill or Copy "Sales Rep" data from Sheet1 to SalesRepData.'
+- '- Step 1. Create a new sheet named ''SalesRepData''.'
+- '- Step 2. Write the header ''Sales Rep'' in the new sheet.'
+- '- Step 3. Copy the ''Sales Rep'' column data from Sheet1 to SalesRepData for the
+  first 10 entries.'

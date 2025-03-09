@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Add a new column header for "Time s" in Sheet1.'
-- '- Step 2. Insert a formula to calculate time in seconds based on displacement and
-  velocity for the first row.'
-- '- Step 3. Autofill the formula for the remaining rows in the Time column.'
+- '- Step 1. Add a header for the Time column in Sheet1.'
+- '- Step 2. Calculate the time by dividing Displacement by Velocity for the first
+  row of data.'
+- '- Step 3. Autofill the Time formula for the remaining rows.'

@@ -1,7 +1,7 @@
 gpt-4o_response:
-- '- Step 1. Autofill the data column for acceleration with existing values.'
-- '- Step 2. Create a smooth scatter chart using the hanging mass and acceleration
-  data.'
-- '- Step 3. Set the title of the chart.'
-- '- Step 4. Set the title for the x-axis to represent Hanging Mass.'
-- '- Step 5. Set the y-axis title to represent Acceleration.'
+- '- Step 1. Autofill the Acceleration column in Sheet1 for the given range.'
+- '- Step 2. Create a scatter chart to visualize the relationship between Hanging
+  Mass and Acceleration.'
+- '- Step 3. Set the title of the chart to "Acceleration vs. Hanging Mass".'
+- '- Step 4. Label the x-axis as "Hanging Mass (m2) (kg)".'
+- '- Step 5. Label the y-axis as "Acceleration (m/s^2)".'

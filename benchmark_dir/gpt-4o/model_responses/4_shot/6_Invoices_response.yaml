@@ -1,5 +1,4 @@
 gpt-4o_response:
-- '- Step 1. Write a formula in a new column to calculate the average of the Sales
-  column.'
-- '- Step 2. Set a conditional format that highlights cells in the Sales column that
-  exceed the average, using a red fill.'
+- '- Step 1. Calculate the average of the Sales column and place it in cell H1.'
+- '- Step 2. Apply conditional formatting to highlight Sales values above the average
+  in red.'

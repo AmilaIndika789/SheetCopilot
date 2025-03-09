@@ -1,8 +1,7 @@
 gpt-4o_response:
-- '- Step 1. Create a scatter chart with Angle on the x-axis, and Range and Height
-  on the y-axis.'
-- '- Step 2. Position the chart''s legend on the left side.'
-- '- Step 3. Set square and triangle markers for series points in the chart.'
-- '- Step 4. Title the x-axis as "Angle (Degrees)".'
-- '- Step 5. Hide the y-axis in the chart.'
-- '- Step 6. Apply polynomial and linear trendlines to the series.'
+- '- Step 1. Create a scatter chart with Angle as X-axis and Range and Height as Y-axes.'
+- '- Step 2. Set the chart legend to the left side.'
+- '- Step 3. Use square and triangle markers for the chart series.'
+- '- Step 4. Set the X-axis title to "Angle (Degrees)".'
+- '- Step 5. Remove the Y-axis from the chart.'
+- '- Step 6. Add polynomial and linear trendlines to the chart series.'

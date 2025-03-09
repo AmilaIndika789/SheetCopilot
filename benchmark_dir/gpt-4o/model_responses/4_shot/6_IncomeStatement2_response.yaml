@@ -1,6 +1,3 @@
 gpt-4o_response:
-- '- Step 1. Apply a conditional format to highlight cells in the Discount and Allowances
-  column if they contain a number, setting the text color to black and the background
-  fill to white.'
-- ''
-- ''
+- '- Step 1. Apply conditional formatting to highlight cells in the Discounts and
+  Allowances column if they contain numbers, using black text on a white background.'

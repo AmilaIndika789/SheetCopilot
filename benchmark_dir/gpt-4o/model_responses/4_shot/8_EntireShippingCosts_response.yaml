@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Add a new column named "Distances."'
-- '- Step 2. Concatenate the distances from four cities into a single cell for the
-  second row.'
-- '- Step 3. Autofill this formula for the entire column, covering rows 2 to 71.'
+- '- Step 1. Add a new column header for Distances.'
+- '- Step 2. Combine the values from columns B, C, D, and E into a single cell in
+  the Distances column.'
+- '- Step 3. Autofill the Distances formula for all rows.'

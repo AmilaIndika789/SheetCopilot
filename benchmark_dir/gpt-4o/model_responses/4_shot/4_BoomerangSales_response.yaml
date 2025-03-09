@@ -1,3 +1,3 @@
 gpt-4o_response:
-- '- Step 1. Apply a conditional format to highlight dates after July 1, 2015, in
-  red fill color for cells A2 to A36 in Sheet1.'
+- '- Step 1. Apply conditional formatting to highlight dates after July 1, 2015, in
+  red.'

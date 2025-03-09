@@ -1,6 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Add a new header for the Future Value column.'
-- '- Step 2. Calculate the future value using the provided formula for the first row
-  of data.'
-- '- Step 3. Autofill the future value formula for the remaining data rows up to row
-  5.'
+- '- Step 1. Add a new column header for Future Value.'
+- '- Step 2. Write the formula to calculate the future value in the first row of the
+  new column.'
+- '- Step 3. Autofill the Future Value formula for the remaining rows.'

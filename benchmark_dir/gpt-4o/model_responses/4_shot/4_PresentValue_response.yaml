@@ -1,6 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Create a column header for Present Value.'
-- '- Step 2. Calculate Present Value for the first row using the provided formula.'
+- '- Step 1. Add a header for the Present Value column.'
+- '- Step 2. Write the formula to calculate present value in the first cell of the
+  column.'
 - '- Step 3. Autofill the Present Value formula for the remaining rows.'
-- ''
-- ''

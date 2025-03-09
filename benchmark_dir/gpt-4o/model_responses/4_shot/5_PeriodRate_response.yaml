@@ -1,2 +1,3 @@
 gpt-4o_response:
-- '- Step 1. Sort data in ascending order by the "Annual Rate (%)".'
+- '- Step 1. Sort the data in Sheet1 from rows 2 to 25 by the "Annual Rate (%)" column
+  in ascending order.'

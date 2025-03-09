@@ -1,6 +1,7 @@
 gpt-4o_response:
-- '- Step 1. Add a new column header for "Color Indicator".'
-- '- Step 2. Write a formula to compare the stock value on Dec 31 with Jan 1.'
-- '- Step 3. Autofill the formula for the rest of the rows in "Color Indicator" column.'
-- '- Step 4. Create a bar chart to represent stock values on Dec 31.'
-- '- Step 5. Set the title for the created chart as "Stock Values on Dec 31".'
+- '- Step 1. Add a new column for Color Indicator.'
+- '- Step 2. Write a formula to check if the stock value increased by comparing values
+  on Dec 31 and Jan 1.'
+- '- Step 3. Autofill the formula for the Color Indicator column.'
+- '- Step 4. Create a bar chart to display Stock Values on Dec 31.'
+- '- Step 5. Set the title for the chart to "Stock Values on Dec 31".'

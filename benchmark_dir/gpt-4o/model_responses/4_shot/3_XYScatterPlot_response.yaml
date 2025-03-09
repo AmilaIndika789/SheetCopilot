@@ -1,3 +1,4 @@
 gpt-4o_response:
-- '- Step 1. Apply conditional formatting to the Range column to highlight in red
-  when data meets specific criteria for Angle and Height.'
+- '- Step 1. Apply conditional formatting to highlight cells in the Range column where
+  the Angle is less than 75 degrees and the Height is greater than 0.25 meters, using
+  red text color.'

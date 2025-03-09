@@ -1,2 +1,2 @@
 gpt-4o_response:
-- '- Step 1. Format the Revenue column as currency from rows 2 to 2001 in Sheet1.'
+- '- Step 1. Set the data type of the Revenue column to currency for rows 2 to 2001.'

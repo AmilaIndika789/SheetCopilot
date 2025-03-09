@@ -1,5 +1,5 @@
 gpt-4o_response:
-- '- Step 1. Highlight cells in the Present Value column in Sheet1 when values are
-  less than 10,000 with a yellow background.'
-- '- Step 2. Highlight cells in the Present Value column in Sheet1 when values are
-  greater than 50,000 with a green background.'
+- '- Step 1. Highlight cells in the Present Value column with yellow if the value
+  is less than 10,000.'
+- '- Step 2. Highlight cells in the Present Value column with green if the value is
+  greater than 50,000.'

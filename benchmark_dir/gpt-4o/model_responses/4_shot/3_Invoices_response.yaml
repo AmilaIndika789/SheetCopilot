@@ -1,3 +1,3 @@
 gpt-4o_response:
-- '- Step 1. Apply conditional formatting to highlight each cell in the Sales column
-  that is greater than 600, using white text on a red background.'
+- '- Step 1. Apply conditional formatting to highlight cells in the Sales column that
+  exceed 600 with white text on a red background.'

@@ -1,4 +1,4 @@
 gpt-4o_response:
-- '- Step 1. Sort the data by Sales column in descending order.'
-- '- Step 2. Apply red fill to Sales values less than 250.'
-- '- Step 3. Apply blue fill to Sales values greater than 500.'
+- '- Step 1. Sort the data by the Sales column in descending order.'
+- '- Step 2. Highlight cells in the Sales column with values less than 250 in red.'
+- '- Step 3. Highlight cells in the Sales column with values greater than 500 in blue.'
