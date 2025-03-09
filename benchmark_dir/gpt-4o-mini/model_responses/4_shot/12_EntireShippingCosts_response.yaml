@@ -1,4 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a header for the Shipping Cost to Seattle column.'
-- '- Step 2. Write the formula for calculating the shipping cost in the second row.'
-- '- Step 3. Autofill the shipping cost calculation down to the last row.'
+- '- Step 1. Add a new column header for Shipping Cost to Seattle.'
+- '- Step 2. Write the formula to calculate the shipping cost in the new column.'
+- '- Step 3. Autofill the shipping cost formula for all relevant rows.'

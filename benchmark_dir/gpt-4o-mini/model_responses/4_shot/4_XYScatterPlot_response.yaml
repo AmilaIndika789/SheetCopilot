@@ -1,4 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a new column header for "Marked Angles."'
-- '- Step 1. Create a formula to mark angles above 0.5.'
-- '- Step 2. Autofill the formula for all applicable rows in the new column.'
+- '- Step 1. Add a new column header for "Marked Angles".'
+- '- Step 2. Write a formula to mark angles based on the condition in the new column.'
+- '- Step 3. Autofill the formula down the column for the remaining rows.'

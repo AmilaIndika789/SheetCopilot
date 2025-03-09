@@ -1,13 +1,13 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a column header for the minimum distance.'
-- '- Step 2. Calculate the minimum distance for each row and write the formula.'
-- '- Step 3. Autofill the minimum distance formula for the necessary rows.'
-- '- Step 4. Add a column header for the shipping center.'
-- '- Step 5. Write a formula to identify the shipping center based on the minimum
+- '- Step 1. Add a column for Minimum Distance.'
+- '- Step 2. Write a formula to calculate the minimum distance for each row.'
+- '- Step 3. Autofill the minimum distance formula for the remaining rows.'
+- '- Step 4. Add a column for Shipping Center.'
+- '- Step 5. Write a formula to find the corresponding shipping center based on the
+  minimum distance.'
+- '- Step 6. Autofill the shipping center formula for the remaining rows.'
+- '- Step 7. Add a column for Total Shipping Charge.'
+- '- Step 8. Write a formula to calculate the total shipping charge based on the minimum
   distance.'
-- '- Step 6. Autofill the shipping center formula for remaining rows.'
-- '- Step 7. Add a column header for total shipping charge.'
-- '- Step 8. Write a formula to calculate total shipping charge based on the minimum
-  distance.'
-- '- Step 9. Autofill the total shipping charge formula for the necessary rows.'
-- '- Step 10. Set the data type of total shipping charge column to currency.'
+- '- Step 9. Autofill the total shipping charge formula for the remaining rows.'
+- '- Step 10. Set the data type of the total shipping charge column to currency.'

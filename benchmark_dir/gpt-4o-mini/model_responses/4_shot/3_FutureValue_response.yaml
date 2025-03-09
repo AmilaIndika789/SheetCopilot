@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Apply conditional formatting to highlight values in column B that are
-  less than 10,000 in yellow.'
-- '- Step 2. Apply conditional formatting to highlight values in column B that are
-  greater than 50,000 in green.'
+- '- Step 1. Highlight cells in the Present Value column that are less than 10,000
+  with a yellow fill.'
+- '- Step 2. Highlight cells in the Present Value column that are greater than 50,000
+  with a green fill.'

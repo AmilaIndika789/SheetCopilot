@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Write a header for the new column to represent quarterly data for 2013.'
-- '- Step 2. Write a formula to divide annual data by 4 to calculate quarterly values.'
-- '- Step 3. Autofill the quarterly calculations down to row 3686.'
-- '- Step 4. Set the data type for the new quarterly values to number.'
+- '- Step 1. Write the header for the new column indicating "2013 in Quarters."'
+- '- Step 2. Write the formula to calculate quarterly values in the new column.'
+- '- Step 3. Autofill the quarterly values for all rows in the column.'
+- '- Step 4. Set the data type of the new column to number.'

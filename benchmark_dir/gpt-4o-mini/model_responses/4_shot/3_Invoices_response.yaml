@@ -1,3 +1,3 @@
 gpt-4o-mini_response:
-- '- Step 1. Apply conditional formatting to highlight cells in column G where the
-  value is greater than 600, with white text on a red background.'
+- '- Step 1. Apply conditional formatting to highlight cells in the Sales column where
+  values exceed 600, using white text on a red background.'

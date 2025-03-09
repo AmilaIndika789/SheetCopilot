@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a new sheet named "ProductSummary".'
-- '- Step 2. Write headers "Product" and "Total Revenue" in the new sheet.'
-- '- Step 3. Create a pivot table summarizing total revenue by product.'
-- '- Step 4. Create a second pivot table to display revenue summarized by product.'
+- '- Step 1. Create a new sheet named "ProductSummary."'
+- '- Step 2. Write headers for "Product" and "Total Revenue" in the new sheet.'
+- '- Step 3. Create a pivot table summarizing total revenue by product in the "ProductSummary"
+  sheet.'

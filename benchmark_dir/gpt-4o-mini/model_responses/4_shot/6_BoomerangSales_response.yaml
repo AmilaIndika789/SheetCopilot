@@ -1,5 +1,3 @@
 gpt-4o-mini_response:
-- '- Step 1. Sort the data in Sheet1 by the first column (Date Time) in ascending
-  order.'
-- '- Step 2. Create a line chart based on the sorted data, using the first column
-  for the X-axis and the fifth column (Quantity) for the Y-axis.'
+- '- Step 1. Sort the data in Sheet1 by the Date Time column in ascending order.'
+- '- Step 2. Create a line chart for the Quantity data against Date Time in Sheet1.'

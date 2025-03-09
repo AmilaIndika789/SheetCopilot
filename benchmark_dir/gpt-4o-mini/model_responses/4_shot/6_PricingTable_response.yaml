@@ -1,6 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Insert a new column after the first column in Sheet1.'
+- '- Step 1. Insert a new column after column A in Sheet1.'
 - '- Step 2. Write the header "Marked Dates" in the new column.'
-- '- Step 3. Write a formula in the new column to mark dates relative to September
-  17, 2015.'
-- '- Step 4. Autofill the formula down to fill rows in the new column.'
+- '- Step 3. Write a formula to mark dates relative to September 17, 2015.'
+- '- Step 4. Autofill the formula down the new column for the relevant rows.'

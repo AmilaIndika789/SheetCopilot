@@ -1,5 +1,6 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a line marker chart based on Angle, Range, and Height data.'
-- '- Step 2. Set the title of the chart to "Range/Height vs. Angle."'
-- '- Step 3. Place the legend for the chart at the top.'
-- '- Step 4. Set the marker style in the chart to square.'
+- '- Step 1. Create a line markers chart for Range/Height vs. Angle using the specified
+  data.'
+- '- Step 2. Set the title of the chart to "Range/Height vs. Angle".'
+- '- Step 3. Position the chart legend at the top.'
+- '- Step 4. Set the marker style of the chart to square.'

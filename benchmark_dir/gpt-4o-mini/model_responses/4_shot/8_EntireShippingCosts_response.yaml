@@ -1,4 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a new header for Distances in column F.'
-- '- Step 2. Concatenate the values from columns B to E into the Distances column.'
-- '- Step 3. Autofill the concatenation formula for all rows in the Distances column.'
+- '- Step 1. Add a header for the Distances column.'
+- '- Step 2. Create a formula to concatenate the values from columns B to E.'
+- '- Step 3. Autofill the formula down the Distances column for all rows.'

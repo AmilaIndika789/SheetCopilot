@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Create an XY Scatter chart using Displacement and Velocity data.'
-- '- Step 2. Set the x-axis title to "Displacement m."'
-- '- Step 3. Set the y-axis title to "Velocity m/s."'
-- '- Step 4. Add a linear trendline to the chart and display its equation.'
+- '- Step 1. Create an XY scatter chart for Displacement versus Velocity.'
+- '- Step 2. Set the X-axis title to "Displacement m".'
+- '- Step 3. Set the Y-axis title to "Velocity m/s".'
+- '- Step 4. Add a linear trendline to the chart and display the equation.'

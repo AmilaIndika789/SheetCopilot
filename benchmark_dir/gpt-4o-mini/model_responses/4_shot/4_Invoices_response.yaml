@@ -1,4 +1,6 @@
 gpt-4o-mini_response:
-- '- Step 1. Sort rows based on sales in descending order.'
-- '- Step 2. Apply conditional formatting to highlight sales less than 250 in red.'
-- '- Step 3. Apply conditional formatting to highlight sales greater than 500 in blue.'
+- '- Step 1. Sort the data by the Sales column in descending order.'
+- '- Step 2. Apply conditional formatting to highlight cells in the Sales column that
+  are less than 250 in red.'
+- '- Step 3. Apply conditional formatting to highlight cells in the Sales column that
+  are greater than 500 in blue.'

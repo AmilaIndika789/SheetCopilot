@@ -1,2 +1,2 @@
 gpt-4o-mini_response:
-- '- Step 1. Sort the rows based on the Sales Rep column in ascending order.'
+- '- Step 1. Sort the data in Sheet1 by the Sales Rep column in ascending order.'

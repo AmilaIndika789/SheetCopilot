@@ -1,5 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Write a formula in cell H1 to calculate the average sales from the specified
-  range.'
-- '- Step 2. Set a conditional format to highlight cells in column G if they exceed
-  the average sales value.'
+- '- Step 1. Write the formula to calculate the average sales in cell H1.'
+- '- Step 2. Set a conditional format to highlight sales in red if they exceed the
+  average in H1.'

@@ -1,8 +1,7 @@
 gpt-4o-mini_response:
-- '- Step 1. Create an XY scatter chart for Angle vs Range and Height using data from
-  Sheet1.'
-- '- Step 2. Place the chart legend on the left.'
-- '- Step 3. Set the chart markers to square and triangle styles.'
-- '- Step 4. Label the X-axis as "Angle (Degrees)".'
-- '- Step 5. Disable the Y-axis.'
-- '- Step 6. Add both polynomial and linear trendlines to the chart.'
+- '- Step 1. Create an XY scatter chart for Angle vs. Range and Height.'
+- '- Step 2. Set the legend for the chart to the left.'
+- '- Step 3. Define the marker styles for the chart as square and triangle.'
+- '- Step 4. Set the x-axis title to "Angle (Degrees)".'
+- '- Step 5. Disable the y-axis.'
+- '- Step 6. Add polynomial and linear trendlines to the chart.'

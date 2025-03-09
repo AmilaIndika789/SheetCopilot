@@ -1,7 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Set up a conditional format to highlight cells in the specified range
-  if their corresponding values in column D are greater than 1.5 times the values
-  in column B, filling them with red.'
-- '- Step 2. Set up another conditional format to highlight the same range if their
-  corresponding values in column B are less than twice the values in column E, filling
-  them with yellow.'
+- '- Step 1. Apply a red fill color to cells in column A if the value in column D
+  is greater than 1.5 times the value in column B.'
+- '- Step 2. Apply a yellow fill color to cells in column A if the value in column
+  B is less than 2 times the value in column E.'

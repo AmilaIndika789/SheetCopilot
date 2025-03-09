@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a new sheet titled "Sales & COGS Chart."'
-- '- Step 2. Link the first 11 rows of data from Sheet1 to the new sheet.'
-- '- Step 3. Create a clustered column chart based on the sales and COGS data.'
-- '- Step 4. Set the title of the chart to "Sales & COGS."'
+- '- Step 1. Create a new sheet for the Sales and COGS chart.'
+- '- Step 2. Copy the headers and data from Sheet1 to the new sheet.'
+- '- Step 3. Create a clustered column chart based on the Sales and COGS data.'
+- '- Step 4. Set the chart title to "Sales & COGS" with specific formatting.'

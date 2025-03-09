@@ -1,3 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Apply a conditional format to highlight cells in column A where the length
-  of the loan in column B exceeds 100 days, using white text on a red background.'
+- '- Step 1. Apply conditional formatting to highlight cells in the range A2:A10 where
+  the corresponding value in column B is greater than 100, using white text on a red
+  background.'

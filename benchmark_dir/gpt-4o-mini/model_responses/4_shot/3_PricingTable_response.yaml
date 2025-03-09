@@ -1,7 +1,7 @@
 gpt-4o-mini_response:
-- '- Step 1. Add the Revenue header to the data in Sheet1.'
-- '- Step 2. Populate the Price column using the VLOOKUP function from the Pricing
-  Table.'
-- '- Step 3. Fill the Price calculations for the remaining rows.'
-- '- Step 4. Calculate the Revenue for each entry.'
-- '- Step 5. Autofill the Revenue calculations for the remaining rows.'
+- '- Step 1. Add a new column header for Revenue.'
+- '- Step 2. Write a formula to lookup the price for the number of rolls.'
+- '- Step 3. Autofill the price formula for the remaining rows.'
+- '- Step 4. Write a formula to calculate Revenue based on the number of rolls and
+  price.'
+- '- Step 5. Autofill the Revenue formula for the remaining rows.'

@@ -1,6 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Write a header for the new column that calculates days passed since a
-  specific date.'
-- '- Step 2. Write a formula to calculate the difference in days between the specified
-  date and the loan issue date.'
-- '- Step 3. Autofill the formula down the column for the remaining rows.'
+- '- Step 1. Add a new header for "Days Passed" in column C.'
+- '- Step 2. Write a formula in column C to calculate the days passed since January
+  15, 2011.'
+- '- Step 3. Autofill the formula down column C for the remaining rows.'

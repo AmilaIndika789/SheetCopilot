@@ -1,7 +1,7 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a new sheet named "Average Sales."'
-- '- Step 2. Write headers "Sales Rep" and "Avg Sales" in the new sheet.'
-- '- Step 3. Compute the average sales for the first sales representative.'
-- '- Step 4. Autofill the average sales for the remaining sales representatives.'
-- '- Step 5. Copy the sales representative names from the original sheet.'
-- '- Step 6. Autofill the sales representative names in the new sheet.'
+- '- Step 1. Create a new sheet for average sales.'
+- '- Step 2. Write the headers for Sales Rep and Avg Sales in the new sheet.'
+- '- Step 3. Calculate the average sales for each Sales Rep.'
+- '- Step 4. Autofill the average sales formula for the remaining rows.'
+- '- Step 5. Copy the Sales Rep names from Sheet1 to the new sheet.'
+- '- Step 6. Autofill the Sales Rep names for the remaining rows.'

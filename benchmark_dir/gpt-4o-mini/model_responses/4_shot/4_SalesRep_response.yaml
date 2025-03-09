@@ -1,6 +1,7 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a new sheet for Sales Representatives data.'
+- '- Step 1. Create a new sheet named "SalesRepData".'
 - '- Step 2. Write the header "Sales Rep" in the new sheet.'
-- '- Step 3. Autofill the Sales Rep names from Sheet1 into the new sheet.'
-- '- Step 4. Write the Sales Rep names using formulas linking to Sheet1.'
-- '- Step 5. Autofill the Sales Rep names using the formula added.'
+- '- Step 3. Autofill the Sales Rep data from Sheet1 to SalesRepData.'
+- '- Step 4. Write the Sales Rep data from Sheet1 into SalesRepData.'
+- '- Step 5. Write the Sales Rep data from Sheet1 into SalesRepData.'
+- '- Step 6. Autofill the Sales Rep data in SalesRepData.'

@@ -1,8 +1,7 @@
 gpt-4o-mini_response:
-- '- Step 1. Write a formula in the Acceleration column to calculate the acceleration
-  based on the Hanging Mass.'
-- '- Step 2. Autofill the Acceleration formula for the remaining rows.'
-- '- Step 3. Set a conditional format to fill cells green if Acceleration is greater
-  than or equal to 1.'
-- '- Step 4. Set a conditional format to fill cells yellow if Acceleration is less
-  than 1.'
+- '- Step 1. Write the formula for acceleration in the second column.'
+- '- Step 2. Autofill the acceleration formula for the remaining rows.'
+- '- Step 3. Set conditional formatting to highlight cells with acceleration greater
+  than or equal to 1 in green.'
+- '- Step 4. Set conditional formatting to highlight cells with acceleration less
+  than 1 in yellow.'

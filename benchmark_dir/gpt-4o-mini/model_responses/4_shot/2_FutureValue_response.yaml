@@ -1,4 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a new header for Future Value in column F.'
-- '- Step 2. Write a formula to calculate future value in the second row.'
-- '- Step 3. Autofill the future value formula for the next rows in the column.'
+- '- Step 1. Add a header for the Future Value column.'
+- '- Step 2. Write the formula to calculate future value in the second row.'
+- '- Step 3. Autofill the Future Value formula for the next rows.'

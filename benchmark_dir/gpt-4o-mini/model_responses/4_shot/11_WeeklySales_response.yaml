@@ -1,2 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a line chart in Sheet1 using Sales and COGS data.'
+- '- Step 1. Create a line chart in Sheet1 using the data from columns A, B, and C,
+  labeling it "Sales and COGS Chart" with weeks on the X-axis and sales and COGS on
+  the Y-axis.'

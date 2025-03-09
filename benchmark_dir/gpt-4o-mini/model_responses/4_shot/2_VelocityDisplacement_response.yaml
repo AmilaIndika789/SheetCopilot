@@ -1,4 +1,4 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a new column header for "Time s".'
+- '- Step 1. Add a header for the Time column in Sheet1.'
 - '- Step 2. Write the formula to calculate time based on displacement and velocity.'
-- '- Step 3. Autofill the time calculations for the remaining rows.'
+- '- Step 3. Autofill the Time formula for the remaining rows.'

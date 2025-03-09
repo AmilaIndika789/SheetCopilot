@@ -1,7 +1,6 @@
 gpt-4o-mini_response:
-- '- Step 1. Write a header for the Cost column.'
-- '- Step 2. Write a formula to calculate Cost based on the minimum value among columns
-  B to E.'
-- '- Step 3. Autofill the Cost calculation for the remaining rows.'
-- '- Step 4. Apply conditional formatting to highlight rows in column A where Cost
-  is less than $75 in green.'
+- '- Step 1. Add a new column titled "Cost" to Sheet1.'
+- '- Step 2. Write the formula to calculate the cost in the Cost column.'
+- '- Step 3. Autofill the cost formula for the remaining rows.'
+- '- Step 4. Set a conditional format to highlight cells in column A if the corresponding
+  cost is less than 75.'

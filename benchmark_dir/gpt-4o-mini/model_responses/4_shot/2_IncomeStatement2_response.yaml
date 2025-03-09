@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Insert a new column for Sales Tax after the Sales column.'
-- '- Step 2. Write "Sales Tax" as the header for the new column.'
-- '- Step 3. Write the formula to calculate Sales Tax based on Sales.'
-- '- Step 4. Autofill the Sales Tax formula for the remaining rows.'
+- '- Step 1. Insert a new column after the Sales column in Sheet1.'
+- '- Step 2. Label the new column as "Sales Tax".'
+- '- Step 3. Write the formula to calculate sales tax in the new column.'
+- '- Step 4. Autofill the sales tax formula for the remaining rows.'

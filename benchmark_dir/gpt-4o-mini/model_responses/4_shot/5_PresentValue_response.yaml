@@ -1,2 +1,3 @@
 gpt-4o-mini_response:
-- '- Step 1. Freeze the top row of Sheet1 to keep the headers visible while scrolling.'
+- '- Step 1. Freeze the panes above the second row in Sheet1 to keep the header visible
+  while scrolling.'

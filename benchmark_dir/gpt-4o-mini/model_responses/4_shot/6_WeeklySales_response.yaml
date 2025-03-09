@@ -1,4 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Create a new column titled "Profit."'
-- '- Step 2. Write the formula to calculate Profit.'
-- '- Step 3. Autofill the Profit formula down the column for the relevant rows.'
+- '- Step 1. Add a header for the Profit column.'
+- '- Step 2. Write the formula to calculate profit in the first row of the Profit
+  column.'
+- '- Step 3. Autofill the Profit formula for the remaining rows.'

@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Write "Profit" as the header in the first cell.'
-- '- Step 2. Write a formula to check if the Country is "Brazil".'
-- '- Step 3. Apply conditional formatting to highlight cells in green and yellow if
-  they contain "Brazil".'
+- '- Step 1. Write a formula in cell A1 to check if the country is Brazil.'
+- '- Step 2. Write "Brazil" in cell A1.'
+- '- Step 3. Set a conditional format to highlight cells in column A that contain
+  "Brazil" with green text and a yellow background.'

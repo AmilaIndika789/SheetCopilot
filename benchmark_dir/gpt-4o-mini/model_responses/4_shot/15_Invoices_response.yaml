@@ -1,5 +1,5 @@
 gpt-4o-mini_response:
-- '- Step 1. Add a header for a new column that indicates Unique Sales Rep IDs.'
-- '- Step 2. Create a formula to generate Unique Sales Rep IDs based on the Sales
-  Rep''s name and the first letter of the Product.'
-- '- Step 3. Autofill the Unique Sales Rep IDs for the remaining rows.'
+- '- Step 1. Add a header for the Unique Sales Rep ID column.'
+- '- Step 2. Write a formula to create unique IDs based on Sales Rep and the first
+  letter of the Product.'
+- '- Step 3. Autofill the Unique Sales Rep ID formula for the remaining rows.'
