@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Average" in cell A72.'
+- '- Step 2. Calculate the average for the Seattle column and write it in cell B72.'
+- '- Step 3. Calculate the average for the Milwaukee column and write it in cell C72.'
+- '- Step 4. Calculate the average for the Birmingham column and write it in cell
+  D72.'
+- '- Step 5. Calculate the average for the Oakland column and write it in cell E72.'

@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column for "Profit".'
+- '- Step 2. Calculate Profit as Sales minus COGS.'
+- '- Step 3. Fill other rows for Profit calculation.'
+- '- Step 4. Format all data in the Profit column as currency.'

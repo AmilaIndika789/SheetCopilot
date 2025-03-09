@@ -1,0 +1,10 @@
+gpt-4o-mini_response:
+- '- Step 1. Calculate the present value based on the formula and first set of parameters.'
+- '- Step 2. Fill the present value formula for the remaining rows.'
+- '- Step 3. Create a new sheet for "Investment Summary."'
+- '- Step 4. Write the headers for the Investment Summary sheet.'
+- '- Step 5. Reference the data for "No.", "Present Value", and "Future Value" from
+  the'
+- '  main sheet.'
+- '- Step 6. Fill the references down for the remaining rows in the Investment Summary'
+- '  sheet.'

@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column for "Gross Profit".'
+- '- Step 2. Calculate Gross Profit as Net Sales minus COGS.'
+- '- Step 3. Fill the Gross Profit calculation down to the remaining rows.'
+- '- Step 4. Set a conditional format to highlight Gross Profit values above average
+  in green.'

@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Write a formula in cell B2 of Sheet1.'
+- '- Step 2. Autofill the formula from B2 to B5 in Sheet1.'
+- '- Step 3. Create a new sheet named "Investment Summary."'
+- '- Step 4. Write headers in the first row of "Investment Summary."'
+- '- Step 5. Write formulas in the second row of "Investment Summary."'
+- '- Step 6. Autofill the second row data down to the fifth row in "Investment Summary."'

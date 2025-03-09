@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the header "Days Passed" in column C of Sheet1.'
+- '- Step 2. Write a formula in C2 that calculates the days passed since January 15,
+  2011.'
+- '- Step 3. Autofill the formula from C2 down to C10.'

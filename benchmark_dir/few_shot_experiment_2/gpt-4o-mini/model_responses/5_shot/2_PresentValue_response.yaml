@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula for Present Value in Sheet1.'
+- '- Step 2. Autofill the Present Value formula for the remaining rows.'
+- '- Step 3. Create a new sheet for the Investment Summary.'
+- '- Step 4. Write headers for the Investment Summary.'
+- '- Step 5. Reference the relevant values from Sheet1 in the Investment Summary.'
+- '- Step 6. Autofill the investment details for the remaining rows.'

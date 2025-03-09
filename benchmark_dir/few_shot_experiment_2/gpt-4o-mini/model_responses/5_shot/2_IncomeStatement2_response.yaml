@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column after column B in Sheet1.'
+- '- Step 2. Label the new column as "Sales Tax".'
+- '- Step 3. Write the formula to calculate sales tax in the second row of the new
+  column.'
+- '- Step 4. Autofill the sales tax formula down for the rest of the rows.'

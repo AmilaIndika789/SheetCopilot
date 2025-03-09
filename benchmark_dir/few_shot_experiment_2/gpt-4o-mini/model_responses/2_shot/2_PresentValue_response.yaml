@@ -1,0 +1,10 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula for Present Value in Sheet1.'
+- '- Step 2. Autofill the Present Value formula down to rows B2:B5 in Sheet1.'
+- '- Step 3. Create a new sheet named "Investment Summary."'
+- '- Step 4. Write the headers No., Present Value, and Future Value in the summary
+  sheet.'
+- '- Step 5. Copy the data from Sheet1 to the Investment Summary sheet for each corresponding
+  column.'
+- '- Step 6. Autofill rows A2 to A5, B2 to B5, and C2 to C5 in the Investment Summary
+  sheet with the copied data.'

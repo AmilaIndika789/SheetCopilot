@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column after the "Angle (Degrees)" column.'
+- '- Step 2. Write "Angle (Radians)" as the header for the new column.'
+- '- Step 3. Write a formula to convert the angle from degrees to radians for the
+  first data row.'
+- '- Step 4. Autofill the formula down the new column for all data rows.'

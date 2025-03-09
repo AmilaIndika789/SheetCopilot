@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column after the "Angle (Degrees)" column.'
+- '- Step 2. Write the header "Angle (Radians)" in the new column.'
+- '- Step 3. Write the formula to convert degrees to radians.'
+- '- Step 4. Auto fill the radians formula for all corresponding angles.'

@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new sheet for summary.'
+- '- Step 2. Write the headers for Total Revenue and Total Expenses in the summary.'
+- '- Step 3. Calculate the total revenue from Sheet1.'
+- '- Step 4. Calculate the total expenses from Sheet1.'

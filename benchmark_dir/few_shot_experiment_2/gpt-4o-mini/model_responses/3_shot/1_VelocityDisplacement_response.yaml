@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a scatter chart for Displacement versus Velocity based on the
+  specified data range.'
+- '- Step 2. Set the title for the X-axis as "Displacement m."'
+- '- Step 3. Set the title for the Y-axis as "Velocity m/s."'
+- '- Step 4. Add a linear trendline to the chart and display its equation.'

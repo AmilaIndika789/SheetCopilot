@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column called "Sales Tax" after the Sales column.'
+- '- Step 2. Write the formula to calculate sales tax in the new column.'
+- '- Step 3. Autofill the sales tax formula for the relevant rows.'

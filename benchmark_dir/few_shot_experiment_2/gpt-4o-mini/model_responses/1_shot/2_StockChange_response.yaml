@@ -1,0 +1,3 @@
+gpt-4o-mini_response:
+- '- Set the data type of values in column B to currency for the range B2:B13.'
+- '- Set the data type of values in column C to currency for the range C2:C13.'

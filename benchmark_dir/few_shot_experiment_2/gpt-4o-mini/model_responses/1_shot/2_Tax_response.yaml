@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula to calculate profit before tax in cell D2.'
+- '- Step 2. Autofill the formula down to D11 to apply it to all relevant rows.'
+- '- Step 3. Write the formula to calculate tax expense in cell E2.'
+- '- Step 4. Autofill the formula down to E11 for tax expense calculations.'
+- '- Step 5. Set the data type for the profit and tax columns to currency.'

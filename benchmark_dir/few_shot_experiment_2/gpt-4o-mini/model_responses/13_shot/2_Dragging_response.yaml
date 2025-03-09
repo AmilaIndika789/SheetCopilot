@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula to calculate acceleration based on hanging mass.'
+- '- Step 2. Autofill the formula for the acceleration values in column B.'
+- "- Step 3. Apply conditional formatting: set cells with acceleration \u2265 1 to\
+  \ green."
+- '- Step 4. Apply conditional formatting: set cells with acceleration < 1 to yellow.'

@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Write "Profit" as a header in cell D1 of Sheet1.'
+- '- Write a formula in D2 to calculate profit as the difference between Sales and
+  COGS.'
+- '- Autofill the profit formula from D2 to D11.'
+- '- Set the data type of the profit values in D2 to D11 to currency.'

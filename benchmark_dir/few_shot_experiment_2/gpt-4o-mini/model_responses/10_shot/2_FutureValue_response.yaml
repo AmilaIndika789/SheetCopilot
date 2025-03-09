@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Future Value" as the header in column F.'
+- '- Step 2. Write the formula to calculate the future value in cell F2.'
+- '- Step 3. Autofill the formula for the future value calculation in the next rows
+  (F2 to F5).'

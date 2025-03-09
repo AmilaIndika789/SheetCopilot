@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new header for Adjusted Annual Rate in column C.'
+- '- Step 2. Write the formula to calculate the adjusted annual rate in C2.'
+- '- Step 3. Autofill the formula down from C2 to C25.'

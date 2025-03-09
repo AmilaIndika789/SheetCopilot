@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Gross Profit" as the header in the D column.'
+- '- Step 2. Calculate the gross profit using the formula for the first data row.'
+- '- Step 3. Autofill the gross profit formula for the remaining rows.'
+- '- Step 4. Apply conditional formatting to highlight gross profit values greater
+  than the average.'

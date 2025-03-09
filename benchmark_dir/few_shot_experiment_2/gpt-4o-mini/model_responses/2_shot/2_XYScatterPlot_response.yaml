@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column after the A column in Sheet1.'
+- '- Step 2. Write the header "Angle (Radians)" in the new column B.'
+- '- Step 3. Insert the formula to convert degrees to radians in cell B2.'
+- '- Step 4. Autofill the formula from B2 down to B38.'

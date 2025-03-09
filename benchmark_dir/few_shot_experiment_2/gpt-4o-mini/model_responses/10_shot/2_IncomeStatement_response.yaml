@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Write a header for "Gross Profit" in Sheet1.'
+- '- Step 2. Calculate the gross profit using the formula.'
+- '- Step 3. Autofill the gross profit calculation for the remaining rows.'
+- '- Step 4. Set a conditional format to highlight profits above the average in green.'

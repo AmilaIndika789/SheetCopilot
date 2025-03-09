@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Average" in cell A72.'
+- '- Step 2. Calculate the average for each column from B to E and write the formulas
+  in row 72.'

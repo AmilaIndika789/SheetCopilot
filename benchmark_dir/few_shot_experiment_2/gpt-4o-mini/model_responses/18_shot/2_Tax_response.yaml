@@ -1,0 +1,9 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula to calculate Profit Before Tax by subtracting Total
+  Expenses'
+- '  Before Tax from Sales.'
+- '- Step 2. Fill down the formula for Profit Before Tax for all rows.'
+- '- Step 3. Write the formula to calculate the Tax Expense based on the Profit Before
+  Tax.'
+- '- Step 4. Fill down the formula for Tax Expense for all rows.'
+- '- Step 5. Set the data type for Profit Before Tax and Tax Expense as currency.'

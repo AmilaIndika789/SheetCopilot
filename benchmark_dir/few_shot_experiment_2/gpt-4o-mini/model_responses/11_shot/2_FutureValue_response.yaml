@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column header for "Future Value".'
+- '- Step 2. Write the formula for calculating the future value in the first data
+  row.'
+- '- Step 3. Autofill the future value calculation for the remaining rows.'

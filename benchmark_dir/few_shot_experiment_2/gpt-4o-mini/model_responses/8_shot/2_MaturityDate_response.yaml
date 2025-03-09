@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column for "Days Passed".'
+- '- Step 2. Write a formula to calculate the number of days passed since January
+  15, 2011.'
+- '- Step 3. Fill the formula down to cover the remaining rows.'

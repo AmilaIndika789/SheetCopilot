@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column for "Adjusted Annual Rate".'
+- '- Step 2. Write a formula to adjust the annual rate by adding 1.0.'
+- '- Step 3. Autofill the formula for the remaining rows in the column.'

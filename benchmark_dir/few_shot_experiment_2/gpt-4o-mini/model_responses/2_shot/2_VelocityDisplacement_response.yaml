@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header labeled "Time s" in Sheet1.'
+- '- Step 2. Calculate the time by writing a formula in the second row of the Time
+  column.'
+- '- Step 3. Autofill the Time column from row 2 to row 21.'

@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column header titled "Days Passed".'
+- '- Step 2. Calculate the number of days passed since a specific date using a formula.'
+- '- Step 3. Autofill the formula for the calculated days to the remaining rows.'

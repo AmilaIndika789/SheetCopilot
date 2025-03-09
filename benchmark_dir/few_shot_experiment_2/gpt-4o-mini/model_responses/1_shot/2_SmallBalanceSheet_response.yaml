@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the header "Asset Growth Rate" in cell J1.'
+- '- Step 2. Calculate total assets in cell E2 by summing cells B2, C2, and D2.'
+- '- Step 3. Autofill the formula in cell E2 down to E7.'
+- '- Step 4. Calculate the growth rate in cell J3 using the values from cells E3 and
+  E2.'
+- '- Step 5. Autofill the growth rate formula down to J7.'
+- '- Step 6. Set the data type for the range J3:J7 to percentage.'

@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new header for "Gross Profit".'
+- '- Step 2. Calculate the gross profit using the formula in the designated cell.'
+- '- Step 3. Autofill the gross profit formula for the remaining rows.'
+- '- Step 4. Highlight rows with gross profit above the average in green.'

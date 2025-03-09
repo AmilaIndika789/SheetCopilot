@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the header "Asset Growth Rate" in column J.'
+- '- Step 2. Calculate total assets in column E for each row.'
+- '- Step 3. Autofill the total assets formula down to row 7.'
+- '- Step 4. Calculate the asset growth rate in column J for the first data row.'
+- '- Step 5. Autofill the growth rate formula down to row 7.'
+- '- Step 6. Set the data type of the growth rates to percentage.'

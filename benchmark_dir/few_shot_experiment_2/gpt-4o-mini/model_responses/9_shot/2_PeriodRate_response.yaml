@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new header column for "Adjusted Annual Rate".'
+- '- Step 2. Write the formula to compute the adjusted rate in the first data row.'
+- '- Step 3. Autofill the formula down to the remaining rows.'

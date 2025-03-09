@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column after Column B in Sheet1.'
+- '- Step 2. Write the header "Sales Tax" in the new column.'
+- '- Step 3. Write the formula for Sales Tax in the first data row (C2).'
+- '- Step 4. Autofill the formula from C2 down to C10.'

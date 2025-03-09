@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for the Profit column in Sheet1.'
+- '- Step 2. Calculate profit for the first data row using the formula subtracting
+  COGS from Sales.'
+- '- Step 3. Autofill the profit formula for the next rows.'
+- '- Step 4. Set the data type for the profit column to currency.'

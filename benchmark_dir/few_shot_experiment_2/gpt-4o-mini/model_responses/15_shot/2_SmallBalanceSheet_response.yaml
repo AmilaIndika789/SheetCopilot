@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column titled "Asset Growth Rate".'
+- '- Step 2. Calculate total assets by summing current, fixed, and other assets.'
+- '- Step 3. Fill down the total assets calculation.'
+- '- Step 4. Calculate the growth rate of assets from the previous year to the current
+  year.'
+- '- Step 5. Fill down the asset growth rate calculation.'
+- '- Step 6. Set the data type for the growth rate to percentage.'

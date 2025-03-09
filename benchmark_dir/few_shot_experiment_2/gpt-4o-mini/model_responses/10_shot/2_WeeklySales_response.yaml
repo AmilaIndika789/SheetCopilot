@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Total" in cell A12 to label the total row.'
+- '- Step 2. Calculate the total sales and write the formula in cell B12.'
+- '- Step 3. Calculate the total COGS and write the formula in cell C12.'

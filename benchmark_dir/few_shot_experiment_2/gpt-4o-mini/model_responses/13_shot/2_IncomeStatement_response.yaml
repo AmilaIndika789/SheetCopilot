@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column for "Gross Profit".'
+- '- Step 2. Calculate gross profit for the first row using the formula.'
+- '- Step 3. Autofill the gross profit formula for other rows.'
+- '- Step 4. Set conditional formatting to highlight gross profit values greater than
+  average in green.'

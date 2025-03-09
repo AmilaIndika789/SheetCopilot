@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Create an XY scatter chart named "Displacement vs Velocity" in Sheet1
+  based on data from columns A and B.'
+- '- Step 2. Set the X-axis title to "Displacement m" for the chart.'
+- '- Step 3. Set the Y-axis title to "Velocity m/s" for the chart.'
+- '- Step 4. Add a linear trendline to the chart and display its equation.'

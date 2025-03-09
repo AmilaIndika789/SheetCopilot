@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column header for "Profit".'
+- '- Step 2. Write the profit formula to calculate the difference between Sales and
+  COGS.'
+- '- Step 3. Autofill the profit formula down to cover all relevant rows.'
+- '- Step 4. Set the data type of the Profit column to currency.'

@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a scatter chart depicting angle versus range and height.'
+- '- Step 2. Position the chart legend on the left.'
+- '- Step 3. Set the markers for data points to squares and triangles.'
+- '- Step 4. Label the X-axis as "Angle (Degrees)".'
+- '- Step 5. Disable the Y-axis.'
+- '- Step 6. Add polynomial and linear trendlines to the chart.'

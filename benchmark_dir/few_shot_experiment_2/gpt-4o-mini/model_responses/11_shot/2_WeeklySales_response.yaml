@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Total" in row 12, column A.'
+- '- Step 2. Calculate the total sales from rows 2 to 11 in column B.'
+- '- Step 3. Calculate the total COGS from rows 2 to 11 in column C.'

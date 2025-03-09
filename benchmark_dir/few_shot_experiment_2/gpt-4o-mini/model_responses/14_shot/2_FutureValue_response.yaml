@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column titled "Future Value".'
+- '- Step 2. Write the formula to calculate the future value based on present value,
+  interest rate, and compounding periods.'
+- '- Step 3. Autofill the future value calculation for all relevant rows.'

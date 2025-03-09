@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for the future value in Sheet1.'
+- '- Step 2. Write the formula to calculate future value in the first data row.'
+- '- Step 3. Autofill the future value formula down to the next four rows.'

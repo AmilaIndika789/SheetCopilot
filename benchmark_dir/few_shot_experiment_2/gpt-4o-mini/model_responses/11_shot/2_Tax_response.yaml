@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Calculate Profit Before Tax using the formula.'
+- '- Step 2. Autofill the Profit Before Tax formula for the remaining rows.'
+- '- Step 3. Calculate the Tax Expense based on Profit Before Tax.'
+- '- Step 4. Autofill the Tax Expense formula for the remaining rows.'
+- '- Step 5. Set the data type for Profit Before Tax and Tax Expense as currency.'

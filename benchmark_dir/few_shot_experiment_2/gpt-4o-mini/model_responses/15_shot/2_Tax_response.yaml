@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Calculate the profit before tax by subtracting total expenses from sales.'
+- '- Step 2. Autofill the profit calculations for the corresponding rows.'
+- '- Step 3. Calculate the tax expense based on the profit before tax.'
+- '- Step 4. Autofill the tax calculations for the corresponding rows.'
+- '- Step 5. Set the data type for the profit and tax expense columns to currency.'

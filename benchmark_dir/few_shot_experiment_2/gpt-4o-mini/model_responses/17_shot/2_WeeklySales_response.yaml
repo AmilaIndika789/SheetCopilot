@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Total" in the specified cell.'
+- '- Step 2. Calculate and write the total sales from the sales column.'
+- '- Step 3. Calculate and write the total COGS from the COGS column.'

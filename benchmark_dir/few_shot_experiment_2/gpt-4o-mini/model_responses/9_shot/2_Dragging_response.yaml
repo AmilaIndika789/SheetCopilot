@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula to calculate acceleration in the second column.'
+- '- Step 2. Autofill the acceleration formula for the range down to row 122.'
+- '- Step 3. Set conditional formatting to highlight cells with values greater than
+  or equal to 1 in green.'
+- '- Step 4. Set conditional formatting to highlight cells with values less than 1
+  in yellow.'

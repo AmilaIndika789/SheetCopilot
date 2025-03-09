@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new sheet named "Summary."'
+- '- Step 2. Write headers "Total Revenue" and "Total Expenses" in the first row of
+  the Summary sheet.'
+- '- Step 3. Write the formula to calculate total revenue from Sheet1 in cell A2 of
+  the Summary sheet.'
+- '- Step 4. Write the formula to calculate total expenses from Sheet1 in cell B2
+  of the Summary sheet.'

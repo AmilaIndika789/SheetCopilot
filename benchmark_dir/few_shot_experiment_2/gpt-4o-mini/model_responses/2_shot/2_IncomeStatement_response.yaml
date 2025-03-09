@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the header "Gross Profit" in the D column.'
+- '- Step 2. Write a formula to calculate Gross Profit as the difference between Net
+  Sales and COGS.'
+- '- Step 3. Autofill the formula down to cover rows D2 to D9.'
+- '- Step 4. Apply conditional formatting to highlight cells where Gross Profit is
+  above the average.'

@@ -1,0 +1,7 @@
+gpt-4o-mini_response:
+- '- Step 1. Create an XY scatter chart in Sheet1 using data from columns A to C.'
+- '- Step 2. Position the legend of the chart on the left.'
+- '- Step 3. Set marker styles for the chart to square and triangle.'
+- '- Step 4. Title the X-axis as "Angle (Degrees)".'
+- '- Step 5. Disable the Y-axis for the chart.'
+- '- Step 6. Add both polynomial and linear trendlines to the chart.'

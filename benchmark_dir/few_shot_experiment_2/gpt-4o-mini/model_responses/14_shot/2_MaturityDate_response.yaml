@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column titled "Days Passed".'
+- '- Step 2. Calculate the number of days passed by subtracting the loan issue date
+  from a fixed date.'
+- '- Step 3. Autofill the formula for the remaining rows in the "Days Passed" column.'

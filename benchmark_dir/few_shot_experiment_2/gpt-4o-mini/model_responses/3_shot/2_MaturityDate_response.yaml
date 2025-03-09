@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a header for "Days Passed" in Sheet1.'
+- '- Step 2. Write a formula in the "Days Passed" column to calculate the number of
+  days since the specified date.'
+- '- Step 3. Autofill the formula from the second row to the remaining rows in the
+  "Days Passed" column.'

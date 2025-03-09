@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the formula to count male married respondents in cell E1 of Sheet1.'
+- '- Step 2. The formula is copied multiple times, ensuring it counts males married
+  based on criteria from columns B and C.'

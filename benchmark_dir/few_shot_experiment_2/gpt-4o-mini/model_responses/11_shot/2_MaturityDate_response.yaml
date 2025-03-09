@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column header for "Days Passed".'
+- '- Step 2. Calculate the number of days passed since the loan issue date for the
+  first data row.'
+- '- Step 3. Fill the calculation for the remaining rows.'

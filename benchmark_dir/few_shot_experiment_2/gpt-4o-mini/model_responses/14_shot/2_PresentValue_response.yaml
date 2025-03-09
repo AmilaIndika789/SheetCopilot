@@ -1,0 +1,8 @@
+gpt-4o-mini_response:
+- '- Step 1. Calculate the Present Value based on the formula.'
+- '- Step 2. Fill down the calculated Present Value for the corresponding rows.'
+- '- Step 3. Create a new sheet for the investment summary.'
+- '- Step 4. Write headers for "No.", "Present Value", and "Future Value" in the summary
+  sheet.'
+- '- Step 5. Link the corresponding cells from Sheet1 to the Investment Summary.'
+- '- Step 6. Fill down the data in the Investment Summary for each entry.'

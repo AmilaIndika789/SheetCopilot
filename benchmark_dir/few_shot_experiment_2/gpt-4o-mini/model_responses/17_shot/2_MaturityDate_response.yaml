@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column for "Days Passed".'
+- '- Step 2. Calculate the number of days between the specified date and the loan
+  issue date.'
+- '- Step 3. Autofill the calculation for all relevant rows.'

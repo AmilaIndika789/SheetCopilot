@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Total" in the first column of the summary row.'
+- '- Step 2. Calculate the total sales by summing from cell B2 to B11 and write the
+  result.'
+- '- Step 3. Calculate the total COGS by summing from cell C2 to C11 and write the
+  result.'

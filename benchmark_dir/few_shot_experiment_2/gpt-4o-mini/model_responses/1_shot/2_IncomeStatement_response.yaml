@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Write the header "Gross Profit" in D1 of Sheet1.'
+- '- Step 2. Write the formula to calculate gross profit in D2.'
+- '- Step 3. Autofill the formula in D2 down to D9.'
+- '- Step 4. Apply conditional formatting to D2:D9 to highlight values above the average
+  with a green fill.'

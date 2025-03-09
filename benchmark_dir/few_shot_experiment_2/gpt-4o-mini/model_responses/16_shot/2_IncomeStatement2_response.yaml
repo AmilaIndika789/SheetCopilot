@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Insert a new column titled "Sales Tax" after the "Sales" column.'
+- '- Step 2. Calculate the Sales Tax as 20% of the sales amount.'
+- '- Step 3. Autofill the Sales Tax calculation to the remaining rows.'

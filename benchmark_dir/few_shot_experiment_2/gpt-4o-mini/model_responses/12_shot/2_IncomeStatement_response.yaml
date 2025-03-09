@@ -1,0 +1,6 @@
+gpt-4o-mini_response:
+- '- Step 1. Add a new column header "Gross Profit".'
+- '- Step 2. Calculate Gross Profit by subtracting COGS from Net Sales.'
+- '- Step 3. Autofill the Gross Profit formula for the specified range.'
+- '- Step 4. Set conditional formatting to highlight cells with Gross Profit above
+  average.'

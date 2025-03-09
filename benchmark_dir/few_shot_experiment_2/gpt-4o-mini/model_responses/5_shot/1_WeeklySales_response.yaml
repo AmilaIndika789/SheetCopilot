@@ -1,0 +1,5 @@
+gpt-4o-mini_response:
+- '- Step 1. Create a new column for Profit in Sheet1.'
+- '- Step 2. Write the formula to calculate Profit in the Profit column.'
+- '- Step 3. Autofill the Profit formula for the remaining rows.'
+- '- Step 4. Set the data type of the Profit column to currency.'

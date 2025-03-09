@@ -1,0 +1,4 @@
+gpt-4o-mini_response:
+- '- Step 1. Write "Total" in cell A12 of Sheet1.'
+- '- Step 2. Calculate and write the total sales in cell B12 of Sheet1.'
+- '- Step 3. Calculate and write the total COGS in cell C12 of Sheet1.'
