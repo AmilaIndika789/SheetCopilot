@@ -28,7 +28,7 @@ Agent:
     max_total_tokens: 16384
     max_new_tokens: 256
     topk: 0
-    temperature: 1.2
+    temperature: 0.5
     timeout: 50
     max_retries: 20
     sleep_time: 30
@@ -40,7 +40,7 @@ Agent:
     max_total_tokens: 16384
     max_new_tokens: 256
     topk: 0
-    temperature: 1.2
+    temperature: 0.5
     timeout: 50
     max_retries: 20
     sleep_time: 30
