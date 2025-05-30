@@ -4,3 +4,4 @@ remove_personal_info.py
 /agent/results
 /agent/.vscode
 README_full.md
+/vector_db/
