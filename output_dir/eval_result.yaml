@@ -1,0 +1,61 @@
+check_result_each_repeat:
+  1:
+    action_cnt_list: 3, 3, 3, 1
+    checked_list: 2_Dragging, 10_EntireShippingCosts, 5_EntireSummerSales, 6_EntireSummerSales,
+      4_FutureValue, 5_GDPBreakdown, 2_IncomeStatement2, 3_Invoices, 6_Invoices, 4_MaturityDate,
+      2_PeriodRate, 6_SalesRep, 1_SummerSales, 7_SummerSales, 1_Tax, 2_VelocityDisplacement,
+      5_VelocityDisplacement, 2_WeeklySales, 10_WeeklySales, 4_XYScatterPlot
+    checked_list_by_cate:
+      Charts: 1_SummerSales, 7_SummerSales, 10_WeeklySales
+      Entry and manipulation: 10_EntireShippingCosts, 5_EntireSummerSales, 6_EntireSummerSales,
+        4_FutureValue, 5_GDPBreakdown, 2_IncomeStatement2, 2_PeriodRate, 6_SalesRep,
+        1_SummerSales, 7_SummerSales, 1_Tax, 2_VelocityDisplacement, 2_WeeklySales,
+        10_WeeklySales, 4_XYScatterPlot
+      Formatting: 2_Dragging, 3_Invoices, 6_Invoices, 4_MaturityDate, 1_Tax
+      Formula: 4_FutureValue, 5_GDPBreakdown, 2_IncomeStatement2, 2_PeriodRate, 6_SalesRep,
+        1_Tax, 2_VelocityDisplacement, 2_WeeklySales, 4_XYScatterPlot
+      Management: 5_VelocityDisplacement
+      Pivot Table: 5_EntireSummerSales, 6_EntireSummerSales, 1_SummerSales, 7_SummerSales
+    error_log: []
+    eval_results:
+      A50_norm: 1.5
+      A90_norm: 1.5
+      A_mean: 2.5
+      Charts Exec & Pass: 3/3 & 0/3
+      Entry and manipulation Exec & Pass: 15/15 & 3/15
+      Exec@1: 1.0
+      Formatting Exec & Pass: 5/5 & 0/5
+      Formula Exec & Pass: 9/9 & 3/9
+      Management Exec & Pass: 1/1 & 1/1
+      Pass@1: 0.2
+      Pivot Table Exec & Pass: 4/4 & 0/4
+      Total: 20
+    exec_success_list: 2_Dragging, 10_EntireShippingCosts, 5_EntireSummerSales, 6_EntireSummerSales,
+      4_FutureValue, 5_GDPBreakdown, 2_IncomeStatement2, 3_Invoices, 6_Invoices, 4_MaturityDate,
+      2_PeriodRate, 6_SalesRep, 1_SummerSales, 7_SummerSales, 1_Tax, 2_VelocityDisplacement,
+      5_VelocityDisplacement, 2_WeeklySales, 10_WeeklySales, 4_XYScatterPlot
+    exec_success_list_by_cate:
+      Charts: 1_SummerSales, 7_SummerSales, 10_WeeklySales
+      Entry and manipulation: 10_EntireShippingCosts, 5_EntireSummerSales, 6_EntireSummerSales,
+        4_FutureValue, 5_GDPBreakdown, 2_IncomeStatement2, 2_PeriodRate, 6_SalesRep,
+        1_SummerSales, 7_SummerSales, 1_Tax, 2_VelocityDisplacement, 2_WeeklySales,
+        10_WeeklySales, 4_XYScatterPlot
+      Formatting: 2_Dragging, 3_Invoices, 6_Invoices, 4_MaturityDate, 1_Tax
+      Formula: 4_FutureValue, 5_GDPBreakdown, 2_IncomeStatement2, 2_PeriodRate, 6_SalesRep,
+        1_Tax, 2_VelocityDisplacement, 2_WeeklySales, 4_XYScatterPlot
+      Management: 5_VelocityDisplacement
+      Pivot Table: 5_EntireSummerSales, 6_EntireSummerSales, 1_SummerSales, 7_SummerSales
+    gt_min_action_cnt_list: 2, 2, 2, 1
+    matched_gt_lst:
+    - 4_FutureValue_gt1.xlsx
+    - 2_PeriodRate_gt1.xlsx
+    - 2_VelocityDisplacement_gt1.xlsx
+    - 5_VelocityDisplacement_gt2.xlsx
+    success_list: 4_FutureValue, 2_PeriodRate, 2_VelocityDisplacement, 5_VelocityDisplacement
+    success_list_by_cate:
+      Charts: ''
+      Entry and manipulation: 4_FutureValue, 2_PeriodRate, 2_VelocityDisplacement
+      Formatting: ''
+      Formula: 4_FutureValue, 2_PeriodRate, 2_VelocityDisplacement
+      Management: 5_VelocityDisplacement
+      Pivot Table: ''
