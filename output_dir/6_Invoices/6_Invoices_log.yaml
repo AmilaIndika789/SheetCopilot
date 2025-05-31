@@ -1,0 +1,31 @@
+Context: My workbook records many invoices made on different dates.
+Fail Response: []
+Instructions: Highlight sales above average as red fill.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\61_Invoices\61_Invoices_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Calculate the average of the sales.
+
+    Action API: @Write(range="Sheet1!H1", value="=AVERAGE(G2:G19)")@'
+  - 'Step 2. Highlight sales above the average with red fill.
+
+    Action API: @SetConditionalFormat(source="Sheet1!G2:G19", formula=''=$G2>$H$1'',
+    fillColor="red")@'
+  msg: []
+  raw response:
+  - 'Step 1. Calculate the average of sales values.
+
+    Action API: @Write(range="Sheet1!H1", value="=AVERAGE(G2:G19)")@'
+  - 'Step 2. Highlight sales above the average in red fill.
+
+    Action API: @SetConditionalFormat(range="Sheet1!G2:G19", criterion=">392.8333333333333",
+    format="red fill")@'
+  - Done!
+  refined response:
+  - - Write(range="Sheet1!H1", value="=AVERAGE(G2:G19)")
+  - - SetConditionalFormat(source="Sheet1!G2:G19", formula='=$G2>$H$1', fillColor="red")
+Timestamp: '2025-01-04 22:31:35'
+Total Count: 1
+Use oracle API doc: false

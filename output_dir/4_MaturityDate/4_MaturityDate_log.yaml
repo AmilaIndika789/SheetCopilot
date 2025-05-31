@@ -1,0 +1,27 @@
+Context: My workbook records my loans with their lengths in days.
+Fail Response: []
+Instructions: Highlight "Loan Issue Date" in red if the "Length of Loan in Days" is
+  greater than 100.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\88_MaturityDate\88_MaturityDate_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Set conditional formatting to highlight "Loan Issue Date" in red if "Length
+    of Loan in Days" is greater than 100.
+
+    Action API: @SetConditionalFormat(source=''Sheet1!A2:A10'', formula=''=$B2>100'',
+    color="white", fillColor="red")@'
+  msg: []
+  raw response:
+  - 'Step 1. Identify the condition for highlighting.
+
+    Action API: @SetConditionalFormat(range="Sheet1!A2:A10", condition="Sheet1!B2:B10>100",
+    format="red")@'
+  - Done!
+  refined response:
+  - - SetConditionalFormat(source='Sheet1!A2:A10', formula='=$B2>100', color="white",
+      fillColor="red")
+Timestamp: '2024-10-31 18:57:10'
+Total Count: 1
+Use oracle API doc: false

@@ -1,0 +1,39 @@
+Context: My workbook records the sales of my company in the summer.
+Fail Response: []
+Instructions: Summarize the total revenue for each promotion type in a new sheet with
+  the promotion names as the column headers.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\37_EntireSummerSales\37_EntireSummerSales_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet for the summary.
+
+    Action API: @CreateSheet(sheetName="PromotionSummary")@'
+  - 'Step 2. Create a pivot table to summarize the total revenue for each promotion
+    type.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G2001", destSheet="PromotionSummary",
+    name="PromotionRevenueSummary", RowField=["Promotion"], DataField=["Revenue"],
+    summarizeFunction="sum")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet called "Summary".
+
+    Action API: @CreateSheet(sheetName="Summary")@'
+  - 'Step 2. List unique promotion types in the new sheet as headers.
+
+    Action API: @Unique(source="Sheet1!D2:D2001", target="PromotionSummary!A1")@'
+  - 'Step 2. Copy the unique values from the "Promotion" column to the new sheet with
+    a PivotTable.
+
+    Action API: @CreatePivotTable(source="Sheet1!A1:G2001", destination="PromotionSummary!A3",
+    rowFields="Promotion", values="Revenue", operation="Sum")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="PromotionSummary")
+  - - CreatePivotTable(source="Sheet1!A1:G2001", destSheet="PromotionSummary", name="PromotionRevenueSummary",
+      RowField=["Promotion"], DataField=["Revenue"], summarizeFunction="sum")
+Timestamp: '2024-12-24 20:09:00'
+Total Count: 1
+Use oracle API doc: false

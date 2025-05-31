@@ -1,0 +1,60 @@
+Context: My workbook records the monthly sales of all employees.
+Fail Response: []
+Instructions: Compute the average sales of each sales rep across all months and put
+  the results in a table (two headers "Sales Rep" and "Avg Sales") of a new sheet.
+Prompt_format: gpt-chat-prompt
+Source Path: C:\Users\Amilas_Windows_VM\Documents\SheetCoPilot\SheetCopilot\output_dir\127_SalesRep\127_SalesRep_source.xlsx
+Success Count: 1
+Success Response:
+- intermediate response:
+  - 'Step 1. Create a new sheet for the results.
+
+    Action API: @CreateSheet(sheetName="Average Sales")@'
+  - "Step 2. Write the headers for the new table.\nAction API: @Write(range=\"Average\
+    \ Sales!A1\", value=\"Sales Rep\")@ \nAction API: @Write(range=\"Average Sales!B1\"\
+    , value=\"Avg Sales\")@"
+  - 'Step 3. Calculate the average sales for each sales rep and write the formula
+    in the new sheet.
+
+    Action API: @Write(range="Average Sales!B2", value="=AVERAGE(Sheet1!B2:G2)")@'
+  - 'Step 4. Fill the average formula for all sales reps.
+
+    Action API: @AutoFill(source="Average Sales!B2", destination="Average Sales!B2:B11")@'
+  - 'Step 5. Write the sales rep names in the new sheet.
+
+    Action API: @Write(range="Average Sales!A2", value="=Sheet1!A2")@'
+  - 'Step 6. Fill the sales rep names for all rows.
+
+    Action API: @AutoFill(source="Average Sales!A2", destination="Average Sales!A2:A11")@'
+  msg: []
+  raw response:
+  - 'Step 1. Create a new sheet for the results.
+
+    Action API: @CreateSheet(name="Average Sales")@'
+  - "Step 2. Write the headers for the average sales table.\nAction API: @Write(range=\"\
+    Average Sales!A1\", value=\"Sales Rep\")@ \nAction API: @Write(range=\"Average\
+    \ Sales!B1\", value=\"Avg Sales\")@"
+  - 'Step 3. Write the sales reps'' names into the new sheet.
+
+    Action API: @Write(range="Average Sales!A2:A11", value="=Sheet1!A2:A11")@'
+  - 'Step 4. Fill the average sales formula for all sales reps.
+
+    Action API: @AutoFill(source="Average Sales!B2", destination="Average Sales!B2:B11")@'
+  - 'Step 5. Write the sales rep names in the new sheet.
+
+    Action API: @Write(range="Average Sales!A2", value="=Sheet1!A2")@'
+  - 'Step 6. Fill the sales rep names for all rows.
+
+    Action API: @AutoFill(source="Average Sales!A2", destination="Average Sales!A2:A11")@'
+  - Done!
+  refined response:
+  - - CreateSheet(sheetName="Average Sales")
+  - - Write(range="Average Sales!A1", value="Sales Rep")
+    - Write(range="Average Sales!B1", value="Avg Sales")
+  - - Write(range="Average Sales!B2", value="=AVERAGE(Sheet1!B2:G2)")
+  - - AutoFill(source="Average Sales!B2", destination="Average Sales!B2:B11")
+  - - Write(range="Average Sales!A2", value="=Sheet1!A2")
+  - - AutoFill(source="Average Sales!A2", destination="Average Sales!A2:A11")
+Timestamp: '2024-09-26 18:54:15'
+Total Count: 1
+Use oracle API doc: false
