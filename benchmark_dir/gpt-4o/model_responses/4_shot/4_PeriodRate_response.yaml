@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header "High Periods".'
+- '- Step 2. Write a formula to check if the period per year is 5 or more.'
+- '- Step 3. Autofill the formula down the column to evaluate all rows.'
+- '- Step 4. Count the number of periods where the condition is true.'
+- ''
+- ''

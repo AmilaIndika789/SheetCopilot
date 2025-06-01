@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Calculate the profit before tax by subtracting expenses from sales.'
+- '- Step 2. Fill the Profit Before Tax formula for the remaining rows.'
+- '- Step 3. Calculate the tax expense as 22.5% of the profit before tax.'
+- '- Step 4. Fill the Tax Expense formula for the remaining rows.'
+- '- Step 5. Set the Profit Before Tax column to currency format.'
+- '- Step 6. Set the Tax Expense column to currency format.'

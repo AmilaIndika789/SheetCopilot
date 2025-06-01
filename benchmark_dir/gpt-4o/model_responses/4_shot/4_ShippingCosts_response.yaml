@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Apply a red fill to cells in the Customers column where the value in
+  Birmingham is more than 1.5 times the value in Seattle.'
+- '- Step 2. Apply a yellow fill to cells in the Customers column where the value
+  in Seattle is less than twice the value in Oakland.'

@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for High Velocity.'
+- '- Step 2. Write a formula to identify high velocity in the new column.'
+- '- Step 3. Autofill the high velocity formula for the first 20 data rows.'

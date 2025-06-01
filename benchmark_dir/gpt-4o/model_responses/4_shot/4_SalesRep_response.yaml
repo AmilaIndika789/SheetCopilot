@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named SalesRepData.'
+- '- Step 2. Write the header "Sales Rep" in the new sheet.'
+- '- Step 3. Copy the list of Sales Reps from Sheet1 to SalesRepData.'
+- '- Step 4. Use the formula to link Sales Reps from Sheet1 to SalesRepData.'
+- '- Step 5. Use the formula to link Sales Reps from Sheet1 to SalesRepData.'
+- '- Step 6. Autofill the linked Sales Reps in SalesRepData.'

@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Autofill the Acceleration column from the second row to the 122nd row.'
+- '- Step 2. Add a new column header for Force (N).'
+- '- Step 3. Write the formula to calculate Force in the second row.'
+- '- Step 4. Autofill the Force formula from the second row to the 122nd row.'

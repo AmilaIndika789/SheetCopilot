@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Insert a new column after the Sales column in Sheet1.'
+- '- Step 2. Name the new column "Sales Tax".'
+- '- Step 3. Calculate the sales tax for the first row using a formula.'
+- '- Step 4. Autofill the sales tax formula for the remaining rows.'

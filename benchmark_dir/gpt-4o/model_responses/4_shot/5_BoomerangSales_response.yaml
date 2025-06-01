@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for Product Price.'
+- '- Step 2. Write a VLOOKUP formula to find the product price from the Retail Price
+  sheet.'
+- '- Step 3. Autofill the VLOOKUP formula for the remaining rows.'

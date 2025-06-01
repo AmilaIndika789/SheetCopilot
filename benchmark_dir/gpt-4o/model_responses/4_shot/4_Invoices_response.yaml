@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Sort the data by the Sales column in descending order.'
+- '- Step 2. Apply a red fill to Sales values below 250.'
+- '- Step 3. Apply a blue fill to Sales values above 500.'

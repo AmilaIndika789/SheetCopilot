@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Insert a new column after the C column in Sheet1.'
+- '- Step 2. Label the new column as "Profit."'
+- '- Step 3. Write the formula to calculate profit in the Profit column.'
+- '- Step 4. Autofill the Profit formula for the remaining rows.'
+- '- Step 5. Create a clustered column chart to display the Sales Trend.'
+- '- Step 6. Set the chart title to "Sales Trend."'
+- '- Step 7. Add data labels to the chart.'

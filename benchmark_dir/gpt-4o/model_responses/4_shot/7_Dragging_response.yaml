@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Write a formula in cell B3 to calculate acceleration based on given masses.'
+- '- Step 2. Autofill the formula in column B for all relevant rows.'
+- '- Step 3. Create a line chart to visualize the relationship between Hanging Mass
+  and Acceleration.'
+- '- Step 4. Set the title for the created chart.'
+- '- Step 5. Set the title for the x-axis of the chart.'
+- '- Step 6. Set the title for the y-axis of the chart.'

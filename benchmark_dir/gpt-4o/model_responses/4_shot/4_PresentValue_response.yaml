@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Add a header for the Present Value column.'
+- '- Step 2. Write a formula to calculate the present value in the first row.'
+- '- Step 3. Autofill the Present Value formula for the remaining rows.'

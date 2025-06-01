@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Add a new column named Cost in Sheet1.'
+- '- Step 2. Calculate the Cost for each row using the formula and write it in the
+  new column.'
+- '- Step 3. Autofill the Cost formula for all rows.'
+- '- Step 4. Apply conditional formatting to highlight rows with Cost less than 75
+  in green.'

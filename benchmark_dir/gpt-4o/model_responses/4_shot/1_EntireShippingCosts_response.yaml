@@ -1,0 +1,10 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for Min Distance.'
+- '- Step 2. Add a new column header for Shipping Center.'
+- '- Step 3. Calculate the minimum distance for each row.'
+- '- Step 4. Determine the nearest shipping center based on the minimum distance.'
+- '- Step 5. Autofill the Min Distance calculations for all rows.'
+- '- Step 6. Autofill the Shipping Center calculations for all rows.'
+- '- Step 7. Calculate the Total Shipping Charge for each row.'
+- '- Step 8. Autofill the Total Shipping Charge calculations for all rows.'
+- '- Step 9. Add a header for the Total Shipping Charge column.'

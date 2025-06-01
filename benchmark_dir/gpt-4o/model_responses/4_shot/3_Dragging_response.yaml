@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Autofill the Acceleration column from the second row to the last row.'
+- '- Step 2. Create a new sheet named ScatterChart.'
+- '- Step 3. Create a scatter chart using the data from Sheet1.'
+- '- Step 4. Set the title for the scatter chart.'
+- '- Step 5. Set the x-axis title for the chart.'
+- '- Step 6. Set the y-axis title for the chart.'

@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Autofill the Acceleration column in Sheet1.'
+- '- Step 2. Create a new sheet named Sheet2.'
+- '- Step 3. Copy data from Sheet1 to Sheet2.'
+- '- Step 4. Create a line chart in Sheet2 using the copied data.'
+- '- Step 5. Set the title for the chart.'
+- '- Step 6. Set the X-axis title for the chart.'
+- '- Step 7. Set the Y-axis title for the chart.'

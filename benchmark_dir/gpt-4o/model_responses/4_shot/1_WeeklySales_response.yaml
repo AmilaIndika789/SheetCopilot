@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for Profit.'
+- '- Step 2. Calculate Profit for the first row.'
+- '- Step 3. Autofill the Profit formula for the remaining rows.'
+- '- Step 4. Set the data type of the Profit column to currency.'

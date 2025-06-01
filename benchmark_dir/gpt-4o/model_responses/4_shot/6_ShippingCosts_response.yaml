@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named "DistanceTable".'
+- '- Step 2. Write headers "Customers" and "Avg Distance" in the new sheet.'
+- '- Step 3. Copy customer names from Sheet1 to DistanceTable.'
+- '- Step 4. Calculate the average distance for each customer and write it in DistanceTable.'

@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Calculate acceleration using a given formula in the second column.'
+- '- Step 2. Autofill the formula for all rows in the specified range.'
+- '- Step 3. Apply green fill to cells where the calculated value is greater than
+  or equal to 1.'
+- '- Step 4. Apply yellow fill to cells where the calculated value is less than 1.'

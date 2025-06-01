@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Write a formula in cell A1 to display "Brazil" if the condition is met.'
+- '- Step 2. Write "Brazil" in cell A1.'
+- '- Step 3. Apply a conditional format to highlight cells in column A with "Brazil"
+  in green text and a yellow background.'

@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Sort the data in Sheet1 based on the Date Time column in ascending order.'
+- '- Step 2. Create a line chart in Sheet1 to display the Sales Quantity data over
+  time.'

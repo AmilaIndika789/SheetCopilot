@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header named "Distances".'
+- '- Step 2. Concatenate the values from columns B to E into the new column starting
+  from row 2.'
+- '- Step 3. Autofill the concatenation formula down to row 71.'

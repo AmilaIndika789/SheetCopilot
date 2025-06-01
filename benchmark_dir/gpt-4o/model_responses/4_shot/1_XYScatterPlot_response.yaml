@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Create an XY Scatter chart with Angle as the X-axis and Range and Height
+  as Y-axes.'
+- '- Step 2. Position the legend on the left side of the chart.'
+- '- Step 3. Set the markers for the series to square and triangle.'
+- '- Step 4. Label the X-axis with "Angle (Degrees)".'
+- '- Step 5. Remove the Y-axis from the chart display.'
+- '- Step 6. Add polynomial and linear trendlines to the chart series.'

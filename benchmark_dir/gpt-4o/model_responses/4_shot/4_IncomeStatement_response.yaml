@@ -1,0 +1,9 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named ''PivotTable''.'
+- '- Step 2. Write the header ''Year'' in the new sheet.'
+- '- Step 3. Extract unique years from Sheet1 and place them in the ''Year'' column.'
+- '- Step 4. Write the header ''Total Operating Expenses'' next to ''Year''.'
+- '- Step 5. Calculate total operating expenses for each year using SUMIF.'
+- '- Step 6. Autofill the formula for operating expenses down the column.'
+- ''
+- ''

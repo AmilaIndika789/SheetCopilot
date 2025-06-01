@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for Revenue in Sheet1.'
+- '- Step 2. Use VLOOKUP to find the price per roll from the Pricing Table and write
+  it in the Price column.'
+- '- Step 3. Autofill the VLOOKUP formula for the Price column down to row 26.'
+- '- Step 4. Calculate Revenue by multiplying Number of Rolls with Price and write
+  it in the Revenue column.'
+- '- Step 5. Autofill the Revenue formula down to row 26.'

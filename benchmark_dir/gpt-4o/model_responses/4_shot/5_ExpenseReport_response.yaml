@@ -1,0 +1,5 @@
+gpt-4o_response:
+- '- Step 1. Insert a new column after the Date column in Sheet1.'
+- '- Step 2. Add a header "Formatted Date" to the new column.'
+- '- Step 3. Write a formula to format the date in the new column.'
+- '- Step 4. Autofill the formula down the new column for all rows.'

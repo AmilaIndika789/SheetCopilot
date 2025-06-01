@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named "TotalSales".'
+- '- Step 2. Add headers "Month" and "Total" in the new sheet.'
+- '- Step 3. Add the total sales formula for each month from January to June in the
+  respective rows.'
+- ''

@@ -1,0 +1,7 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named "Average Sales" for storing average sales data.'
+- '- Step 2. Write headers for "Sales Rep" and "Avg Sales" in the new sheet.'
+- '- Step 3. Calculate the average sales for the first sales rep and write the formula.'
+- '- Step 4. Autofill the average sales formula for all sales reps.'
+- '- Step 5. Copy the sales reps'' names from Sheet1 to the new sheet.'
+- '- Step 6. Autofill the sales reps'' names for all rows.'

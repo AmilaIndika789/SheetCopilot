@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named ''Summary''.'
+- '- Step 2. Write headers for ''Month'' and ''Total Revenue'' in the Summary sheet.'
+- '- Step 3. Create a pivot table in the Summary sheet to summarize monthly revenue.'
+- '- Step 4. Create a line chart from the pivot table on the Summary sheet.'
+- '- Step 5. Set the title of the chart to "Monthly Revenue" with specified formatting.'
+- '- Step 6. Set the x-axis title to "Month".'
+- '- Step 7. Set the y-axis title to "Total Revenue".'

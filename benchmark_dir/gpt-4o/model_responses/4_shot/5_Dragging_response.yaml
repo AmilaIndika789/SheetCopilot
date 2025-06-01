@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Autofill the Acceleration column in Sheet1.'
+- '- Step 2. Create a new sheet named Sheet2.'
+- '- Step 3. Copy the header from Sheet1 to Sheet2.'
+- '- Step 4. Autofill the copied header down to match the number of rows.'
+- '- Step 5. Write a new header for Net Force in Sheet2.'
+- '- Step 6. Calculate Net Force in Sheet2 using data from Sheet1.'
+- '- Step 7. Autofill the Net Force calculations for all rows in Sheet2.'

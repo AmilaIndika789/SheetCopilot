@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named Sheet2.'
+- '- Step 2. Add the header "Displacement m" in Sheet2.'
+- '- Step 3. Copy the Displacement data from Sheet1 to Sheet2 using autofill.'
+- '- Step 4. Write the formula to link Displacement data from Sheet1 to Sheet2.'
+- '- Step 5. Copy the formula down to fill the Displacement data in Sheet2.'

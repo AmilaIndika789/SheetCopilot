@@ -1,0 +1,8 @@
+gpt-4o_response:
+- '- Step 1. Add a new column header for Color Indicator.'
+- '- Step 2. Write a formula in the Color Indicator column to check if the stock value
+  increased.'
+- '- Step 3. Autofill the formula for the Color Indicator column for the remaining
+  rows.'
+- '- Step 4. Create a bar chart to display stock values on December 31.'
+- '- Step 5. Set the title for the chart as "Stock Values on Dec 31".'

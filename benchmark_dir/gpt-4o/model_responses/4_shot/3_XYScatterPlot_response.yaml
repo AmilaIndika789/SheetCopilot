@@ -1,0 +1,3 @@
+gpt-4o_response:
+- '- Step 1. Apply a red color format to cells in the Range column if the Angle is
+  less than 75 degrees and the Height is greater than 0.25 meters.'

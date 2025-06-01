@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named Sheet2.'
+- '- Step 2. Add a header for Revenue in Sheet2.'
+- '- Step 3. Write a formula in Sheet2 to reference the Revenue data from Sheet1.'
+- '- Step 4. Autofill the formula in the Revenue column for the specified range in
+  Sheet2.'

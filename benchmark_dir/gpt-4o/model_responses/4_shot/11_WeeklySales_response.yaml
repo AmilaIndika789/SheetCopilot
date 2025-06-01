@@ -1,0 +1,3 @@
+gpt-4o_response:
+- '- Step 1. Create a line chart on Sheet1 using the data from columns A, B, and C,
+  with "Week" as the X-axis and "Sales" and "COGS" as the Y-axes.'

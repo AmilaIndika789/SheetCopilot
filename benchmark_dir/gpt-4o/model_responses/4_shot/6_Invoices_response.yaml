@@ -1,0 +1,4 @@
+gpt-4o_response:
+- '- Step 1. Calculate the average of the Sales column and store it in cell H1.'
+- '- Step 2. Apply conditional formatting to highlight Sales values greater than the
+  average in red.'

@@ -1,0 +1,9 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named ''Customers''.'
+- '- Step 2. Copy the ''Customers'' column from Sheet1 to the new ''Customers'' sheet.'
+- '- Step 3. Set up a formula in the ''Customers'' sheet to reference the ''Customers''
+  column in Sheet1.'
+- '- Step 4. Autofill the formula to cover the entire range of the ''Customers'' column
+  in the new sheet.'
+- ''
+- ''

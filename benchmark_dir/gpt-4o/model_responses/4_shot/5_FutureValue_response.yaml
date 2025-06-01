@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named ''Sheet2''.'
+- '- Step 2. Merge cells A1 to C1 in Sheet2.'
+- '- Step 3. Write "Investment Summary" in the merged cells A1 to C1.'
+- '- Step 4. Merge cells A2 to B2 and write "High Interest Rate".'
+- '- Step 5. Merge cells C2 to D2 and write "Low Interest Rate".'

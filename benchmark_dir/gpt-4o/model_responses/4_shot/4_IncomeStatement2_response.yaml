@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Insert a new column after the "Sales" column in Sheet1.'
+- '- Step 2. Name the new column "Sales Difference".'
+- '- Step 3. Calculate the difference in sales between consecutive rows starting from
+  the third row.'
+- '- Step 4. Autofill the Sales Difference formula to the rest of the column.'

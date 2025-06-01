@@ -1,0 +1,6 @@
+gpt-4o_response:
+- '- Step 1. Create a new sheet named Summary2013.'
+- '- Step 2. Write the header "Country" in the new sheet.'
+- '- Step 3. Write the header "Total 2013" in the new sheet.'
+- '- Step 4. Create a pivot table in Summary2013 to summarize the total for 2013 by
+  Country.'
